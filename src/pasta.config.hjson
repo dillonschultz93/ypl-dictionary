@@ -1,0 +1,586 @@
+/*
+  YUMMLY PRODUCT LANGUAGE CONFIGURATION FILE
+  ⚠️ DO NOT EDIT THIS UNLESS YOU ARE SURE YOU KNOW WHAT YOU ARE DOING ⚠️
+  ---------------------------------------------------------------------------------------------------------------------
+  Last edited: 20220513 14:50
+  Last authored by: Dillon Schultz <dillon.schultz@yummly.com>
+
+  Version: 0.0.1
+
+  Description: This file contains the configuration for the Yummly product language.
+*/
+
+{
+  "projects": [
+    {
+      "name": "FFL",
+      "description": "Yummly's elder project. Mainly the Mobile stuff.",
+      // The super choices for this project
+      "superChoices": {
+        "dimension": {
+          "breakpoints": {
+            "apparatusProtocol": null, // Determine whether we just simply copy the options object, or if we run an apparatus on the options object.
+            "tokenset": "FFL", // Determine the tokenset to use in Figma.
+            "options": {
+              "s": {
+                "value": 480,
+                "category": "breakpoints", // The category of the token,
+                "description": "", // The description of the token
+                "type": "sizing",
+                "UIDs": []
+              },
+              "m": {
+                "value": 768,
+                "category": "breakpoints",
+                "description": "",
+                "type": "sizing",
+                "UIDs": []
+              },
+              "l": {
+                "value": 1024,
+                "category": "breakpoints",
+                "description": "",
+                "type": "sizing",
+                "UIDs": []
+              },
+              "xl": {
+                "value": 1920,
+                "category": "breakpoints",
+                "description": "",
+                "type": "sizing",
+                "UIDs": []
+              }
+            },
+            "kingdom": "TKUI_C"
+          },
+          "factors": {
+            "apparatusProtocol": null,
+            "tokenset": "FFL",
+            "options": {
+              "F1": {
+                "value": 1,
+                "category": "factors",
+                "description": "",
+                "UIDs": [],
+                "type": "other"
+              },
+              "F2": {
+                "value": 1,
+                "category": "factors",
+                "description": "",
+                "UIDs": [],
+                "type": "other"
+              },
+              "F3": {
+                "value": 1,
+                "category": "factors",
+                "description": "",
+                "UIDs": [],
+                "type": "other"
+              },
+              "F4": {
+                "value": 1,
+                "category": "factors",
+                "description": "",
+                "UIDs": [],
+                "type": "other"
+              },
+              "F5": {
+                "value": 2,
+                "category": "factors",
+                "description": "",
+                "UIDs": [],
+                "type": "other"
+              }
+            },
+            "kingdom": "TKUI_C"
+          },
+          "scales": {
+            "apparatusProtocol": "dimensions/scale.js",
+            "tokenset": "FFL",
+            "options": {
+              "geoA": {
+                "value": {
+                  "base": 2,
+                  "ratio": 2,
+                  "baseIndex": 400
+                },
+                "category": "scales",
+                "description": "",
+                "UIDs": [],
+                "type": "other"
+              },
+              "arithA": {
+                "value": {
+                  "base": 2,
+                  "ratio": 2,
+                  "baseIndex": 400
+                },
+                "category": "scales",
+                "description": "",
+                "UIDs": [],
+                "type": "other"
+              },
+              "arithB": {
+                "value": {
+                  "base": 2,
+                  "ratio": 2,
+                  "baseIndex": 400
+                },
+                "category": "scales",
+                "description": "",
+                "UIDs": [],
+                "type": "other"
+              }
+            },
+            "kingdom": "TKUI_M"
+          },
+          "spaces": {
+            "apparatusProtocol": null,
+            "tokenset": "FFL",
+            "options": {
+              "none": {
+                "value": 0,
+                "category": "spaces",
+                "description": "",
+                "type": "spacing",
+                "UIDs": []
+              },
+              "xs": {
+                "value": "{TKUI_M.dimension.scales.arithA.200}",
+                "category": "spaces",
+                "description": "",
+                "type": "spacing",
+                "UIDs": []
+              },
+              "s": {
+                "value": "{TKUI_M.dimension.scales.arithA.400}",
+                "category": "spaces",
+                "description": "",
+                "type": "spacing",
+                "UIDs": []
+              },
+              "sm": {
+                "value": "{TKUI_M.dimension.scales.arithA.600}",
+                "category": "spaces",
+                "description": "",
+                "type": "spacing",
+                "UIDs": []
+              },
+              "m": {
+                "value": "{TKUI_M.dimension.scales.arithA.800}",
+                "category": "spaces",
+                "description": "",
+                "type": "spacing",
+                "UIDs": []
+              },
+              "ml": {
+                "value": "{TKUI_M.dimension.scales.arithA.1000}",
+                "category": "spaces",
+                "description": "",
+                "type": "spacing",
+                "UIDs": []
+              },
+              "l": {
+                "value": "{TKUI_M.dimension.scales.arithA.1200}",
+                "category": "spaces",
+                "description": "",
+                "type": "spacing",
+                "UIDs": []
+              },
+              "xl": {
+                "value": "{TKUI_M.dimension.scales.arithA.1600}",
+                "category": "spaces",
+                "description": "",
+                "type": "spacing",
+                "UIDs": []
+              },
+              "xxl": {
+                "value": "{TKUI_M.dimension.scales.arithA.1800}",
+                "category": "spaces",
+                "description": "",
+                "type": "sizing",
+                "UIDs": []
+              }
+            },
+            "kingdom": "TKUI_C"
+          },
+          "sizes": {
+            "apparatusProtocol": null,
+            "tokenset": "FFL",
+            "options": {
+              "nano": {
+                "000": {
+                  "value": 0,
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "100": {
+                  "value": 1,
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "200": {
+                  "value": 2,
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "300": {
+                  "value": 3,
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "400": {
+                  "value": 4,
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                }
+              },
+              "micro": {
+                "100": {
+                  "value": "{TKUI_M.dimension.scales.arithA.100}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "200": {
+                  "value": "{TKUI_M.dimension.scales.arithA.200}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "300": {
+                  "value": "{TKUI_M.dimension.scales.arithA.300}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "400": {
+                  "value": "{TKUI_M.dimension.scales.arithA.400}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "500": {
+                  "value": "{TKUI_M.dimension.scales.arithA.500}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "600": {
+                  "value": "{TKUI_M.dimension.scales.arithA.600}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "700": {
+                  "value": "{TKUI_M.dimension.scales.arithA.700}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "800": {
+                  "value": "{TKUI_M.dimension.scales.arithA.800}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "900": {
+                  "value": "{TKUI_M.dimension.scales.arithA.900}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "1000": {
+                  "value": "{TKUI_M.dimension.scales.arithA.1000}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "1100": {
+                  "value": "{TKUI_M.dimension.scales.arithA.1100}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "1200": {
+                  "value": "{TKUI_M.dimension.scales.arithA.1200}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "1300": {
+                  "value": "{TKUI_M.dimension.scales.arithA.1300}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "1400": {
+                  "value": "{TKUI_M.dimension.scales.arithA.1400}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "1500": {
+                  "value": "{TKUI_M.dimension.scales.arithA.1500}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "1600": {
+                  "value": "{TKUI_M.dimension.scales.arithA.1600}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                }
+              },
+              "macro": {
+                "100": {
+                  "value": "{TKUI_M.dimension.scales.arithB.100}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "200": {
+                  "value": "{TKUI_M.dimension.scales.arithB.200}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "300": {
+                  "value": "{TKUI_M.dimension.scales.arithB.300}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "400": {
+                  "value": "{TKUI_M.dimension.scales.arithB.700}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "500": {
+                  "value": "{TKUI_M.dimension.scales.arithB.1200}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "600": {
+                  "value": "{TKUI_M.dimension.scales.arithB.1500}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "700": {
+                  "value": "{TKUI_M.dimension.scales.arithB.2600}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "800": {
+                  "value": "{TKUI_M.dimension.scales.arithB.2800}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "900": {
+                  "value": "{TKUI_M.dimension.scales.arithB.3100}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "1000": {
+                  "value": "{TKUI_M.dimension.scales.arithB.4700}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                },
+                "1100": {
+                  "value": "{TKUI_M.dimension.scales.arithB.6300}",
+                  "category": "sizes",
+                  "description": "",
+                  "type": "sizing",
+                  "UIDs": []
+                }
+              }
+            },
+            "kingdom": "TKUI_C"
+          }
+        },
+        "typography": {},
+        "colors": {
+          "white": {
+            "apparatusProtocol": null,
+            "tokenset": "FFL",
+            "options": {
+              "value": "#ffffff",
+              "category": "colors",
+              "description": "",
+              "type": "color",
+              "UIDs": []
+            },
+            "kingdom": "TKUI_C"
+          },
+          "black": {
+            "apparatusProtocol": null,
+            "tokenset": "FFL",
+            "options": {
+              "value": "#000000",
+              "category": "colors",
+              "description": "",
+              "type": "color",
+              "UIDs": []
+            },
+            "kingdom": "TKUI_C"
+          },
+          "grey": {
+            "apparatusProtocol": null,
+            "tokenset": "FFL",
+            "options": {
+              "100": {
+                "value": "#f5f5f5",
+                "category": "colors",
+                "description": "",
+                "type": "color",
+                "UIDs": []
+              },
+              "200": {
+                "value": "#E3E3E3",
+                "category": "colors",
+                "description": "",
+                "type": "color",
+                "UIDs": []
+              },
+              "300": {
+                "value": "#BABABA",
+                "category": "colors",
+                "description": "",
+                "type": "color",
+                "UIDs": []
+              },
+              "500": {
+                "value": "#707070",
+                "category": "colors",
+                "description": "",
+                "type": "color",
+                "UIDs": []
+              },
+              "700": {
+                "value": "#4A4A4A",
+                "category": "colors",
+                "description": "",
+                "type": "color",
+                "UIDs": []
+              },
+              "900": {
+                "value": "#242424",
+                "category": "colors",
+                "description": "",
+                "type": "color",
+                "UIDs": []
+              }
+            },
+            "kingdom": "TKUI_C"
+          },
+          "teal": {
+            "apparatusProtocol": null,
+            "tokenset": "FFL",
+            "options": {
+              "300": {
+                "value": "#4BB9B3",
+                "category": "colors",
+                "description": "",
+                "type": "color",
+                "UIDs": []
+              },
+              "400": {
+                "value": "#3A9691",
+                "category": "colors",
+                "description": "",
+                "type": "color",
+                "UIDs": []
+              },
+              "500": {
+                "value": "#2C726E",
+                "category": "colors",
+                "description": "",
+                "type": "color",
+                "UIDs": []
+              }
+            },
+            "kingdom": "TKUI_C"
+          },
+          "orange": {
+            "apparatusProtocol": null,
+            "tokenset": "FFL",
+            "options": {
+              "300": {
+                "value": "#E77F4B",
+                "category": "colors",
+                "description": "",
+                "type": "color",
+                "UIDs": []
+              },
+              "400": {
+                "value": "#E05F1F",
+                "category": "colors",
+                "description": "",
+                "type": "color",
+                "UIDs": []
+              },
+              "500": {
+                "value": "#B44B18",
+                "category": "colors",
+                "description": "",
+                "type": "color",
+                "UIDs": []
+              }
+            },
+            "kingdom": "TKUI_C"
+          },
+        }
+      }
+    }
+  ],
+  "configuration": {
+    "nomenclatureOptions": {
+      "namespace": "YPL" // Yummly Product Language
+    }
+  }
+}
