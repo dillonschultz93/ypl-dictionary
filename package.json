@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@divriots/style-dictionary-to-figma": "^0.2.0",
-    "hjson": "^3.2.2",
+    "json5": "^2.2.1",
     "style-dictionary": "^3.7.0"
   }
 }
