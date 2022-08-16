@@ -6,7 +6,7 @@
   "scripts": {
     "build:superTokens": "node src/index.js",
     "build:tokens": "style-dictionary build --config ./sd.config.js",
-    "build": "npm run build:superChoices && npm run build:tokens"
+    "build": "npm run build:superTokens && npm run build:tokens"
   },
   "author": "Dillon Schultz <dillonschultz93@gmail.com>",
   "license": "ISC",
