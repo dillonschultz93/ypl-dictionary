@@ -1,0 +1,44 @@
+{
+  "TKUI_C": {
+    "dimension": {
+      "factors": {
+        "tokenset": "FFL",
+        "F1": {
+          "value": 1,
+          "category": "factors",
+          "description": "",
+          "UIDs": [],
+          "type": "other"
+        },
+        "F2": {
+          "value": 1,
+          "category": "factors",
+          "description": "",
+          "UIDs": [],
+          "type": "other"
+        },
+        "F3": {
+          "value": 1,
+          "category": "factors",
+          "description": "",
+          "UIDs": [],
+          "type": "other"
+        },
+        "F4": {
+          "value": 1,
+          "category": "factors",
+          "description": "",
+          "UIDs": [],
+          "type": "other"
+        },
+        "F5": {
+          "value": 2,
+          "category": "factors",
+          "description": "",
+          "UIDs": [],
+          "type": "other"
+        }
+      }
+    }
+  }
+}

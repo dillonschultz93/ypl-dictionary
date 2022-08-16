@@ -1,0 +1,72 @@
+{
+  "TKUI_C": {
+    "dimension": {
+      "spaces": {
+        "tokenset": "FFL",
+        "none": {
+          "value": 0,
+          "category": "spaces",
+          "description": "",
+          "type": "spacing",
+          "UIDs": []
+        },
+        "xs": {
+          "value": "{TKUI_M.dimension.scales.arithA.200}",
+          "category": "spaces",
+          "description": "",
+          "type": "spacing",
+          "UIDs": []
+        },
+        "s": {
+          "value": "{TKUI_M.dimension.scales.arithA.400}",
+          "category": "spaces",
+          "description": "",
+          "type": "spacing",
+          "UIDs": []
+        },
+        "sm": {
+          "value": "{TKUI_M.dimension.scales.arithA.600}",
+          "category": "spaces",
+          "description": "",
+          "type": "spacing",
+          "UIDs": []
+        },
+        "m": {
+          "value": "{TKUI_M.dimension.scales.arithA.800}",
+          "category": "spaces",
+          "description": "",
+          "type": "spacing",
+          "UIDs": []
+        },
+        "ml": {
+          "value": "{TKUI_M.dimension.scales.arithA.1000}",
+          "category": "spaces",
+          "description": "",
+          "type": "spacing",
+          "UIDs": []
+        },
+        "l": {
+          "value": "{TKUI_M.dimension.scales.arithA.1200}",
+          "category": "spaces",
+          "description": "",
+          "type": "spacing",
+          "UIDs": []
+        },
+        "xl": {
+          "value": "{TKUI_M.dimension.scales.arithA.1600}",
+          "category": "spaces",
+          "description": "",
+          "type": "spacing",
+          "UIDs": []
+        },
+        "xxl": {
+          "value": "{TKUI_M.dimension.scales.arithA.1800}",
+          "category": "spaces",
+          "description": "",
+          "type": "sizing",
+          "UIDs": []
+        }
+      }
+    }
+  }
+}

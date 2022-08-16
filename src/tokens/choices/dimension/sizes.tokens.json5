@@ -1,0 +1,239 @@
+{
+  "TKUI_C": {
+    "dimension": {
+      "sizes": {
+        "tokenset": "FFL",
+        "nano": {
+          "100": {
+            "value": 1,
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "200": {
+            "value": 2,
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "300": {
+            "value": 3,
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "400": {
+            "value": 4,
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "000": {
+            "value": 0,
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          }
+        },
+        "micro": {
+          "100": {
+            "value": "{TKUI_M.dimension.scales.arithA.100}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "200": {
+            "value": "{TKUI_M.dimension.scales.arithA.200}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "300": {
+            "value": "{TKUI_M.dimension.scales.arithA.300}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "400": {
+            "value": "{TKUI_M.dimension.scales.arithA.400}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "500": {
+            "value": "{TKUI_M.dimension.scales.arithA.500}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "600": {
+            "value": "{TKUI_M.dimension.scales.arithA.600}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "700": {
+            "value": "{TKUI_M.dimension.scales.arithA.700}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "800": {
+            "value": "{TKUI_M.dimension.scales.arithA.800}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "900": {
+            "value": "{TKUI_M.dimension.scales.arithA.900}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "1000": {
+            "value": "{TKUI_M.dimension.scales.arithA.1000}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "1100": {
+            "value": "{TKUI_M.dimension.scales.arithA.1100}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "1200": {
+            "value": "{TKUI_M.dimension.scales.arithA.1200}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "1300": {
+            "value": "{TKUI_M.dimension.scales.arithA.1300}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "1400": {
+            "value": "{TKUI_M.dimension.scales.arithA.1400}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "1500": {
+            "value": "{TKUI_M.dimension.scales.arithA.1500}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "1600": {
+            "value": "{TKUI_M.dimension.scales.arithA.1600}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          }
+        },
+        "macro": {
+          "100": {
+            "value": "{TKUI_M.dimension.scales.arithB.100}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "200": {
+            "value": "{TKUI_M.dimension.scales.arithB.200}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "300": {
+            "value": "{TKUI_M.dimension.scales.arithB.300}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "400": {
+            "value": "{TKUI_M.dimension.scales.arithB.700}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "500": {
+            "value": "{TKUI_M.dimension.scales.arithB.1200}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "600": {
+            "value": "{TKUI_M.dimension.scales.arithB.1500}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "700": {
+            "value": "{TKUI_M.dimension.scales.arithB.2600}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "800": {
+            "value": "{TKUI_M.dimension.scales.arithB.2800}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "900": {
+            "value": "{TKUI_M.dimension.scales.arithB.3100}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "1000": {
+            "value": "{TKUI_M.dimension.scales.arithB.4700}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          },
+          "1100": {
+            "value": "{TKUI_M.dimension.scales.arithB.6300}",
+            "category": "sizes",
+            "description": "",
+            "type": "sizing",
+            "UIDs": []
+          }
+        }
+      }
+    }
+  }
+}
