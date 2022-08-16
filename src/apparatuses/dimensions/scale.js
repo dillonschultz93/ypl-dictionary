@@ -1,4 +1,5 @@
-const deepmerge = require('../../util/deep-merge');
+const _ = require('lodash');
+// const deepmerge = require('../../util/deep-merge');
 
 /**
  * @description Calculates the geometric scale.
@@ -58,7 +59,7 @@ const generateDimensionScale = (optionsObject) => {
         case 'geoA':
           scaleValue = geoA(base, ratio, baseIndex, index);
 
-          val = deepmerge(
+          val = _.merge(
             {
               ...val,
               [key]: {
@@ -78,7 +79,7 @@ const generateDimensionScale = (optionsObject) => {
         case 'arithA':
           scaleValue = arithA(base, ratio, index);
 
-          val = deepmerge(
+          val = _.merge(
             {
               ...val,
               [key]: {
@@ -98,7 +99,7 @@ const generateDimensionScale = (optionsObject) => {
         case 'arithB':
           scaleValue = arithB(base, ratio, index);
 
-          val = deepmerge(
+          val = _.merge(
             {
               ...val,
               [key]: {
