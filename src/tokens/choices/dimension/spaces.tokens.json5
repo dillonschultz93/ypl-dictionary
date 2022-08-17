@@ -12,56 +12,63 @@
             UIDs: [],
           },
           xs: {
-            value: '{FFL.TKUI_M.dimension.scales.arithA.200}',
+            value: '{FFL.TKUI_M.dimension.scales.arithA.200}', // 4
             category: 'spaces',
             description: '',
             type: 'spacing',
             UIDs: [],
           },
           s: {
-            value: '{FFL.TKUI_M.dimension.scales.arithA.400}',
+            value: '{FFL.TKUI_M.dimension.scales.arithA.400}', // 8
             category: 'spaces',
             description: '',
             type: 'spacing',
             UIDs: [],
           },
           sm: {
-            value: '{FFL.TKUI_M.dimension.scales.arithA.600}',
+            value: '{FFL.TKUI_M.dimension.scales.arithA.600}', // 12
             category: 'spaces',
             description: '',
             type: 'spacing',
             UIDs: [],
           },
           m: {
-            value: '{FFL.TKUI_M.dimension.scales.arithA.800}',
+            value: '{FFL.TKUI_M.dimension.scales.arithA.800}', // 16
             category: 'spaces',
             description: '',
             type: 'spacing',
             UIDs: [],
           },
           ml: {
-            value: '{FFL.TKUI_M.dimension.scales.arithA.1000}',
+            value: '{FFL.TKUI_M.dimension.scales.arithA.1000}', // 20
             category: 'spaces',
             description: '',
             type: 'spacing',
             UIDs: [],
           },
           l: {
-            value: '{FFL.TKUI_M.dimension.scales.arithA.1200}',
+            value: '{FFL.TKUI_M.dimension.scales.arithA.1200}', // 24
             category: 'spaces',
             description: '',
             type: 'spacing',
             UIDs: [],
           },
           xl: {
-            value: '{FFL.TKUI_M.dimension.scales.arithA.1600}',
+            value: '{FFL.TKUI_M.dimension.scales.arithA.1600}', // 32
             category: 'spaces',
             description: '',
             type: 'spacing',
             UIDs: [],
           },
           xxl: {
-            value: '{FFL.TKUI_M.dimension.scales.arithA.1800}',
+            value: '{FFL.TKUI_M.dimension.scales.arithA.1800}', // 36
+            category: 'spaces',
+            description: '',
+            type: 'sizing',
+            UIDs: [],
+          },
+          xxxl: {
+            value: '{FFL.TKUI_M.dimension.scales.arithA.2800}', // 56
             category: 'spaces',
             description: '',
             type: 'sizing',
