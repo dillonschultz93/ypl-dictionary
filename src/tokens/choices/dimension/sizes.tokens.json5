@@ -42,112 +42,154 @@
           },
           micro: {
             '100': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.100}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.100}', // 2
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '200': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.200}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.200}', // 4
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '300': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.300}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.300}', // 6
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '400': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.400}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.400}', // 8
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '500': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.500}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.500}', // 10
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '600': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.600}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.600}', // 12
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '700': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.700}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.700}', // 14
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '800': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.800}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.800}', // 16
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '900': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.900}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.900}', // 18
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '1000': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.1000}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.1000}', // 20
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '1100': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.1100}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.1100}', // 22
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '1200': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.1200}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.1200}', // 24
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '1300': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.1300}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.1300}', // 26
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '1400': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.1400}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.1400}', // 28
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '1500': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.1500}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.1500}', // 30
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '1600': {
-              value: '{FFL.TKUI_M.dimension.scales.arithA.1600}',
+              value: '{FFL.TKUI_M.dimension.scales.arithA.1600}', // 32
+              category: 'sizes',
+              description: '',
+              type: 'sizing',
+              UIDs: [],
+            },
+            '1700': {
+              value: '{FFL.TKUI_M.dimension.scales.arithA.1800}', // 36
+              category: 'sizes',
+              description: '',
+              type: 'sizing',
+              UIDs: [],
+            },
+            '1800': {
+              value: '{FFL.TKUI_M.dimension.scales.arithA.2000}', // 40
+              category: 'sizes',
+              description: '',
+              type: 'sizing',
+              UIDs: [],
+            },
+            '1900': {
+              value: '{FFL.TKUI_M.dimension.scales.arithA.2400}', // 48
+              category: 'sizes',
+              description: '',
+              type: 'sizing',
+              UIDs: [],
+            },
+            '2000': {
+              value: '{FFL.TKUI_M.dimension.scales.arithA.2800}', // 56
+              category: 'sizes',
+              description: '',
+              type: 'sizing',
+              UIDs: [],
+            },
+            '2100': {
+              value: '{FFL.TKUI_M.dimension.scales.arithA.3200}', // 64
+              category: 'sizes',
+              description: '',
+              type: 'sizing',
+              UIDs: [],
+            },
+            '2200': {
+              value: '{FFL.TKUI_M.dimension.scales.arithA.3600}', // 72
               category: 'sizes',
               description: '',
               type: 'sizing',
@@ -156,77 +198,77 @@
           },
           macro: {
             '100': {
-              value: '{FFL.TKUI_M.dimension.scales.arithB.100}',
+              value: '{FFL.TKUI_M.dimension.scales.arithB.100}', // 32
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '200': {
-              value: '{FFL.TKUI_M.dimension.scales.arithB.200}',
+              value: '{FFL.TKUI_M.dimension.scales.arithB.200}', // 48
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '300': {
-              value: '{FFL.TKUI_M.dimension.scales.arithB.300}',
+              value: '{FFL.TKUI_M.dimension.scales.arithB.300}', // 64
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '400': {
-              value: '{FFL.TKUI_M.dimension.scales.arithB.700}',
+              value: '{FFL.TKUI_M.dimension.scales.arithB.700}', // 128
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '500': {
-              value: '{FFL.TKUI_M.dimension.scales.arithB.1200}',
+              value: '{FFL.TKUI_M.dimension.scales.arithB.1200}', // 208
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '600': {
-              value: '{FFL.TKUI_M.dimension.scales.arithB.1500}',
+              value: '{FFL.TKUI_M.dimension.scales.arithB.1500}', // 256
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '700': {
-              value: '{FFL.TKUI_M.dimension.scales.arithB.2600}',
+              value: '{FFL.TKUI_M.dimension.scales.arithB.2600}', // 432
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '800': {
-              value: '{FFL.TKUI_M.dimension.scales.arithB.2800}',
+              value: '{FFL.TKUI_M.dimension.scales.arithB.2800}', // 464
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '900': {
-              value: '{FFL.TKUI_M.dimension.scales.arithB.3100}',
+              value: '{FFL.TKUI_M.dimension.scales.arithB.3100}', // 512
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '1000': {
-              value: '{FFL.TKUI_M.dimension.scales.arithB.4700}',
+              value: '{FFL.TKUI_M.dimension.scales.arithB.4700}', // 768
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             '1100': {
-              value: '{FFL.TKUI_M.dimension.scales.arithB.6300}',
+              value: '{FFL.TKUI_M.dimension.scales.arithB.6300}', // 1024
               category: 'sizes',
               description: '',
               type: 'sizing',
