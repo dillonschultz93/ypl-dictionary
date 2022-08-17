@@ -2,33 +2,40 @@
   FFL: {
     TKUI_C: {
       dimension: {
-        breakpoints: {
-          s: {
-            value: 480,
-            category: 'breakpoints',
+        factors: {
+          F1: {
+            value: 1,
+            category: 'factor',
             description: '',
-            type: 'sizing',
+            type: 'other',
             UIDs: [],
           },
-          m: {
-            value: 768,
-            category: 'breakpoints',
+          F2: {
+            value: 1,
+            category: 'factor',
             description: '',
-            type: 'sizing',
+            type: 'other',
             UIDs: [],
           },
-          l: {
-            value: 1024,
-            category: 'breakpoints',
+          F3: {
+            value: 1,
+            category: 'factor',
             description: '',
-            type: 'sizing',
+            type: 'other',
             UIDs: [],
           },
-          xl: {
-            value: 1920,
-            category: 'breakpoints',
+          F4: {
+            value: 1,
+            category: 'factor',
             description: '',
-            type: 'sizing',
+            type: 'other',
+            UIDs: [],
+          },
+          F5: {
+            value: 2,
+            category: 'factor',
+            description: '',
+            type: 'other',
             UIDs: [],
           },
         },
