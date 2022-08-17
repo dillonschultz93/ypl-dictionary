@@ -45,7 +45,6 @@
             type: 'color',
             UIDs: [],
           },
-          tokenset: 'FFL',
         },
       },
     },

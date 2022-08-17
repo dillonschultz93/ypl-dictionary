@@ -3,7 +3,6 @@
     TKUI_C: {
       dimension: {
         sizes: {
-          tokenset: 'FFL',
           nano: {
             '100': {
               value: 1,

@@ -3,7 +3,6 @@
     TKUI_C: {
       dimension: {
         spaces: {
-          tokenset: 'FFL',
           none: {
             value: 0,
             category: 'spaces',

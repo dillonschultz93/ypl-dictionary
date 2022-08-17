@@ -3,7 +3,6 @@
     TKUI_C: {
       colors: {
         white: {
-          tokenset: 'FFL',
           value: '#ffffff',
           category: 'colors',
           description: '',
