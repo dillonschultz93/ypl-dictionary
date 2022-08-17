@@ -1,44 +1,39 @@
 {
-  "TKUI_C": {
-    "dimension": {
-      "factors": {
-        "tokenset": "FFL",
-        "F1": {
-          "value": 1,
-          "category": "factors",
-          "description": "",
-          "UIDs": [],
-          "type": "other"
+  FFL: {
+    TKUI_C: {
+      dimension: {
+        breakpoints: {
+          tokenset: 'FFL',
+          s: {
+            value: 480,
+            category: 'breakpoints',
+            description: '',
+            type: 'sizing',
+            UIDs: [],
+          },
+          m: {
+            value: 768,
+            category: 'breakpoints',
+            description: '',
+            type: 'sizing',
+            UIDs: [],
+          },
+          l: {
+            value: 1024,
+            category: 'breakpoints',
+            description: '',
+            type: 'sizing',
+            UIDs: [],
+          },
+          xl: {
+            value: 1920,
+            category: 'breakpoints',
+            description: '',
+            type: 'sizing',
+            UIDs: [],
+          },
         },
-        "F2": {
-          "value": 1,
-          "category": "factors",
-          "description": "",
-          "UIDs": [],
-          "type": "other"
-        },
-        "F3": {
-          "value": 1,
-          "category": "factors",
-          "description": "",
-          "UIDs": [],
-          "type": "other"
-        },
-        "F4": {
-          "value": 1,
-          "category": "factors",
-          "description": "",
-          "UIDs": [],
-          "type": "other"
-        },
-        "F5": {
-          "value": 2,
-          "category": "factors",
-          "description": "",
-          "UIDs": [],
-          "type": "other"
-        }
-      }
-    }
-  }
+      },
+    },
+  },
 }

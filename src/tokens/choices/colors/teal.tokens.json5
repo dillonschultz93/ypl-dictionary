@@ -1,30 +1,32 @@
 {
-  "TKUI_C": {
-    "colors": {
-      "teal": {
-        "300": {
-          "value": "#4BB9B3",
-          "category": "colors",
-          "description": "",
-          "type": "color",
-          "UIDs": []
+  FFL: {
+    TKUI_C: {
+      colors: {
+        teal: {
+          '300': {
+            value: '#4BB9B3',
+            category: 'colors',
+            description: '',
+            type: 'color',
+            UIDs: [],
+          },
+          '400': {
+            value: '#3A9691',
+            category: 'colors',
+            description: '',
+            type: 'color',
+            UIDs: [],
+          },
+          '500': {
+            value: '#2C726E',
+            category: 'colors',
+            description: '',
+            type: 'color',
+            UIDs: [],
+          },
+          tokenset: 'FFL',
         },
-        "400": {
-          "value": "#3A9691",
-          "category": "colors",
-          "description": "",
-          "type": "color",
-          "UIDs": []
-        },
-        "500": {
-          "value": "#2C726E",
-          "category": "colors",
-          "description": "",
-          "type": "color",
-          "UIDs": []
-        },
-        "tokenset": "FFL"
-      }
-    }
-  }
+      },
+    },
+  },
 }

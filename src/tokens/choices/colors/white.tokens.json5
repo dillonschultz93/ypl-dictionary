@@ -1,14 +1,16 @@
 {
-  "TKUI_C": {
-    "colors": {
-      "white": {
-        "tokenset": "FFL",
-        "value": "#ffffff",
-        "category": "colors",
-        "description": "",
-        "type": "color",
-        "UIDs": []
-      }
-    }
-  }
+  FFL: {
+    TKUI_C: {
+      colors: {
+        white: {
+          tokenset: 'FFL',
+          value: '#ffffff',
+          category: 'colors',
+          description: '',
+          type: 'color',
+          UIDs: [],
+        },
+      },
+    },
+  },
 }

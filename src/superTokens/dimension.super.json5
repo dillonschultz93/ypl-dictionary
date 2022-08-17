@@ -1,7 +1,7 @@
 {
   scales: {
     apparatusProtocol: 'dimensions/scale.js', // Uses the scale apparatus to generate scale choice tokens.
-    tokenset: 'FFL',
+    project: 'FFL',
     options: {
       geoA: {
         value: {
@@ -38,5 +38,5 @@
       },
     },
     kingdom: 'TKUI_M',
-  }
+  },
 }
