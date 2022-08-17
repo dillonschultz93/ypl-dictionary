@@ -1,18 +1,11 @@
 const { transform } = require('@divriots/style-dictionary-to-figma');
-const stripKey = require('./src/util/strip-key');
 
 module.exports = {
   format: {
     figmaTokensPlugin: ({ dictionary }) => {
       const transformedTokens = transform(dictionary.tokens);
-      const strippedTokens = stripKey(transformedTokens, 'tokenset');
 
-      return JSON.stringify(strippedTokens, null, 2);
-    },
-    stripTokenSetKey: ({ dictionary }) => {
-      const strippedTokens = stripKey(dictionary.tokens, 'tokenset');
-
-      return JSON.stringify(strippedTokens, null, 2);
+      return JSON.stringify(transformedTokens, null, 2);
     },
     // customFormat({ dictionary, options }) {
     //   let tokens = {};
@@ -49,19 +42,19 @@ module.exports = {
   },
 
   // FFL project sources
-  source: ['src/tokens/FFL/**/*.tokens.json'],
+  source: ['src/tokens/**/*.tokens.json5'],
   platforms: {
     resolved_json: {
-      buildPath: 'dist/FFL/',
+      buildPath: 'dist/',
       files: [
         {
           destination: 'tokens.resolved.json',
-          format: 'stripTokenSetKey',
+          format: 'json',
         },
       ],
     },
     flat_json: {
-      buildPath: 'dist/FFL/',
+      buildPath: 'dist/',
       transformGroup: 'js',
       files: [
         {
@@ -83,7 +76,7 @@ module.exports = {
     //   ],
     // },
     figma: {
-      buildPath: 'dist/FFL/',
+      buildPath: 'dist/',
       files: [
         {
           destination: 'tokens.figma.json',

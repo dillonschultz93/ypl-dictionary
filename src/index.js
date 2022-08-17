@@ -1,20 +1,21 @@
 /* eslint-disable no-console */
 const fs = require('fs');
+const json5 = require('json5');
 const path = require('path');
-const hjson = require('hjson');
-const generateTokens = require('./util/generate-tokens');
-const writeToJSON = require('./util/write-to-json');
+const generateChoices = require('./util/generate-choices');
+const writeChoices = require('./util/write-choices');
 
-// Read the configuration file.
-const config = fs.readFileSync(path.join(__dirname, 'pasta.config.hjson'), 'utf8');
+// Loop through all the super tokens and generate tokens for each file found.
+fs.readdirSync(path.resolve(__dirname, '../src/superTokens')).forEach((file) => {
+  const fileContent = fs.readFileSync(path.resolve(__dirname, '../src/superTokens', file), 'utf8');
 
-// Parse the configuration file from HJSON → JSON.
-const configObj = hjson.parse(config);
+  if (fileContent) {
+    const parsedJSON = json5.parse(fileContent);
+    const fileName = path.basename(file, '.super.json5');
 
-// Generate tokens.
-const data = generateTokens(configObj);
+    const generatedTokens = generateChoices(parsedJSON, fileName);
 
-// Write the tokens to a file.
-writeToJSON(data);
-
-console.log('Tokens written to tokens.json');
+    // Write the data to a json file.
+    writeChoices(generatedTokens);
+  }
+});
