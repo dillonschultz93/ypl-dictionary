@@ -10,15 +10,16 @@ const generateChoices = (superTokensObject, superTokenCategory) => {
   const choices = [];
 
   Object.entries(superTokensObject).forEach(([category, value]) => {
-    const { apparatusProtocol, tokenset, options, kingdom } = value;
+    const { apparatusProtocol, project, options, kingdom } = value;
     const apparatus = require(path.join(__dirname, '../apparatuses', apparatusProtocol));
 
     const choiceSet = {
-      [kingdom]: {
-        [superTokenCategory]: {
-          [category]: {
-            tokenset,
-            ...apparatus(options),
+      [project]: {
+        [kingdom]: {
+          [superTokenCategory]: {
+            [category]: {
+              ...apparatus(options),
+            },
           },
         },
       },
