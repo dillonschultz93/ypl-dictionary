@@ -1,8 +1,11 @@
 {
-  "name": "pasta-cli",
+  "name": "@yummly/pasta-cli",
   "version": "0.0.1",
   "description": "A test of the pasta cli",
   "main": "src/index.js",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "scripts": {
     "build:superTokens": "node src/index.js",
     "build:tokens": "style-dictionary build --config ./sd.config.js",
