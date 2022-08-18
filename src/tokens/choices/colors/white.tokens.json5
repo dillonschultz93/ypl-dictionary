@@ -1,0 +1,15 @@
+{
+  FFL: {
+    TKUI_C: {
+      colors: {
+        white: {
+          value: '#ffffff',
+          category: 'colors',
+          description: '',
+          type: 'color',
+          UIDs: [],
+        },
+      },
+    },
+  },
+}

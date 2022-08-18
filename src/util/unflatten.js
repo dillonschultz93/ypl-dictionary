@@ -1,20 +1,3 @@
-// function unflatten(flatTokens) {
-//   if (Object(flatTokens) !== flatTokens || Array.isArray(flatTokens)) return flatTokens;
-//   const regex = /\.?([^.\[\]]+)|\[(\d+)\]/g;
-//   const output = {};
-//   for (const p in flatTokens) {
-//     let cur = output;
-//     let prop = '';
-//     var m;
-//     while ((m = regex.exec(p))) {
-//       cur = cur[prop] || (cur[prop] = m[2] ? [] : {});
-//       prop = m[2] || m[1];
-//     }
-//     cur[prop] = flatTokens[p];
-//   }
-//   return output[''] || output;
-// }
-
 const unflatten = (flatObject) => {
   if (Object(flatObject) !== flatObject || Array.isArray(flatObject)) return flatObject;
 

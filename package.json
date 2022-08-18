@@ -4,9 +4,9 @@
   "description": "A test of the pasta cli",
   "main": "src/index.js",
   "scripts": {
-    "build:superChoices": "node src/index.js",
+    "build:superTokens": "node src/index.js",
     "build:tokens": "style-dictionary build --config ./sd.config.js",
-    "build": "npm run build:superChoices && npm run build:tokens"
+    "build": "npm run build:superTokens && npm run build:tokens"
   },
   "author": "Dillon Schultz <dillonschultz93@gmail.com>",
   "license": "ISC",
@@ -22,7 +22,8 @@
   },
   "dependencies": {
     "@divriots/style-dictionary-to-figma": "^0.2.0",
-    "hjson": "^3.2.2",
+    "json5": "^2.2.1",
+    "lodash": "^4.17.21",
     "style-dictionary": "^3.7.0"
   }
 }
