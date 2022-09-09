@@ -19,11 +19,13 @@ const generateChoices = (superTokensObject, superTokenCategory) => {
 
     // Create the tokens object.
     const choiceSet = {
-      [project]: {
-        [kingdom]: {
-          [superTokenCategory]: {
-            [category]: {
-              ...apparatus(options),
+      YPL: {
+        [project]: {
+          [kingdom]: {
+            [superTokenCategory]: {
+              [category]: {
+                ...apparatus(options),
+              },
             },
           },
         },

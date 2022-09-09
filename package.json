@@ -1,13 +1,15 @@
 {
-  "name": "@yummly/pasta-cli",
+  "name": "@yummly/pasta-dictionary",
   "version": "0.0.1",
   "description": "A test of the pasta cli",
-  "main": "src/index.js",
+  "source": "src/index.js",
+  "main": "dist/index.js",
   "publishConfig": {
     "access": "restricted"
   },
   "scripts": {
-    "build": "node src/index.js"
+    "build:predictionary": "node src/buildPreDictionaryTokens.js",
+    "build": "npm run build:predictionary && parcel build"
   },
   "author": "Dillon Schultz <dillonschultz93@gmail.com>",
   "license": "ISC",
@@ -19,9 +21,11 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.5.0"
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "parcel": "^2.7.0"
   },
   "dependencies": {
+    "flat": "^5.0.2",
     "json5": "^2.2.1",
     "lodash": "^4.17.21"
   }
