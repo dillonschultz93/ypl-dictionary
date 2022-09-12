@@ -50,7 +50,7 @@ const generateDimensionScale = (optionsObject) => {
   // Loop through the options object
   Object.entries(optionsObject).forEach(([key, v]) => {
     // Collect keys and values
-    const { value, category, description, UIDs, dictionary } = v;
+    const { value, category, description, UIDs, dictionary, type } = v;
     const { base, ratio, baseIndex } = value;
 
     // Set the max amount of exposed indexes.
@@ -79,6 +79,7 @@ const generateDimensionScale = (optionsObject) => {
                   description,
                   UIDs,
                   dictionary,
+                  type,
                 },
               },
             },
@@ -100,6 +101,7 @@ const generateDimensionScale = (optionsObject) => {
                   description,
                   UIDs,
                   dictionary,
+                  type,
                 },
               },
             },
@@ -121,6 +123,7 @@ const generateDimensionScale = (optionsObject) => {
                   description,
                   UIDs,
                   dictionary,
+                  type,
                 },
               },
             },

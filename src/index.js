@@ -1,21 +1,15 @@
-/* eslint-disable no-console */
-const fs = require('fs');
-const json5 = require('json5');
-const path = require('path');
-const generateChoices = require('./util/generate-choices');
-const writeChoices = require('./util/write-choices');
+const { unflatten } = require('flat');
+const tokens = require('./tokens');
+const getValueFromFlatTokens = require('./util/getValueFromFlatTokens');
+const getByPage = require('./util/getByPage');
 
-// Loop through all the super tokens and generate tokens for each file found.
-fs.readdirSync(path.resolve(__dirname, '../src/superTokens')).forEach((file) => {
-  const fileContent = fs.readFileSync(path.resolve(__dirname, '../src/superTokens', file), 'utf8');
+const getFlattened = () => tokens;
 
-  if (fileContent) {
-    const parsedJSON = json5.parse(fileContent);
-    const fileName = path.basename(file, '.super.json5');
+const getMerged = () => unflatten(tokens, { object: true });
 
-    const generatedTokens = generateChoices(parsedJSON, fileName);
-
-    // Write the data to a json file.
-    writeChoices(generatedTokens);
-  }
-});
+module.exports = {
+  getFlattened,
+  getValueFromFlatTokens,
+  getByPage,
+  getMerged,
+};
