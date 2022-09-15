@@ -2,8 +2,7 @@
   YPL: {
     FFL: {
       TKUI_D: {
-        // -001 TOKENS STARTS HERE ✅
-        'E0003-001': {
+        'E0003-002': {
           height: {
             value: '{YPL.FFL.TKUI_C.sizes.micro.1900.value}',
             category: 'sizes',
@@ -62,9 +61,9 @@
           },
           radius: {
             value: '{YPL.FFL.TKUI_C.sizes.micro.1200.value}',
-            category: 'radius',
+            category: 'spaces',
             description: '',
-            type: 'borderRadius',
+            type: 'spacing',
             UIDs: [],
           },
           bgColor: {
@@ -90,7 +89,6 @@
               UIDs: [],
             },
           },
-          // Main block
           BLK_main: {
             label: {
               color: {
@@ -102,9 +100,46 @@
               },
               style: {
                 value: '{YPL.FFL.F0002-102}',
-                category: 'other',
+                category: 'primitiveRef',
                 description: '',
                 type: 'other',
+                UIDs: [],
+              },
+            },
+            icon: {
+              color: {
+                value: '{YPL.FFL.TKUI_C.colors.white.value}',
+                category: 'colors',
+                description: '',
+                type: 'color',
+                UIDs: [],
+              },
+              width: {
+                value: '{YPL.FFL.TKUI_C.sizes.micro.1200.value}',
+                category: 'sizes',
+                description: '',
+                type: 'sizing',
+                UIDs: [],
+              },
+              height: {
+                value: '{YPL.FFL.TKUI_C.sizes.micro.1200.value}',
+                category: 'sizes',
+                description: '',
+                type: 'sizing',
+                UIDs: [],
+              },
+              marginRight: {
+                value: '{YPL.FFL.TKUI_C.spaces.s.value}',
+                category: 'spaces',
+                description: '',
+                type: 'spacing',
+                UIDs: [],
+              },
+              fringeRight: {
+                value: '{YPL.FFL.TKUI_C.spaces.s.value}',
+                category: 'spaces',
+                description: '',
+                type: 'spacing',
                 UIDs: [],
               },
             },
