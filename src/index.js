@@ -3,13 +3,13 @@ const tokens = require('./tokens');
 const getValueFromFlatTokens = require('./util/getValueFromFlatTokens');
 const getByPage = require('./util/getByPage');
 
-const getFlattened = () => tokens;
+const getTokens = () => tokens;
 
-const getMerged = () => unflatten(tokens, { object: true });
+const getNestedTokens = (tokenset, useArrays) => unflatten(tokenset, { object: !useArrays });
 
 module.exports = {
-  getFlattened,
+  getTokens,
   getValueFromFlatTokens,
   getByPage,
-  getMerged,
+  getNestedTokens,
 };
