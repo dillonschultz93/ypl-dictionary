@@ -2,10 +2,9 @@
   YPL: {
     FFL: {
       TKUI_D: {
-        // -001 TOKENS STARTS HERE ✅
-        'E0003-001': {
+        'E0003-007': {
           height: {
-            value: '{YPL.FFL.TKUI_C.sizes.micro.1900.value}',
+            value: '{YPL.FFL.TKUI_C.sizes.micro.1400.value}',
             category: 'sizes',
             description: '',
             type: 'sizing',
@@ -19,14 +18,14 @@
             UIDs: [],
           },
           paddingTop: {
-            value: '{YPL.FFL.TKUI_C.spaces.sm.value}',
+            value: '{YPL.FFL.TKUI_C.spaces.xs.value}',
             category: 'spaces',
             description: '',
             type: 'spacing',
             UIDs: [],
           },
           paddingBottom: {
-            value: '{YPL.FFL.TKUI_C.spaces.sm.value}',
+            value: '{YPL.FFL.TKUI_C.spaces.xs.value}',
             category: 'spaces',
             description: '',
             type: 'spacing',
@@ -62,9 +61,9 @@
           },
           radius: {
             value: '{YPL.FFL.TKUI_C.sizes.micro.1200.value}',
-            category: 'radius',
+            category: 'sizes',
             description: '',
-            type: 'borderRadius',
+            type: 'sizing',
             UIDs: [],
           },
           bgColor: {
@@ -90,7 +89,6 @@
               UIDs: [],
             },
           },
-          // Main block
           BLK_main: {
             label: {
               color: {
@@ -102,7 +100,7 @@
               },
               style: {
                 value: '{YPL.FFL.F0002-102}',
-                category: 'other',
+                category: 'primitiveRef',
                 description: '',
                 type: 'other',
                 UIDs: [],

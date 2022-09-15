@@ -11,6 +11,8 @@
     "access": "restricted"
   },
   "scripts": {
+    "generate-element": "node src/util/generate-files.js -E",
+    "generate-pattern": "node src/util/generate-files.js -P",
     "build:predictionary": "node src/buildPreDictionaryTokens.js",
     "build": "npm run build:predictionary && parcel build",
     "publish": "git push origin && git push origin --tags",
@@ -33,7 +35,9 @@
     "parcel": "^2.7.0"
   },
   "dependencies": {
+    "commander": "^9.4.0",
     "flat": "^5.0.2",
+    "inquirer": "^8.2.4",
     "json5": "^2.2.1",
     "lodash": "^4.17.21"
   }
