@@ -37,8 +37,3 @@ jobs:
       - run: npm run release:major
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-      - name: git merge main
-        run: |
-          git checkout main
-          git merge release/major
-          git push
