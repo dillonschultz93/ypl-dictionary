@@ -3,7 +3,7 @@ const { program } = require('commander');
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
-const dec2hex = require('./dex2hex');
+const dec2hex = require('./dec2hex');
 
 // Import templates
 const { tokens, meta, index } = require('./templates');
