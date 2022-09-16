@@ -1,0 +1,102 @@
+{
+  YPL: {
+    FFL: {
+      TKUI_D: {
+        'E0004-003': {
+          width: {
+            value: '{YPL.FFL.TKUI_M.scales.arithA.2000.value}', // TODO: This needs to be a reference to a size token, not a scale token.
+            category: 'sizes',
+            description: '',
+            type: 'sizing',
+            UIDs: [],
+          },
+          height: {
+            value: '{YPL.FFL.TKUI_M.scales.arithA.2000.value}', // TODO: This needs to be a reference to a size token, not a scale token.
+            category: 'sizes',
+            description: '',
+            type: 'sizing',
+            UIDs: [],
+          },
+          padding: {
+            value: '{YPL.FFL.TKUI_C.spaces.s.value}',
+            category: 'spaces',
+            description: '',
+            type: 'spacing',
+            UIDs: [],
+          },
+          radius: {
+            value: '{YPL.FFL.TKUI_C.corner.round.value}',
+            category: 'spaces',
+            description: '',
+            type: 'spacing',
+            UIDs: [],
+          },
+          bgColor: {
+            i: {
+              value: '{YPL.FFL.TKUI_C.colors.teal.300.value}',
+              category: 'colors',
+              description: '',
+              type: 'color',
+              UIDs: [],
+            },
+            hi: {
+              value: '{YPL.FFL.TKUI_C.colors.grey.700.value}',
+              category: 'colors',
+              description: '',
+              type: 'color',
+              UIDs: [],
+            },
+          },
+          icon: {
+            asset: {
+              i: {
+                value: '{YPL.FFL.F0003-001}', // TODO: Correct the icon primitive UID to the correct one. We have changed to using the hex numbering.
+                category: 'primitiveRef',
+                description: '',
+                type: 'other',
+                UIDs: [],
+              },
+              hi: {
+                value: '{YPL.FFL.F0003-024}', // TODO: Correct the icon primitive UID to the correct one. We have changed to using the hex numbering.
+                category: 'primitiveRef',
+                description: '',
+                type: 'other',
+                UIDs: [],
+              },
+            },
+            color: {
+              i: {
+                value: '{YPL.FFL.TKUI_C.colors.white.value}',
+                category: 'colors',
+                description: '',
+                type: 'color',
+                UIDs: [],
+              },
+              hi: {
+                value: '{YPL.FFL.TKUI_C.colors.white.value}',
+                category: 'colors',
+                description: '',
+                type: 'color',
+                UIDs: [],
+              },
+            },
+            height: {
+              value: '{YPL.FFL.TKUI_C.sizes.micro.800.value}',
+              category: 'sizes',
+              description: '',
+              type: 'sizing',
+              UIDs: [],
+            },
+            width: {
+              value: '{YPL.FFL.TKUI_C.sizes.micro.800.value}',
+              category: 'sizes',
+              description: '',
+              type: 'sizing',
+              UIDs: [],
+            },
+          },
+        },
+      },
+    },
+  },
+}
