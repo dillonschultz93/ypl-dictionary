@@ -10,6 +10,7 @@ const { tokens, meta, index } = require('./templates');
 
 // Create the token directories
 const createTokenDirectories = (uid, name, tokenType) => {
+  // Check if the token directory exists
   if (
     fs.existsSync(path.join(__dirname, `../tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}`))
   ) {
