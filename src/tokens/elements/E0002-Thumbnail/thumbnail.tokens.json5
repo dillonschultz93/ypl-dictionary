@@ -1,0 +1,44 @@
+{
+  YPL: {
+    FFL: {
+      TKUI_D: {
+        E0002: {
+          BLK_main: {
+            'width': {
+              value: '{YPL.FFL.TKUI_C.percents.full.value}',
+              category: 'percents',
+              description: '',
+              type: 'other',
+              UIDs: [],
+            },
+            'height': {
+              value: '{YPL.FFL.TKUI_C.percents.full.value}',
+              category: 'percents',
+              description: '',
+              type: 'other',
+              UIDs: [],
+            },
+            'radius': {
+              value: '{YPL.FFL.TKUI_C.sizes.micro.400.value}',
+              category: 'radius',
+              description: '',
+              type: 'borderRadius',
+              UIDs: [],
+            },
+          },
+          'OPT_circle': {
+            'BLK_main': {
+              radius: {
+                value: '{YPL.FFL.TKUI_C.corner.round.value}',
+                category: 'radius',
+                description: '',
+                type: 'borderRadius',
+                UIDs: [],
+              }
+            }
+          }
+        },
+      },
+    },
+  },
+}
