@@ -18,12 +18,16 @@
             {
               name: 'icon',
               component: 'FFL.F0003',
+              type: 'primitive',
+              subType: 'icons',
               instance: '.icon',
               optional: true,
             },
             {
               name: 'label',
               component: 'FFL.F0002-102',
+              type: 'primitive',
+              subType: 'typography',
               instance: '.label',
               optional: true,
             },

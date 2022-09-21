@@ -14,8 +14,10 @@
         {
           name: 'icon',
           component: 'FFL.F0003',
+          type: 'primitive',
+          subType: 'icons',
           instance: '.icon',
-          optional: false,
+          optional: true,
         },
       ],
     },
