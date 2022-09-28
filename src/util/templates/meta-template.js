@@ -12,6 +12,7 @@ module.exports = (uid, name) => ({
       "figmaLink": "",
       "variants": [],
       "options": [],
+      "hasInteractionStates": false, // change this to true if the component has interaction states
       "dependencyTree": [],
     },
   },

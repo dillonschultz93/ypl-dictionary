@@ -10,6 +10,7 @@
       figmaLink: 'https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=2116%3A38531',
       variants: ['001', '002', '003'],
       options: [],
+      "hasInteractionStates": true,
       dependencyTree: [
         {
           name: 'icon',
