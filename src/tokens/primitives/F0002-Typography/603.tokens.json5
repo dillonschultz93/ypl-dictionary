@@ -2,7 +2,7 @@
   YPL: {
     FFL: {
       TKUI_D: {
-        F0002-603: {
+        'F0002-603': {
           familyName: {
             value: '{YPL.FFL.TKUI_C.typo.europa.familyName.regular.value}', // 'Europa-Regular'
             category: 'fontFamily',
