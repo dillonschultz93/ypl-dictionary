@@ -1,0 +1,45 @@
+{
+  YPL: {
+    FFL: {
+      TKUI_D: {
+        F0002-003: {
+          familyName: {
+            value: '{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}', // 'Europa-Bold'
+            category: 'fontFamily',
+            description: '',
+            type: 'fontFamily',
+            UIDs: [],
+          },
+          size: {
+            value: '{YPL.FFL.TKUI_M.typo.europa.h3.size.value}', // 32pt
+            category: 'fontSize',
+            description: '',
+            type: 'fontSize',
+            UIDs: [],
+          },
+          leading: {
+            value: '{YPL.FFL.TKUI_M.typo.europa.h3.leading.value}', // 38.4
+            category: 'leading',
+            description: '',
+            type: 'lineHeights',
+            UIDs: [],
+          },
+          tracking: {
+            value: '{YPL.FFL.TKUI_M.typo.europa.h3.tracking.value}', // 0.03 -> 3%
+            category: 'tracking',
+            description: '',
+            type: 'letterSpacing',
+            UIDs: [],
+          },
+          textCase: {
+            value: '',
+            category: '',
+            description: '',
+            type: '',
+            UIDs: [],
+          }
+        }
+      }
+    }
+  }
+}
