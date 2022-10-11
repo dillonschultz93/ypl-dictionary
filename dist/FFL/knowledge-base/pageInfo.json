@@ -1,0 +1,124 @@
+{
+  "pageInfo": {
+    "E0003": {
+      "name": "button",
+      "description": "Buttons allow users to perform an action or to navigate to another page. They have multiple styles for various needs.",
+      "ticketNumber": "23",
+      "ticketURL": "https://github.com/yummly/pasta/issues/23",
+      "ownerName": "Robert",
+      "ownerGitHubURL": "https://github.com/robert-ANML",
+      "figmaLink": "https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=1737%3A68833",
+      "variants": [
+        "001",
+        "002",
+        "003",
+        "004",
+        "005",
+        "006",
+        "007",
+        "008",
+        "009",
+        "00A",
+        "00B",
+        "00C"
+      ],
+      "hasInteractionStates": true,
+      "dependencyTree": [
+        {
+          "name": "BLK_main",
+          "children": [
+            {
+              "name": "icon",
+              "component": "FFL.F0003",
+              "type": "primitive",
+              "subType": "icons",
+              "instance": ".icon",
+              "optional": true
+            },
+            {
+              "name": "label",
+              "component": "FFL.F0002-102",
+              "type": "primitive",
+              "subType": "typography",
+              "instance": ".label",
+              "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    "E0004": {
+      "name": "switch",
+      "description": "Lorem ipsum dolar set amet",
+      "ticketNumber": "29",
+      "ticketURL": "https://github.com/yummly/pasta/issues/29",
+      "ownerName": "Robert",
+      "ownerGitHubURL": "https://github.com/robert-ANML",
+      "figmaLink": "https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=2116%3A38531",
+      "variants": [
+        "001",
+        "002",
+        "003"
+      ],
+      "hasInteractionStates": true,
+      "dependencyTree": [
+        {
+          "name": "icon",
+          "component": "FFL.F0003",
+          "type": "primitive",
+          "subType": "icons",
+          "instance": ".icon",
+          "optional": true
+        }
+      ]
+    },
+    "E0002": {
+      "name": "thumbnail",
+      "description": "Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
+      "ticketNumber": "22",
+      "ticketURL": "https://github.com/yummly/pasta/issues/22",
+      "ownerName": "Robert",
+      "ownerGitHubURL": "https://github.com/robert-ANML",
+      "figmaLink": "https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1948%3A36688",
+      "options": [
+        ".OPT_circle"
+      ],
+      "hasInteractionStates": false
+    },
+    "F0002": {
+      "name": "Typography",
+      "description": "",
+      "ticketNumber": "",
+      "ticketURL": "",
+      "ownerName": "",
+      "ownerGitHubURL": "",
+      "figmaLink": "",
+      "variants": [
+        "001",
+        "002",
+        "003",
+        "004",
+        "005",
+        "006",
+        "007",
+        "008",
+        "101",
+        "102",
+        "103",
+        "104",
+        "201",
+        "202",
+        "401",
+        "402",
+        "403",
+        "501",
+        "502",
+        "503",
+        "601",
+        "602",
+        "603"
+      ],
+      "hasInteractionStates": false
+    }
+  }
+}
