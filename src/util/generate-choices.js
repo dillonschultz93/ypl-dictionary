@@ -8,14 +8,14 @@ const _ = require('lodash');
  * @param {String} superTokenCategory - The super token category as a string.
  * @returns {Array} An array of objects that contain: the parent (super token category), category, and generated tokens.
  */
-const generateChoices = (superTokensObject, superTokenCategory) => {
+const generateChoices = (superTokensObject, superTokenCategory, project) => {
   const choices = [];
 
   Object.entries(superTokensObject).forEach(([category, value]) => {
-    const { apparatusProtocol, project, options, kingdom } = value;
+    const { apparatusProtocol, options, kingdom } = value;
 
     // Set the path to the apparatus protocol file.
-    const apparatus = require(path.join(__dirname, '../apparatuses', apparatusProtocol));
+    const apparatus = require(path.join(__dirname, `../${project}/apparatuses`, apparatusProtocol));
 
     // Create the tokens object.
     const choiceSet = {
