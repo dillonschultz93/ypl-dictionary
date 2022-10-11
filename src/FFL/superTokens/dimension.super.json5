@@ -1,7 +1,6 @@
 {
   scales: {
     apparatusProtocol: 'dimensions/scale.js', // Uses the scale apparatus to generate scale choice tokens.
-    project: 'FFL',
     options: {
       geoA: {
         value: {

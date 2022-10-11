@@ -1,6 +1,6 @@
 // ⚠️ Metadata
 {
-  meta: {
+  pageInfo: {
     E0003: {
       name: 'button',
       description: 'Buttons allow users to perform an action or to navigate to another page. They have multiple styles for various needs.',
