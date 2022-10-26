@@ -1,0 +1,112 @@
+{
+  YPL: {
+    FFL: {
+      'P0001-001': {
+        META: {
+          // required:
+          name: 'Poster Card',
+          version: '221021',
+          ticket: '',
+          // optional:
+          lastEditor: 'Dillon Schultz',
+          shortName: '',
+          GENS: {
+            GEN_timeStamp: '',
+            GEN_whereUsed: [],
+            GEN_project: 'FFL',
+            GEN_choicesUIDRetroFeedLastBatch: '',
+          },
+        },
+        TREE: {
+          width: 'YPL.FFL.TKUI_C.percents.full.value',
+          height: 'YPL.FFL.TKUI_M.scales.arithB.2600.value',
+          margin: 'YPL.FFL.TKUI_C.spaces.l.value',
+          fringeBottom: 'YPL.FFL.TKUI_C.spaces.l.value',
+          radius: 'YPL.FFL.TKUI_C.sizes.micro.400.value',
+          bgFillMode: 'YPL.CONST.backgroundSize.cover.value',
+          gradient: {
+            UID: 'YPL.FFL.F0004-001',
+          },
+          _BLK_header: {
+            DEPTH: 1,
+            marginBottom: 'YPL.FFL.TKUI_C.spaces.l.value',
+            fringeBottom: 'YPL.FFL.TKUI_C.spaces.l.value',
+            _chip: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.E0001-001',
+            },
+          },
+          _BLK_copy: {
+            DEPTH: 1,
+            width: 'YPL.FFL.TKUI_C.percents.full.value',
+            slack: 'YPL.FFL.TKUI_C.sizes.macro.500.value',
+            _chip: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0004-001',
+              marginBottom: 'YPL.FFL.TKUI_C.spaces.s.value',
+              fringeBottom: 'YPL.FFL.TKUI_C.spaces.s.value',
+            },
+            _heading: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0002-005',
+              color: 'YPL.FFL.TKUI_C.colors.white.value',
+              marginBottom: 'YPL.FFL.TKUI_C.spaces.xs.value',
+              fringeBottom: 'YPL.FFL.TKUI_C.spaces.xs.value',
+              paddingRight: 'YPL.FFL.TKUI_C.spaces.xl.value',
+            },
+          },
+          _BLK_footer: {
+            DEPTH: 1,
+            height: 'YPL.FFL.TKUI_C.sizing.micro.1200.value',
+            _switch: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.E0004-002',
+            },
+            _eyebrow: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0002-401',
+              color: 'YPL.FFL.TKUI_C.colors.white.value',
+              paddingRight: 'YPL.FFL.TKUI_C.spaces.s.value',
+            },
+          },
+        },
+        OVERRIDES: {
+          OPT_small: {
+            height: 'YPL.FFL.TKUI_C.sizes.macro.500.value',
+            gradient: {
+              UID: 'YPL.FFL.F0004-002',
+            },
+            _BLK_copy: {
+              _heading: {
+                size: 'YPL.FFL.TKUI_M.typo.europa.h7.size.value',
+                leading: 'YPL.FFL.TKUI_M.typo.europa.h7.leading.value',
+                paragraphSpacing: 'YPL.FFL.TKUI_M.typo.europa.h7.paragraphSpacing.value',
+                tracking: 'YPL.FFL.TKUI_M.typo.europa.h7.tracking.value',
+              },
+            },
+            _BLK_header: {
+              _chip: {
+                UID: 'YPL.FFL.E0001.OPT_iconOnly',
+              },
+            },
+          },
+          OPT_inSlider: {
+            width: 'YPL.FFL.TKUI_C.percents.xxl.value',
+            fringeRight: 'YPL.FFL.TKUI_C.spaces.sm.value',
+          },
+          BRKP_m: {
+            height: 'YPL.FFL.TKUI_C.sizes.macro.800.value',
+            _BLK_copy: {
+              _heading: {
+                size: 'YPL.FFL.TKUI_M.typo.europa.h3.size.value',
+                leading: 'YPL.FFL.TKUI_M.typo.europa.h3.leading.value',
+                paragraphSpacing: 'YPL.FFL.TKUI_M.typo.europa.h3.paragraphSpacing.value',
+                tracking: 'YPL.FFL.TKUI_M.typo.europa.h3.tracking.value',
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+}

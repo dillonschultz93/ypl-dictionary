@@ -4,21 +4,21 @@
       TKUI_D: {
         'E0004-002': {
           width: {
-            value: '{YPL.FFL.TKUI_C.sizes.micro.1200.value}',
+            value: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
             category: 'sizes',
             description: '',
             type: 'sizing',
             UIDs: [],
           },
           height: {
-            value: '{YPL.FFL.TKUI_C.sizes.micro.1200.value}',
+            value: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
             category: 'sizes',
             description: '',
             type: 'sizing',
             UIDs: [],
           },
           radius: {
-            value: '{YPL.FFL.TKUI_C.corner.round.value}',
+            value: 'YPL.FFL.TKUI_C.corner.round.value',
             category: 'radius',
             description: '',
             type: 'borderRadius',
@@ -26,14 +26,14 @@
           },
           bgColor: {
             i: {
-              value: '{YPL.FFL.TKUI_C.colors.white.value}',
+              value: 'YPL.FFL.TKUI_C.colors.white.value',
               category: 'colors',
               description: '',
               type: 'color',
               UIDs: [],
             },
             hi: {
-              value: '{YPL.FFL.TKUI_C.colors.grey.700.value}',
+              value: 'YPL.FFL.TKUI_C.colors.grey.700.value',
               category: 'colors',
               description: '',
               type: 'color',
@@ -43,14 +43,14 @@
           icon: {
             asset: {
               i: {
-                value: '{YPL.FFL.F0003-001}', // TODO: Correct the icon primitive UID to the correct one. We have changed to using the hex numbering.
+                value: 'YPL.FFL.F0003-001}', // TODO: Correct the icon primitive UID to the correct one. We have changed to using the hex numbering.
                 category: 'primitiveRef',
                 description: '',
                 type: 'other',
                 UIDs: [],
               },
               hi: {
-                value: '{YPL.FFL.F0003-027}', // TODO: Correct the icon primitive UID to the correct one. We have changed to using the hex numbering.
+                value: 'YPL.FFL.F0003-027}', // TODO: Correct the icon primitive UID to the correct one. We have changed to using the hex numbering.
                 category: 'primitiveRef',
                 description: '',
                 type: 'other',
@@ -59,14 +59,14 @@
             },
             color: {
               i: {
-                value: '{YPL.FFL.TKUI_C.colors.grey.900.value}',
+                value: 'YPL.FFL.TKUI_C.colors.grey.900.value',
                 category: 'colors',
                 description: '',
                 type: 'color',
                 UIDs: [],
               },
               hi: {
-                value: '{YPL.FFL.TKUI_C.colors.white.value}',
+                value: 'YPL.FFL.TKUI_C.colors.white.value',
                 category: 'colors',
                 description: '',
                 type: 'color',
@@ -74,14 +74,14 @@
               },
             },
             height: {
-              value: '{YPL.FFL.TKUI_C.sizes.micro.600.value}',
+              value: 'YPL.FFL.TKUI_C.sizes.micro.600.value',
               category: 'sizes',
               description: '',
               type: 'sizing',
               UIDs: [],
             },
             width: {
-              value: '{YPL.FFL.TKUI_C.sizes.micro.600.value}',
+              value: 'YPL.FFL.TKUI_C.sizes.micro.600.value',
               category: 'sizes',
               description: '',
               type: 'sizing',

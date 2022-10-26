@@ -1,0 +1,39 @@
+{
+  YPL: {
+    FFL: {
+      'F0002-401': {
+        META: {
+          // required
+          name: 'Eyebrow',
+          version: '221021',
+          ticket: 'https://github.com/yummly/pasta/issues/25',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          // shortName: '', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_timeStamp: '',
+            GEN_whereUsed: [],
+            GEN_project: 'FFL',
+            GEN_choicesUIDRetroFeedLastBatch: '',
+          },
+        },
+        TREE: {
+          // Choice
+          familyName: 'YPL.FFL.TKUI_C.typo.europa.familyName.bold.value',
+          // From apparatus
+          size: 'YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.size.value',
+          leading: 'YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.leading.value',
+          paragraphSpacing: 'YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.paragraphSpacing.value',
+          tracking: 'YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.tracking.value',
+          // Other attributes
+          textAlignHorizontal: 'YPL.CONST.textAlignHorizontal.left.value',
+          textCase: 'YPL.CONST.textCase.upper.value',
+          textDecoration: 'YPL.CONST.textDecoration.none.value',
+          color: 'YPL.FFL.TKUI_C.colors.black.value',
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}

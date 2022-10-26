@@ -8,22 +8,42 @@ const dec2hex = require('./dec2hex');
 // Import templates
 const { tokens, meta, index } = require('./templates');
 
+// Get project directories
+const getProjectDirectories = () => {
+  const projects = fs
+    .readdirSync(path.join(__dirname, '../../src'))
+    .filter((file) => file !== 'util' && file !== 'buildPreDictionaryTokens.js' && file !== 'index.js'); // ⚠️ Update this if any new files or directories that are not project directories are added.
+
+  return projects;
+};
+
 // Create the token directories
-const createTokenDirectories = (uid, name, tokenType) => {
+const createTokenDirectories = (uid, name, tokenType, project) => {
+  // Check if the project directory exists
+  if (!fs.existsSync(path.join(__dirname, `../${project}`))) {
+    console.log("Project directory doesn't exist");
+    process.exit(1);
+  }
   // Check if the token directory exists
   if (
-    fs.existsSync(path.join(__dirname, `../tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}`))
+    fs.existsSync(
+      path.join(__dirname, `../${project}/tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}`)
+    )
   ) {
     console.log('Token already exists');
     process.exit(1);
   } else {
-    fs.mkdirSync(path.join(__dirname, `../tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}`));
+    fs.mkdirSync(
+      path.join(__dirname, `../${project}/tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}`)
+    );
 
     // Create the meta file
     fs.writeFileSync(
       path.join(
         __dirname,
-        `../tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/meta${meta(uid, name).extension}`
+        `../${project}/tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/meta${
+          meta(uid, name).extension
+        }`
       ),
       meta(uid, name).content
     );
@@ -31,7 +51,7 @@ const createTokenDirectories = (uid, name, tokenType) => {
     fs.writeFileSync(
       path.join(
         __dirname,
-        `../tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/index${
+        `../${project}/tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/index${
           index(uid, name).extension
         }`
       ),
@@ -41,13 +61,13 @@ const createTokenDirectories = (uid, name, tokenType) => {
 };
 
 // Create token files
-const createTokenTemplates = (uid, name, tokenType, variant = false) => {
+const createTokenTemplates = (uid, name, tokenType, project, variant = false) => {
   // Create the token file
   if (variant) {
     fs.writeFileSync(
       path.join(
         __dirname,
-        `../tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/${variant}${
+        `../${project}/tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/${variant}${
           tokens(uid, variant).extension
         }`
       ),
@@ -57,7 +77,9 @@ const createTokenTemplates = (uid, name, tokenType, variant = false) => {
     fs.writeFileSync(
       path.join(
         __dirname,
-        `../tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/${name}${tokens(uid).extension}`
+        `../${project}/tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/${name}${
+          tokens(uid).extension
+        }`
       ),
       tokens(uid).content
     );
@@ -76,6 +98,12 @@ if (program.opts().element) {
   console.log('🌱 Creating a new element');
 
   const prompts = [
+    {
+      type: 'list',
+      name: 'project',
+      message: 'Which project is this element for?',
+      choices: getProjectDirectories(),
+    },
     {
       type: 'input',
       name: 'getUID',
@@ -108,10 +136,10 @@ if (program.opts().element) {
   ];
 
   inquirer.prompt(prompts).then((answers) => {
-    const { getUID, getName, hasVariants } = answers;
+    const { project, getUID, getName, hasVariants } = answers;
 
     // Create the element directory
-    createTokenDirectories(getUID, getName, 'elements');
+    createTokenDirectories(getUID, getName, 'elements', project);
 
     if (hasVariants) {
       const variantPrompts = [
@@ -145,12 +173,12 @@ if (program.opts().element) {
         const hexVariants = variants.map((variant) => dec2hex(variant, 3).toUpperCase());
 
         hexVariants.forEach((variant) => {
-          createTokenTemplates(getUID, getName, 'elements', variant);
+          createTokenTemplates(getUID, getName, 'elements', project, variant);
         });
       });
     } else {
       // Create the files necessary for the element
-      createTokenTemplates(getUID, getName, 'elements');
+      createTokenTemplates(getUID, getName, 'elements', project);
     }
   });
 }

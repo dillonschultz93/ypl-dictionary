@@ -8,104 +8,63 @@
             // Headings
             h1: {
               size: {
-                value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.1900.value}', // 48pt
-                category: 'fontSize',
-                description: '',
-                type: 'fontSize',
-                UIDs: [],
+                value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.1900.value', // 48pt
               },
             },
             h2: {
               size: {
-                value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.1800.value}', // 40pt
-                category: 'fontSize',
-                description: '',
-                type: 'fontSize',
-                UIDs: [],
+                value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.1800.value', // 40pt
               },
             },
             h3: {
               size: {
-                value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.1600.value}', // 32pt
-                category: 'fontSize',
-                description: '',
-                type: 'fontSize',
-                UIDs: [],
+                value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.1600.value', // 32pt
               },
             },
             h4: {
               size: {
-                value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.1400.value}', // 28pt
-                category: 'fontSize',
-                description: '',
-                type: 'fontSize',
-                UIDs: [],
+                value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.1400.value', // 28pt
               },
             },
             h5: {
               size: {
-                value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.1200.value}', // 24pt
-                category: 'fontSize',
-                description: '',
-                type: 'fontSize',
-                UIDs: [],
+                value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.1200.value', // 24pt
               },
               BRKP_m: {
                 // Medium breakpoint (tablet)
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.1400.value}', // 28pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.1400.value', // 28pt
+
                 },
               },
             },
             h6: {
               size: {
-                value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.1000.value}', // 20pt
-                category: 'fontSize',
-                description: '',
-                type: 'fontSize',
-                UIDs: [],
+                value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.1000.value', // 20pt
               },
             },
             h7: {
               size: {
-                value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.900.value}', // 18pt
-                category: 'fontSize',
-                description: '',
-                type: 'fontSize',
-                UIDs: [],
+                value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.900.value', // 18pt
               },
             },
             h8: {
               size: {
-                value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.700.value}', // 14pt
-                category: 'fontSize',
-                description: '',
-                type: 'fontSize',
-                UIDs: [],
+                value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.700.value', // 14pt
               },
             },
             // Body text
             p: {
               regular: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.800.value}', // 16pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.800.value', // 16pt
+
                 },
               },
               strong: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.800.value}', // 16pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.800.value', // 16pt
+
                 },
               },
             },
@@ -113,20 +72,14 @@
             ps: {
               regular: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.700.value}', // 14pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.700.value', // 14pt
+
                 },
               },
               strong: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.700.value}', // 14pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.700.value', // 14pt
+
                 },
               },
             },
@@ -134,20 +87,14 @@
             caption: {
               regular: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.600.value}', // 12pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.600.value', // 12pt
+
                 },
               },
               strong: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.600.value}', // 12pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.600.value', // 12pt
+
                 },
               },
             },
@@ -155,29 +102,20 @@
             eyebrow: {
               regular: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.700.value}', // 14pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.700.value', // 14pt
+
                 },
               },
               small: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.600.value}', // 12pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.600.value', // 12pt
+
                 },
               },
               strongSmall: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.600.value}', // 12pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.600.value', // 12pt
+
                 },
               },
             },
@@ -185,29 +123,20 @@
             control: {
               regular: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.800.value}', // 16pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.800.value', // 16pt
+
                 },
               },
               small: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.700.value}', // 14pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.700.value', // 14pt
+
                 },
               },
               smallAllCaps: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.600.value}', // 12pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.600.value', // 12pt
+
                 },
               },
             },
@@ -215,29 +144,20 @@
             table: {
               heading: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.600.value}', // 12pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.600.value', // 12pt
+
                 },
               },
               item: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.600.value}', // 12pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.600.value', // 12pt
+
                 },
               },
               label: {
                 size: {
-                  value: '{YPL.FFL.TKUI_C.dimension.sizes.micro.500.value}', // 10pt
-                  category: 'fontSize',
-                  description: '',
-                  type: 'fontSize',
-                  UIDs: [],
+                  value: 'YPL.FFL.TKUI_C.dimension.sizes.micro.500.value', // 10pt
+
                 },
               },
             },

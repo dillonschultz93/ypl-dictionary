@@ -1,9 +1,12 @@
 const path = require('path');
 const { mkdirSync, writeFileSync, readdirSync } = require('fs');
-const getValueFromFlatTokens = require('./util/getValueFromFlatTokens');
-const getTokens = require('./util/getTokens');
-const getPageInfo = require('./util/getPageInfo');
-const getNestedTokens = require('./util/getNestedTokens');
+// const getValueFromFlatTokens = require('./util/getValueFromFlatTokens');
+// const getTokens = require('./util/getTokens');
+// const getPageInfo = require('./util/getPageInfo');
+// const getNestedTokens = require('./util/getNestedTokens');
+// const tokens = require('./FFL/tokens');
+
+// console.log(JSON.stringify(tokens, null, 2));
 
 // Create the dist folder and write the tokens to it
 mkdirSync('./dist', { recursive: true });
@@ -22,33 +25,22 @@ readdirSync(path.join(__dirname, '../src'))
     // Create platform directories
     console.log(`Creating platform directories 📁`);
 
-    console.log(`Creating knowledge base directory 📁`);
-    mkdirSync(`./dist/${project}/knowledge-base`, { recursive: true });
-    // mkdirSync(`./dist/${project}/iOS`, { recursive: true });
+    // console.log(`Creating knowledge base directory 📁`);
+    // mkdirSync(`./dist/${project}/knowledge-base`, { recursive: true });
+
+    console.log(`Creating iOS directory 📁`);
+    mkdirSync(`./dist/${project}/iOS`, { recursive: true });
+
+    // console.log(`Creating Android directory 📁`);
     // mkdirSync(`./dist/${project}/Android`, { recursive: true });
+
+    // console.log(`Creating Figma directory 📁`);
     // mkdirSync(`./dist/${project}/figma`, { recursive: true });
 
-    // Write tokens to each platform directory
+    // Write tokens to json files
+
     // KNOWLEDGE BASE
 
-    // Write nested json tokens
-    console.log(`Writing knowledge base tokens 📝`);
-    writeFileSync(
-      `./dist/${project}/knowledge-base/tokens.json`,
-      JSON.stringify(getTokens(getNestedTokens(tokens, true)), null, 2)
-    );
-
-    // Write flat json tokens
-    console.log(`Writing knowledge base flat tokens 📝`);
-    writeFileSync(
-      `./dist/${project}/knowledge-base/flat-tokens.json`,
-      JSON.stringify(getValueFromFlatTokens(tokens), null, 2)
-    );
-
-    // Write page info object
-    console.log(`Writing knowledge page info 📝`);
-    writeFileSync(
-      `./dist/${project}/knowledge-base/pageInfo.json`,
-      JSON.stringify(getPageInfo(getNestedTokens(tokens, true)), null, 2)
-    );
+    // iOS
+    writeFileSync(`./dist/${project}/iOS/tokens.json`, JSON.stringify(tokens, null, 2));
   });

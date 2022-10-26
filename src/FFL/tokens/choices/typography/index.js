@@ -1,3 +1,3 @@
-const getRequiredAndFlattenedFiles = require('../../../util/getRequiredAndFlattenedFiles');
+const getRequiredAndFlattenedFiles = require('../../../../util/getRequiredAndFlattenedFiles');
 
 module.exports = getRequiredAndFlattenedFiles(__dirname);

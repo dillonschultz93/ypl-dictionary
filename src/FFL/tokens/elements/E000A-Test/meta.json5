@@ -1,0 +1,18 @@
+
+{
+  "meta": {
+    "E000A": {
+      "name": "Test",
+      "description": "",
+      "ticketNumber": "",
+      "ticketURL": "",
+      "ownerName": "",
+      "ownerGitHubURL": "",
+      "figmaLink": "",
+      "variants": [],
+      "options": [],
+      "hasInteractionStates": false, // change this to true if the component has interaction states
+      "dependencyTree": [],
+    },
+  },
+}  

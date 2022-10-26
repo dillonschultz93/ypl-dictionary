@@ -4,7 +4,7 @@
       TKUI_D: {
         'E0003-00A': {
           height: {
-            value: '{YPL.FFL.TKUI_C.sizes.micro.1200.value}',
+            value: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
             category: 'sizes',
             description: '',
             type: 'sizing',
@@ -14,21 +14,21 @@
             label: {
               color: {
                 i: {
-                  value: '{YPL.FFL.TKUI_C.colors.grey.900.value}',
+                  value: 'YPL.FFL.TKUI_C.colors.grey.900.value',
                   category: 'colors',
                   description: '',
                   type: 'color',
                   UIDs: [],
                 },
                 p: {
-                  value: '{YPL.FFL.TKUI_C.colors.grey.900.value}',
+                  value: 'YPL.FFL.TKUI_C.colors.grey.900.value',
                   category: 'colors',
                   description: '',
                   type: 'color',
                   UIDs: [],
                 },
                 d: {
-                  value: '{YPL.FFL.TKUI_C.colors.grey.300.value}',
+                  value: 'YPL.FFL.TKUI_C.colors.grey.300.value',
                   category: 'colors',
                   description: '',
                   type: 'color',
@@ -36,7 +36,7 @@
                 },
               },
               style: {
-                value: '{YPL.FFL.F0002-104}',
+                value: 'YPL.FFL.F0002-104}',
                 category: 'primitiveRef',
                 description: '',
                 type: 'other',
@@ -46,21 +46,21 @@
             icon: {
               color: {
                 i: {
-                  value: '{YPL.FFL.TKUI_C.colors.teal.400.value}',
+                  value: 'YPL.FFL.TKUI_C.colors.teal.400.value',
                   category: 'colors',
                   description: '',
                   type: 'color',
                   UIDs: [],
                 },
                 p: {
-                  value: '{YPL.FFL.TKUI_C.colors.teal.500.value}',
+                  value: 'YPL.FFL.TKUI_C.colors.teal.500.value',
                   category: 'colors',
                   description: '',
                   type: 'color',
                   UIDs: [],
                 },
                 d: {
-                  value: '{YPL.FFL.TKUI_C.colors.grey.300.value}',
+                  value: 'YPL.FFL.TKUI_C.colors.grey.300.value',
                   category: 'colors',
                   description: '',
                   type: 'color',
@@ -68,28 +68,28 @@
                 },
               },
               width: {
-                value: '{YPL.FFL.TKUI_C.sizes.micro.1200.value}',
+                value: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
                 category: 'sizes',
                 description: '',
                 type: 'sizing',
                 UIDs: [],
               },
               height: {
-                value: '{YPL.FFL.TKUI_C.sizes.micro.1200.value}',
+                value: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
                 category: 'sizes',
                 description: '',
                 type: 'sizing',
                 UIDs: [],
               },
               marginRight: {
-                value: '{YPL.FFL.TKUI_C.spaces.s.value}',
+                value: 'YPL.FFL.TKUI_C.spaces.s.value',
                 category: 'spaces',
                 description: '',
                 type: 'spacing',
                 UIDs: [],
               },
               fringeRight: {
-                value: '{YPL.FFL.TKUI_C.spaces.s.value}',
+                value: 'YPL.FFL.TKUI_C.spaces.s.value',
                 category: 'spaces',
                 description: '',
                 type: 'spacing',

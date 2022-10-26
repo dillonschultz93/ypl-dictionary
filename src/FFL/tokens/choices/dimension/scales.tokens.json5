@@ -7,805 +7,349 @@
             "geoA": {
               "100": {
                 "value": 1,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "200": {
                 "value": 2,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "300": {
                 "value": 4,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "400": {
                 "value": 8,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "500": {
                 "value": 16,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "600": {
                 "value": 32,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "700": {
                 "value": 64,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "800": {
                 "value": 128,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "900": {
                 "value": 256,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1000": {
                 "value": 512,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1100": {
                 "value": 1024,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               }
             },
             "arithA": {
               "100": {
                 "value": 2,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "200": {
                 "value": 4,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "300": {
                 "value": 6,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "400": {
                 "value": 8,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "500": {
                 "value": 10,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "600": {
                 "value": 12,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "700": {
                 "value": 14,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "800": {
                 "value": 16,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "900": {
                 "value": 18,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1000": {
                 "value": 20,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1100": {
                 "value": 22,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1200": {
                 "value": 24,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1300": {
                 "value": 26,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1400": {
                 "value": 28,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1500": {
                 "value": 30,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1600": {
                 "value": 32,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1700": {
                 "value": 34,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1800": {
                 "value": 36,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1900": {
                 "value": 38,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2000": {
                 "value": 40,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2100": {
                 "value": 42,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2200": {
                 "value": 44,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2300": {
                 "value": 46,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2400": {
                 "value": 48,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2500": {
                 "value": 50,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2600": {
                 "value": 52,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2700": {
                 "value": 54,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2800": {
                 "value": 56,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2900": {
                 "value": 58,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3000": {
                 "value": 60,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3100": {
                 "value": 62,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3200": {
                 "value": 64,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3300": {
                 "value": 66,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3400": {
                 "value": 68,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3500": {
                 "value": 70,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3600": {
                 "value": 72,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3700": {
                 "value": 74,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3800": {
                 "value": 76,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3900": {
                 "value": 78,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "4000": {
                 "value": 80,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               }
             },
             "arithB": {
               "100": {
                 "value": 32,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "200": {
                 "value": 48,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "300": {
                 "value": 64,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "400": {
                 "value": 80,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "500": {
                 "value": 96,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "600": {
                 "value": 112,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "700": {
                 "value": 128,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "800": {
                 "value": 144,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "900": {
                 "value": 160,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1000": {
                 "value": 176,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1100": {
                 "value": 192,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1200": {
                 "value": 208,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1300": {
                 "value": 224,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1400": {
                 "value": 240,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1500": {
                 "value": 256,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1600": {
                 "value": 272,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1700": {
                 "value": 288,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1800": {
                 "value": 304,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "1900": {
                 "value": 320,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2000": {
                 "value": 336,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2100": {
                 "value": 352,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2200": {
                 "value": 368,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2300": {
                 "value": 384,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2400": {
                 "value": 400,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2500": {
                 "value": 416,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2600": {
                 "value": 432,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2700": {
                 "value": 448,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2800": {
                 "value": 464,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "2900": {
                 "value": 480,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3000": {
                 "value": 496,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3100": {
                 "value": 512,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3200": {
                 "value": 528,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3300": {
                 "value": 544,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3400": {
                 "value": 560,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3500": {
                 "value": 576,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3600": {
                 "value": 592,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3700": {
                 "value": 608,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3800": {
                 "value": 624,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "3900": {
                 "value": 640,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "4000": {
                 "value": 656,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "4100": {
                 "value": 672,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "4200": {
                 "value": 688,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "4300": {
                 "value": 704,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "4400": {
                 "value": 720,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "4500": {
                 "value": 736,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "4600": {
                 "value": 752,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "4700": {
                 "value": 768,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "4800": {
                 "value": 784,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "4900": {
                 "value": 800,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "5000": {
                 "value": 816,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "5100": {
                 "value": 832,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "5200": {
                 "value": 848,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "5300": {
                 "value": 864,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "5400": {
                 "value": 880,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "5500": {
                 "value": 896,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "5600": {
                 "value": 912,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "5700": {
                 "value": 928,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "5800": {
                 "value": 944,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "5900": {
                 "value": 960,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "6000": {
                 "value": 976,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "6100": {
                 "value": 992,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "6200": {
                 "value": 1008,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               },
               "6300": {
                 "value": 1024,
-                "category": "scales",
-                "description": "",
-                "UIDs": [],
-                "type": "other"
               }
             }
           }

@@ -7,24 +7,12 @@
             familyName: {
               light: {
                 value: 'Europa-Light',
-                category: 'fontFamily',
-                description: '',
-                type: 'fontFamily',
-                UIDs: []
               },
               regular: {
                 value: 'Europa-Regular',
-                category: 'fontFamily',
-                description: '',
-                type: 'fontFamily',
-                UIDs: []
               },
               bold: {
                 value: 'Europa-Bold',
-                category: 'fontFamily',
-                description: '',
-                type: 'fontFamily',
-                UIDs: []
               },
             }
           }

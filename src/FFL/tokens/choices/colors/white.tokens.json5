@@ -5,10 +5,6 @@
         colors: {
           white: {
             value: '#ffffff',
-            category: 'colors',
-            description: '',
-            type: 'color',
-            UIDs: [],
           },
         },
       },

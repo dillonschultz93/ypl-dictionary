@@ -6,24 +6,12 @@
           orange: {
             '300': {
               value: '#E77F4B',
-              category: 'colors',
-              description: '',
-              type: 'color',
-              UIDs: [],
             },
             '400': {
               value: '#E05F1F',
-              category: 'colors',
-              description: '',
-              type: 'color',
-              UIDs: [],
             },
             '500': {
               value: '#B44B18',
-              category: 'colors',
-              description: '',
-              type: 'color',
-              UIDs: [],
             },
           },
         },

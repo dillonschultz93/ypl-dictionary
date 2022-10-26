@@ -1,0 +1,53 @@
+// 		███████ ██ ██   ██ ███    ███ ███████
+// 		██      ██  ██ ██  ████  ████ ██
+// 		█████   ██   ███   ██ ████ ██ █████
+// 		██      ██  ██ ██  ██  ██  ██ ██
+// 		██      ██ ██   ██ ██      ██ ███████
+//
+//
+// FIXME: make sure these have been added to Choices:
+//
+// "YPL.FFL.TKUI_M.typo.europa.chart.item.size.value": "YPL.FFL.TKUI_C.sizes.micro.600.value * YPL.TEST.textSizeFactor.value",
+// "YPL.FFL.TKUI_M.typo.europa.chart.item.leading.value": 16.8,
+// "YPL.FFL.TKUI_M.typo.europa.chart.item.paragraphSpacing.value": 0,
+// "YPL.FFL.TKUI_M.typo.europa.chart.item.tracking.value": "0%",
+
+{
+  YPL: {
+    FFL: {
+      'F0002-502': {
+        META: {
+          // required
+          name: 'Chart Item',
+          version: '221021',
+          ticket: 'https://github.com/yummly/pasta/issues/25',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          // shortName: '', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_timeStamp: '',
+            GEN_whereUsed: [],
+            GEN_project: 'FFL',
+            GEN_choicesUIDRetroFeedLastBatch: '',
+          },
+        },
+        TREE: {
+          // Choice
+          familyName: 'YPL.FFL.TKUI_C.typo.europa.familyName.bold.value',
+          // From apparatus
+          size: 'YPL.FFL.TKUI_M.typo.europa.chart.item.size.value',
+          leading: 'YPL.FFL.TKUI_M.typo.europa.chart.item.leading.value',
+          paragraphSpacing: 'YPL.FFL.TKUI_M.typo.europa.chart.item.paragraphSpacing.value',
+          tracking: 'YPL.FFL.TKUI_M.typo.europa.chart.item.tracking.value',
+          // Other attributes
+          textAlignHorizontal: 'YPL.CONST.textAlignHorizontal.left.value',
+          textCase: 'YPL.CONST.textCase.upper.value',
+          textDecoration: 'YPL.CONST.textDecoration.none.value',
+          color: 'YPL.FFL.TKUI_C.colors.black.value',
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}

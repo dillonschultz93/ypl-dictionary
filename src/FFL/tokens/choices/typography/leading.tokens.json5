@@ -9,83 +9,47 @@
             h1: {
               leading: {
                 value: 50.2,
-                category: 'leading',
-                description: '',
-                type: 'lineHeights',
-                UIDs: [],
               },
             },
             h2: {
               leading: {
                 value: 41.6,
-                category: 'leading',
-                description: '',
-                type: 'lineHeights',
-                UIDs: [],
               },
             },
             h3: {
               leading: {
                 value: 38.4,
-                category: 'leading',
-                description: '',
-                type: 'lineHeights',
-                UIDs: [],
               },
             },
             h4: {
               leading: {
                 value: 33.6,
-                category: 'leading',
-                description: '',
-                type: 'lineHeights',
-                UIDs: [],
               },
             },
             h5: {
               leading: {
                 value: 28.2,
-                category: 'leading',
-                description: '',
-                type: 'lineHeights',
-                UIDs: [],
               },
               BRKP_m: {
                 // Medium breakpoint (tablet)
                 leading: {
                   value: 30,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
             },
             h6: {
               leading: {
                 value: 24,
-                category: 'leading',
-                description: '',
-                type: 'lineHeights',
-                UIDs: [],
               },
             },
             h7: {
               leading: {
                 value: 21.6,
-                category: 'leading',
-                description: '',
-                type: 'lineHeights',
-                UIDs: [],
               },
             },
             h8: {
               leading: {
                 value: 16.8,
-                category: 'leading',
-                description: '',
-                type: 'lineHeights',
-                UIDs: [],
               },
             },
             // Body text
@@ -93,19 +57,11 @@
               regular: {
                 leading: {
                   value: 24,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
               strong: {
                 leading: {
                   value: 24,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
             },
@@ -114,19 +70,11 @@
               regular: {
                 leading: {
                   value: 14,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
               strong: {
                 leading: {
                   value: 14,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
             },
@@ -135,19 +83,11 @@
               regular: {
                 leading: {
                   value: 18,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
               strong: {
                 leading: {
                   value: 18,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
             },
@@ -156,28 +96,16 @@
               regular: {
                 leading: {
                   value: 18,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
               strong: {
                 leading: {
                   value: 18,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
               strongSmall: {
                 leading: {
                   value: 18,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
             },
@@ -186,28 +114,16 @@
               regular: {
                 leading: {
                   value: 18,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
               small: {
                 leading: {
                   value: 16,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
               smallAllCaps: {
                 leading: {
                   value: 14,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
             },
@@ -215,28 +131,16 @@
               heading: {
                 leading: {
                   value: 16.8,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
               item: {
                 leading: {
                   value: 16.8,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
               label: {
                 leading: {
                   value: 16.8,
-                  category: 'leading',
-                  description: '',
-                  type: 'lineHeights',
-                  UIDs: [],
                 },
               },
             },

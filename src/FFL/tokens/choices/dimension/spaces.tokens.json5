@@ -6,73 +6,33 @@
           spaces: {
             none: {
               value: 0,
-              category: 'spaces',
-              description: '',
-              type: 'spacing',
-              UIDs: [],
             },
             xs: {
-              value: '{YPL.FFL.TKUI_M.dimension.scales.arithA.200.value}', // 4
-              category: 'spaces',
-              description: '',
-              type: 'spacing',
-              UIDs: [],
+              value: 'YPL.FFL.TKUI_M.dimension.scales.arithA.200.value', // 4
             },
             s: {
-              value: '{YPL.FFL.TKUI_M.dimension.scales.arithA.400.value}', // 8
-              category: 'spaces',
-              description: '',
-              type: 'spacing',
-              UIDs: [],
+              value: 'YPL.FFL.TKUI_M.dimension.scales.arithA.400.value', // 8
             },
             sm: {
-              value: '{YPL.FFL.TKUI_M.dimension.scales.arithA.600.value}', // 12
-              category: 'spaces',
-              description: '',
-              type: 'spacing',
-              UIDs: [],
+              value: 'YPL.FFL.TKUI_M.dimension.scales.arithA.600.value', // 12
             },
             m: {
-              value: '{YPL.FFL.TKUI_M.dimension.scales.arithA.800.value}', // 16
-              category: 'spaces',
-              description: '',
-              type: 'spacing',
-              UIDs: [],
+              value: 'YPL.FFL.TKUI_M.dimension.scales.arithA.800.value', // 16
             },
             ml: {
-              value: '{YPL.FFL.TKUI_M.dimension.scales.arithA.1000.value}', // 20
-              category: 'spaces',
-              description: '',
-              type: 'spacing',
-              UIDs: [],
+              value: 'YPL.FFL.TKUI_M.dimension.scales.arithA.1000.value', // 20
             },
             l: {
-              value: '{YPL.FFL.TKUI_M.dimension.scales.arithA.1200.value}', // 24
-              category: 'spaces',
-              description: '',
-              type: 'spacing',
-              UIDs: [],
+              value: 'YPL.FFL.TKUI_M.dimension.scales.arithA.1200.value', // 24
             },
             xl: {
-              value: '{YPL.FFL.TKUI_M.dimension.scales.arithA.1600.value}', // 32
-              category: 'spaces',
-              description: '',
-              type: 'spacing',
-              UIDs: [],
+              value: 'YPL.FFL.TKUI_M.dimension.scales.arithA.1600.value', // 32
             },
             xxl: {
-              value: '{YPL.FFL.TKUI_M.dimension.scales.arithA.1800.value}', // 36
-              category: 'spaces',
-              description: '',
-              type: 'sizing',
-              UIDs: [],
+              value: 'YPL.FFL.TKUI_M.dimension.scales.arithA.1800.value', // 36
             },
             xxxl: {
-              value: '{YPL.FFL.TKUI_M.dimension.scales.arithA.2800.value}', // 56
-              category: 'spaces',
-              description: '',
-              type: 'sizing',
-              UIDs: [],
+              value: 'YPL.FFL.TKUI_M.dimension.scales.arithA.2800.value', // 56
             },
           },
         },
