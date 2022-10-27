@@ -1,0 +1,47 @@
+{
+  YPL: {
+    FFL: {
+      'F0004-001': {
+        META: {
+          // required
+          name: 'Dark Overlay 1',
+          version: '221027',
+          ticket: 'https://github.com/yummly/pasta/issues/42',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=3643%3A49538&viewport=46%2C45%2C0.11',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          shortName: 'Dark Over 1', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_timeStamp: '',
+            GEN_whereUsed: [],
+            GEN_project: 'FFL',
+            GEN_choicesUIDRetroFeedLastBatch: '',
+          },
+        },
+        TREE: {
+          angle: 64.93,
+          pointStart: {
+            x: 0,
+            y: 1,
+          },
+          pointEnd: {
+            x: 0.63, 
+            y: 0.24,  
+          },
+          point1: {
+            position: 0,
+            color: 'YPL.FFL.TKUI_C.colors.black.value',
+            opacity: 0.87,
+          },
+          point2: {
+            position: 0.67,
+            color: 'YPL.FFL.TKUI_C.colors.black.value',
+            opacity: 0,
+          }          
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}
