@@ -1,7 +1,7 @@
 {
   YPL: {
     FFL: {
-      'F0003-001': {
+      'F0003-424': {
         META: {
           // required
           name: 'FIXME',
@@ -20,7 +20,7 @@
           },
         },
         TREE: {
-          basename: 'YPL.FFL.F0003-001',
+          basename: 'YPL.FFL.F0003-424',
         },
         OVERRIDES: {},
       },
