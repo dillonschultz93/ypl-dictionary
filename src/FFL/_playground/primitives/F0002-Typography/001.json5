@@ -27,12 +27,6 @@
           leading: 'YPL.FFL.TKUI_M.typo.europa.h1.leading.value',
           paragraphSpacing: 'YPL.FFL.TKUI_M.typo.europa.h1.paragraphSpacing.value',
           tracking: 'YPL.FFL.TKUI_M.typo.europa.h1.tracking.value',
-          /* NOTE · Related Choices:
-					"YPL.FFL.TKUI_M.typo.europa.h1.size.value": "YPL.FFL.TKUI_C.sizes.macro.200.value * YPL.TEST.textSizeFactor.value",
-					"YPL.FFL.TKUI_M.typo.europa.h1.leading.value": 50.4,
-					"YPL.FFL.TKUI_M.typo.europa.h1.paragraphSpacing.value": 22.68,
-					"YPL.FFL.TKUI_M.typo.europa.h1.tracking.value": "-2%",			
-				*/
           // Other attributes
           textAlignHorizontal: 'YPL.CONST.textAlignHorizontal.left.value',
           textCase: 'YPL.CONST.textCase.original.value',
