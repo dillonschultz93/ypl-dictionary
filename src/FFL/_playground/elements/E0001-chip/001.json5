@@ -31,7 +31,7 @@
             DEPTH: 1,
             _icon: {
               DEPTH: 2,
-              UID: 'YPL.FFL.F0003-3FF',
+              UID: 'YPL.FFL.F0003-3FF', // placeholder icon
               marginRight: 'YPL.FFL.TKUI_C.spaces.xs.value',
               fringeRight: 'YPL.FFL.TKUI_C.spaces.xs.value',
               visible: 'YPL.CONST.boolean.false.value',

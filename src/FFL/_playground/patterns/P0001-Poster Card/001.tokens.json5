@@ -35,16 +35,10 @@
 				_chip: {
 					DEPTH: 2,
 					UID: 'YPL.FFL.E0001-001',
-
-					// 	FIXME › Targetting Element's Icon node to call proper glyph in context:
-					//		_BLK_main { // cannot repeat _BLK_main if exists in parent → "__BLK" or "$BLK" instead?
-					//      DEPTH: 3, // ?????  "_DEPTH" or "__DEPTH" or "$DEPTH" instead
-					//		  _icon: { // "__icon" instead ?		     
-					//		    	DEPTH: 4, // ?????					
-					//				UID: ' YPL.FFL.F0003-01A',
-					//			},
-					//   },
-
+					visible: 'YPL.CONST.boolean.true.value',
+					icon: { 
+						UID: 'YPL.FFL.F0003-01A',
+					},
 				},
 			 },
 			 _BLK_copy: {
@@ -56,16 +50,9 @@
 				  UID: 'YPL.FFL.F0004-001',
 				  marginBottom: 'YPL.FFL.TKUI_C.spaces.s.value',
 				  fringeBottom: 'YPL.FFL.TKUI_C.spaces.s.value',
-
-					// 	FIXME › Targetting Element's Icon node to call proper glyph in context:
-					//		_BLK_main { // cannot repeat _BLK_main if exists in parent → "__BLK" or "$BLK" instead?
-					//      DEPTH: 3, // ?????  "_DEPTH" or "__DEPTH" or "$DEPTH" instead
-					//		  _icon: { // "__icon" instead ?		     
-					//		    	DEPTH: 4, // ?????					
-					//				UID: ' YPL.FFL.F0003-01A',
-					//			},
-					//   },
-
+				  icon: { 
+				     UID: ' YPL.FFL.F0003-01A',
+				  },
 				},
 				_heading: {
 					DEPTH: 2,
