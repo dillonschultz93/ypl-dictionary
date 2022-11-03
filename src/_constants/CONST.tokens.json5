@@ -1,0 +1,30 @@
+{
+  YPL: {
+    CONST: {
+      boolean: {
+        true: true,
+        false: false,
+      },
+      textAlignHorizontal: {
+        left: 'LEFT',
+        right: 'RIGHT',
+        center: 'CENTER',
+        justified: 'JUSTIFIED',
+      },
+      textCase: {
+        original: 'ORIGINAL',
+        upper: 'UPPER',
+        lower: 'LOWER',
+        title: 'TITLE',
+      },
+      textDecoration: {
+        none: 'NONE',
+        underline: 'UNDERLINE',
+        strikethrough: 'STRIKETHROUGH',
+      },
+      backgroundSize: {
+        cover: 'cover',
+      }
+    }
+  }
+}
