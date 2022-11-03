@@ -1,10 +1,7 @@
+/* eslint-disable camelcase */
 const json5 = require('json5');
 const { readFileSync } = require('fs');
 const { flatten } = require('flat');
-const addValueKey = require('./addValueKey');
-const deleteDepthKey = require('./deleteDepthKey');
-const stripFirstUnderscore = require('./stripFirstUnderscore');
-const addDecisionKey = require('./addDecisionKey');
 
 const requireJSON5 = (path) => {
   const raw = readFileSync(path, 'utf8');
@@ -67,12 +64,12 @@ const arrangeObject = (path) => {
   const meta = getMeta({ ...object });
   const overrides = getOverrides({ ...object });
 
-  const { project, UID } = meta.GEN;
+  const { GEN_project, GEN_UID } = meta.GENS;
 
   return {
     YPL: {
-      [project]: {
-        [UID]: {
+      [GEN_project]: {
+        [GEN_UID]: {
           ...tree,
           ...overrides,
         },
@@ -81,23 +78,6 @@ const arrangeObject = (path) => {
   };
 };
 
-const flattenArrangedObject = (path) => {
-  const flattenedObject = flatten(arrangeObject(path));
-
-  // Delete the depth key
-  const deletedDepthKey = deleteDepthKey(flattenedObject);
-
-  // Add the '.value' key to the end of the key
-  const valueKeyAdded = addValueKey(deletedDepthKey);
-
-  // Strip the first instance of '_' from the key
-  const firstUnderscoreStripped = stripFirstUnderscore(valueKeyAdded);
-
-  // Add the key 'TKUI_D' to the third position in the key
-  // TODO: THIS SCRIPT SHOULD BE DEPRECATED SOON.
-  const decisionKeyAdded = addDecisionKey(firstUnderscoreStripped);
-
-  return decisionKeyAdded;
-};
+const flattenArrangedObject = (path) => flatten(arrangeObject(path));
 
 module.exports = flattenArrangedObject;

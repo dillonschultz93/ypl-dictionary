@@ -1,0 +1,78 @@
+{
+  YPL: {
+    FFL: {
+      'E0001-001': {
+        META: {
+          // required
+          name: 'Chip',
+          version: '221028',
+          ticket: 'https://github.com/yummly/pasta/issues/9',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1519%3A36181',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          // shortName: '', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'E0001-001',
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {
+          height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+          paddingTop: 'YPL.FFL.TKUI_C.spaces.xs.value',
+          paddingBottom: 'YPL.FFL.TKUI_C.spaces.xs.value',
+          paddingRight: 'YPL.FFL.TKUI_C.spaces.s.value',
+          paddingLeft: 'YPL.FFL.TKUI_C.spaces.s.value',
+          radius: 'YPL.FFL.TKUI_C.sizes.micro.600.value',
+          bgColor: 'YPL.FFL.TKUI_C.colors.grey.100.value',
+          _BLK_main: {
+            DEPTH: 1,
+            _icon: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0003-3FF', // placeholder icon
+              marginRight: 'YPL.FFL.TKUI_C.spaces.xs.value',
+              fringeRight: 'YPL.FFL.TKUI_C.spaces.xs.value',
+              visible: 'YPL.CONST.boolean.false.value',
+              asset: 'YPL.FFL.F0003-23',
+              color: 'YPL.FFL.TKUI_C.colors.grey.900.value',
+              width: 'YPL.FFL.TKUI_C.sizes.micro.800.value',
+              height: 'YPL.FFL.TKUI_C.sizes.micro.800.value',
+            },
+            _label: {
+              DEPTH: 2,
+              UID: 'FFL.F0002-603',
+              visible: 'YPL.CONST.boolean.true.value',
+              style: 'YPL.FFL.F0002-401',
+              color: 'YPL.FFL.TKUI_C.colors.grey.900.value',
+            },
+          },
+        },
+        OVERRIDES: {
+          OPT_withIcon: {
+            _BLK_main: {
+              _icon: {
+                visible: 'YPL.CONST.boolean.true.value',
+              },
+            },
+          },
+          OPT_onlyIcon: {
+            _BLK_main: {
+              _icon: {
+                visible: 'YPL.CONST.boolean.true.value',
+              },
+              _label: {
+                visible: 'YPL.CONST.boolean.false.value',
+              },
+            },
+          },
+          OPT_teal: {
+            bgColor: 'YPL.FFL.TKUI_C.colors.teal.100.value',
+          },
+        },
+      },
+    },
+  },
+}

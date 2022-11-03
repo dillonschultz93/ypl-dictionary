@@ -1,0 +1,16 @@
+// THIS IS A TEST FILE. DELETE THIS
+{
+  YPL: {
+    FFL: {
+      TKUI_C: {
+        test: 'hello world',
+        colors: {
+          orange: {
+            '300': 'SPOOFED VALUE',
+            '600': 'SPOOFED VALUE',
+          },
+        },
+      },
+    },
+  },
+}

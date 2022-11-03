@@ -33,7 +33,7 @@ const generateChoices = (superTokensObject, superTokenCategory, project) => {
     };
 
     // Push the tokens object to the choices array.
-    choices.push({ parent: superTokenCategory, category, tokens: _.merge(choiceSet, {}) });
+    choices.push({ kingdom, category, tokens: _.merge(choiceSet, {}) });
   });
 
   return choices;

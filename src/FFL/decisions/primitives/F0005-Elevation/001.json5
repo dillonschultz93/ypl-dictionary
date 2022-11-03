@@ -1,0 +1,36 @@
+{
+  YPL: {
+    FFL: {
+      'F0005-001': {
+        META: {
+          // required
+          name: 'Elevation 1',
+          version: '221027',
+          ticket: 'https://github.com/yummly/pasta/issues/50',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=3872%3A49834&viewport=46%2C45%2C0.11',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          // shortName: '', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'F0005-001',
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {
+          offset: {
+            x: 0,
+            y: 'YPL.FFL.TKUI_C.sizes.nano.200.value',            
+          },
+          blur: 'YPL.FFL.TKUI_C.sizes.micro.600.value',
+          color: 'YPL.FFL.TKUI_C.colors.black.value',
+          alpha: 'YPL.FFL.TKUI_C.shadows.alpha.400.value',      
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}
