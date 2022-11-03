@@ -1,7 +1,7 @@
 const path = require('path');
 const { mkdirSync, writeFileSync, readdirSync } = require('fs');
-const globalDictionaryWork = require('./dictionary/global');
-const iOSDictionaryWork = require('./dictionary/iOS');
+const globalDictionaryWork = require('./_dictionary/global');
+const iOSDictionaryWork = require('./_dictionary/iOS');
 
 // Create the dist folder and write the tokens to it
 mkdirSync('./dist', { recursive: true });
@@ -10,11 +10,12 @@ mkdirSync('./dist', { recursive: true });
 readdirSync(path.join(__dirname, '../src'))
   .filter(
     (file) =>
-      file !== 'util' &&
+      file !== '_util' &&
       file !== 'buildPreDictionaryTokens.js' &&
       file !== 'index.js' &&
       file !== 'applyOverrides.js' &&
-      file !== 'dictionary'
+      file !== '_dictionary' &&
+      file !== '_constants'
   ) // ⚠️ Update this if any new files or directories that are not project directories are added.);\
   .forEach((project) => {
     console.log(`Building ${project} tokens 🏗`);
@@ -28,7 +29,7 @@ readdirSync(path.join(__dirname, '../src'))
     mkdirSync(`./dist/${project}`, { recursive: true });
 
     // Create platform directories
-    console.log(`Creating platform directories 📁`);
+    console.log(`Creating platform directories...`);
 
     // console.log(`Creating knowledge base directory 📁`);
     // mkdirSync(`./dist/${project}/knowledge-base`, { recursive: true });
@@ -50,4 +51,5 @@ readdirSync(path.join(__dirname, '../src'))
     // Transform global tokens with iOS dictionary scripts.
     const iOSFlatTokens = iOSDictionaryWork(globallyTransformedTokens);
     writeFileSync(`./dist/${project}/iOS/tokens.json`, JSON.stringify(iOSFlatTokens, null, 2));
+    console.log('iOS tokens written 📝');
   });
