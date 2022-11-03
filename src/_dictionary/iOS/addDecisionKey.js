@@ -6,7 +6,7 @@ const addDecisionKey = (flatTokensObject) => {
   const newFlatTokensObject = {};
   Object.keys(objectCopy).forEach((key) => {
     // If the key includes 'TKUI_C' or 'TKUI_M', then skip it.
-    if (key.includes('TKUI_C') || key.includes('TKUI_M')) {
+    if (key.includes('TKUI_C') || key.includes('TKUI_M') || key.includes('CONST')) {
       newFlatTokensObject[key] = objectCopy[key];
     }
     // The the key does not include 'TKUI_C' or 'TKUI_M', then add the key 'TKUI_D' to the third position in the key.
