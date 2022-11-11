@@ -3,7 +3,12 @@ const patterns = require('./patterns');
 const primitives = require('./primitives');
 
 module.exports = {
-  ...primitives,
-  ...elements,
-  ...patterns,
+  allTokens: {
+    ...primitives,
+    ...elements.allElementTokens,
+    ...patterns,
+  },
+  allKBInfo: {
+    ...elements.allElementKBInfo,
+  },
 };
