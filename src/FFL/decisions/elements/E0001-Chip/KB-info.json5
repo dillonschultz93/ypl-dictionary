@@ -1,0 +1,38 @@
+{
+  E0001: {
+    name: 'Chip', // Element name
+    UID: 'E0001', // Element UID
+    description: 'Lorem ipsum dolar set amet', // Description of the element
+    ticketNumber: '', // Ticket number on GitHub
+    ticketURL: '', // URL to the GitHub ticket
+    ownerName: '', // Name of the owner on the GitHub ticket.
+    ownerGitHubURL: '', // URL to the owner's GitHub profile
+    figmaLink: '', // URL to the element's Figma file
+    variants: ['001'], // List any variants here. Leave an empty array if there are no variants.
+    options: ['.OPT_withIcon', '.OPT_onlyIcon', '.OPT_teal'], // List any options here. Leave an empty array if there are no options.
+    hasInteractionStates: false, // Set to true if there are any interaction states, if not, set to false.
+    dependencyTree: [
+      {
+        name: 'BLK_main',
+        children: [
+          {
+            name: 'icon',
+            component: 'FFL.F0003',
+            type: 'primitive',
+            subType: 'icons',
+            instance: '.icon',
+            optional: true,
+          },
+          {
+            name: 'label',
+            component: 'FFL.F0002-603',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.label',
+            optional: true,
+          }
+        ]
+      },
+    ],
+  },
+}

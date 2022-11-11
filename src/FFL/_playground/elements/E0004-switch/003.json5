@@ -1,0 +1,62 @@
+{
+  YPL: {
+    FFL: {
+      'E0004-003': {
+        META: {
+          // required
+          name: 'Switch Label',
+          version: '221030',
+          ticket: 'https://github.com/yummly/pasta/issues/29',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=2129%3A38788&viewport=-693%2C-283%2C0.86',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          // shortName: '', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {
+          _control: {
+            DEPTH: 1,
+            width: 'YPL.FFL.TKUI_C.sizes.micro.1000.value',
+            height: 'YPL.FFL.TKUI_C.sizes.micro.1000.value',
+            radius: 'YPL.FFL.TKUI_C.corner.round.value',
+            // FIXME: missing padding?            
+            marginRight: 'YPL.FFL.TKUI_C.spaces.s.value', // be careful - use spaces and not sizes for padding/margin 
+            fringeRight:  'YPL.FFL.TKUI_C.spaces.s.value', // be careful - use spaces and not sizes for padding/margin 
+            border: {
+              width: 'YPL.FFL.TKUI_C.sizes.nano.100.value',
+              color: {
+                i: 'YPL.FFL.TKUI_C.colors.grey.300.value',
+                hi: 'YPL.FFL.TKUI_C.colors.grey.900.value',
+              },
+            },
+            bgColor: {
+              i: 'YPL.FFL.TKUI_C.colors.transparent.value',
+              hi: 'YPL.FFL.TKUI_C.colors.grey.900.value',
+            },
+            _icon: {
+              DEPTH: 1,
+              UID: 'YPL.FFL.F0003-00D', // FIXME this Check icon is not bold enough… 
+              width: 'YPL.FFL.TKUI_C.sizes.micro.400.value',
+              height: 'YPL.FFL.TKUI_C.sizes.micro.400.value',
+              visibility: {
+                i: 'YPL.CONST.boolean.false.value',
+                hi: 'YPL.CONST.boolean.true.value',
+              }
+            },
+          },
+          _label: {
+            DEPTH: 1,            
+            UID: 'FFL.F0002-601',
+          }
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}

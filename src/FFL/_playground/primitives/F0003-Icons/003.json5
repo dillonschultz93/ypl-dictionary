@@ -1,0 +1,29 @@
+{
+  YPL: {
+    FFL: {
+      'F0003-003': {
+        META: {
+          // required
+          name: 'FIXME',
+          version: '221027',
+          ticket: 'https://github.com/yummly/pasta/issues/26',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1932%3A89439&viewport=46%2C45%2C0.11',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          // shortName: '', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {
+          basename: 'YPL.FFL.F0003-003',
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}
