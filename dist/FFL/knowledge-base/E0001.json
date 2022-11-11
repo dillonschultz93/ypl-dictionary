@@ -1,0 +1,109 @@
+{
+  "allTokens": {
+    "YPL.FFL.TKUI_D.E0001-001.height.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
+    "YPL.FFL.TKUI_D.E0001-001.paddingTop.value": "YPL.FFL.TKUI_C.spaces.xs.value",
+    "YPL.FFL.TKUI_D.E0001-001.paddingBottom.value": "YPL.FFL.TKUI_C.spaces.xs.value",
+    "YPL.FFL.TKUI_D.E0001-001.paddingRight.value": "YPL.FFL.TKUI_C.spaces.s.value",
+    "YPL.FFL.TKUI_D.E0001-001.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.s.value",
+    "YPL.FFL.TKUI_D.E0001-001.radius.value": "YPL.FFL.TKUI_C.sizes.micro.600.value",
+    "YPL.FFL.TKUI_D.E0001-001.bgColor.value": "YPL.FFL.TKUI_C.colors.grey.100.value",
+    "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.UID.value": "YPL.FFL.F0003-3FF",
+    "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.marginRight.value": "YPL.FFL.TKUI_C.spaces.xs.value",
+    "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.fringeRight.value": "YPL.FFL.TKUI_C.spaces.xs.value",
+    "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.visible.value": "YPL.CONST.boolean.false.value",
+    "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.asset.value": "YPL.FFL.F0003-023",
+    "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.color.value": "YPL.FFL.TKUI_C.colors.grey.900.value",
+    "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.width.value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
+    "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.height.value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
+    "YPL.FFL.TKUI_D.E0001-001.BLK_main.label.UID.value": "FFL.F0002-603",
+    "YPL.FFL.TKUI_D.E0001-001.BLK_main.label.visible.value": "YPL.CONST.boolean.true.value",
+    "YPL.FFL.TKUI_D.E0001-001.BLK_main.label.style.value": "YPL.FFL.F0002-603",
+    "YPL.FFL.TKUI_D.E0001-001.BLK_main.label.color.value": "YPL.FFL.TKUI_C.colors.grey.900.value",
+    "YPL.FFL.TKUI_D.E0001-001.OPT_withIcon.BLK_main.icon.visible.value": "YPL.CONST.boolean.true.value",
+    "YPL.FFL.TKUI_D.E0001-001.OPT_onlyIcon.BLK_main.icon.visible.value": "YPL.CONST.boolean.true.value",
+    "YPL.FFL.TKUI_D.E0001-001.OPT_onlyIcon.BLK_main.label.visible.value": "YPL.CONST.boolean.false.value",
+    "YPL.FFL.TKUI_D.E0001-001.OPT_teal.bgColor.value": "YPL.FFL.TKUI_C.colors.teal.100.value"
+  },
+  "meta": {
+    "name": "Chip",
+    "UID": "E0001",
+    "description": "Lorem ipsum dolar set amet",
+    "ticketNumber": "",
+    "ticketURL": "",
+    "ownerName": "",
+    "ownerGitHubURL": "",
+    "figmaLink": "",
+    "variants": [
+      "001"
+    ],
+    "options": [
+      ".OPT_withIcon",
+      ".OPT_onlyIcon",
+      ".OPT_teal"
+    ],
+    "hasInteractionStates": false,
+    "dependencyTree": [
+      {
+        "name": "BLK_main",
+        "children": [
+          {
+            "name": "icon",
+            "component": "FFL.F0003",
+            "type": "primitive",
+            "subType": "icons",
+            "instance": ".icon",
+            "optional": true
+          },
+          {
+            "name": "label",
+            "component": "FFL.F0002-603",
+            "type": "primitive",
+            "subType": "typography",
+            "instance": ".label",
+            "optional": true
+          }
+        ]
+      }
+    ]
+  },
+  "variants": {
+    "001": {
+      "YPL.FFL.TKUI_D.E0001-001.height.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
+      "YPL.FFL.TKUI_D.E0001-001.paddingTop.value": "YPL.FFL.TKUI_C.spaces.xs.value",
+      "YPL.FFL.TKUI_D.E0001-001.paddingBottom.value": "YPL.FFL.TKUI_C.spaces.xs.value",
+      "YPL.FFL.TKUI_D.E0001-001.paddingRight.value": "YPL.FFL.TKUI_C.spaces.s.value",
+      "YPL.FFL.TKUI_D.E0001-001.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.s.value",
+      "YPL.FFL.TKUI_D.E0001-001.radius.value": "YPL.FFL.TKUI_C.sizes.micro.600.value",
+      "YPL.FFL.TKUI_D.E0001-001.bgColor.value": "YPL.FFL.TKUI_C.colors.grey.100.value",
+      "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.UID.value": "YPL.FFL.F0003-3FF",
+      "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.marginRight.value": "YPL.FFL.TKUI_C.spaces.xs.value",
+      "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.fringeRight.value": "YPL.FFL.TKUI_C.spaces.xs.value",
+      "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.visible.value": "YPL.CONST.boolean.false.value",
+      "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.asset.value": "YPL.FFL.F0003-023",
+      "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.color.value": "YPL.FFL.TKUI_C.colors.grey.900.value",
+      "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.width.value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
+      "YPL.FFL.TKUI_D.E0001-001.BLK_main.icon.height.value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
+      "YPL.FFL.TKUI_D.E0001-001.BLK_main.label.UID.value": "FFL.F0002-603",
+      "YPL.FFL.TKUI_D.E0001-001.BLK_main.label.visible.value": "YPL.CONST.boolean.true.value",
+      "YPL.FFL.TKUI_D.E0001-001.BLK_main.label.style.value": "YPL.FFL.F0002-603",
+      "YPL.FFL.TKUI_D.E0001-001.BLK_main.label.color.value": "YPL.FFL.TKUI_C.colors.grey.900.value",
+      "YPL.FFL.TKUI_D.E0001-001.OPT_withIcon.BLK_main.icon.visible.value": "YPL.CONST.boolean.true.value",
+      "YPL.FFL.TKUI_D.E0001-001.OPT_onlyIcon.BLK_main.icon.visible.value": "YPL.CONST.boolean.true.value",
+      "YPL.FFL.TKUI_D.E0001-001.OPT_onlyIcon.BLK_main.label.visible.value": "YPL.CONST.boolean.false.value",
+      "YPL.FFL.TKUI_D.E0001-001.OPT_teal.bgColor.value": "YPL.FFL.TKUI_C.colors.teal.100.value"
+    }
+  },
+  "options": {
+    "OPT_withIcon": {
+      "YPL.FFL.TKUI_D.E0001-001.OPT_withIcon.BLK_main.icon.visible.value": "YPL.CONST.boolean.true.value"
+    },
+    "OPT_onlyIcon": {
+      "YPL.FFL.TKUI_D.E0001-001.OPT_onlyIcon.BLK_main.icon.visible.value": "YPL.CONST.boolean.true.value",
+      "YPL.FFL.TKUI_D.E0001-001.OPT_onlyIcon.BLK_main.label.visible.value": "YPL.CONST.boolean.false.value"
+    },
+    "OPT_teal": {
+      "YPL.FFL.TKUI_D.E0001-001.OPT_teal.bgColor.value": "YPL.FFL.TKUI_C.colors.teal.100.value"
+    }
+  },
+  "breakpoints": null
+}

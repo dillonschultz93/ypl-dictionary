@@ -1,6 +1,7 @@
 const addValueKey = require('./addValueKey');
 const deleteDepthKey = require('./deleteDepthKey');
 const stripFirstUnderscore = require('./stripFirstUnderscore');
+const addDecisionKey = require('./addDecisionKey');
 
 const globalDictionaryWork = (flatTokens) => {
   // Delete the depth key
@@ -12,7 +13,10 @@ const globalDictionaryWork = (flatTokens) => {
   // Strip the first instance of '_' from the key
   const firstUnderscoreStripped = stripFirstUnderscore(valueKeyAdded);
 
-  return firstUnderscoreStripped;
+  // Add the key 'TKUI_D' to the third position in the key
+  const decisionKeyAdded = addDecisionKey(firstUnderscoreStripped);
+
+  return decisionKeyAdded;
 };
 
 module.exports = globalDictionaryWork;
