@@ -1,0 +1,31 @@
+{
+  YPL: {
+    FFL: {
+      TKUI_A: {
+        // === COLORS ===
+        colors: {
+          primary: {
+            '100': 'YPL.FFL.TKUI_A.colors.teal.100',
+            '300': 'YPL.FFL.TKUI_A.colors.teal.300',
+            '400': 'YPL.FFL.TKUI_A.colors.teal.400',
+            '500': 'YPL.FFL.TKUI_A.colors.teal.500'
+          },
+          secondary: {
+            '300': 'YPL.FFL.TKUI_A.colors.orange.300',
+            '400': 'YPL.FFL.TKUI_A.colors.orange.400',
+            '500': 'YPL.FFL.TKUI_A.colors.orange.500'
+          },
+          success: {
+            '300': 'YPL.FFL.TKUI_A.colors.teal.300',
+          },
+          warning: {
+            '300': 'YPL.FFL.TKUI_A.colors.orange.300',
+          },
+          error: {
+            '400': 'YPL.FFL.TKUI_A.colors.~tartOrange.400', // FIXME: double check usage of ~ char
+          }
+        }
+      }
+    }
+  }
+}
