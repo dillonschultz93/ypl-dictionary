@@ -1,7 +1,7 @@
 const path = require('path');
-const { mkdirSync, writeFileSync, readdirSync } = require('fs');
+const { mkdirSync, readdirSync } = require('fs');
 const globalDictionaryWork = require('./_dictionary/global');
-const knowledgeBaseDictionaryWork = require('./_dictionary/knowledge-base');
+const writeKBTokens = require('./_util/output/writeKBTokens');
 
 // Create the dist folder and write the tokens to it
 mkdirSync('./dist', { recursive: true });
@@ -22,6 +22,8 @@ readdirSync(path.join(__dirname, '../src'))
 
     // eslint-disable-next-line import/no-dynamic-require, global-require
     const projectTokens = require(`./${project}`);
+    // eslint-disable-next-line import/no-dynamic-require, global-require
+    const configObject = require(`./${project}/_config`);
 
     // Globally transform the tokens
     const globallyTransformedTokens = globalDictionaryWork(projectTokens.allTokens);
@@ -34,23 +36,14 @@ readdirSync(path.join(__dirname, '../src'))
     console.log(`Creating knowledge base directory 📁`);
     mkdirSync(`./dist/${project}/knowledge-base`, { recursive: true });
 
-    console.log(`Creating iOS directory 📁`);
-    mkdirSync(`./dist/${project}/iOS`, { recursive: true });
-
-    // console.log(`Creating Android directory 📁`);
-    // mkdirSync(`./dist/${project}/Android`, { recursive: true });
-
-    // console.log(`Creating Figma directory 📁`);
-    // mkdirSync(`./dist/${project}/figma`, { recursive: true });
-
     // Write tokens to json files
 
     // KNOWLEDGE BASE
-    knowledgeBaseDictionaryWork(globallyTransformedTokens, projectTokens.allKBInfo, `./dist/${project}/knowledge-base`);
-    console.log('Knowledge Base tokens written 📝');
-
-    // iOS
-    // Transform global tokens with iOS dictionary scripts.
-    writeFileSync(`./dist/${project}/iOS/tokens.json`, JSON.stringify(globallyTransformedTokens, null, 2));
-    console.log('iOS tokens written 📝');
+    writeKBTokens(
+      project,
+      globallyTransformedTokens,
+      projectTokens.allKBInfo,
+      configObject.pastakb,
+      `./dist/${project}/knowledge-base`
+    );
   });
