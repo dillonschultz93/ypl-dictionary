@@ -1,0 +1,91 @@
+{
+  figma: {
+    meta: {
+      version: '0.1.0 (221107)',
+    },
+    outputFile: {
+      // output format:
+      language: 'JSON', // same as extension
+      // specify the output file-name-prefix (suffix is the version):
+      fileNamePrefix: 'YPL-FFL-tokens-figma',
+      // link to documentation:
+      // 'docURL': 'https://docs.tokens.studio/available-tokens/sizing-tokens',
+    },
+    allTransforms: {
+      // //////  String Transformation shared by all tokens:
+      // //////  ¡ THESE ARE EARLY PORPOSALS !
+
+      // if the key for the attribute value has to be changed:
+      // valueKey: 'value',
+
+      // if prefix is required:
+      // 'prefix': '',
+      // if suffix is required:
+      // 'suffix': '',
+
+      // if "." separators need to be changed:
+      // 'newSeparator': ".",
+
+      // if stems have to be removed from the name, index array:
+      stemRemovalIndexes: ['0', '1', '2'],
+      // if stems position need to be changed:
+      // 'stemSwapIndexes': ['{"initialPos": 0, "finalPos": 0}','{"initialPos": 1, "finalPos": 1}'],
+
+      // if extra REGEX processing is required — array of REGEX:
+      // 'preREGEXes': ['/(?=[a-zA-Z])(?=[A-Z])/gm'],
+      // if extra REGEX processing is required post phyllum.transform — array of REGEX:
+      // 'postREGEXes': ['/(?=[a-zA-Z])(?=[A-Z])/gm'],
+
+      // if modifier requires another class of tokens to be created:
+      // 'classesExtract': [{".p":":active"}], // css example for pressed state
+    },
+    phyla: {
+      // sizes: {
+      //    ouputFile: {
+      //       // if a specific file is required for the Phyllum
+      //       // specify the output file-name-prefix (suffix is the version):
+      //       // fileNamePrefix: 'phyllum-file-name',
+      //    },
+      //    set: {
+      //       // if need to be embeded inside a Parent set:
+      //       parentSet: 'general',
+      //    },
+      //    injectType: {
+      //       // if typing is required:
+      //       type: '{"type": "sizing"}',
+      //    },
+      //    extraKeys: {
+      //       // if extra key/value pairs are allowed:
+      //       // 'extraKVpairs': ['{"description": ""}'],
+      //    },
+      //    transform: {
+      //       // if a Unit is required (px, pt, rem):
+      //       // 'appendUnit': 'px',
+      //    },
+      // },
+      // spaces: {
+      //    ouputFile: {
+      //       // if a specific file is required for the Phyllum
+      //       // specify the output file-name-prefix (suffix is the version):
+      //       // fileName: 'phyllum-file-name',
+      //    },
+      //    set: {
+      //       // if need to be embeded inside a Parent set:
+      //       parentSet: 'general',
+      //    },
+      //    injectType: {
+      //       // if typing is required:
+      //       type: '{"type": "spacing"}',
+      //    },
+      //    extraKeys: {
+      //       // if extra key/value pairs are allowed:
+      //       // 'extraKVpairs': ['{"description": ""}'],
+      //    },
+      //    transform: {
+      //       // if a Unit is required (px, pt, rem):
+      //       // 'appendUnit': 'px',
+      //    }
+      // }
+    },
+  },
+}
