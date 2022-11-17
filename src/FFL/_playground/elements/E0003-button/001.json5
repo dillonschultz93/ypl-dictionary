@@ -1,0 +1,101 @@
+{
+  YPL: {
+    FFL: {
+      'E0003-001': {
+        META: {
+          // required
+          name: 'Button',
+          version: '221114',
+          ticket: 'https://github.com/yummly/pasta/issues/23',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1737%3A68833&viewport=138%2C45%2C0.09&t=HDCszhkohyP9KsxW-11',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          // shortName: '', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {
+          height: 'YPL.FFL.TKUI_C.sizes.micro.1900.value',
+          minWidth: 'YPL.FFL.TKUI_C.sizes.macro.450.value', // 160 FIXME (Cf. Choices re-index)         
+          paddingTop: 'YPL.FFL.TKUI_C.spaces.sm.value',
+          paddingBottom: 'YPL.FFL.TKUI_C.spaces.sm.value',
+          paddingLeft: 'YPL.FFL.TKUI_C.spaces.l.value',
+          paddingRight: 'YPL.FFL.TKUI_C.spaces.l.value',
+          margin: 'YPL.FFL.TKUI_C.spaces.l.value', 
+          fringeBottom: 'YPL.FFL.TKUI_C.spaces.l.value', // FIXME shouldn't appear pre-dictionary
+          radius: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+          bgColor: {
+            i: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+            o: 'YPL.FFL.TKUI_C.colors.teal.500.value',            
+            p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+            f: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+            d: 'YPL.FFL.TKUI_C.colors.gray.300.value'            
+          },     
+          _BLK_main: {
+            DEPTH: 1,
+            _icon: {
+              iconDisplay: 'YPL.CONST.boolean.false.value', // FIXME use this insted of Variants
+              iconPosition: 'YPL.CONST.iconPos.iconStart.value', // FIXME use this insted of Variants
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0003-3FF', // placeholder Icon
+              marginRight: 'YPL.FFL.TKUI_C.spaces.xs.value',
+              fringeRight: 'YPL.FFL.TKUI_C.spaces.xs.value', // FIXME shouldn't appear pre-dictionary
+              // visible: 'YPL.CONST.boolean.false.value',
+              color: 'YPL.FFL.TKUI_C.colors.white.value',
+              width: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+              height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',              
+            },
+            _label: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0002-601',
+              color: 'YPL.FFL.TKUI_C.colors.white.value',
+            },
+          }
+        },
+        OVERRIDES: {
+          OPT_smaller: {
+            height: 'YPL.FFL.TKUI_C.sizes.micro.1900.value',
+            minWidth: 'YPL.FFL.TKUI_C.sizes.macro.350.value', // 96 FIXME (Cf. Choices re-index)         
+            paddingTop: 'YPL.FFL.TKUI_C.spaces.s.value',
+            paddingBottom: 'YPL.FFL.TKUI_C.spaces.s.value',
+            paddingLeft: 'YPL.FFL.TKUI_C.spaces.m.value',
+            paddingRight: 'YPL.FFL.TKUI_C.spaces.m.value',
+            margin: 'YPL.FFL.TKUI_C.spaces.sm.value',
+            fringeBottom: 'YPL.FFL.TKUI_C.spaces.sm.value',
+            radius: 'YPL.FFL.TKUI_C.corner.round.value'            
+          },
+        },
+      },
+    },
+  }
+}
+
+
+// "YPL.FFL.TKUI_D.E0003-001.height.value": "YPL.FFL.TKUI_C.sizes.micro.1900.value",
+// "YPL.FFL.TKUI_D.E0003-001.minWidth.value": "YPL.FFL.TKUI_M.scales.arithB.900.value",
+// "YPL.FFL.TKUI_D.E0003-001.paddingTop.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+// "YPL.FFL.TKUI_D.E0003-001.paddingBottom.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+// "YPL.FFL.TKUI_D.E0003-001.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
+// "YPL.FFL.TKUI_D.E0003-001.paddingRight.value": "YPL.FFL.TKUI_C.spaces.l.value",
+// "YPL.FFL.TKUI_D.E0003-001.margin.value": "YPL.FFL.TKUI_C.spaces.l.value",
+// "YPL.FFL.TKUI_D.E0003-001.fringeBottom.value": "YPL.FFL.TKUI_C.spaces.l.value",
+// "YPL.FFL.TKUI_D.E0003-001.radius.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
+// "YPL.FFL.TKUI_D.E0003-001.bgColor.i.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+// "YPL.FFL.TKUI_D.E0003-001.bgColor.p.value": "YPL.FFL.TKUI_C.colors.teal.500.value",
+// "YPL.FFL.TKUI_D.E0003-001.bgColor.d.value": "YPL.FFL.TKUI_C.colors.gray.300.value",
+// "YPL.FFL.TKUI_D.E0003-001.BLK_main.label.color.value": "YPL.FFL.TKUI_C.colors.white.value",
+// "YPL.FFL.TKUI_D.E0003-001.BLK_main.label.style.value": "YPL.FFL.F0002-102",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.height.value": "YPL.FFL.TKUI_C.sizes.micro.1900.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.minWidth.value": "YPL.FFL.TKUI_M.scales.arithB.500.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.paddingTop.value": "YPL.FFL.TKUI_C.spaces.s.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.paddingBottom.value": "YPL.FFL.TKUI_C.spaces.s.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.m.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.paddingRight.value": "YPL.FFL.TKUI_C.spaces.m.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.margin.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.fringeBottom.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.radius.value": "YPL.FFL.TKUI_C.corner.round.value",

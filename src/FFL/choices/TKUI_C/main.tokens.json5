@@ -80,7 +80,9 @@
               '100': 'YPL.FFL.TKUI_M.dimension.scales.arithB.100.value', // 32
               '200': 'YPL.FFL.TKUI_M.dimension.scales.arithB.200.value', // 48
               '300': 'YPL.FFL.TKUI_M.dimension.scales.arithB.300.value', // 64
+              '350': 'YPL.FFL.TKUI_M.dimension.scales.arithB.500.value', // 96 FIXME: re-index
               '400': 'YPL.FFL.TKUI_M.dimension.scales.arithB.700.value', // 128
+              '450': 'YPL.FFL.TKUI_M.dimension.scales.arithB.900.value', // 160 FIXME: re-index
               '500': 'YPL.FFL.TKUI_M.dimension.scales.arithB.1200.value', // 208
               '600': 'YPL.FFL.TKUI_M.dimension.scales.arithB.1500.value', // 256
               '700': 'YPL.FFL.TKUI_M.dimension.scales.arithB.2600.value', // 432

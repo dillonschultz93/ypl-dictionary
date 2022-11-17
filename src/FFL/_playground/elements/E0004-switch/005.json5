@@ -43,7 +43,7 @@
           },
         },
         OVERRIDES: {
-          OPT_colorless {
+          OPT_colorless: {
             bgColor: {
               i: 'YPL.FFL.TKUI_C.colors.white.value',
               hi: 'YPL.FFL.TKUI_C.colors.grey.700.value',              
