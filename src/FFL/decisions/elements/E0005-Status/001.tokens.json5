@@ -1,0 +1,56 @@
+{
+  YPL: {
+    FFL: {
+      'E0005-001': {
+        META: {
+          // required
+          name: 'Status',
+          version: '221118',
+          ticket: '',
+          designLink: '',
+          // optional:
+          lastEditor: 'Dillon Schultz',
+          // shortName: '', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'E0005-001',
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {
+          gap: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
+          _BLK_main: {
+            DEPTH: 1,
+            _icon: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0003-024',
+              visibility: 'YPL.CONST.boolean.true.value',
+              color: {
+                success: 'YPL.FFL.TKUI_A.colors.success.300.value',
+                warning: 'YPL.FFL.TKUI_A.colors.warning.300.value',
+                error: 'YPL.FFL.TKUI_A.colors.error.400.value',
+              }
+            },
+            _label: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0002-402',
+              color: 'YPL.FFL.TKUI_C.colors.grey.500.value',
+            }
+          }
+        },
+        OVERRIDES: {
+          OPT_textOnly: {
+            _BLK_main: {
+              _icon: {
+                visibility: 'YPL.CONST.boolean.false.value',
+              }
+            }
+          },
+        },
+      },
+    },
+  },
+}
