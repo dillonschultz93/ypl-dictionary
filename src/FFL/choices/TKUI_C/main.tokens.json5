@@ -25,7 +25,7 @@
             '400': '#E05F1F',
             '500': '#B44B18',
           },
-          '~tartOrange': { // FIXME: is ~ allowed?
+          'tartOrange': {
             '400': '#FF4848'
           }
         },
