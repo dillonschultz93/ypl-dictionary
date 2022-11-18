@@ -1,0 +1,40 @@
+{
+  YPL: {
+    FFL: {
+      'E0002-001': {
+        META: {
+          // required
+          name: 'Thumbnail',
+          version: '221117',
+          ticket: 'https://github.com/yummly/pasta/issues/22',
+          designLink: 'https://www.figma.com/file/ObprVaht5ejRnbld7KFRn5/%F0%9F%94%92-Commit-Vault?node-id=711%3A8411&t=vliHqOymrvWWIlJI-1o',
+          // optional:
+          lastEditor: 'Dillon Schultz',
+          // shortName: '', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'E0002-001',
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {
+          _BLK_main: {
+            width: 'YPL.FFL.TKUI_C.percents.full.value',
+            height: 'YPL.FFL.TKUI_C.percents.full.value',
+            radius: 'YPL.FFL.TKUI_C.sizes.micro.400.value'
+          }
+        },
+        OVERRIDES: {
+          OPT_circle: {
+            _BLK_main: {
+              radius: 'YPL.FFL.TKUI_C.corner.round.value'
+            },
+          },
+        },
+      },
+    },
+  },
+}

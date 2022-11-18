@@ -1,0 +1,15 @@
+{
+  E0002: {
+    name: 'Thumbnail', // Element name
+    UID: 'E0002', // Element UID
+    description: 'Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.', // Description of the element
+    ticketNumber: '22', // Ticket number on GitHub
+    ticketURL: 'https://github.com/yummly/pasta/issues/22', // URL to the GitHub ticket
+    ownerName: 'Robert', // Name of the owner on the GitHub ticket.
+    ownerGitHubURL: 'https://github.com/robert-ANML', // URL to the owner's GitHub profile
+    figmaLink: 'https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1948%3A36688', // URL to the element's Figma file
+    variants: ['001'], // List any variants here. Leave an empty array if there are no variants.
+    options: ['.OPT_circle'], // List any options here. Leave an empty array if there are no options.
+    hasInteractionStates: false, // Set to true if there are any interaction states, if not, set to false.
+  },
+}
