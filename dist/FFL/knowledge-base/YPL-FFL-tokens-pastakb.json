@@ -362,6 +362,56 @@
         }
       },
       "breakpoints": null
+    },
+    "E0005": {
+      "allTokens": {
+        "YPL.FFL.TKUI_D.E0005-001.gap.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
+        "YPL.FFL.TKUI_D.E0005-001.BLK_main.icon.UID.value": "YPL.FFL.F0003-024",
+        "YPL.FFL.TKUI_D.E0005-001.BLK_main.icon.visibility.value": "YPL.CONST.boolean.true.value",
+        "YPL.FFL.TKUI_D.E0005-001.BLK_main.icon.color.success.value": "YPL.FFL.TKUI_A.colors.success.300.value",
+        "YPL.FFL.TKUI_D.E0005-001.BLK_main.icon.color.warning.value": "YPL.FFL.TKUI_A.colors.warning.300.value",
+        "YPL.FFL.TKUI_D.E0005-001.BLK_main.icon.color.error.value": "YPL.FFL.TKUI_A.colors.error.400.value",
+        "YPL.FFL.TKUI_D.E0005-001.BLK_main.label.UID.value": "YPL.FFL.F0002-402",
+        "YPL.FFL.TKUI_D.E0005-001.BLK_main.label.color.value": "YPL.FFL.TKUI_C.colors.grey.500.value",
+        "YPL.FFL.TKUI_D.E0005-001.OPT_textOnly.BLK_main.icon.visibility.value": "YPL.CONST.boolean.false.value"
+      },
+      "meta": {
+        "name": "Status",
+        "UID": "E0005",
+        "description": "Lorem ipsum dolar set amet",
+        "ticketNumber": "",
+        "ticketURL": "",
+        "ownerName": "",
+        "ownerGitHubURL": "",
+        "figmaLink": "",
+        "variants": [
+          "001"
+        ],
+        "options": [
+          ".OPT_textOnly"
+        ],
+        "hasInteractionStates": false,
+        "dependencyTree": []
+      },
+      "variants": {
+        "001": {
+          "YPL.FFL.TKUI_D.E0005-001.gap.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
+          "YPL.FFL.TKUI_D.E0005-001.BLK_main.icon.UID.value": "YPL.FFL.F0003-024",
+          "YPL.FFL.TKUI_D.E0005-001.BLK_main.icon.visibility.value": "YPL.CONST.boolean.true.value",
+          "YPL.FFL.TKUI_D.E0005-001.BLK_main.icon.color.success.value": "YPL.FFL.TKUI_A.colors.success.300.value",
+          "YPL.FFL.TKUI_D.E0005-001.BLK_main.icon.color.warning.value": "YPL.FFL.TKUI_A.colors.warning.300.value",
+          "YPL.FFL.TKUI_D.E0005-001.BLK_main.icon.color.error.value": "YPL.FFL.TKUI_A.colors.error.400.value",
+          "YPL.FFL.TKUI_D.E0005-001.BLK_main.label.UID.value": "YPL.FFL.F0002-402",
+          "YPL.FFL.TKUI_D.E0005-001.BLK_main.label.color.value": "YPL.FFL.TKUI_C.colors.grey.500.value",
+          "YPL.FFL.TKUI_D.E0005-001.OPT_textOnly.BLK_main.icon.visibility.value": "YPL.CONST.boolean.false.value"
+        }
+      },
+      "options": {
+        "OPT_textOnly": {
+          "YPL.FFL.TKUI_D.E0005-001.OPT_textOnly.BLK_main.icon.visibility.value": "YPL.CONST.boolean.false.value"
+        }
+      },
+      "breakpoints": null
     }
   }
 }
