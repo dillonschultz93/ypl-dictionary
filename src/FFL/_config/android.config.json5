@@ -1,5 +1,8 @@
 {
   android: {
+    meta: {
+      version: '0.3.0',
+    },
     outputFile: {
       // output format:
       language: 'JSON', // same as extension
