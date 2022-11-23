@@ -1,7 +1,7 @@
 {
   figma: {
     meta: {
-      version: '0.1.0 (221107)',
+      version: '0.3.0',
     },
     outputFile: {
       // output format:

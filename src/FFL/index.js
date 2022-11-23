@@ -9,4 +9,5 @@ module.exports = {
   allKBInfo: {
     ...decisions.allKBInfo,
   },
+  choices,
 };
