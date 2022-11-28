@@ -58,7 +58,7 @@
           }
         },
         OVERRIDES: {
-          OPT_smaller: {
+          OPT_small: {
             height: 'YPL.FFL.TKUI_C.sizes.micro.1900.value',
             minWidth: 'YPL.FFL.TKUI_C.sizes.macro.350.value', // 96 FIXME (Cf. Choices re-index)         
             paddingTop: 'YPL.FFL.TKUI_C.spaces.s.value',
@@ -90,12 +90,12 @@
 // "YPL.FFL.TKUI_D.E0003-001.bgColor.d.value": "YPL.FFL.TKUI_C.colors.gray.300.value",
 // "YPL.FFL.TKUI_D.E0003-001.BLK_main.label.color.value": "YPL.FFL.TKUI_C.colors.white.value",
 // "YPL.FFL.TKUI_D.E0003-001.BLK_main.label.style.value": "YPL.FFL.F0002-102",
-// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.height.value": "YPL.FFL.TKUI_C.sizes.micro.1900.value",
-// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.minWidth.value": "YPL.FFL.TKUI_M.scales.arithB.500.value",
-// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.paddingTop.value": "YPL.FFL.TKUI_C.spaces.s.value",
-// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.paddingBottom.value": "YPL.FFL.TKUI_C.spaces.s.value",
-// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.m.value",
-// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.paddingRight.value": "YPL.FFL.TKUI_C.spaces.m.value",
-// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.margin.value": "YPL.FFL.TKUI_C.spaces.sm.value",
-// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.fringeBottom.value": "YPL.FFL.TKUI_C.spaces.sm.value",
-// "YPL.FFL.TKUI_D.E0003-001.OPT_smaller.radius.value": "YPL.FFL.TKUI_C.corner.round.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_small.height.value": "YPL.FFL.TKUI_C.sizes.micro.1900.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_small.minWidth.value": "YPL.FFL.TKUI_M.scales.arithB.500.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_small.paddingTop.value": "YPL.FFL.TKUI_C.spaces.s.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_small.paddingBottom.value": "YPL.FFL.TKUI_C.spaces.s.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_small.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.m.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_small.paddingRight.value": "YPL.FFL.TKUI_C.spaces.m.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_small.margin.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_small.fringeBottom.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+// "YPL.FFL.TKUI_D.E0003-001.OPT_small.radius.value": "YPL.FFL.TKUI_C.corner.round.value",

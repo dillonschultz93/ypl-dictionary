@@ -1,0 +1,102 @@
+{
+  YPL: {
+    FFL: {
+      'E0003-00B': {
+        META: {
+          // required
+          name: 'Button Icon',
+          version: '221126',
+          ticket: 'https://github.com/yummly/pasta/issues/23',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1737%3A68833&viewport=268%2C45%2C0.11&t=JA1wZ8zwvL1Jg2lk-11',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          // shortName: '', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'E0003-00B',
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {
+          height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+          width: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',          
+          BLK_main: {
+            DEPTH: 1,       
+            _icon: {
+              DEPTH: 2,            
+              UID: 'YPL.FFL.F0003-7FF', // Placeholder Icon                
+              color: {
+                  i: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+                  p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+                  d: 'YPL.FFL.TKUI_C.colors.gray.300.value',          
+              },
+               width: 'YPL.FFL.TKUI_C.sizes.micro.1200.value', // FIXME: shall we set BLK_main the same as well?
+               height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value', // FIXME: shall we set BLK_main the same as well?
+            },
+          },
+        },
+        OVERRIDES: {
+          OPT_white: { // FIXME should be addressed using dark mode
+            BLK_main: {
+              _icon: {
+                color: {
+                    i: 'YPL.FFL.TKUI_C.colors.white.value',
+                    p: 'YPL.FFL.TKUI_C.colors.gray.300.value',
+                    d: 'YPL.FFL.TKUI_C.colors.gray.700.value',          
+                },                                       
+              },
+            },  
+          },
+          OPT_smallGray: {
+            padding: 'YPL.FFL.TKUI_C.spaces.sm.value',
+            BLK_main: {         
+              _icon: {
+                UID: 'YPL.FFL.F0003-3FF', // 16pt placeholder               
+                color: {
+                    i: 'YPL.FFL.TKUI_C.colors.gray.500.value',
+                    p: 'YPL.FFL.TKUI_C.colors.gray.700.value',
+                    d: 'YPL.FFL.TKUI_C.colors.gray.300.value',          
+                },
+               width: 'YPL.FFL.TKUI_C.sizes.micro.800.value', // FIXME: shall we set BLK_main the same as well?
+               height: 'YPL.FFL.TKUI_C.sizes.micro.800.value', // FIXME: shall we set BLK_main the same as well?                                                          
+              },
+            },
+          },                    
+        },
+      },
+    },
+  },
+}
+
+// === Legacy RAW Tokens ===
+
+
+    "YPL.FFL.TKUI_D.E0003-00B.height.value": "YPL.FFL.TKUI_C.sizes.micro.2000.value", // WRONG → 1200
+    "YPL.FFL.TKUI_D.E0003-00B.width.value": "YPL.FFL.TKUI_C.sizes.micro.2000.value", // WRONG → 1200
+    "YPL.FFL.TKUI_D.E0003-00B.padding.value": "YPL.FFL.TKUI_C.spaces.m.value",
+    "YPL.FFL.TKUI_D.E0003-00B.BLK_main.icon.height.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
+    "YPL.FFL.TKUI_D.E0003-00B.BLK_main.icon.width.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
+    "YPL.FFL.TKUI_D.E0003-00B.BLK_main.icon.color.i.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+    "YPL.FFL.TKUI_D.E0003-00B.BLK_main.icon.color.p.value": "YPL.FFL.TKUI_C.colors.teal.500.value",
+    "YPL.FFL.TKUI_D.E0003-00B.BLK_main.icon.color.d.value": "YPL.FFL.TKUI_C.colors.gray.300.value",
+
+
+
+// FIXME: OVERRIDES ARE MISSING !!!! OPT_smaller (OPT_small) 
+
+
+
+// height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+
+// height: 'YPL.FFL.TKUI_C.sizes.micro.2000.value',
+// width: 'YPL.FFL.TKUI_C.sizes.micro.2000.value',
+// padding: 'YPL.FFL.TKUI_C.spaces.m.value',
+
+// BLK_main.icon.height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+// BLK_main.icon.width: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+// BLK_main.icon.color.i: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+// BLK_main.icon.color.p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+// BLK_main.icon.color.d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
