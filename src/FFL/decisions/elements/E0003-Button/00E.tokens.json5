@@ -23,17 +23,21 @@
         TREE: {
             height: 'YPL.FFL.TKUI_C.sizes.macro.330.value',     // 80
             width: 'YPL.FFL.TKUI_C.sizes.macro.330.value',      // 80
-            padding: 'YPL.FFL.TKUI_C.micro.1400.value',         // 28 — FIXME: should be replaced by spaces.xxx
+            padding: 'YPL.FFL.TKUI_C.sizes.micro.1400.value',         // 28 — FIXME: should be replaced by spaces.xxx
             radius: 'YPL.FFL.TKUI_A.radii.m.value',             // 8
-            borderWidth: 'YPL.FFL.TKUI_A.borderWidths.s.value', // 2 
-            borderDash: 'YPL.FFL.TKUI_C.sizes.micro.400.value', // 8
-            borderGap: 'YPL.FFL.TKUI_C.sizes.micro.200.value',  // 4            
-            borderCornerSync: 'YPL.CONST.boolean.true.value',                        
-            borderColor: {
-              i: 'YPL.FFL.TKUI_C.colors.teal.400.value',
-              p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
-              d: 'YPL.FFL.TKUI_C.colors.gray.300.value',   
+            border: {
+              width: 'YPL.FFL.TKUI_A.borderWidths.s.value', // 2 
+              dash: 'YPL.FFL.TKUI_C.sizes.micro.400.value', // 8
+              dashGap: 'YPL.FFL.TKUI_C.sizes.micro.200.value',  // 4            
+              dashCornerSync: 'YPL.CONST.boolean.true.value',   
+              color: {
+                i: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+                p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+                d: 'YPL.FFL.TKUI_C.colors.gray.300.value',   
+              },
             },
+                     
+
           BLK_main: {
             DEPTH: 1,       
             _icon: {
