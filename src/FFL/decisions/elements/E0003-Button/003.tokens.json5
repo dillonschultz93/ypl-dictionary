@@ -115,17 +115,17 @@
 
 // === Legacy RAW Tokens ===
 
-height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+// height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
 
-BLK_main.label.color.i: 'YPL.FFL.TKUI_C.colors.gray.900.value',
-BLK_main.label.color.p: 'YPL.FFL.TKUI_C.colors.gray.900.value',
-BLK_main.label.color.d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
-BLK_main.label.style: 'YPL.FFL.F0002-104',
+// BLK_main.label.color.i: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+// BLK_main.label.color.p: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+// BLK_main.label.color.d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
+// BLK_main.label.style: 'YPL.FFL.F0002-104',
 
-BLK_main.icon.color.i: 'YPL.FFL.TKUI_C.colors.teal.400.value',
-BLK_main.icon.color.p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
-BLK_main.icon.color.d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
-BLK_main.icon.width: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
-BLK_main.icon.height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
-BLK_main.icon.marginRight: 'YPL.FFL.TKUI_C.spaces.s.value',
-BLK_main.icon.fringeRight: 'YPL.FFL.TKUI_C.spaces.s.value',
+// BLK_main.icon.color.i: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+// BLK_main.icon.color.p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+// BLK_main.icon.color.d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
+// BLK_main.icon.width: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+// BLK_main.icon.height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+// BLK_main.icon.marginRight: 'YPL.FFL.TKUI_C.spaces.s.value',
+// BLK_main.icon.fringeRight: 'YPL.FFL.TKUI_C.spaces.s.value',

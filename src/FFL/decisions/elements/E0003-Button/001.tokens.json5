@@ -38,10 +38,10 @@
           BLK_main: {
             DEPTH: 1,
             _label: {
-              DEPTH: 2,                 
+              DEPTH: 2,
               color: 'YPL.FFL.TKUI_C.colors.white.value',
               style: 'YPL.FFL.F0002-601',
-            },            
+            },
           },
         },
         OVERRIDES: {
@@ -54,7 +54,7 @@
             paddingRight: 'YPL.FFL.TKUI_C.spaces.m.value',
             margin: 'YPL.FFL.TKUI_C.spaces.sm.value',
             fringeBottom: 'YPL.FFL.TKUI_C.spaces.sm.value', // FIXME: remove fringes pre-dictionary
-            radius: 'YPL.FFL.TKUI_C.radii.round.value',    
+            radius: 'YPL.FFL.TKUI_C.radii.round.value',
           },
           OPT_tint: {
             bgColor: {
@@ -77,7 +77,7 @@
             paddingRight: 'YPL.FFL.TKUI_C.spaces.m.value',
             margin: 'YPL.FFL.TKUI_C.spaces.sm.value',
             fringeBottom: 'YPL.FFL.TKUI_C.spaces.sm.value', // FIXME: remove fringes pre-dictionary
-            radius: 'YPL.FFL.TKUI_C.radii.round.value',               
+            radius: 'YPL.FFL.TKUI_C.radii.round.value',
             bgColor: {
               i: 'YPL.FFL.TKUI_C.colors.teal.050.value',
               p: 'YPL.FFL.TKUI_C.colors.teal.100.value',
@@ -88,13 +88,12 @@
                 color: 'YPL.FFL.TKUI_C.colors.teal.500.value',
               },
             },
-          },          
+          },
         },
       },
     },
   },
 }
-
 
 // === Legacy RAW Tokens ===
 

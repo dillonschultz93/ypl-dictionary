@@ -38,15 +38,15 @@
           BLK_main: {
             DEPTH: 1,
             _label: {
-              DEPTH: 2,                 
+              DEPTH: 2,
               color: 'YPL.FFL.TKUI_C.colors.white.value',
               style: 'YPL.FFL.F0002-601',
-            },            
+            },
             _icon: {
-              DEPTH: 2,            
+              DEPTH: 2,
               UID: 'YPL.FFL.F0003-7FF', // Placeholder Icon
               // iconDisplay: 'YPL.CONST.boolean.false.value', // FIXME use this insted of Variants ASAP
-              // iconPosStart: 'YPL.CONST.boolean.true.value', // FIXME use this instead of Variants ASAP · if false the Icon is at the end                   
+              // iconPosStart: 'YPL.CONST.boolean.true.value', // FIXME use this instead of Variants ASAP · if false the Icon is at the end
               color: 'YPL.FFL.TKUI_C.colors.white.value',
               width: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
               height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
@@ -65,7 +65,7 @@
             paddingRight: 'YPL.FFL.TKUI_C.spaces.m.value',
             margin: 'YPL.FFL.TKUI_C.spaces.sm.value',
             fringeBottom: 'YPL.FFL.TKUI_C.spaces.sm.value', // FIXME: remove fringes pre-dictionary
-            radius: 'YPL.FFL.TKUI_C.radii.round.value',    
+            radius: 'YPL.FFL.TKUI_C.radii.round.value',
           },
           OPT_tint: {
             bgColor: {
@@ -91,7 +91,7 @@
             paddingRight: 'YPL.FFL.TKUI_C.spaces.m.value',
             margin: 'YPL.FFL.TKUI_C.spaces.sm.value',
             fringeBottom: 'YPL.FFL.TKUI_C.spaces.sm.value', // FIXME: remove fringes pre-dictionary
-            radius: 'YPL.FFL.TKUI_C.radii.round.value',               
+            radius: 'YPL.FFL.TKUI_C.radii.round.value',
             bgColor: {
               i: 'YPL.FFL.TKUI_C.colors.teal.050.value',
               p: 'YPL.FFL.TKUI_C.colors.teal.100.value',
@@ -105,13 +105,12 @@
                 color: 'YPL.FFL.TKUI_C.colors.teal.500.value',
               },
             },
-          },          
+          },
         },
       },
     },
   },
 }
-
 
 // === Legacy RAW Tokens ===
 

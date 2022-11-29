@@ -25,28 +25,28 @@
           BLK_main: {
             DEPTH: 1,
             _label: {
-              DEPTH: 2,                 
+              DEPTH: 2,
               color: {
                 i: 'YPL.FFL.TKUI_C.colors.gray.900.value',
                 p: 'YPL.FFL.TKUI_C.colors.gray.900.value',
-                d: 'YPL.FFL.TKUI_C.colors.gray.300.value',                
+                d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
               },
               style: 'YPL.FFL.F0002-602',
-            },            
+            },
             _icon: {
-              DEPTH: 2,            
+              DEPTH: 2,
               UID: 'YPL.FFL.F0003-7FF', // Placeholder Icon
               // iconDisplay: 'YPL.CONST.boolean.false.value', // FIXME use this insted of Variants ASAP
-              // iconPosStart: 'YPL.CONST.boolean.true.value', // FIXME use this instead of Variants ASAP · if false the Icon is at the end                   
+              // iconPosStart: 'YPL.CONST.boolean.true.value', // FIXME use this instead of Variants ASAP · if false the Icon is at the end
               color: {
-                  i: 'YPL.FFL.TKUI_C.colors.teal.400.value',
-                  p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
-                  d: 'YPL.FFL.TKUI_C.colors.gray.300.value',          
+                i: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+                p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+                d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
               },
-               width: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
-               height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
-               marginRight: 'YPL.FFL.TKUI_C.spaces.s.value',
-               fringeRight: 'YPL.FFL.TKUI_C.spaces.s.value',
+              width: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+              height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+              marginRight: 'YPL.FFL.TKUI_C.spaces.s.value',
+              fringeRight: 'YPL.FFL.TKUI_C.spaces.s.value',
             },
           },
         },

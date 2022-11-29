@@ -21,27 +21,27 @@
           },
         },
         TREE: {
-            height: 'YPL.FFL.TKUI_C.sizes.micro.2000.value',
-            width: 'YPL.FFL.TKUI_C.sizes.micro.2000.value',
-            padding: 'YPL.FFL.TKUI_C.spaces.sm.value',
-            radius: 'YPL.FFL.TKUI_C.corner.round.value', // FIXME: use radii
-            bgColor: {
-              i: 'YPL.FFL.TKUI_C.colors.gray.100.value',
-              p: 'YPL.FFL.TKUI_C.colors.gray.200.value',
-              d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
-            },
+          height: 'YPL.FFL.TKUI_C.sizes.micro.2000.value',
+          width: 'YPL.FFL.TKUI_C.sizes.micro.2000.value',
+          padding: 'YPL.FFL.TKUI_C.spaces.sm.value',
+          radius: 'YPL.FFL.TKUI_C.corner.round.value', // FIXME: use radii
+          bgColor: {
+            i: 'YPL.FFL.TKUI_C.colors.gray.100.value',
+            p: 'YPL.FFL.TKUI_C.colors.gray.200.value',
+            d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
+          },
           BLK_main: {
-            DEPTH: 1,       
+            DEPTH: 1,
             _icon: {
-              DEPTH: 2,            
-              UID: 'YPL.FFL.F0003-7FF', // Placeholder Icon                
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0003-7FF', // Placeholder Icon
               color: {
                 i: 'YPL.FFL.TKUI_C.colors.black.value',
                 p: 'YPL.FFL.TKUI_C.colors.black.value',
-                d: 'YPL.FFL.TKUI_C.colors.gray.500.value',      
+                d: 'YPL.FFL.TKUI_C.colors.gray.500.value',
               },
-               width: 'YPL.FFL.TKUI_C.sizes.micro.800.value', // FIXME: shall we set BLK_main the same as well?
-               height: 'YPL.FFL.TKUI_C.sizes.micro.800.value', // FIXME: shall we set BLK_main the same as well?
+              width: 'YPL.FFL.TKUI_C.sizes.micro.800.value', // FIXME: shall we set BLK_main the same as well?
+              height: 'YPL.FFL.TKUI_C.sizes.micro.800.value', // FIXME: shall we set BLK_main the same as well?
             },
           },
         },
@@ -50,8 +50,8 @@
             padding: 'YPL.FFL.TKUI_C.spaces.xs.value',
             bgColor: {
               i: 'YPL.FFL.TKUI_C.colors.white.value', // FIXME: that color switch/design is weird !!!!!!!
-            },                        
-          }
+            },
+          },
         },
       },
     },
@@ -75,4 +75,4 @@
 // BLK_main.icon.color.p: 'YPL.FFL.TKUI_C.colors.black.value',
 // BLK_main.icon.color.d: 'YPL.FFL.TKUI_C.colors.gray.500.value',
 
-// FIXME: OVERRIDES ARE MISSING !!!! OPT_smaller (OPT_small) 
+// FIXME: OVERRIDES ARE MISSING !!!! OPT_smaller (OPT_small)

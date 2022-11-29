@@ -25,14 +25,14 @@
           BLK_main: {
             DEPTH: 1,
             _label: {
-              DEPTH: 2,                 
+              DEPTH: 2,
               color: {
                 i: 'YPL.FFL.TKUI_C.colors.teal.400.value',
                 p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
-                d: 'YPL.FFL.TKUI_C.colors.gray.300.value',               
+                d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
               },
               style: 'YPL.FFL.F0002-601',
-            },            
+            },
           },
         },
         OVERRIDES: {},
@@ -49,4 +49,3 @@
 // BLK_main.label.color.p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
 // BLK_main.label.color.d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
 // BLK_main.label.style: 'YPL.FFL.F0002-104', // 2 x WRONG → -102 (16pt) and then -601
-
