@@ -47,9 +47,18 @@
         },
         OVERRIDES: {
           OPT_small: {
+            height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value', // FIXME: shall we set BLK_main the same as well?
+            width: 'YPL.FFL.TKUI_C.sizes.micro.1200.value', // FIXME: shall we set BLK_main the same as well?
             padding: 'YPL.FFL.TKUI_C.spaces.xs.value',
             bgColor: {
-              i: 'YPL.FFL.TKUI_C.colors.white.value', // FIXME: that color switch/design is weird !!!!!!!
+              i: 'YPL.FFL.TKUI_C.colors.white.value', // FIXME: that color swap/design is weird !!!!!!!
+            },
+            BLK_main: {         
+              _icon: {
+                UID: 'YPL.FFL.F0003-3FF', // 16pt placeholder               
+                width: 'YPL.FFL.TKUI_C.sizes.micro.800.value', // FIXME: shall we set BLK_main the same as well?
+                height: 'YPL.FFL.TKUI_C.sizes.micro.800.value', // FIXME: shall we set BLK_main the same as well?                                                          
+              },
             },
           },
         },
