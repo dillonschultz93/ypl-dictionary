@@ -1,0 +1,16 @@
+{
+  E0003: {
+    name: 'Button', // Element name
+    UID: 'E0003', // Element UID
+    description: 'Lorem ipsum dolar set amet', // Description of the element
+    ticketNumber: '', // Ticket number on GitHub
+    ticketURL: '', // URL to the GitHub ticket
+    ownerName: '', // Name of the owner on the GitHub ticket.
+    ownerGitHubURL: '', // URL to the owner's GitHub profile
+    figmaLink: '', // URL to the element's Figma file
+    variants: [], // List any variants here. Leave an empty array if there are no variants.
+    options: [], // List any options here. Leave an empty array if there are no options.
+    hasInteractionStates: true, // Set to true if there are any interaction states, if not, set to false.
+    dependencyTree: [],
+  },
+}
