@@ -5,6 +5,7 @@
         // === COLORS ===
         colors: {
           primary: {
+            '050': 'YPL.FFL.TKUI_C.colors.teal.050',
             '100': 'YPL.FFL.TKUI_C.colors.teal.100',
             '300': 'YPL.FFL.TKUI_C.colors.teal.300',
             '400': 'YPL.FFL.TKUI_C.colors.teal.400',
