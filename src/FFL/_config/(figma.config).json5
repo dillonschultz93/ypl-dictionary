@@ -1,0 +1,404 @@
+{
+  figma: {
+    meta: {
+      version: '0.1.0 (221107)',
+    },
+    outputFile: {
+      // output format:
+      language: 'JSON', // same as extension
+      // specify the output file-name-prefix (suffix is the version):
+      fileNamePrefix: 'YPL-FFL-tokens-figma',
+      // link to documentation:
+      // 'docURL': 'https://docs.tokens.studio/available-tokens/sizing-tokens',
+    },
+    allTransforms: {
+      // //////  String Transformation shared by all tokens:
+      // //////  ¡ THESE ARE EARLY PORPOSALS !
+
+      // if the key for the attribute value has to be changed:
+      valueKey: 'value', // stays the same for Figma — we can comment this
+
+      // if prefix is required:
+      // 'prefix': '',
+      // if suffix is required:
+      // 'suffix': '',
+
+      // if "." separators need to be changed:
+      // 'newSeparator': ".",
+
+      // if stems have to be removed from the name, index array:
+      stemRemovalIndexes: ['0', '1', '2'],
+      // if stems position need to be changed:
+      // 'stemSwapIndexes': ['{"initialPos": 0, "finalPos": 0}','{"initialPos": 1, "finalPos": 1}'],
+
+      // if extra REGEX processing is required — array of REGEX:
+      // 'preREGEXes': ['/(?=[a-zA-Z])(?=[A-Z])/gm'],
+      // if extra REGEX processing is required post phyllum.transform — array of REGEX:
+      // 'postREGEXes': ['/(?=[a-zA-Z])(?=[A-Z])/gm'],
+
+      // if modifier requires another class of tokens to be created:
+      // 'classesExtract': [{".p":":active"}], // css example for pressed state
+    },
+    phyla: {
+      sizes: {
+        //  ouputFile: {
+        //     // if a specific file is required for the Phyllum
+        //     // specify the output file-name-prefix (suffix is the version):
+        //     // fileNamePrefix: 'phyllum-file-name',
+        //  },
+         set: {
+            // if need to be embeded inside a Parent set:
+              parentSet: 'general'
+         },
+         injectType: {
+            // if typing is required:
+            type: '{"type": "sizing"}'
+         },
+        //  extraKeys: {
+        //     // if extra key/value pairs are allowed:
+        //     // 'extraKVpairs': ['{"description": ""}'],
+        //  },
+        //  transform: {
+        //     // if a Unit is required (px, pt, rem):
+        //     // 'appendUnit': 'px',
+        //  },
+      },
+      spaces: {
+         set: {
+            // if need to be embeded inside a Parent set:
+            parentSet: 'general'
+         },
+         injectType: {
+            // if typing is required:
+            type: '{"type": "spacing"}'
+         }
+      },
+      colors: {
+         set: {
+            // if need to be embeded inside a Parent set:
+            parentSet: 'general'
+         },
+         injectType: {
+            // if typing is required:
+            type: '{"type": "color"}'
+         }
+      },
+
+
+      // GRADIENTS - Primitives demotioned to colors
+
+      'FIXME(create a selector for a primitives F0004…)': { // ← ← ← ← HOW DO WE DO THAT !
+        // FIXME: create a transform recipe instead of overrides
+        overrides: {
+          F0004-001: {
+            // FIXME: make sure the Colors aliases are properly called inside Figma Tokens
+            value: 'linear-gradient(64.93deg, rgba({colors.black}, 0.87) 0%, rgba({colors.black}, 0) 67%)',
+            type: 'color',
+            description: 'This Color (Gradient) is represented as a Primitive inside Pasta',
+            //
+            // RAW tokens:
+            // 
+            // "YPL.FFL.TKUI_D.F0004-001.angle.value": 64.93,
+            // "YPL.FFL.TKUI_D.F0004-001.pointStart.x.value": 0,
+            // "YPL.FFL.TKUI_D.F0004-001.pointStart.y.value": 1,
+            // "YPL.FFL.TKUI_D.F0004-001.pointEnd.x.value": 0.63,
+            // "YPL.FFL.TKUI_D.F0004-001.pointEnd.y.value": 0.24,
+            // "YPL.FFL.TKUI_D.F0004-001.point1.position.value": 0,
+            // "YPL.FFL.TKUI_D.F0004-001.point1.color.value": "YPL.FFL.TKUI_C.colors.black.value",
+            // "YPL.FFL.TKUI_D.F0004-001.point1.opacity.value": 0.87,
+            // "YPL.FFL.TKUI_D.F0004-001.point2.position.value": 0.67,
+            // "YPL.FFL.TKUI_D.F0004-001.point2.color.value": "YPL.FFL.TKUI_C.colors.black.value",
+            // "YPL.FFL.TKUI_D.F0004-001.point2.opacity.value": 0,            
+          },
+          F0004-002: {
+            // FIXME: make sure the Colors aliases are properly called inside Figma Tokens            
+            value: 'linear-gradient(57.49deg, rgba({colors.black}, 1) 0%, rgba({colors.black}, 0) 67%)',
+            type: 'color',
+            description: 'This Color (Gradient) is represented as a Primitive inside Pasta',
+            //
+            // RAW tokens:
+            // 
+            // "YPL.FFL.TKUI_D.F0004-002.angle.value": 57.49,
+            // "YPL.FFL.TKUI_D.F0004-002.pointStart.x.value": 0.07,
+            // "YPL.FFL.TKUI_D.F0004-002.pointStart.y.value": 1.11,
+            // "YPL.FFL.TKUI_D.F0004-002.pointEnd.x.value": 0.63,
+            // "YPL.FFL.TKUI_D.F0004-002.pointEnd.y.value": 0.24,
+            // "YPL.FFL.TKUI_D.F0004-002.point1.position.value": -0.19,
+            // "YPL.FFL.TKUI_D.F0004-002.point1.color.value": "YPL.FFL.TKUI_C.colors.black.value",
+            // "YPL.FFL.TKUI_D.F0004-002.point1.opacity.value": 1,
+            // "YPL.FFL.TKUI_D.F0004-002.point2.position.value": 0.67,
+            // "YPL.FFL.TKUI_D.F0004-002.point2.color.value": "YPL.FFL.TKUI_C.colors.black.value",
+            // "YPL.FFL.TKUI_D.F0004-002.point2.opacity.value": 0,            
+          }                   
+        }
+      },
+
+      // FIXME: We need to create `Radii` Choices in Pasta — Aliases?
+      radii: {
+         set: {
+            // if need to be embeded inside a Parent set:
+            parentSet: 'general'
+         },
+         injectType: {
+            // if typing is required:
+            type: '{"type": "borderRadius"}'
+         }        
+      },
+      // FIXME: could we select 'border.width' — Or do we create a new `borderWidth` Choice Alias too? I guess we have to.
+      'border.width': {
+         set: {
+            // if need to be embeded inside a Parent set:
+            parentSet: 'general'
+         },
+         injectType: {
+            // if typing is required:
+            type: '{"type": "borderWidth"}'
+         }        
+      },
+      'FIXME(create a selector for a primitives F0002)': { // ← ← ← ← HOW DO WE DO THAT !      
+         set: {
+            // if need to be embeded inside a Parent set:
+            parentSet: 'general'
+         },
+         injectType: {
+            // if typing is required:
+            type: '{"type": "typography"}'
+         },
+         construct: { // Feeds .value directly
+              fontFamily: '{familyName.value}', // FIXME how do we force high resolving?
+              // fontWeight: "{fontWeights.europa-bold.value}", // ???? FIXME: we will need to define Weight somehow → CSS
+              lineHeight: '{leading.value}',
+              fontSize: '{size.value}',
+              letterSpacing: '{tracking.value}',
+              paragraphSpacing: '{paragraphSpacing.value}',
+              // paragraphIndent: '{leading.value}', // Not in Pasta (yet)
+              textCase: '{textCase.value}',
+              textDecoration: '{textDecoration.value}',
+         },
+
+        // FIGMA EXAMPLE
+        //
+        // "typo-1": {
+        //   "value": {
+        //     "fontFamily": "{fontFamilies.europa-regular}",
+        //     "fontWeight": "{fontWeights.europa-regular-0}",
+        //     "lineHeight": "{lineHeights.0}",
+        //     "fontSize": "{fontSize.0}",
+        //     "letterSpacing": "{letterSpacing.0}",
+        //     "paragraphSpacing": "{paragraphSpacing.0}",
+        //     "paragraphIndent": "{paragraphIndent.0}",
+        //     "textCase": "{textCase.lower}",
+        //     "textDecoration": "{textDecoration.under}"
+        //   },
+        //   "type": "typography",
+        //   "description": "blah"
+        // },
+
+        // PASTA RAW TOKENS
+        //
+        // "YPL.FFL.TKUI_D.F0002-001.familyName.value": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+        // "YPL.FFL.TKUI_D.F0002-001.size.value": "YPL.FFL.TKUI_M.typo.europa.h1.size.value",
+        // "YPL.FFL.TKUI_D.F0002-001.leading.value": "YPL.FFL.TKUI_M.typo.europa.h1.leading.value",
+        // "YPL.FFL.TKUI_D.F0002-001.paragraphSpacing.value": "YPL.FFL.TKUI_M.typo.europa.h1.paragraphSpacing.value",
+        // "YPL.FFL.TKUI_D.F0002-001.tracking.value": "YPL.FFL.TKUI_M.typo.europa.h1.tracking.value",
+        // "YPL.FFL.TKUI_D.F0002-001.textAlignHorizontal.value": "YPL.CONST.textAlignHorizontal.left.value",
+        // "YPL.FFL.TKUI_D.F0002-001.textCase.value": "YPL.CONST.textCase.original.value",
+        // "YPL.FFL.TKUI_D.F0002-001.textDecoration.value": "YPL.CONST.textDecoration.none.value",
+        // "YPL.FFL.TKUI_D.F0002-001.color.value": "YPL.FFL.TKUI_C.colors.black.value",
+      },               
+    }
+  }
+}
+
+
+
+// .
+// └── platform
+//     ├── meta
+//     │   ├── version // (v0.1.0)
+//     │   └── …
+//     ├── outputFile // (v0.1.0)
+//     │   ├── language // (v0.1.0)
+//     │   └── fileNamePrefix  // (v0.1.0)            
+//     ├── ignore
+//     ├── allTransforms
+//     │   ├── valueKey
+//     │   ├── prefix
+//     │   ├── suffix
+//     │   ├── newSeparator
+//     │   ├── stemRemovalIndexes // (v0.1.0)
+//     │   ├── stemSwapIndexes
+//     │   ├── preREGEXes        
+//     │   ├── postREGEXes
+//     │   └── classesExtract // taxonomy modification
+//     ├── FIXME: address the KB requirement for a variant used as a paradigme for the page
+//     └── phyla  // aka classes      
+//         ├── phylum #1
+//         │   ├── outputFile
+//         │   ├── set // (v0.1.0)
+//         │   ├── overrides // (v0.1.0) prevents all what follows        
+//         │   ├── injectType // (v0.1.0)                
+//         │   ├── extraKeys
+//         │   ├── construct // taxonomy modification
+//         │   └── transform
+//         │       └── appendUnit
+//         │       └── REGEXes        
+//         │       └── ...
+//         ├── phylum #2        
+//         └── ...                
+
+
+
+// JSON Extracted from Figma Test File › https://www.figma.com/file/dN1tFUnJr0YdKvOUk2VnYH/
+// https://docs.tokens.studio/available-tokens/available-tokens
+
+// {
+//   "size-1": {
+//     "value": "32",
+//     "type": "sizing",
+//     "description": "blah"
+//   },
+//   "space-1": {
+//     "value": "32",
+//     "type": "spacing",
+//     "description": "blah"
+//   },
+//   "color-1": {
+//     "value": "#f00",
+//     "type": "color",
+//     "description": "blah"
+//   },
+//   "color-2": {
+//     "value": "#0F0",
+//     "type": "color",
+//     "description": "blah"
+//   },
+//   "gradient-1": {
+//     "value": "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,97,1) 35%, rgba(63,106,172,0) 66%, rgba(0,212,255,1) 100%)",
+//     "type": "color",
+//     "description": "Gradient with 2 stops and some alpha"
+//   },
+//   "gradient-2": {
+//     "value": "linear-gradient(45deg, rgba({color-1}, 0.5) 10%, rgba({color-2}, 1) 100%)",
+//     "type": "color"
+//   },
+//   "radi-20-0-20-0": {
+//     "value": "20px 0 20px 0",
+//     "type": "borderRadius",
+//     "description": "blah"
+//   },
+//   "radius-1": {
+//     "value": "16",
+//     "type": "borderRadius"
+//   },
+//   "border-1": {
+//     "value": "4",
+//     "type": "borderWidth",
+//     "description": "blah"
+//   },
+//   "opacity-1": {
+//     "value": "0.5",
+//     "type": "opacity",
+//     "description": "50% is another option"
+//   },
+//   "inner-shadow-1": {
+//     "value": {
+//       "x": "0",
+//       "y": "8",
+//       "blur": "16",
+//       "spread": "8",
+//       "color": "#000000",
+//       "type": "innerShadow"
+//     },
+//     "type": "boxShadow",
+//     "description": "blah"
+//   },
+//   "drop-shadow-1": {
+//     "value": {
+//       "x": "0",
+//       "y": "12",
+//       "blur": "24",
+//       "spread": "6",
+//       "color": "#000000",
+//       "type": "dropShadow"
+//     },
+//     "type": "boxShadow",
+//     "description": "blah"
+//   },
+//   "fontFamilies": {
+//     "europa-regular": {
+//       "value": "Europa-Regular",
+//       "type": "fontFamilies"
+//     }
+//   },
+//   "lineHeights": {
+//     "0": {
+//       "value": "24",
+//       "type": "lineHeights"
+//     }
+//   },
+//   "fontWeights": {
+//     "europa-regular-0": {
+//       "value": "Regular",
+//       "type": "fontWeights"
+//     }
+//   },
+//   "fontSize": {
+//     "0": {
+//       "value": "32",
+//       "type": "fontSizes"
+//     }
+//   },
+//   "letterSpacing": {
+//     "0": {
+//       "value": "1%",
+//       "type": "letterSpacing"
+//     }
+//   },
+//   "paragraphSpacing": {
+//     "0": {
+//       "value": "24",
+//       "type": "paragraphSpacing"
+//     }
+//   },
+//   "paragraphIndent": {
+//     "0": {
+//       "value": "0",
+//       "type": "paragraphIndent"
+//     }
+//   },
+//   "typo-1": {
+//     "value": {
+//       "fontFamily": "{fontFamilies.europa-regular}",
+//       "fontWeight": "{fontWeights.europa-regular-0}",
+//       "lineHeight": "{lineHeights.0}",
+//       "fontSize": "{fontSize.0}",
+//       "letterSpacing": "{letterSpacing.0}",
+//       "paragraphSpacing": "{paragraphSpacing.0}",
+//       "paragraphIndent": "{paragraphIndent.0}",
+//       "textCase": "{textCase.lower}",
+//       "textDecoration": "{textDecoration.under}"
+//     },
+//     "type": "typography",
+//     "description": "blah"
+//   },
+//   "textCase": {
+//     "lower": {
+//       "value": "lowercase",
+//       "type": "textCase",
+//       "description": "blah"
+//     }
+//   },
+//   "textDecoration": {
+//     "under": {
+//       "value": "underline",
+//       "type": "textDecoration",
+//       "description": "blah"
+//     }
+//   },
+//   "other-1": {
+//     "value": "150",
+//     "type": "other",
+//     "description": "blah"
+//   }
+// }

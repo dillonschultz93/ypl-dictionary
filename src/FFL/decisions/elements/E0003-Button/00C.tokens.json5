@@ -1,0 +1,87 @@
+{
+  YPL: {
+    FFL: {
+      'E0003-00E': {
+        META: {
+          // required
+          name: 'Button Placeholder',
+          version: '221126',
+          ticket: 'https://github.com/yummly/pasta/issues/23',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1737%3A68833&viewport=268%2C45%2C0.11&t=JA1wZ8zwvL1Jg2lk-11',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          // shortName: '', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'E0003-00E',
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {
+          height: 'YPL.FFL.TKUI_C.sizes.micro.2000.value',
+          width: 'YPL.FFL.TKUI_C.sizes.micro.2000.value',
+          padding: 'YPL.FFL.TKUI_C.spaces.sm.value',
+          radius: 'YPL.FFL.TKUI_C.corner.round.value', // FIXME: use radii
+          bgColor: {
+            i: 'YPL.FFL.TKUI_C.colors.gray.100.value',
+            p: 'YPL.FFL.TKUI_C.colors.gray.200.value',
+            d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
+          },
+          BLK_main: {
+            DEPTH: 1,
+            _icon: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0003-7FF', // Placeholder Icon
+              color: {
+                i: 'YPL.FFL.TKUI_C.colors.black.value',
+                p: 'YPL.FFL.TKUI_C.colors.black.value',
+                d: 'YPL.FFL.TKUI_C.colors.gray.500.value',
+              },
+              width: 'YPL.FFL.TKUI_C.sizes.micro.800.value', // FIXME: shall we set BLK_main the same as well?
+              height: 'YPL.FFL.TKUI_C.sizes.micro.800.value', // FIXME: shall we set BLK_main the same as well?
+            },
+          },
+        },
+        OVERRIDES: {
+          OPT_small: {
+            height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value', // FIXME: shall we set BLK_main the same as well?
+            width: 'YPL.FFL.TKUI_C.sizes.micro.1200.value', // FIXME: shall we set BLK_main the same as well?
+            padding: 'YPL.FFL.TKUI_C.spaces.xs.value',
+            bgColor: {
+              i: 'YPL.FFL.TKUI_C.colors.white.value', // FIXME: that color swap/design is weird !!!!!!!
+            },
+            BLK_main: {         
+              _icon: {
+                UID: 'YPL.FFL.F0003-3FF', // 16pt placeholder               
+                width: 'YPL.FFL.TKUI_C.sizes.micro.800.value', // FIXME: shall we set BLK_main the same as well?
+                height: 'YPL.FFL.TKUI_C.sizes.micro.800.value', // FIXME: shall we set BLK_main the same as well?                                                          
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+}
+
+// === Legacy RAW Tokens ===
+
+// height: 'YPL.FFL.TKUI_C.sizes.micro.1800.value', // WRONG shoud be 40pt/20000
+// width: 'YPL.FFL.TKUI_C.sizes.micro.1800.value', // WRONG shoud be 40pt/20000
+// padding: 'YPL.FFL.TKUI_C.spaces.sm.value',
+// radius: 'YPL.FFL.TKUI_C.corner.round.value',
+
+// bgColor.i: 'YPL.FFL.TKUI_C.colors.gray.100.value',
+// bgColor.p: 'YPL.FFL.TKUI_C.colors.gray.200.value',
+// bgColor.d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
+
+// BLK_main.icon.height: 'YPL.FFL.TKUI_C.sizes.micro.800.value',
+// BLK_main.icon.width: 'YPL.FFL.TKUI_C.sizes.micro.800.value',
+// BLK_main.icon.color.i: 'YPL.FFL.TKUI_C.colors.black.value',
+// BLK_main.icon.color.p: 'YPL.FFL.TKUI_C.colors.black.value',
+// BLK_main.icon.color.d: 'YPL.FFL.TKUI_C.colors.gray.500.value',
+
+// FIXME: OVERRIDES ARE MISSING !!!! OPT_smaller (OPT_small)

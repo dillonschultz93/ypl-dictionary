@@ -56,6 +56,9 @@
               _icon: {
                 visible: 'YPL.CONST.boolean.true.value',
               },
+              _label: {
+                visible: 'YPL.CONST.boolean.true.value',
+              },
             },
           },
           OPT_onlyIcon: {
@@ -70,6 +73,11 @@
           },
           OPT_teal: {
             bgColor: 'YPL.FFL.TKUI_C.colors.teal.100.value',
+            _label: {
+              UID: 'FFL.F0002-603',
+              style: 'YPL.FFL.F0002-603',
+              color: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+            }
           },
         },
       },

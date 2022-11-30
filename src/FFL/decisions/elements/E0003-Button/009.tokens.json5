@@ -1,0 +1,51 @@
+{
+  YPL: {
+    FFL: {
+      'E0003-009': {
+        META: {
+          // required
+          name: 'Button Text',
+          version: '221127',
+          ticket: 'https://github.com/yummly/pasta/issues/23',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1737%3A68833&viewport=268%2C45%2C0.11&t=JA1wZ8zwvL1Jg2lk-11',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          // shortName: '', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'E0003-009',
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {
+          height: 'YPL.FFL.TKUI_C.sizes.micro.800.value',
+          BLK_main: {
+            DEPTH: 1,
+            _label: {
+              DEPTH: 2,
+              color: {
+                i: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+                p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+                d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
+              },
+              style: 'YPL.FFL.F0002-601',
+            },
+          },
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}
+
+// === Legacy RAW Tokens ===
+
+// height: 'YPL.FFL.TKUI_C.sizes.micro.600.value', // FIXME: 12 seems weird ?!?!? 800?
+
+// BLK_main.label.color.i: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+// BLK_main.label.color.p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+// BLK_main.label.color.d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
+// BLK_main.label.style: 'YPL.FFL.F0002-104', // 2 x WRONG → -102 (16pt) and then -601

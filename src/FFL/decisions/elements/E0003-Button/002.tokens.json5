@@ -1,0 +1,166 @@
+{
+  YPL: {
+    FFL: {
+      'E0003-002': {
+        META: {
+          // required
+          name: 'Button Left Icon',
+          version: '221126',
+          ticket: 'https://github.com/yummly/pasta/issues/23',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1737%3A68833&viewport=268%2C45%2C0.11&t=JA1wZ8zwvL1Jg2lk-11',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          // shortName: '', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'E0003-002',
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {
+          height: 'YPL.FFL.TKUI_C.sizes.micro.1900.value',
+          minWidth: 'YPL.FFL.TKUI_M.scales.arithB.900.value',
+          paddingTop: 'YPL.FFL.TKUI_C.spaces.sm.value',
+          paddingBottom: 'YPL.FFL.TKUI_C.spaces.sm.value',
+          paddingLeft: 'YPL.FFL.TKUI_C.spaces.l.value',
+          paddingRight: 'YPL.FFL.TKUI_C.spaces.l.value',
+          margin: 'YPL.FFL.TKUI_C.spaces.l.value',
+          fringeBottom: 'YPL.FFL.TKUI_C.spaces.l.value', // FIXME: remove fringes pre-dictionary
+          radius: 'YPL.FFL.TKUI_C.sizes.micro.1200.value', // FIXME: use radii
+          bgColor: {
+            i: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+            p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+            d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
+          },
+          BLK_main: {
+            DEPTH: 1,
+            _label: {
+              DEPTH: 2,
+              color: 'YPL.FFL.TKUI_C.colors.white.value',
+              style: 'YPL.FFL.F0002-601',
+            },
+            _icon: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0003-7FF', // Placeholder Icon
+              // iconDisplay: 'YPL.CONST.boolean.false.value', // FIXME use this insted of Variants ASAP
+              // iconPosStart: 'YPL.CONST.boolean.true.value', // FIXME use this instead of Variants ASAP · if false the Icon is at the end
+              color: 'YPL.FFL.TKUI_C.colors.white.value',
+              width: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+              height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+              marginRight: 'YPL.FFL.TKUI_C.spaces.s.value',
+              fringeRight: 'YPL.FFL.TKUI_C.spaces.s.value',
+            },
+          },
+        },
+        OVERRIDES: {
+          OPT_small: {
+            height: 'YPL.FFL.TKUI_C.sizes.micro.1900.value',
+            minWidth: 'YPL.FFL.TKUI_M.scales.arithB.500.value',
+            paddingTop: 'YPL.FFL.TKUI_C.spaces.s.value',
+            paddingBottom: 'YPL.FFL.TKUI_C.spaces.s.value',
+            paddingLeft: 'YPL.FFL.TKUI_C.spaces.m.value',
+            paddingRight: 'YPL.FFL.TKUI_C.spaces.m.value',
+            margin: 'YPL.FFL.TKUI_C.spaces.sm.value',
+            fringeBottom: 'YPL.FFL.TKUI_C.spaces.sm.value', // FIXME: remove fringes pre-dictionary
+            radius: 'YPL.FFL.TKUI_C.radii.round.value',
+          },
+          OPT_tint: {
+            bgColor: {
+              i: 'YPL.FFL.TKUI_C.colors.teal.050.value',
+              p: 'YPL.FFL.TKUI_C.colors.teal.100.value',
+              // FIXME: no "d" ?
+            },
+            BLK_main: {
+              label: {
+                color: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+              },
+              icon: {
+                color: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+              },
+            },
+          },
+          OPT_smallTint: {
+            height: 'YPL.FFL.TKUI_C.sizes.micro.1900.value',
+            minWidth: 'YPL.FFL.TKUI_M.scales.arithB.500.value',
+            paddingTop: 'YPL.FFL.TKUI_C.spaces.s.value',
+            paddingBottom: 'YPL.FFL.TKUI_C.spaces.s.value',
+            paddingLeft: 'YPL.FFL.TKUI_C.spaces.m.value',
+            paddingRight: 'YPL.FFL.TKUI_C.spaces.m.value',
+            margin: 'YPL.FFL.TKUI_C.spaces.sm.value',
+            fringeBottom: 'YPL.FFL.TKUI_C.spaces.sm.value', // FIXME: remove fringes pre-dictionary
+            radius: 'YPL.FFL.TKUI_C.radii.round.value',
+            bgColor: {
+              i: 'YPL.FFL.TKUI_C.colors.teal.050.value',
+              p: 'YPL.FFL.TKUI_C.colors.teal.100.value',
+              // FIXME: no "d" ?
+            },
+            BLK_main: {
+              label: {
+                color: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+              },
+              icon: {
+                color: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+}
+
+// === Legacy RAW Tokens ===
+
+// height: 'YPL.FFL.TKUI_C.sizes.micro.1900.value',
+// minWidth: 'YPL.FFL.TKUI_M.scales.arithB.900.value',
+// paddingTop: 'YPL.FFL.TKUI_C.spaces.sm.value',
+// paddingBottom: 'YPL.FFL.TKUI_C.spaces.sm.value',
+// paddingLeft: 'YPL.FFL.TKUI_C.spaces.l.value',
+// paddingRight: 'YPL.FFL.TKUI_C.spaces.l.value',
+// margin: 'YPL.FFL.TKUI_C.spaces.l.value',
+// fringeBottom: 'YPL.FFL.TKUI_C.spaces.l.value',
+// radius: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+
+// bgColor.i: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+// bgColor.p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+// bgColor.d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
+
+// BLK_main.label.color: 'YPL.FFL.TKUI_C.colors.white.value',
+// BLK_main.label.style: 'YPL.FFL.F0002-102',
+// BLK_main.icon.color: 'YPL.FFL.TKUI_C.colors.white.value',
+// BLK_main.icon.width: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+// BLK_main.icon.height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+// BLK_main.icon.marginRight: 'YPL.FFL.TKUI_C.spaces.s.value',
+// BLK_main.icon.fringeRight: 'YPL.FFL.TKUI_C.spaces.s.value',
+
+// OPT_small.height: 'YPL.FFL.TKUI_C.sizes.micro.1900.value',
+// OPT_small.minWidth: 'YPL.FFL.TKUI_M.scales.arithB.500.value',
+// OPT_small.paddingTop: 'YPL.FFL.TKUI_C.spaces.s.value',
+// OPT_small.paddingBottom: 'YPL.FFL.TKUI_C.spaces.s.value',
+// OPT_small.paddingLeft: 'YPL.FFL.TKUI_C.spaces.m.value',
+// OPT_small.paddingRight: 'YPL.FFL.TKUI_C.spaces.m.value',
+// OPT_small.margin: 'YPL.FFL.TKUI_C.spaces.sm.value',
+// OPT_small.fringeBottom: 'YPL.FFL.TKUI_C.spaces.sm.value',
+// OPT_small.radius: 'YPL.FFL.TKUI_C.corner.round.value',
+
+// OPT_tint.bgColor.i: 'YPL.FFL.TKUI_C.colors.teal.050.value',
+// OPT_tint.bgColor.p: 'YPL.FFL.TKUI_C.colors.teal.100.value',
+// OPT_tint.BLK_main.label.color: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+// OPT_tint.BLK_main.icon.color: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+
+// OPT_smallTint.height: 'YPL.FFL.TKUI_C.sizes.micro.1900.value',
+// OPT_smallTint.minWidth: 'YPL.FFL.TKUI_M.scales.arithB.500.value',
+// OPT_smallTint.paddingTop: 'YPL.FFL.TKUI_C.spaces.s.value',
+// OPT_smallTint.paddingBottom: 'YPL.FFL.TKUI_C.spaces.s.value',
+// OPT_smallTint.paddingLeft: 'YPL.FFL.TKUI_C.spaces.m.value',
+// OPT_smallTint.paddingRight: 'YPL.FFL.TKUI_C.spaces.m.value',
+// OPT_smallTint.margin: 'YPL.FFL.TKUI_C.spaces.sm.value',
+// OPT_smallTint.fringeBottom: 'YPL.FFL.TKUI_C.spaces.sm.value',
+// OPT_smallTint.radius: 'YPL.FFL.TKUI_C.corner.round.value',
+// OPT_smallTint.bgColor.i: 'YPL.FFL.TKUI_C.colors.teal.050.value',
+// OPT_smallTint.bgColor.p: 'YPL.FFL.TKUI_C.colors.teal.100.value',
+// OPT_smallTint.BLK_main.label.color: 'YPL.FFL.TKUI_C.colors.teal.500.value',
+// OPT_smallTint.BLK_main.label.icon: 'YPL.FFL.TKUI_C.colors.teal.500.value',

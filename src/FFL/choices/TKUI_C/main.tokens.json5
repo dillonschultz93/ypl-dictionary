@@ -15,7 +15,7 @@
             '900': '#242424',
           },
           teal: {
-            '050': "#EBF5F4",
+            '050': '#EBF5F4',
             '100': '#DEE7E7',
             '300': '#4BB9B3',
             '400': '#3A9691',
@@ -26,9 +26,59 @@
             '400': '#E05F1F',
             '500': '#B44B18',
           },
-          'tartOrange': {
-            '400': '#FF4848'
-          }
+          tartOrange: {
+            '400': '#FF4848',
+          },
+          salmon: {
+            '050': '#FDEFEF',
+            '100': '#F7CBC9',
+            '600': '#8B4541',
+          },
+          ginger: {
+            '050': '#FCF3E7',
+            '200': '#E5CBAB',
+            '600': '#635040',
+          },
+          peach: {
+            '050': '#F9EBE3',
+            '100': '#FCCFB8',
+            '600': '#765541',
+          },
+          tumeric: {
+            '050': '#F9F7E5',
+            '100': '#FFF2A0',
+            '600': '#766B38',
+          },
+          lime: {
+            '050': '#F2FDEC',
+            '100': '#CEF0C0',
+            '600': '#466F35',
+          },
+          mint: {
+            '050': '#EBFFF5',
+            '100': '#BBF1D6',
+            '600': '#446E59',
+          },
+          seaweed: {
+            '050': '#EBFFFF',
+            '100': '#C3E0E1',
+            '600': '#3A6464',
+          },
+          blueberry: {
+            '050': '#EEF8FF',
+            '100': '#C4E4FC',
+            '600': '#306791',
+          },
+          taro: {
+            '050': '#F9F5FF',
+            '100': '#E4D7F9',
+            '600': '#665B76',
+          },
+        },
+        // === OPACITIES ===
+        opacities: {
+          '100': 0.1,
+          '500': 0.5,
         },
         // === DIMENSIONS ===
         dimension: {
@@ -81,6 +131,7 @@
               '100': 'YPL.FFL.TKUI_M.dimension.scales.arithB.100.value', // 32
               '200': 'YPL.FFL.TKUI_M.dimension.scales.arithB.200.value', // 48
               '300': 'YPL.FFL.TKUI_M.dimension.scales.arithB.300.value', // 64
+              '330': 'YPL.FFL.TKUI_M.dimension.scales.arithB.400.value', // 80 FIXME: re-index
               '350': 'YPL.FFL.TKUI_M.dimension.scales.arithB.500.value', // 96 FIXME: re-index
               '400': 'YPL.FFL.TKUI_M.dimension.scales.arithB.700.value', // 128
               '450': 'YPL.FFL.TKUI_M.dimension.scales.arithB.900.value', // 160 FIXME: re-index
@@ -104,6 +155,13 @@
             xl: 'YPL.FFL.TKUI_M.dimension.scales.arithA.1600.value', // 32
             xxl: 'YPL.FFL.TKUI_M.dimension.scales.arithA.1800.value', // 36
             xxxl: 'YPL.FFL.TKUI_M.dimension.scales.arithA.2800.value', // 56
+          },
+          radii: {
+            // FIXME: use these or Aliases ??? (currently in both)
+            round: '100%',
+            s: 'YPL.FFL.TKUI_M.dimension.scales.arithA.200.value', // 4
+            m: 'YPL.FFL.TKUI_M.dimension.scales.arithA.400.value', // 8
+            l: 'YPL.FFL.TKUI_M.dimension.scales.arithA.800.value', // 16
           },
         },
         // === TYPOGRPHY ===
