@@ -366,16 +366,53 @@
       "meta": {
         "name": "Button",
         "UID": "E0003",
-        "description": "Lorem ipsum dolar set amet",
-        "ticketNumber": "",
-        "ticketURL": "",
-        "ownerName": "",
-        "ownerGitHubURL": "",
-        "figmaLink": "",
-        "variants": [],
-        "options": [],
+        "description": "Buttons allow users to perform an action or to navigate to another page. They have multiple styles for various needs.",
+        "ticketNumber": "23",
+        "ticketURL": "https://github.com/yummly/pasta/issues/23",
+        "ownerName": "Robert",
+        "ownerGitHubURL": "https://github.com/robert-ANML",
+        "figmaLink": "https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=1737%3A68833",
+        "variants": [
+          "001",
+          "002",
+          "003",
+          "009",
+          "00A",
+          "00B",
+          "00C",
+          "00E"
+        ],
+        "options": [
+          ".OPT_small",
+          ".OPT_tint",
+          ".OPT_smallTint",
+          ".OPT_white",
+          ".OPT_smallGray"
+        ],
         "hasInteractionStates": true,
-        "dependencyTree": []
+        "dependencyTree": [
+          {
+            "name": "BLK_main",
+            "children": [
+              {
+                "name": "icon",
+                "component": "FFL.F0003",
+                "type": "primitive",
+                "subType": "icons",
+                "instance": ".icon",
+                "optional": true
+              },
+              {
+                "name": "label",
+                "component": "FFL.F0002-601",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".label",
+                "optional": true
+              }
+            ]
+          }
+        ]
       },
       "variants": {
         "001": {
