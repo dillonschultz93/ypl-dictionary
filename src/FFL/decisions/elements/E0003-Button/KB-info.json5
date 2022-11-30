@@ -2,15 +2,37 @@
   E0003: {
     name: 'Button', // Element name
     UID: 'E0003', // Element UID
-    description: 'Lorem ipsum dolar set amet', // Description of the element
-    ticketNumber: '', // Ticket number on GitHub
-    ticketURL: '', // URL to the GitHub ticket
-    ownerName: '', // Name of the owner on the GitHub ticket.
-    ownerGitHubURL: '', // URL to the owner's GitHub profile
-    figmaLink: '', // URL to the element's Figma file
-    variants: [], // List any variants here. Leave an empty array if there are no variants.
-    options: [], // List any options here. Leave an empty array if there are no options.
+    description: 'Buttons allow users to perform an action or to navigate to another page. They have multiple styles for various needs.', // Description of the element
+    ticketNumber: '23', // Ticket number on GitHub
+    ticketURL: 'https://github.com/yummly/pasta/issues/23', // URL to the GitHub ticket
+    ownerName: 'Robert', // Name of the owner on the GitHub ticket.
+    ownerGitHubURL: 'https://github.com/robert-ANML', // URL to the owner's GitHub profile
+    figmaLink: 'https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=1737%3A68833', // URL to the element's Figma file
+    variants: ['001', '002', '003', '009', '00A', '00B', '00C', '00E'], // List any variants here. Leave an empty array if there are no variants.
+    options: ['.OPT_small', '.OPT_tint', '.OPT_smallTint', '.OPT_white', '.OPT_smallGray'], // List any options here. Leave an empty array if there are no options.
     hasInteractionStates: true, // Set to true if there are any interaction states, if not, set to false.
-    dependencyTree: [],
+    dependencyTree: [
+      {
+        "name": "BLK_main",
+        "children": [
+          {
+            "name": "icon",
+            "component": "FFL.F0003",
+            "type": "primitive",
+            "subType": "icons",
+            "instance": ".icon",
+            "optional": true
+          },
+          {
+            "name": "label",
+            "component": "FFL.F0002-601",
+            "type": "primitive",
+            "subType": "typography",
+            "instance": ".label",
+            "optional": true
+          }
+        ]
+      }
+    ],
   },
 }
