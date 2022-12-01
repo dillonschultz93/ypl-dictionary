@@ -1,6 +1,6 @@
 {
   "name": "@yummly/pasta-dictionary",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "A test of the pasta cli",
   "main": "src/index.js",
   "files": [
@@ -11,8 +11,8 @@
     "access": "restricted"
   },
   "scripts": {
-    "generate-element": "node src/util/generate-files.js -E",
-    "generate-pattern": "node src/util/generate-files.js -P",
+    "generate-element": "node src/_util/generate-files.js -E",
+    "generate-pattern": "node src/_util/generate-files.js -P",
     "build:predictionary": "node src/buildPreDictionaryTokens.js",
     "build:tokens": "node src/index.js",
     "build": "npm run build:predictionary && npm run build:tokens",

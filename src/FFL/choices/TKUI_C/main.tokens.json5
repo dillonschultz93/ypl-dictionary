@@ -6,7 +6,7 @@
         colors: {
           black: '#000000',
           white: '#ffffff',
-          grey: {
+          gray: {
             '100': '#F5F5F5',
             '200': '#E3E3E3',
             '300': '#BABABA',
@@ -96,13 +96,13 @@
             F5: 2,
           },
           sizes: {
-            nano: {
+            nano: { // FIXME: are the only sizes where Odds are allowed (pixel tweaking)
               '100': 1,
               '200': 2,
               '300': 3,
               '400': 4,
               '000': 0,
-            },
+            },            
             micro: {
               '100': 'YPL.FFL.TKUI_M.dimension.scales.arithA.100.value', // 2
               '200': 'YPL.FFL.TKUI_M.dimension.scales.arithA.200.value', // 4
@@ -155,7 +155,10 @@
             xl: 'YPL.FFL.TKUI_M.dimension.scales.arithA.1600.value', // 32
             xxl: 'YPL.FFL.TKUI_M.dimension.scales.arithA.1800.value', // 36
             xxxl: 'YPL.FFL.TKUI_M.dimension.scales.arithA.2800.value', // 56
-          },
+            odd03: 3,                        
+            odd05: 5,                        
+            odd07: 7,                                    
+          },        
           radii: {
             // FIXME: use these or Aliases ??? (currently in both)
             round: '100%',

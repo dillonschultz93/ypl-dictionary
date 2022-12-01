@@ -26,7 +26,7 @@
           paddingRight: 'YPL.FFL.TKUI_C.spaces.s.value',
           paddingLeft: 'YPL.FFL.TKUI_C.spaces.s.value',
           radius: 'YPL.FFL.TKUI_C.sizes.micro.600.value',
-          bgColor: 'YPL.FFL.TKUI_C.colors.grey.100.value',          
+          bgColor: 'YPL.FFL.TKUI_C.colors.gray.100.value',          
           _BLK_main {
             DEPTH: 1,
             _icon: {
@@ -36,7 +36,7 @@
               fringeRight: 'YPL.FFL.TKUI_C.spaces.xs.value',
               visible: 'YPL.CONST.boolean.false.value',
               asset: 'YPL.FFL.F0003-23',
-              color: 'YPL.FFL.TKUI_C.colors.grey.900.value',
+              color: 'YPL.FFL.TKUI_C.colors.gray.900.value',
               width: 'YPL.FFL.TKUI_C.sizes.micro.800.value',
               height: 'YPL.FFL.TKUI_C.sizes.micro.800.value',              
             },
@@ -45,7 +45,7 @@
               UID: 'FFL.F0002-603',
               visible: 'YPL.CONST.boolean.true.value',
               style: 'YPL.FFL.F0002-401',
-              color: 'YPL.FFL.TKUI_C.colors.grey.900.value',        
+              color: 'YPL.FFL.TKUI_C.colors.gray.900.value',        
             },
           }
         },

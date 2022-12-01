@@ -1,8 +1,11 @@
 module.exports = () => ({
-  content: `const getRequiredAndFlattenedFiles = require('../../../util/getRequiredAndFlattenedFiles');
+  content: `const getRequiredAndFlattenedAndArrangedFiles = require('../../../../_util/getRequiredAndFlattenedAndArrangedFiles');
+const getRequiredKBInfo = require('../../../../_util/getRequiredKBInfo');
 
-module.exports = getRequiredAndFlattenedFiles(__dirname);
-
+module.exports = {
+  tokens: getRequiredAndFlattenedAndArrangedFiles(__dirname),
+  kbInfo: getRequiredKBInfo(__dirname),
+};
 `,
   extension: '.js',
 });

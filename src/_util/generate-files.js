@@ -12,7 +12,15 @@ const { tokens, meta, index } = require('./templates');
 const getProjectDirectories = () => {
   const projects = fs
     .readdirSync(path.join(__dirname, '../../src'))
-    .filter((file) => file !== 'util' && file !== 'buildPreDictionaryTokens.js' && file !== 'index.js'); // ⚠️ Update this if any new files or directories that are not project directories are added.
+    .filter(
+      (file) =>
+        file !== '_util' &&
+        file !== '_constants' &&
+        file !== '_dictionary' &&
+        file !== 'applyOverrides.js' &&
+        file !== 'buildPreDictionaryTokens.js' &&
+        file !== 'index.js'
+    ); // ⚠️ Update this if any new files or directories that are not project directories are added.
 
   return projects;
 };
@@ -27,21 +35,27 @@ const createTokenDirectories = (uid, name, tokenType, project) => {
   // Check if the token directory exists
   if (
     fs.existsSync(
-      path.join(__dirname, `../${project}/tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}`)
+      path.join(
+        __dirname,
+        `../${project}/decisions/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}`
+      )
     )
   ) {
     console.log('Token already exists');
     process.exit(1);
   } else {
     fs.mkdirSync(
-      path.join(__dirname, `../${project}/tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}`)
+      path.join(
+        __dirname,
+        `../${project}/decisions/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}`
+      )
     );
 
     // Create the meta file
     fs.writeFileSync(
       path.join(
         __dirname,
-        `../${project}/tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/meta${
+        `../${project}/decisions/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/KB-info${
           meta(uid, name).extension
         }`
       ),
@@ -51,7 +65,7 @@ const createTokenDirectories = (uid, name, tokenType, project) => {
     fs.writeFileSync(
       path.join(
         __dirname,
-        `../${project}/tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/index${
+        `../${project}/decisions/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/index${
           index(uid, name).extension
         }`
       ),
@@ -67,21 +81,21 @@ const createTokenTemplates = (uid, name, tokenType, project, variant = false) =>
     fs.writeFileSync(
       path.join(
         __dirname,
-        `../${project}/tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/${variant}${
+        `../${project}/decisions/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/${variant}${
           tokens(uid, variant).extension
         }`
       ),
-      tokens(uid, variant).content
+      tokens(uid, name, project, variant).content
     );
   } else {
     fs.writeFileSync(
       path.join(
         __dirname,
-        `../${project}/tokens/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/${name}${
+        `../${project}/decisions/${tokenType}/${uid}-${name.charAt(0).toUpperCase() + name.slice(1)}/001${
           tokens(uid).extension
         }`
       ),
-      tokens(uid).content
+      tokens(uid, name, project).content
     );
   }
 };

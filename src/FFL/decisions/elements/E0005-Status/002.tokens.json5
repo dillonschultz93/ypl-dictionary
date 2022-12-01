@@ -1,7 +1,7 @@
 {
   YPL: {
     FFL: {
-      'E0005-001': {
+      'E0005-002': {
         META: {
           // required
           name: 'Status',
@@ -13,7 +13,7 @@
           // shortName: '', // uncomment when needed
           GENS: {
             // ¡ DO NOT EDIT ! Script generated:
-            GEN_UID: 'E0005-001',
+            GEN_UID: 'E0005-002',
             GEN_timeStamp: '',
             GEN_project: 'FFL',
             GEN_dependents: [],
@@ -23,11 +23,11 @@
         TREE: {
           height: 'YPL.FFL.TKUI_C.sizes.micro.800.value',
           radius: 'YPL.FFL.TKUI_C.radii.round.value',
-          paddingTop: 'YPL.FFL.TKUI_C.spaces.odd07.value',
-          paddingBottom: 'YPL.FFL.TKUI_C.spaces.odd05.value',
-          paddingRight: 'YPL.FFL.TKUI_C.spaces.sm.value',
-          paddingLeft: 'YPL.FFL.TKUI_C.spaces.sm.value',
-          bgColor: 'YPL.FFL.TKUI_A.colors.white.value',
+          paddingTop: 'YPL.FFL.TKUI_C.spaces.none.value',
+          paddingBottom: 'YPL.FFL.TKUI_C.spaces.none.value',
+          paddingRight: 'YPL.FFL.TKUI_C.spaces.none.value',
+          paddingLeft: 'YPL.FFL.TKUI_C.spaces.none.value',
+          // bgColor: 'YPL.FFL.TKUI_A.colors.white.value',
           _BLK_main: {
             DEPTH: 1,
             height: 'YPL.FFL.TKUI_C.sizes.micro.600.value',
@@ -47,12 +47,20 @@
             },
             _label: {
               DEPTH: 2,
-              UID: 'YPL.FFL.F0002-603',
-              color: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+              UID: 'YPL.FFL.F0002-604',
+              color: 'YPL.FFL.TKUI_C.colors.gray.500.value',
             },
           },
         },
-        OVERRIDES: {},
+        OVERRIDES: {
+          OPT_text: {
+            _BLK_main: {   
+              _icon: {
+                  visibility: 'YPL.CONST.boolean.false.value',
+              },
+            },
+          },
+        },
       },
     },
   },
