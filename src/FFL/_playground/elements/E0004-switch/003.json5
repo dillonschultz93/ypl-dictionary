@@ -31,13 +31,13 @@
             border: {
               width: 'YPL.FFL.TKUI_C.sizes.nano.100.value',
               color: {
-                i: 'YPL.FFL.TKUI_C.colors.grey.300.value',
-                hi: 'YPL.FFL.TKUI_C.colors.grey.900.value',
+                i: 'YPL.FFL.TKUI_C.colors.gray.300.value',
+                hi: 'YPL.FFL.TKUI_C.colors.gray.900.value',
               },
             },
             bgColor: {
               i: 'YPL.FFL.TKUI_C.colors.transparent.value',
-              hi: 'YPL.FFL.TKUI_C.colors.grey.900.value',
+              hi: 'YPL.FFL.TKUI_C.colors.gray.900.value',
             },
             _icon: {
               DEPTH: 1,

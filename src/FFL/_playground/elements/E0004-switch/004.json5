@@ -26,7 +26,7 @@
           padding: 'YPL.FFL.TKUI_C.spaces.xs.value', // be careful - use spaces and not sizes for padding/margin          
           bgColor: {
             i: 'YPL.FFL.TKUI_C.colors.teal.300.value',
-            hi: 'YPL.FFL.TKUI_C.colors.grey.700.value',
+            hi: 'YPL.FFL.TKUI_C.colors.gray.700.value',
           },
           _icon: {
             DEPTH: 1,            
@@ -46,11 +46,11 @@
           OPT_colorless {
             bgColor: {
               i: 'YPL.FFL.TKUI_C.colors.white.value',
-              hi: 'YPL.FFL.TKUI_C.colors.grey.700.value',              
+              hi: 'YPL.FFL.TKUI_C.colors.gray.700.value',              
             },
             _icon: {
               color: {
-                i: 'YPL.FFL.TKUI_C.colors.grey.900.value',
+                i: 'YPL.FFL.TKUI_C.colors.gray.900.value',
                 hi: 'YPL.FFL.TKUI_C.colors.white.value',
               },
             },

@@ -24,7 +24,7 @@
           _BLK_main: {
             width: 'YPL.FFL.TKUI_C.percents.full.value',
             height: 'YPL.FFL.TKUI_C.percents.full.value',
-            radius: 'YPL.FFL.TKUI_C.sizes.micro.400.value'
+            radius: 'YPL.FFL.TKUI_C.sizes.micro.400.value', // FIXME
           }
         },
         OVERRIDES: {
