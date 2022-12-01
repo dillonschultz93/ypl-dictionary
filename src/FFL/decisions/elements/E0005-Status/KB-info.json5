@@ -3,14 +3,36 @@
     name: 'Status', // Element name
     UID: 'E0005', // Element UID
     description: 'Lorem ipsum dolar set amet', // Description of the element
-    ticketNumber: '', // Ticket number on GitHub
-    ticketURL: '', // URL to the GitHub ticket
-    ownerName: '', // Name of the owner on the GitHub ticket.
-    ownerGitHubURL: '', // URL to the owner's GitHub profile
-    figmaLink: '', // URL to the element's Figma file
-    variants: ['001'], // List any variants here. Leave an empty array if there are no variants.
+    ticketNumber: '64', // Ticket number on GitHub
+    ticketURL: 'https://github.com/yummly/pasta/issues/64', // URL to the GitHub ticket
+    ownerName: 'Robert', // Name of the owner on the GitHub ticket.
+    ownerGitHubURL: 'https://github.com/robert-ANML', // URL to the owner's GitHub profile
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5300%3A43720&t=VRrjMCHyRtnT8bMX-1', // URL to the element's Figma file
+    variants: ['001', '002'], // List any variants here. Leave an empty array if there are no variants.
     options: ['.OPT_textOnly'], // List any options here. Leave an empty array if there are no options.
     hasInteractionStates: false, // Set to true if there are any interaction states, if not, set to false.
-    dependencyTree: [],
+    dependencyTree: [
+      {
+        name: 'BLK_main',
+        children: [
+          {
+            name: 'icon',
+            component: 'FFL.F0003-01F',
+            type: 'primitive',
+            subType: 'icons',
+            instance: '.icon',
+            optional: true,
+          },
+          {
+            name: 'label',
+            component: 'FFL.F0002-603',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.label',
+            optional: false,
+          }
+        ],
+      }
+    ],
   },
 }
