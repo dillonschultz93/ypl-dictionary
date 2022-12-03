@@ -8,18 +8,31 @@
     ownerName: 'Robert', // Name of the owner on the GitHub ticket.
     ownerGitHubURL: 'https://github.com/robert-ANML', // URL to the owner's GitHub profile
     figmaLink: 'https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=2116%3A38531', // URL to the element's Figma file
-    variants: ['001', '002', '003', '004', '005'], // List any variants here. Leave an empty array if there are no variants.
-    options: ['.OPT_colorless'], // List any options here. Leave an empty array if there are no options.
+    variants: ['002', '004'], // List any variants here. Leave an empty array if there are no variants.
+    options: ['.OPT_white', '.OPT_big'], // List any options here. Leave an empty array if there are no options.
     hasInteractionStates: true, // Set to true if there are any interaction states, if not, set to false.
     dependencyTree: [
       {
-        name: 'icon',
-        component: 'FFL.F0003',
-        type: 'primitive',
-        subType: 'icons',
-        instance: '.icon',
-        optional: true,
-      },
+        name: 'BLK_main',
+        children: [
+          {
+            "name": "icon",
+            "component": "FFL.F0003",
+            "type": "primitive",
+            "subType": "icons",
+            "instance": ".icon",
+            "optional": false
+          },
+          {
+            "name": "label",
+            "component": "FFL.F0002-601",
+            "type": "primitive",
+            "subType": "typography",
+            "instance": ".label",
+            "optional": true
+          }
+        ],
+      }
     ],
   },
 }
