@@ -210,6 +210,7 @@
   "YPL.FFL.TKUI_C.dimension.sizes.macro.1000": "YPL.FFL.TKUI_M.dimension.scales.arithB.4700.value",
   "YPL.FFL.TKUI_C.dimension.sizes.macro.1100": "YPL.FFL.TKUI_M.dimension.scales.arithB.6300.value",
   "YPL.FFL.TKUI_C.dimension.spaces.none": 0,
+  "YPL.FFL.TKUI_C.dimension.spaces.xxs": "YPL.FFL.TKUI_M.dimension.scales.arithA.100.value",
   "YPL.FFL.TKUI_C.dimension.spaces.xs": "YPL.FFL.TKUI_M.dimension.scales.arithA.200.value",
   "YPL.FFL.TKUI_C.dimension.spaces.s": "YPL.FFL.TKUI_M.dimension.scales.arithA.400.value",
   "YPL.FFL.TKUI_C.dimension.spaces.sm": "YPL.FFL.TKUI_M.dimension.scales.arithA.600.value",

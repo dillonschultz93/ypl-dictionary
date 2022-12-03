@@ -146,6 +146,7 @@
           },
           spaces: {
             none: 0,
+            xxs: 'YPL.FFL.TKUI_M.dimension.scales.arithA.100.value', // 2
             xs: 'YPL.FFL.TKUI_M.dimension.scales.arithA.200.value', // 4
             s: 'YPL.FFL.TKUI_M.dimension.scales.arithA.400.value', // 8
             sm: 'YPL.FFL.TKUI_M.dimension.scales.arithA.600.value', // 12
