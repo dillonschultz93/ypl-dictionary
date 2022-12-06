@@ -1,5 +1,10 @@
 const PosterCard = require('./P0001-Poster Card');
 
 module.exports = {
-  ...PosterCard,
+  allPatternTokens: {
+    ...PosterCard.tokens,
+  },
+  allPatternKBInfo: {
+    ...PosterCard.kbInfo,
+  },
 };
