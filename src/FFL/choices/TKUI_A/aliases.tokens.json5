@@ -33,9 +33,9 @@
           l: 'YPL.FFL.TKUI_M.dimension.scales.arithA.800.value', // 16
         },
         borderWidths: { // FIXME: use these or direct Choices ??? (currently in both)
-          xs: 'YPL.FFL.TKUI_C.sizes.nano.100.value', // 1
-          s: 'YPL.FFL.TKUI_C.sizes.nano.200.value', // 2
-          m: 'YPL.FFL.TKUI_C.sizes.nano.300.value', // 3
+          xs: 'YPL.FFL.TKUI_C.dimension.sizes.nano.100.value', // 1
+          s: 'YPL.FFL.TKUI_C.dimension.sizes.nano.200.value', // 2
+          m: 'YPL.FFL.TKUI_C.dimension.sizes.nano.300.value', // 3
         },                 
       }
     }

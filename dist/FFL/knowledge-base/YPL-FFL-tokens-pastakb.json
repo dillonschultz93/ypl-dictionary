@@ -1023,6 +1023,213 @@
         }
       },
       "breakpoints": null
+    },
+    "P0001": {
+      "allTokens": {
+        "YPL.FFL.TKUI_D.P0001-001.width.value": "YPL.FFL.TKUI_C.percents.full.value",
+        "YPL.FFL.TKUI_D.P0001-001.height.value": "YPL.FFL.TKUI_C.dimension.sizes.macro.700",
+        "YPL.FFL.TKUI_D.P0001-001.margin.value": "YPL.FFL.TKUI_C.spaces.l.value",
+        "YPL.FFL.TKUI_D.P0001-001.fringeBottom.value": "YPL.FFL.TKUI_C.spaces.l.value",
+        "YPL.FFL.TKUI_D.P0001-001.radius.value": "YPL.FFL.TKUI_C.dimension.radii.m",
+        "YPL.FFL.TKUI_D.P0001-001.bgFillMode.value": "YPL.CONST.backgroundSize.cover.value",
+        "YPL.FFL.TKUI_D.P0001-001.gradient.UID.value": "YPL.FFL.F0004-001",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_header.marginBottom.value": "YPL.FFL.TKUI_C.spaces.l.value",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_header.fringeBottom.value": "YPL.FFL.TKUI_C.spaces.l.value",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_header.chip.UID.value": "YPL.FFL.E0001-001",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_header.chip.visible.value": "YPL.CONST.boolean.true.value",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_header.chip.icon.UID.value": "YPL.FFL.F0003-01A",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_copy.width.value": "YPL.FFL.TKUI_C.percents.full.value",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_copy.slack.value": "YPL.FFL.TKUI_C.sizes.macro.500.value",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_copy.chip.UID.value": "YPL.FFL.F0004-001",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_copy.chip.marginBottom.value": "YPL.FFL.TKUI_C.spaces.s.value",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_copy.chip.fringeBottom.value": "YPL.FFL.TKUI_C.spaces.s.value",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_copy.chip.icon.UID.value": " YPL.FFL.F0003-01A",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_copy.heading.UID.value": "YPL.FFL.F0002-005",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_copy.heading.color.value": "YPL.FFL.TKUI_C.colors.white.value",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_copy.heading.marginBottom.value": "YPL.FFL.TKUI_C.spaces.xs.value",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_copy.heading.fringeBottom.value": "YPL.FFL.TKUI_C.spaces.xs.value",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_copy.heading.paddingRight.value": "YPL.FFL.TKUI_C.spaces.xl.value",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_footer.height.value": "YPL.FFL.TKUI_C.sizing.micro.1200.value",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_footer.switch.UID.value": "YPL.FFL.E0004-004",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_footer.eyebrow.UID.value": "YPL.FFL.F0002-401",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_footer.eyebrow.color.value": "YPL.FFL.TKUI_C.colors.white.value",
+        "YPL.FFL.TKUI_D.P0001-001.BLK_footer.eyebrow.paddingRight.value": "YPL.FFL.TKUI_C.spaces.s.value",
+        "YPL.FFL.TKUI_D.P0001-001.OPT_small.height.value": "YPL.FFL.TKUI_C.sizes.macro.500.value",
+        "YPL.FFL.TKUI_D.P0001-001.OPT_small.gradient.UID.value": "YPL.FFL.F0004-002",
+        "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_copy.heading.size.value": "YPL.FFL.TKUI_M.typo.europa.h7.size.value",
+        "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_copy.heading.leading.value": "YPL.FFL.TKUI_M.typo.europa.h7.leading.value",
+        "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_copy.heading.paragraphSpacing.value": "YPL.FFL.TKUI_M.typo.europa.h7.paragraphSpacing.value",
+        "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_copy.heading.tracking.value": "YPL.FFL.TKUI_M.typo.europa.h7.tracking.value",
+        "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_header.chip.UID.value": "YPL.FFL.E0001.OPT_iconOnly",
+        "YPL.FFL.TKUI_D.P0001-001.OPT_inSlider.width.value": "YPL.FFL.TKUI_C.percents.xxl.value",
+        "YPL.FFL.TKUI_D.P0001-001.OPT_inSlider.fringeRight.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+        "YPL.FFL.TKUI_D.P0001-001.BRKP_m.height.value": "YPL.FFL.TKUI_C.sizes.macro.800.value",
+        "YPL.FFL.TKUI_D.P0001-001.BRKP_m.BLK_copy.heading.size.value": "YPL.FFL.TKUI_M.typo.europa.h3.size.value",
+        "YPL.FFL.TKUI_D.P0001-001.BRKP_m.BLK_copy.heading.leading.value": "YPL.FFL.TKUI_M.typo.europa.h3.leading.value",
+        "YPL.FFL.TKUI_D.P0001-001.BRKP_m.BLK_copy.heading.paragraphSpacing.value": "YPL.FFL.TKUI_M.typo.europa.h3.paragraphSpacing.value",
+        "YPL.FFL.TKUI_D.P0001-001.BRKP_m.BLK_copy.heading.tracking.value": "YPL.FFL.TKUI_M.typo.europa.h3.tracking.value"
+      },
+      "meta": {
+        "name": "Card Poster",
+        "UID": "P0001",
+        "description": "Card Posters distinctive attribute is their background image that fill the card container (bleed). The Cards can embed various information. At minima a Heading is required. Card Posters are used to promote key features within the user journey.",
+        "ticketNumber": "7",
+        "ticketURL": "https://github.com/yummly/pasta/issues/7",
+        "ownerName": "Dillon",
+        "ownerGitHubURL": "https://github.com/dillonschultz93",
+        "figmaLink": "https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=12%3A1694",
+        "variants": [
+          "001"
+        ],
+        "options": [
+          ".OPT_small",
+          ".OPT_inSlider"
+        ],
+        "hasInteractionStates": true,
+        "dependencyTree": [
+          {
+            "name": "gradient",
+            "component": "FFL.F0004",
+            "type": "primitive",
+            "subType": "gradients",
+            "instance": ".gradient",
+            "optional": false
+          },
+          {
+            "name": "BLK_header",
+            "children": [
+              {
+                "name": "chip",
+                "component": "FFL.E0001",
+                "type": "element",
+                "subType": "elements",
+                "instance": ".chip",
+                "optional": false
+              }
+            ]
+          },
+          {
+            "name": "BLK_copy",
+            "children": [
+              {
+                "name": "chip",
+                "component": "FFL.E0001",
+                "type": "element",
+                "subType": "chip",
+                "instance": ".chip",
+                "optional": false
+              },
+              {
+                "name": "heading",
+                "component": "FFL.F0002-005",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".heading",
+                "optional": false
+              }
+            ]
+          },
+          {
+            "name": "BLK_footer",
+            "children": [
+              {
+                "name": "eyebrow",
+                "component": "FFL.F0002-401",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".eyebrow",
+                "optional": false
+              },
+              {
+                "name": "switchButton",
+                "component": "FFL.E0004-002.OPT_white",
+                "type": "element",
+                "subType": "switch",
+                "instance": ".switchButton",
+                "optional": true
+              }
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "001": {
+          "YPL.FFL.TKUI_D.P0001-001.width.value": "YPL.FFL.TKUI_C.percents.full.value",
+          "YPL.FFL.TKUI_D.P0001-001.height.value": "YPL.FFL.TKUI_C.dimension.sizes.macro.700",
+          "YPL.FFL.TKUI_D.P0001-001.margin.value": "YPL.FFL.TKUI_C.spaces.l.value",
+          "YPL.FFL.TKUI_D.P0001-001.fringeBottom.value": "YPL.FFL.TKUI_C.spaces.l.value",
+          "YPL.FFL.TKUI_D.P0001-001.radius.value": "YPL.FFL.TKUI_C.dimension.radii.m",
+          "YPL.FFL.TKUI_D.P0001-001.bgFillMode.value": "YPL.CONST.backgroundSize.cover.value",
+          "YPL.FFL.TKUI_D.P0001-001.gradient.UID.value": "YPL.FFL.F0004-001",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_header.marginBottom.value": "YPL.FFL.TKUI_C.spaces.l.value",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_header.fringeBottom.value": "YPL.FFL.TKUI_C.spaces.l.value",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_header.chip.UID.value": "YPL.FFL.E0001-001",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_header.chip.visible.value": "YPL.CONST.boolean.true.value",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_header.chip.icon.UID.value": "YPL.FFL.F0003-01A",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_copy.width.value": "YPL.FFL.TKUI_C.percents.full.value",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_copy.slack.value": "YPL.FFL.TKUI_C.sizes.macro.500.value",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_copy.chip.UID.value": "YPL.FFL.F0004-001",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_copy.chip.marginBottom.value": "YPL.FFL.TKUI_C.spaces.s.value",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_copy.chip.fringeBottom.value": "YPL.FFL.TKUI_C.spaces.s.value",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_copy.chip.icon.UID.value": " YPL.FFL.F0003-01A",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_copy.heading.UID.value": "YPL.FFL.F0002-005",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_copy.heading.color.value": "YPL.FFL.TKUI_C.colors.white.value",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_copy.heading.marginBottom.value": "YPL.FFL.TKUI_C.spaces.xs.value",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_copy.heading.fringeBottom.value": "YPL.FFL.TKUI_C.spaces.xs.value",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_copy.heading.paddingRight.value": "YPL.FFL.TKUI_C.spaces.xl.value",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_footer.height.value": "YPL.FFL.TKUI_C.sizing.micro.1200.value",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_footer.switch.UID.value": "YPL.FFL.E0004-004",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_footer.eyebrow.UID.value": "YPL.FFL.F0002-401",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_footer.eyebrow.color.value": "YPL.FFL.TKUI_C.colors.white.value",
+          "YPL.FFL.TKUI_D.P0001-001.BLK_footer.eyebrow.paddingRight.value": "YPL.FFL.TKUI_C.spaces.s.value",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_small.height.value": "YPL.FFL.TKUI_C.sizes.macro.500.value",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_small.gradient.UID.value": "YPL.FFL.F0004-002",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_copy.heading.size.value": "YPL.FFL.TKUI_M.typo.europa.h7.size.value",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_copy.heading.leading.value": "YPL.FFL.TKUI_M.typo.europa.h7.leading.value",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_copy.heading.paragraphSpacing.value": "YPL.FFL.TKUI_M.typo.europa.h7.paragraphSpacing.value",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_copy.heading.tracking.value": "YPL.FFL.TKUI_M.typo.europa.h7.tracking.value",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_header.chip.UID.value": "YPL.FFL.E0001.OPT_iconOnly",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_inSlider.width.value": "YPL.FFL.TKUI_C.percents.xxl.value",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_inSlider.fringeRight.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+          "YPL.FFL.TKUI_D.P0001-001.BRKP_m.height.value": "YPL.FFL.TKUI_C.sizes.macro.800.value",
+          "YPL.FFL.TKUI_D.P0001-001.BRKP_m.BLK_copy.heading.size.value": "YPL.FFL.TKUI_M.typo.europa.h3.size.value",
+          "YPL.FFL.TKUI_D.P0001-001.BRKP_m.BLK_copy.heading.leading.value": "YPL.FFL.TKUI_M.typo.europa.h3.leading.value",
+          "YPL.FFL.TKUI_D.P0001-001.BRKP_m.BLK_copy.heading.paragraphSpacing.value": "YPL.FFL.TKUI_M.typo.europa.h3.paragraphSpacing.value",
+          "YPL.FFL.TKUI_D.P0001-001.BRKP_m.BLK_copy.heading.tracking.value": "YPL.FFL.TKUI_M.typo.europa.h3.tracking.value"
+        }
+      },
+      "options": {
+        "OPT_small": {
+          "YPL.FFL.TKUI_D.P0001-001.OPT_small.height.value": "YPL.FFL.TKUI_C.sizes.macro.500.value",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_small.gradient.UID.value": "YPL.FFL.F0004-002",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_copy.heading.size.value": "YPL.FFL.TKUI_M.typo.europa.h7.size.value",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_copy.heading.leading.value": "YPL.FFL.TKUI_M.typo.europa.h7.leading.value",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_copy.heading.paragraphSpacing.value": "YPL.FFL.TKUI_M.typo.europa.h7.paragraphSpacing.value",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_copy.heading.tracking.value": "YPL.FFL.TKUI_M.typo.europa.h7.tracking.value",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_small.BLK_header.chip.UID.value": "YPL.FFL.E0001.OPT_iconOnly"
+        },
+        "OPT_inSlider": {
+          "YPL.FFL.TKUI_D.P0001-001.OPT_inSlider.width.value": "YPL.FFL.TKUI_C.percents.xxl.value",
+          "YPL.FFL.TKUI_D.P0001-001.OPT_inSlider.fringeRight.value": "YPL.FFL.TKUI_C.spaces.sm.value"
+        }
+      },
+      "breakpoints": {
+        "height": {
+          "YPL.FFL.TKUI_D.P0001-001.BRKP_m.height.value": "YPL.FFL.TKUI_C.sizes.macro.800.value"
+        },
+        "size": {
+          "YPL.FFL.TKUI_D.P0001-001.BRKP_m.BLK_copy.heading.size.value": "YPL.FFL.TKUI_M.typo.europa.h3.size.value"
+        },
+        "leading": {
+          "YPL.FFL.TKUI_D.P0001-001.BRKP_m.BLK_copy.heading.leading.value": "YPL.FFL.TKUI_M.typo.europa.h3.leading.value"
+        },
+        "paragraphSpacing": {
+          "YPL.FFL.TKUI_D.P0001-001.BRKP_m.BLK_copy.heading.paragraphSpacing.value": "YPL.FFL.TKUI_M.typo.europa.h3.paragraphSpacing.value"
+        },
+        "tracking": {
+          "YPL.FFL.TKUI_D.P0001-001.BRKP_m.BLK_copy.heading.tracking.value": "YPL.FFL.TKUI_M.typo.europa.h3.tracking.value"
+        }
+      }
     }
   }
 }

@@ -6,9 +6,10 @@ module.exports = {
   allTokens: {
     ...primitives,
     ...elements.allElementTokens,
-    ...patterns,
+    ...patterns.allPatternTokens,
   },
   allKBInfo: {
     ...elements.allElementKBInfo,
+    ...patterns.allPatternKBInfo,
   },
 };
