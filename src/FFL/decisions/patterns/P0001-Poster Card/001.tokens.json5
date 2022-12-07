@@ -35,10 +35,10 @@
 				fringeBottom: 'YPL.FFL.TKUI_C.spaces.l.value',
 				_chip: {
 					DEPTH: 2,
-					UID: 'YPL.FFL.E0001-001',
+					UID: 'YPL.FFL.E0001-001.OPT_withIcon',
 					visible: 'YPL.CONST.boolean.true.value',
 					icon: { 
-						UID: 'YPL.FFL.F0003-01A',
+						UID: 'YPL.FFL.F0003-01C',
 					},
 				},
 			 },
