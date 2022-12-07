@@ -1,0 +1,16 @@
+{
+  E0005: {
+    name: 'Icons', // Element name
+    UID: 'F0003', // Element UID
+    description: 'Lorem ipsum dolar set amet', // Description of the element
+    ticketNumber: '26', // Ticket number on GitHub
+    ticketURL: 'https://github.com/yummly/pasta/issues/26', // URL to the GitHub ticket
+    ownerName: 'Robert', // Name of the owner on the GitHub ticket.
+    ownerGitHubURL: 'https://github.com/robert-ANML', // URL to the owner's GitHub profile
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1932%3A89439', // URL to the element's Figma file
+    variants: ['001','002','003','004','005','006','007','008','009','00A','00B','00C','00D','00E','00F','010','011','012','013','014','015','016','017','018','019','01A','01B','01C','01D','01E','01F','020','021','022','023','024','401','402','403','404','405','406','407','408','409','40A','40B','40C','40D','40E','40F','410','411','412','413','414','415','416','417','418','419','41A','41B','41C','41D','41E','41F','420','421','422','423', '424', '425', '426', '427', '428', '3FF','7FF'], // List any variants here. Leave an empty array if there are no variants.
+    options: [], // List any options here. Leave an empty array if there are no options.
+    hasInteractionStates: false, // Set to true if there are any interaction states, if not, set to false.
+    dependencyTree: [],
+  },
+}
