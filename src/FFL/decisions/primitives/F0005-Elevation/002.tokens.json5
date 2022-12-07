@@ -1,11 +1,11 @@
 {
   YPL: {
     FFL: {
-      'F0005-001': {
+      'F0005-002': {
         META: {
           // required
-          name: 'Elevation 1',
-          version: '221027',
+          name: 'Elevation 2',
+          version: '221207',
           ticket: 'https://github.com/yummly/pasta/issues/50',
           designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=3872%3A49834&viewport=46%2C45%2C0.11',
           // optional:
@@ -13,7 +13,7 @@
           // shortName: '', // uncomment when needed
           GENS: {
             // ¡ DO NOT EDIT ! Script generated:
-            GEN_UID: 'F0005-001',
+            GEN_UID: 'F0005-002',
             GEN_timeStamp: '',
             GEN_project: 'FFL',
             GEN_dependents: [],
@@ -23,11 +23,11 @@
         TREE: {
           offset: {
             x: 0,
-            y: 'YPL.FFL.TKUI_C.sizes.nano.200.value', // 2           
+            y: 'YPL.FFL.TKUI_C.sizes.micro.200.value', // 4           
           },
-          blur: 'YPL.FFL.TKUI_C.sizes.micro.600.value', // 12
+          blur: 'YPL.FFL.TKUI_C.sizes.micro.400.value', // 8
           color: 'YPL.FFL.TKUI_C.colors.black.value',
-          alpha: '15%', // ??? FIXME      
+          alpha: '20%', // ??? FIXME      
         },
         OVERRIDES: {},
       },
