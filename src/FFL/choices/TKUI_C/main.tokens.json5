@@ -284,17 +284,22 @@
             control: {
               regular: {
                 size: 'YPL.FFL.TKUI_C.dimension.sizes.micro.800.value', // 16pt
-                leading: 18,
+                leading: 16,
                 tracking: 0,
               },
               small: {
                 size: 'YPL.FFL.TKUI_C.dimension.sizes.micro.700.value', // 14pt
-                leading: 16,
+                leading: 14,
                 tracking: 0,
               },
+              smaller: {
+                size: 'YPL.FFL.TKUI_C.dimension.sizes.micro.600.value', // 12pt
+                leading: 12,
+                tracking: 0,
+              },              
               smallAllCaps: {
                 size: 'YPL.FFL.TKUI_C.dimension.sizes.micro.600.value', // 12pt
-                leading: 14,
+                leading: 12,
                 tracking: 0,
               },
             },
