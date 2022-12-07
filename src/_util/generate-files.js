@@ -203,6 +203,12 @@ if (program.opts().pattern) {
 
   const prompts = [
     {
+      type: 'list',
+      name: 'project',
+      message: 'Which project is this element for?',
+      choices: getProjectDirectories(),
+    },
+    {
       type: 'input',
       name: 'getUID',
       message: 'What is the pattern UID?',
@@ -234,10 +240,10 @@ if (program.opts().pattern) {
   ];
 
   inquirer.prompt(prompts).then((answers) => {
-    const { getUID, getName, hasVariants } = answers;
+    const { project, getUID, getName, hasVariants } = answers;
 
     // Create the element directory
-    createTokenDirectories(getUID, getName, 'patterns');
+    createTokenDirectories(getUID, getName, 'patterns', project);
 
     if (hasVariants) {
       const variantPrompts = [
@@ -271,12 +277,12 @@ if (program.opts().pattern) {
         const hexVariants = variants.map((variant) => dec2hex(variant, 3).toUpperCase());
 
         hexVariants.forEach((variant) => {
-          createTokenTemplates(getUID, getName, 'patterns', variant);
+          createTokenTemplates(getUID, getName, 'patterns', project, variant);
         });
       });
     } else {
       // Create the files necessary for the element
-      createTokenTemplates(getUID, getName, 'patterns');
+      createTokenTemplates(getUID, getName, 'patterns', project);
     }
   });
 }

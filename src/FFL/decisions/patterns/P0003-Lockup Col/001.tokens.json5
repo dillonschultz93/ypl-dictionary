@@ -1,0 +1,76 @@
+{
+  YPL: {
+    FFL: {
+      'P0003-001': {
+        META: {
+          name: 'Lockup Col',
+          version: '221206',
+          ticket: '58',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1617%3A36557&t=XiL9VZkufMryAdp7-1',
+          // optional:
+          lastEditor: 'Dillon Schultz',
+          // shortName: '', // uncomment if you want to use a short name
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'P0003-001',
+            GEN_timeStamp: '2022-12-07T01:50:07.027Z',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: [],
+          },
+        },
+        TREE: {
+          height: 'YPL.FFL.TKUI_C.dimension.sizes.macro.600.value', // FIXME: The component needs to be updated in the Figma lib to this value (160)
+          width: 'YPL.FFL.TKUI_C.dimension.sizes.macro.450.value', // FIXME: The component needs to be updated in the Figma lib to this value (160)
+          _image: {
+            height: 'YPL.FFL.TKUI_C.dimension.sizes.macro.450.value', // FIXME: The component needs to be updated in the Figma lib to this value (160)
+            width: 'YPL.FFL.TKUI_C.dimension.sizes.macro.450.value', // FIXME: The component needs to be updated in the Figma lib to this value (160)
+            padding: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
+            radius: 'YPL.FFL.TKUI_A.radii.m.value',
+            marginBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
+            fringeBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
+          },
+          _BLK_header: {
+            DEPTH: 1,
+            _chip: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.E0001-001.OPT_withIcon', // Chip with Icon
+              visible: 'YPL.CONST.boolean.true.value',
+              icon: {
+                UID: 'YPL.FFL.F0003-01C', // Lock
+              },
+            },
+          },
+          _BLK_copy: {
+            DEPTH: 1,
+            _BLK_top: {
+              DEPTH: 2,
+              marginBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
+              fringeBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
+              _chip: {
+                DEPTH: 3,
+                UID: 'YPL.FFL.E0001-001.OPT_withIcon', // Chip with Icon
+                visible: 'YPL.CONST.boolean.true.value',
+                icon: {
+                  UID: 'YPL.FFL.F0003-01A', // Star
+                },
+              },
+              _switch: {
+                DEPTH: 3,
+                UID: 'YPL.FFL.E0004-002'
+              }
+            },
+            _BLK_bottom: {
+              DEPTH: 2,
+              _title: {
+                UID: 'YPL.FFL.F0002-104',
+                color: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+              }
+            }
+          },
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}

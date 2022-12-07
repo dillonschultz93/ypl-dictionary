@@ -1,0 +1,69 @@
+{
+  P0003: {
+    name: 'Lockup Col',
+    UID: 'P0003',
+    description: '',
+    ticketNumber: '58',
+    ticketURL: '',
+    ownerName: 'Dillon',
+    ownerGitHubURL: 'https://github.com/dillonschultz93',
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1617%3A36557&t=XiL9VZkufMryAdp7-1',
+    variants: ['001'],
+    options: [],
+    hasInteractionStates: false, // change this to true if the component has interaction states
+    dependencyTree: [
+      {
+        name: '.BLK_header',
+        children: [
+          {
+            name: 'chip',
+            component: 'FFL.E0001',
+            type: 'element',
+            subType: 'chip',
+            instance: '.chip',
+            optional: false,
+          },
+        ],
+      },
+      {
+        name: '.BLK_copy',
+        children: [
+          {
+            name: '.BLK_top',
+            children: [
+              {
+                name: 'chip',
+                component: 'FFL.E0001',
+                type: 'element',
+                subType: 'chip',
+                instance: '.chip',
+                optional: false,
+              },
+              {
+                name: 'switchButton',
+                component: 'FFL.E0004-002.OPT_white',
+                type: 'element',
+                subType: 'switch',
+                instance: '.switchButton',
+                optional: false,
+              },
+            ],
+          },
+          {
+            name: '.BLK_bottom',
+            children: [
+              {
+                name: 'title',
+                component: 'FFL.F0002-104',
+                type: 'primitive',
+                subType: 'typography',
+                instance: '.title',
+                optional: false,
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+}

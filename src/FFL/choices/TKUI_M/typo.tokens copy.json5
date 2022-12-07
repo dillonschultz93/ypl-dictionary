@@ -1,0 +1,360 @@
+{
+  "YPL": {
+    "FFL": {
+      "TKUI_M": {
+        "typo": {
+          "europa": {
+            "eyebrow": {
+              "regular": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.600.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 18
+                },
+                "paragraphSpacing": {
+                  "value": 0
+                },
+                "tracking": {
+                  "value": "10%"
+                }
+              },
+              "small": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.500.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 18
+                },
+                "paragraphSpacing": {
+                  "value": 0
+                },
+                "tracking": {
+                  "value": "10%"
+                }
+              }
+            },
+            "caption": {
+              "regular": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.600.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 18
+                },
+                "paragraphSpacing": {
+                  "value": 0
+                },
+                "tracking": {
+                  "value": "-2%"
+                }
+              },
+              "strong": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.600.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 18
+                },
+                "paragraphSpacing": {
+                  "value": 0
+                },
+                "tracking": {
+                  "value": "-2%"
+                }
+              }
+            },
+            "ps": {
+              "regular": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.700.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 16.8
+                },
+                "paragraphSpacing": {
+                  "value": 7.56
+                },
+                "tracking": {
+                  "value": "-2%"
+                }
+              },
+              "strong": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.700.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 16.8
+                },
+                "paragraphSpacing": {
+                  "value": 7.56
+                },
+                "tracking": {
+                  "value": "-2%"
+                }
+              }
+            },
+            "p": {
+              "regular": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.800.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 19.2
+                },
+                "paragraphSpacing": {
+                  "value": 8.64
+                },
+                "tracking": {
+                  "value": "-2%"
+                }
+              },
+              "strong": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.800.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 19.2
+                },
+                "paragraphSpacing": {
+                  "value": 8.64
+                },
+                "tracking": {
+                  "value": "-2%"
+                }
+              }
+            },
+            "h8": {
+              "size": {
+                "value": "YPL.FFL.TKUI_C.sizes.micro.700.value * YPL.TEST.textSizeFactor.value"
+              },
+              "leading": {
+                "value": 16.8
+              },
+              "paragraphSpacing": {
+                "value": 7.56
+              },
+              "tracking": {
+                "value": "3.5%"
+              }
+            },
+            "h7": {
+              "size": {
+                "value": "YPL.FFL.TKUI_C.sizes.micro.900.value * YPL.TEST.textSizeFactor.value"
+              },
+              "leading": {
+                "value": 21.6
+              },
+              "paragraphSpacing": {
+                "value": 9.72
+              },
+              "tracking": {
+                "value": "0%"
+              }
+            },
+            "h6": {
+              "size": {
+                "value": "YPL.FFL.TKUI_C.sizes.micro.1000.value * YPL.TEST.textSizeFactor.value"
+              },
+              "leading": {
+                "value": 24
+              },
+              "paragraphSpacing": {
+                "value": 10.8
+              },
+              "tracking": {
+                "value": "0%"
+              }
+            },
+            "h5": {
+              "size": {
+                "value": "YPL.FFL.TKUI_C.sizes.micro.1200.value * YPL.TEST.textSizeFactor.value"
+              },
+              "leading": {
+                "value": 28.2
+              },
+              "paragraphSpacing": {
+                "value": 12.96
+              },
+              "tracking": {
+                "value": "-1%"
+              }
+            },
+            "h4": {
+              "size": {
+                "value": "YPL.FFL.TKUI_C.sizes.micro.1400.value * YPL.TEST.textSizeFactor.value"
+              },
+              "leading": {
+                "value": 33.6
+              },
+              "paragraphSpacing": {
+                "value": 15.12
+              },
+              "tracking": {
+                "value": "-1%"
+              }
+            },
+            "h3": {
+              "size": {
+                "value": "YPL.FFL.TKUI_C.sizes.micro.1600.value * YPL.TEST.textSizeFactor.value"
+              },
+              "leading": {
+                "value": 38.4
+              },
+              "paragraphSpacing": {
+                "value": 17.28
+              },
+              "tracking": {
+                "value": "-2%"
+              }
+            },
+            "h2": {
+              "size": {
+                "value": "YPL.FFL.TKUI_C.sizes.micro.1800.value * YPL.TEST.textSizeFactor.value"
+              },
+              "leading": {
+                "value": 41.6
+              },
+              "paragraphSpacing": {
+                "value": 23.12
+              },
+              "tracking": {
+                "value": "-2%"
+              }
+            },
+            "h1": {
+              "size": {
+                "value": "YPL.FFL.TKUI_C.sizes.macro.200.value * YPL.TEST.textSizeFactor.value"
+              },
+              "leading": {
+                "value": 50.4
+              },
+              "paragraphSpacing": {
+                "value": 22.68
+              },
+              "tracking": {
+                "value": "-2%"
+              }
+            },
+            "chart": {
+              "description": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.600.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 16.8
+                },
+                "paragraphSpacing": {
+                  "value": 0
+                },
+                "tracking": {
+                  "value": "0%"
+                }
+              },
+              "item": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.600.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 16.8
+                },
+                "paragraphSpacing": {
+                  "value": 0
+                },
+                "tracking": {
+                  "value": "0%"
+                }
+              },
+              "label": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.500.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 16.8
+                },
+                "paragraphSpacing": {
+                  "value": 0
+                },
+                "tracking": {
+                  "value": "0%"
+                }
+              }
+            },
+            "ctrl": {
+              "regular": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.800.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 16
+                },
+                "paragraphSpacing": {
+                  "value": 0
+                },
+                "tracking": {
+                  "value": "0%"
+                }
+              },
+              "small": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.700.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 14
+                },
+                "paragraphSpacing": {
+                  "value": 0
+                },
+                "tracking": {
+                  "value": "0%"
+                }
+              },
+              "smaller": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.600.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 12
+                },
+                "paragraphSpacing": {
+                  "value": 0
+                },
+                "tracking": {
+                  "value": "0%"
+                }
+              },
+              "capsmallbold": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.600.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 12
+                },
+                "paragraphSpacing": {
+                  "value": 0
+                },
+                "tracking": {
+                  "value": "0.1%"
+                }
+              },
+              "capsmall": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.600.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 12
+                },
+                "paragraphSpacing": {
+                  "value": 0
+                },
+                "tracking": {
+                  "value": "0.1%"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

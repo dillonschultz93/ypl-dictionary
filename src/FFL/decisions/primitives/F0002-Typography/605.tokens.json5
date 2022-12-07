@@ -1,11 +1,11 @@
 {
   YPL: {
     FFL: {
-      'F0002-604': {
+      'F0002-605': {
         META: {
           // required
           name: 'Control Caps',
-          version: '221021',
+          version: '221206',
           ticket: 'https://github.com/yummly/pasta/issues/25',
           designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=534%3A31765&viewport=632%2C1600%2C0.12',          
           // optional:
@@ -13,7 +13,7 @@
           // shortName: '', // uncomment when needed
           GENS: {
             // ¡ DO NOT EDIT ! Script generated:
-            GEN_UID: 'F0002-604',
+            GEN_UID: 'F0002-605',
             GEN_timeStamp: '',
             GEN_project: 'FFL',
             GEN_dependents: [],
@@ -22,12 +22,12 @@
         },
         TREE: {
           // Choice
-          familyName: 'YPL.FFL.TKUI_C.typo.europa.familyName.regular.value',
+          familyName: 'YPL.FFL.TKUI_C.typo.europa.familyName.bold.value',
           // From apparatus
-          size: 'YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.size.value',
-          leading: 'YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.leading.value',
-          paragraphSpacing: 'YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.paragraphSpacing.value',
-          tracking: 'YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.tracking.value',
+          size: 'YPL.FFL.TKUI_M.typo.europa.ctrl.smaller.size.value',
+          leading: 'YPL.FFL.TKUI_M.typo.europa.ctrl.smaller.leading.value',
+          paragraphSpacing: 'YPL.FFL.TKUI_M.typo.europa.ctrl.smaller.paragraphSpacing.value',
+          tracking: 'YPL.FFL.TKUI_M.typo.europa.ctrl.smaller.tracking.value',
           // Other attributes
           textAlignHorizontal: 'YPL.CONST.textAlignHorizontal.left.value',
           textCase: 'YPL.CONST.textCase.upper.value',
