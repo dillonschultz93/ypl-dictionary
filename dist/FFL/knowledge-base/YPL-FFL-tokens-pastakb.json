@@ -300,10 +300,10 @@
         "YPL.FFL.TKUI_D.E0003-003.OPT_smallTint.BLK_main.label.color.value": "YPL.FFL.TKUI_C.colors.teal.500.value",
         "YPL.FFL.TKUI_D.E0003-003.OPT_smallTint.BLK_main.icon.color.value": "YPL.FFL.TKUI_C.colors.teal.500.value",
         "YPL.FFL.TKUI_D.E0003-009.height.value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
+        "YPL.FFL.TKUI_D.E0003-009.BLK_main.label.UID.value": "YPL.FFL.F0002-601",
         "YPL.FFL.TKUI_D.E0003-009.BLK_main.label.color.i.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
         "YPL.FFL.TKUI_D.E0003-009.BLK_main.label.color.p.value": "YPL.FFL.TKUI_C.colors.teal.500.value",
         "YPL.FFL.TKUI_D.E0003-009.BLK_main.label.color.d.value": "YPL.FFL.TKUI_C.colors.gray.300.value",
-        "YPL.FFL.TKUI_D.E0003-009.BLK_main.label.style.value": "YPL.FFL.F0002-601",
         "YPL.FFL.TKUI_D.E0003-00A.height.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
         "YPL.FFL.TKUI_D.E0003-00A.BLK_main.label.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
         "YPL.FFL.TKUI_D.E0003-00A.BLK_main.label.color.p.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
@@ -553,10 +553,10 @@
         },
         "009": {
           "YPL.FFL.TKUI_D.E0003-009.height.value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
+          "YPL.FFL.TKUI_D.E0003-009.BLK_main.label.UID.value": "YPL.FFL.F0002-601",
           "YPL.FFL.TKUI_D.E0003-009.BLK_main.label.color.i.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
           "YPL.FFL.TKUI_D.E0003-009.BLK_main.label.color.p.value": "YPL.FFL.TKUI_C.colors.teal.500.value",
-          "YPL.FFL.TKUI_D.E0003-009.BLK_main.label.color.d.value": "YPL.FFL.TKUI_C.colors.gray.300.value",
-          "YPL.FFL.TKUI_D.E0003-009.BLK_main.label.style.value": "YPL.FFL.F0002-601"
+          "YPL.FFL.TKUI_D.E0003-009.BLK_main.label.color.d.value": "YPL.FFL.TKUI_C.colors.gray.300.value"
         },
         "00A": {
           "YPL.FFL.TKUI_D.E0003-00A.height.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
@@ -1346,6 +1346,131 @@
         }
       },
       "options": null,
+      "breakpoints": null
+    },
+    "P0007": {
+      "allTokens": {
+        "YPL.FFL.TKUI_D.P0007-001.paddingTop.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P0007-001.paddingBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P0007-001.marginTop.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P0007-001.fringeTop.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P0007-001.marginLeft.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P0007-001.marginRight.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P0007-001.fringeLeft.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P0007-001.fringeRight.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P0007-001.marginBottom.value": "YPL.FFL.TKUI_C.dimension.space.xxxl.value",
+        "YPL.FFL.TKUI_D.P0007-001.fringeBottom.value": "YPL.FFL.TKUI_C.dimension.space.xxxl.value",
+        "YPL.FFL.TKUI_D.P0007-001.minHeight.value": "YPL.FFL.TKUI_C.dimension.sizes.macro.400.value",
+        "YPL.FFL.TKUI_D.P0007-001.width.value": "YPL.FFL.TKUI_C.dimension.sizes.macro.675.value",
+        "YPL.FFL.TKUI_D.P0007-001.elevation.UID.value": "FFL.F0005-001",
+        "YPL.FFL.TKUI_D.P0007-001.BLK_top.title.UID.value": "FFL.F0002-102",
+        "YPL.FFL.TKUI_D.P0007-001.BLK_top.title.marginBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.xs.value",
+        "YPL.FFL.TKUI_D.P0007-001.BLK_top.title.fringeBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.xs.value",
+        "YPL.FFL.TKUI_D.P0007-001.BLK_top.copy.UID.value": "FFL.F0002-103",
+        "YPL.FFL.TKUI_D.P0007-001.BLK_bottom.button.UID.value": "FFL.E0003-009",
+        "YPL.FFL.TKUI_D.P0007-001.BLK_bottom.marginTop.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
+        "YPL.FFL.TKUI_D.P0007-001.BLK_bottom.fringeTop.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
+        "YPL.FFL.TKUI_D.P0007-001.BLK_bottom.visible.value": "YPL.CONST.boolean.true.value",
+        "YPL.FFL.TKUI_D.P0007-001.OPT_textOnly.BLK_bottom.visible.value": "YPL.CONST.boolean.false.value",
+        "YPL.FFL.TKUI_D.P0007-001.OPT_inSlider.width.value": "YPL.FFL.TKUI_C.dimension.sizes.macro.650.value"
+      },
+      "meta": {
+        "name": "Flash Card",
+        "UID": "P0007",
+        "description": "",
+        "ticketNumber": "13",
+        "ticketURL": "https://github.com/yummly/pasta/issues/13",
+        "ownerName": "Dillon",
+        "ownerGitHubURL": "https://github.com/dillonschultz93",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1812%3A40193&t=VXO9qD6seNWYQqGa-1",
+        "variants": [
+          "001"
+        ],
+        "options": [
+          ".OPT_textOnly",
+          ".OPT_inSlider"
+        ],
+        "hasInteractionStates": false,
+        "dependencyTree": [
+          {
+            "name": "elevation",
+            "component": "FFL.F0005-001",
+            "type": "primitive",
+            "subType": "elevation",
+            "instance": ".elevation",
+            "optional": false
+          },
+          {
+            "name": "BLK_top",
+            "children": [
+              {
+                "name": "title",
+                "component": "FFL.F0002-102",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".title",
+                "optional": false
+              },
+              {
+                "name": "copy",
+                "component": "FFL.F0002-103",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".copy",
+                "optional": false
+              }
+            ]
+          },
+          {
+            "name": "BLK_bottom",
+            "children": [
+              {
+                "name": "button",
+                "component": "FFL.E0003-009",
+                "type": "element",
+                "subType": "button-E0003",
+                "instance": ".button",
+                "optional": true
+              }
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "001": {
+          "YPL.FFL.TKUI_D.P0007-001.paddingTop.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P0007-001.paddingBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P0007-001.marginTop.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P0007-001.fringeTop.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P0007-001.marginLeft.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P0007-001.marginRight.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P0007-001.fringeLeft.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P0007-001.fringeRight.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P0007-001.marginBottom.value": "YPL.FFL.TKUI_C.dimension.space.xxxl.value",
+          "YPL.FFL.TKUI_D.P0007-001.fringeBottom.value": "YPL.FFL.TKUI_C.dimension.space.xxxl.value",
+          "YPL.FFL.TKUI_D.P0007-001.minHeight.value": "YPL.FFL.TKUI_C.dimension.sizes.macro.400.value",
+          "YPL.FFL.TKUI_D.P0007-001.width.value": "YPL.FFL.TKUI_C.dimension.sizes.macro.675.value",
+          "YPL.FFL.TKUI_D.P0007-001.elevation.UID.value": "FFL.F0005-001",
+          "YPL.FFL.TKUI_D.P0007-001.BLK_top.title.UID.value": "FFL.F0002-102",
+          "YPL.FFL.TKUI_D.P0007-001.BLK_top.title.marginBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.xs.value",
+          "YPL.FFL.TKUI_D.P0007-001.BLK_top.title.fringeBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.xs.value",
+          "YPL.FFL.TKUI_D.P0007-001.BLK_top.copy.UID.value": "FFL.F0002-103",
+          "YPL.FFL.TKUI_D.P0007-001.BLK_bottom.button.UID.value": "FFL.E0003-009",
+          "YPL.FFL.TKUI_D.P0007-001.BLK_bottom.marginTop.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
+          "YPL.FFL.TKUI_D.P0007-001.BLK_bottom.fringeTop.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
+          "YPL.FFL.TKUI_D.P0007-001.BLK_bottom.visible.value": "YPL.CONST.boolean.true.value",
+          "YPL.FFL.TKUI_D.P0007-001.OPT_textOnly.BLK_bottom.visible.value": "YPL.CONST.boolean.false.value",
+          "YPL.FFL.TKUI_D.P0007-001.OPT_inSlider.width.value": "YPL.FFL.TKUI_C.dimension.sizes.macro.650.value"
+        }
+      },
+      "options": {
+        "OPT_textOnly": {
+          "YPL.FFL.TKUI_D.P0007-001.OPT_textOnly.BLK_bottom.visible.value": "YPL.CONST.boolean.false.value"
+        },
+        "OPT_inSlider": {
+          "YPL.FFL.TKUI_D.P0007-001.OPT_inSlider.width.value": "YPL.FFL.TKUI_C.dimension.sizes.macro.650.value"
+        }
+      },
       "breakpoints": null
     }
   }
