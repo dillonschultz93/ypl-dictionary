@@ -22,7 +22,7 @@
         },
         TREE: {
           height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
-          BLK_main: {
+          _BLK_main: {
             DEPTH: 1,
             _label: {
               DEPTH: 2,

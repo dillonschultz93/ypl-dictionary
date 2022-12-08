@@ -37,7 +37,7 @@
             },
           },
 
-          BLK_main: {
+         _BLK_main: {
             DEPTH: 1,
             _icon: {
               DEPTH: 2,
