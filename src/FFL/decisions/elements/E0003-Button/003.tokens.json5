@@ -35,7 +35,7 @@
             p: 'YPL.FFL.TKUI_C.colors.teal.500.value',
             d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
           },
-          BLK_main: {
+         _BLK_main: {
             DEPTH: 1,
             _label: {
               DEPTH: 2,                 
@@ -73,11 +73,11 @@
               p: 'YPL.FFL.TKUI_C.colors.teal.100.value',
               // FIXME: no "d" ?
             },
-            BLK_main: {
-              label: {
+           _BLK_main: {
+              _label: {
                 color: 'YPL.FFL.TKUI_C.colors.teal.500.value',
               },
-              icon: {
+              _icon: {
                 color: 'YPL.FFL.TKUI_C.colors.teal.500.value',
               },
             },
@@ -97,11 +97,11 @@
               p: 'YPL.FFL.TKUI_C.colors.teal.100.value',
               // FIXME: no "d" ?
             },
-            BLK_main: {
-              label: {
+           _BLK_main: {
+              _label: {
                 color: 'YPL.FFL.TKUI_C.colors.teal.500.value',
               },
-              icon: {
+              _icon: {
                 color: 'YPL.FFL.TKUI_C.colors.teal.500.value',
               },
             },

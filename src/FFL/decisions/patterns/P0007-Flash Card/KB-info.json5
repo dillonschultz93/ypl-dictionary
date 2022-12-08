@@ -1,0 +1,59 @@
+{
+  P0007: {
+    name: 'Flash Card',
+    UID: 'P0007',
+    description: '',
+    ticketNumber: '13',
+    ticketURL: 'https://github.com/yummly/pasta/issues/13',
+    ownerName: 'Dillon',
+    ownerGitHubURL: 'https://github.com/dillonschultz93',
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1812%3A40193&t=VXO9qD6seNWYQqGa-1',
+    variants: ['001'],
+    options: ['.OPT_textOnly', '.OPT_inSlider'],
+    hasInteractionStates: false, // change this to true if the component has interaction states
+    dependencyTree: [
+      {
+        name: 'elevation',
+        component: 'FFL.F0005-001',
+        type: 'primitive',
+        subType: 'elevation',
+        instance: '.elevation',
+        optional: false,
+      }
+      {
+        name: 'BLK_top',
+        children: [
+          {
+            name: 'title',
+            component: 'FFL.F0002-102',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.title',
+            optional: false,
+          },
+          {
+            name: 'copy',
+            component: 'FFL.F0002-103',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.copy',
+            optional: false,
+          },
+        ],
+      },
+      {
+        name: 'BLK_bottom',
+        children: [
+          {
+            name: 'button',
+            component: 'FFL.E0003-009',
+            type: 'element',
+            subType: 'button-E0003',
+            instance: '.button',
+            optional: true,
+          }
+        ]
+      }
+    ],
+  },
+}

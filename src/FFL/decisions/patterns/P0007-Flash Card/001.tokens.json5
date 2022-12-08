@@ -1,0 +1,75 @@
+{
+  YPL: {
+    FFL: {
+      'P0007-001': {
+        META: {
+          name: 'Flash Card',
+          version: '221207',
+          ticket: 'https://github.com/yummly/pasta/issues/13',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1812%3A40193&t=VXO9qD6seNWYQqGa-1',
+          // optional:
+          lastEditor: 'Dillon Schultz',
+          // shortName: '', // uncomment if you want to use a short name
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'P0007-001',
+            GEN_timeStamp: '2022-12-07T21:55:57.971Z',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: [],
+          },
+        },
+        TREE: {
+          paddingTop: 'YPL.FFL.TKUI_C.dimension.spaces.m.value',
+          paddingBottom: 'YPL.FFL.TKUI_C.dimension.spaces.m.value',
+          marginTop: 'YPL.FFL.TKUI_C.dimension.spaces.m.value',
+          fringeTop: 'YPL.FFL.TKUI_C.dimension.spaces.m.value',
+          marginLeft: 'YPL.FFL.TKUI_C.dimension.spaces.m.value',
+          marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.m.value',
+          fringeLeft: 'YPL.FFL.TKUI_C.dimension.spaces.m.value',
+          fringeRight: 'YPL.FFL.TKUI_C.dimension.spaces.m.value',
+          marginBottom: 'YPL.FFL.TKUI_C.dimension.space.xxxl.value',
+          fringeBottom: 'YPL.FFL.TKUI_C.dimension.space.xxxl.value',
+          minHeight: 'YPL.FFL.TKUI_C.dimension.sizes.macro.400.value',
+          width: 'YPL.FFL.TKUI_C.dimension.sizes.macro.675.value',
+          _elevation: {
+            UID: 'FFL.F0005-001',
+          },
+          _BLK_top: {
+            DEPTH: 1,
+            _title: {
+              DEPTH: 2,
+              UID: 'FFL.F0002-102', // Strong Paragraph
+              marginBottom: 'YPL.FFL.TKUI_C.dimension.spaces.xs.value',
+              fringeBottom: 'YPL.FFL.TKUI_C.dimension.spaces.xs.value',
+            },
+            _copy: {
+              DEPTH: 2,
+              UID: 'FFL.F0002-103', // Small Paragraph
+            },
+          },
+          _BLK_bottom: {
+            DEPTH: 1,
+            _button: {
+              DEPTH: 2,
+              UID: 'FFL.E0003-009', // Button
+            },
+            marginTop: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
+            fringeTop: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
+            visible: 'YPL.CONST.boolean.true.value',
+          },
+        },
+        OVERRIDES: {
+          OPT_textOnly: {
+            _BLK_bottom: {
+              visible: 'YPL.CONST.boolean.false.value',
+            },
+          },
+          OPT_inSlider: {
+            width: 'YPL.FFL.TKUI_C.dimension.sizes.macro.650.value',
+          },
+        },
+      },
+    },
+  },
+}
