@@ -36,7 +36,7 @@
               DEPTH: 2,
               UID: 'YPL.FFL.E0001-001.OPT_withIcon', // Chip with Icon
               visible: 'YPL.CONST.boolean.true.value',
-              icon: {
+              _icon: {
                 UID: 'YPL.FFL.F0003-01C', // Lock
               },
             },
@@ -51,7 +51,7 @@
                 DEPTH: 3,
                 UID: 'YPL.FFL.E0001-001.OPT_withIcon', // Chip with Icon
                 visible: 'YPL.CONST.boolean.true.value',
-                icon: {
+                _icon: {
                   UID: 'YPL.FFL.F0003-01A', // Star
                 },
               },

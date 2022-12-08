@@ -30,7 +30,7 @@
             p: 'YPL.FFL.TKUI_C.colors.gray.200.value',
             d: 'YPL.FFL.TKUI_C.colors.gray.300.value',
           },
-          BLK_main: {
+         _BLK_main: {
             DEPTH: 1,
             _icon: {
               DEPTH: 2,
@@ -53,7 +53,7 @@
             bgColor: {
               i: 'YPL.FFL.TKUI_C.colors.white.value', // FIXME: that color swap/design is weird !!!!!!!
             },
-            BLK_main: {         
+           _BLK_main: {         
               _icon: {
                 UID: 'YPL.FFL.F0003-3FF', // 16pt placeholder               
                 width: 'YPL.FFL.TKUI_C.sizes.micro.800.value', // FIXME: shall we set BLK_main the same as well?

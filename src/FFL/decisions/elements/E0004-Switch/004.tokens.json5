@@ -21,7 +21,7 @@
           },
         },
         TREE: {
-          BLK_main: {
+         _BLK_main: {
             DEPTH: 1,
             _control: {
               DEPTH: 2,
@@ -59,7 +59,7 @@
         },
         OVERRIDES: {
           OPT_label: {
-            BLK_main: {
+           _BLK_main: {
               _label: {
                 visible: 'YPL.CONST.boolean.true.value',
               },

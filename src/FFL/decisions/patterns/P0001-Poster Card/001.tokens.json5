@@ -37,7 +37,7 @@
 					DEPTH: 2,
 					UID: 'YPL.FFL.E0001-001.OPT_withIcon',
 					visible: 'YPL.CONST.boolean.true.value',
-					icon: { 
+					_icon: { 
 						UID: 'YPL.FFL.F0003-01C',
 					},
 				},
@@ -51,7 +51,7 @@
 				  UID: 'YPL.FFL.F0004-001',
 				  marginBottom: 'YPL.FFL.TKUI_C.spaces.s.value',
 				  fringeBottom: 'YPL.FFL.TKUI_C.spaces.s.value',
-				  icon: { 
+				  _icon: { 
 				     UID: ' YPL.FFL.F0003-01A',
 				  },
 				},
@@ -86,7 +86,7 @@
 				  UID: 'YPL.FFL.F0004-002',
 				},
 				_BLK_copy: {
-				  _heading: {
+				  heading: {
 					 size: 'YPL.FFL.TKUI_M.typo.europa.h7.size.value',
 					 leading: 'YPL.FFL.TKUI_M.typo.europa.h7.leading.value',
 					 paragraphSpacing: 'YPL.FFL.TKUI_M.typo.europa.h7.paragraphSpacing.value',
@@ -106,7 +106,7 @@
 			 BRKP_m: {
 				height: 'YPL.FFL.TKUI_C.sizes.macro.800.value',
 				_BLK_copy: {
-				  _heading: {
+				  heading: {
 					 size: 'YPL.FFL.TKUI_M.typo.europa.h3.size.value',
 					 leading: 'YPL.FFL.TKUI_M.typo.europa.h3.leading.value',
 					 paragraphSpacing: 'YPL.FFL.TKUI_M.typo.europa.h3.paragraphSpacing.value',
