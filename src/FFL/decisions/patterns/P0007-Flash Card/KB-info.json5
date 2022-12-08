@@ -19,7 +19,7 @@
         subType: 'elevation',
         instance: '.elevation',
         optional: false,
-      }
+      },
       {
         name: 'BLK_top',
         children: [
@@ -51,9 +51,9 @@
             subType: 'button-E0003',
             instance: '.button',
             optional: true,
-          }
-        ]
-      }
+          },
+        ],
+      },
     ],
   },
 }
