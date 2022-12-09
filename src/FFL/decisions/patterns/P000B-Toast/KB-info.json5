@@ -1,0 +1,17 @@
+
+{
+  "P000B": {
+    "name": "Toast",
+    "UID": "P000B",
+    "description": "",
+    "ticketNumber": "",
+    "ticketURL": "",
+    "ownerName": "",
+    "ownerGitHubURL": "",
+    "figmaLink": "",
+    "variants": [],
+    "options": [],
+    "hasInteractionStates": false, // change this to true if the component has interaction states
+    "dependencyTree": [],
+  },
+}  
