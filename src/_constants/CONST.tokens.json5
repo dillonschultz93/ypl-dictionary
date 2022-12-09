@@ -11,6 +11,11 @@
         center: 'CENTER',
         justified: 'JUSTIFIED',
       },
+      verticalAlign: {
+        top: "TOP",
+        middle: "MIDDLE",
+        bottom: "BOTTOM",
+      },
       textCase: {
         original: 'ORIGINAL',
         upper: 'UPPER',
@@ -24,7 +29,7 @@
       },
       backgroundSize: {
         cover: 'cover',
-      }
-    }
-  }
+      },
+    },
+  },
 }

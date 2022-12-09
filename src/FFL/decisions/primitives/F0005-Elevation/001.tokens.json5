@@ -13,7 +13,6 @@
           // shortName: '', // uncomment when needed
           GENS: {
             // ¡ DO NOT EDIT ! Script generated:
-            GEN_UID: 'F0005-001',
             GEN_timeStamp: '',
             GEN_project: 'FFL',
             GEN_dependents: [],
@@ -23,13 +22,21 @@
         TREE: {
           offset: {
             x: 0,
-            y: 'YPL.FFL.TKUI_C.sizes.nano.200.value', // 2           
+            y: 'YPL.FFL.TKUI_C.sizes.micro.100.value', // 2            
           },
           blur: 'YPL.FFL.TKUI_C.sizes.micro.600.value', // 12
           color: 'YPL.FFL.TKUI_C.colors.black.value',
-          alpha: '15%', // ??? FIXME      
+          alpha: 'YPL.FFL.TKUI_C.opacities.150.value',               
         },
-        OVERRIDES: {},
+        OVERRIDES: {
+          OPT_collapsed: { // This Option should allow to transition from-or-to a no elevation state
+            offset: {
+              x: 0,
+              y: 0, 
+            },
+            alpha: 'YPL.FFL.TKUI_C.opacities.000.value',               
+          }
+        },
       },
     },
   },

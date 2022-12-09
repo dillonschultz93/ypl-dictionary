@@ -1,0 +1,67 @@
+{
+	YPL: {
+		FFL: {
+			'P0002-001': {
+				META: {
+					// required:
+					name: 'Cardlet',
+					version: '221207',
+					ticket: 'https://github.com/yummly/pasta/issues/8',
+					designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1475%3A36781&t=xkx4KilLpLfKlFDS-11',
+					// optional:
+					lastEditor: 'Manuel Colom',
+					shortName: '',
+					GENS: {
+						GEN_UID: 'P0002-001',
+						GEN_timeStamp: '',
+						GEN_project: 'FFL',
+						GEN_dependents: [],
+						GEN_dependentsUpdated: '',
+					},
+				},
+				TREE: {
+					width: 327, // FIXME
+					height: 'YPL.FFL.TKUI_C.dimension.sizes.micro.2200', // FIXME we need to switch to macro probably
+					marginTop: 'YPL.FFL.TKUI_C.spaces.m.value',
+					marginBottom: 'YPL.FFL.TKUI_C.spaces.m.value',
+					marginLeft: 'YPL.FFL.TKUI_C.spaces.l.value',
+					marginRight: 'YPL.FFL.TKUI_C.spaces.l.value',			
+					radius: 'YPL.FFL.TKUI_C.dimension.radii.m.value',
+					paddingTop: 'YPL.FFL.TKUI_C.spaces.s.value',
+					paddingBottom: 'YPL.FFL.TKUI_C.spaces.s.value',
+					paddingLeft: 'YPL.FFL.TKUI_C.spaces.l.value',
+					paddingRight: 'YPL.FFL.TKUI_C.spaces.l.value',				
+					bgColor: 'YPL.FFL.TKUI_C.colors.white.value',
+					_elevation: {
+						UID: 'YPL.FFL.F0005-001',
+					},
+					_BLK_copy: {
+						DEPTH: 1,						
+						width: 215, // FIXME
+						marginRight: 'YPL.FFL.TKUI_C.spaces.s.value',
+						verticalAlign: 'YPL.CONST.verticalAlign.middle.value',
+						_title: {
+							DEPTH: 2,					
+							UID:'YPL.FFL.F0002-008',
+							color: 'YPL.FFL.TKUI_C.colors.gray.900.value',	
+							marginBottom: 'YPL.FFL.TKUI_C.spaces.s.value', 
+						},
+						_eyebrow: {
+							DEPTH: 2,			
+							UID:'YPL.FFL.F0002-401',		
+							color: 'YPL.FFL.TKUI_C.colors.gray.500.value',							
+						},
+					},
+					_thumbnail: {
+						DEPTH:1,
+						UID: 'E0002-001.OPT_circle',
+						verticalAlign: 'YPL.CONST.verticalAlign.middle.value',
+						width: 'YPL.FFL.TKUI_C.sizes.micro.2000.value',
+						height: 'YPL.FFL.TKUI_C.sizes.micro.2000.value',
+					},
+				},
+				OVERRIDES: {}
+			},
+		},
+	},
+},

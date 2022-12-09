@@ -5,7 +5,7 @@
         META: {
           // required
           name: 'Elevation 2',
-          version: '221207',
+          version: '221108',
           ticket: 'https://github.com/yummly/pasta/issues/50',
           designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=3872%3A49834&viewport=46%2C45%2C0.11',
           // optional:
@@ -13,7 +13,6 @@
           // shortName: '', // uncomment when needed
           GENS: {
             // ¡ DO NOT EDIT ! Script generated:
-            GEN_UID: 'F0005-002',
             GEN_timeStamp: '',
             GEN_project: 'FFL',
             GEN_dependents: [],
@@ -23,13 +22,21 @@
         TREE: {
           offset: {
             x: 0,
-            y: 'YPL.FFL.TKUI_C.sizes.micro.200.value', // 4           
+            y: 'YPL.FFL.TKUI_C.sizes.micro.200.value', // 4          
           },
           blur: 'YPL.FFL.TKUI_C.sizes.micro.400.value', // 8
           color: 'YPL.FFL.TKUI_C.colors.black.value',
-          alpha: '20%', // ??? FIXME      
+          alpha: 'YPL.FFL.TKUI_C.opacities.200.value',      
         },
-        OVERRIDES: {},
+        OVERRIDES: {
+          OPT_collapsed: { // This Option should allow to transition from-or-to a no elevation state
+            offset: {
+              x: 0,
+              y: 0, 
+            },
+            alpha: 'YPL.FFL.TKUI_C.opacities.000.value',               
+          }
+        },
       },
     },
   },
