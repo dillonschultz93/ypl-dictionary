@@ -4,11 +4,11 @@
       'P000B-002': {
         META: {
           name: 'Toast',
-          version: '',
-          ticket: '',
-          designLink: '',
+          version: '221208',
+          ticket: 'https://github.com/yummly/pasta/projects/17',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1812%3A40904&t=P6QJTgcB1VahmWPJ-1',
           // optional:
-          lastEditor: '',
+          lastEditor: 'Dillon Schultz',
           // shortName: '', // uncomment if you want to use a short name
           GENS: {
             // ¡ DO NOT EDIT ! Script generated:
@@ -19,9 +19,39 @@
             GEN_dependentsUpdated: [],
           },
         },
-        TREE: {},
-        OVERRIDES: {},
+        TREE: {
+          height: 327, //FIXME: This needs to be a token value.
+          width: 76, // FIXME: This needs to be a token value.
+          marginLeft: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
+          marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
+          marginTop: 48, // FIXME: This needs to be a token value.
+          marginBottom: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
+          fringeLeft: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
+          fringeRight: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
+          fringeTop: 48, // FIXME: This needs to be a token value.
+          fringeBottom: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
+          paddingTop: 'YPL.FFL.TKUI_C.dimension.spaces.m.value',
+          paddingBottom: 'YPL.FFL.TKUI_C.dimension.spaces.m.value',
+          paddingLeft: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
+          paddingRight: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
+          _BLK_top: {
+            DEPTH: 1,
+            marginBottom: 'YPL.FFL.TKUI_C.dimension.spaces.xs.value',
+            fringeBottom: 'YPL.FFL.TKUI_C.dimension.spaces.xs.value',
+          },
+          _BLK_bottom: {
+            DEPTH: 1,
+            visibile: 'YPL.CONST.boolean.true.value',
+          },
+        },
+        OVERRIDES: {
+          OPT_withoutButton: {
+            _BLK_bottom: {
+              visible: 'YPL.CONST.boolean.false.value',
+            },
+          },
+        },
       },
     },
   },
-}  
+}

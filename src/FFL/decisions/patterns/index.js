@@ -3,6 +3,7 @@ const Cardlet = require('./P0002-Cardlet');
 const LockupCol = require('./P0003-Lockup Col');
 const FlashCard = require('./P0007-Flash Card');
 const Navigation = require('./P0009-Navigation');
+const Toast = require('./P000B-Toast');
 
 module.exports = {
   allPatternTokens: {
@@ -11,6 +12,7 @@ module.exports = {
     ...LockupCol.tokens,
     ...FlashCard.tokens,
     ...Navigation.tokens,
+    ...Toast.tokens,
   },
   allPatternKBInfo: {
     ...PosterCard.kbInfo,
@@ -18,5 +20,6 @@ module.exports = {
     ...LockupCol.kbInfo,
     ...FlashCard.kbInfo,
     ...Navigation.kbInfo,
+    ...Toast.kbInfo,
   },
 };
