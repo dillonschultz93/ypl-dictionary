@@ -1,0 +1,43 @@
+{
+  P0009: {
+    name: 'Navigation',
+    UID: 'P0009',
+    description: 'Lorem ipsum',
+    ticketNumber: '16',
+    ticketURL: 'https://github.com/yummly/pasta/issues/16',
+    ownerName: 'Dillon',
+    ownerGitHubURL: 'https://github.com/dillonschultz93',
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=2046%3A26607&t=P6QJTgcB1VahmWPJ-1',
+    variants: ['001', '002', '003'],
+    options: [],
+    hasInteractionStates: false, // change this to true if the component has interaction states
+    dependencyTree: [
+      {
+        name: 'BLK_left',
+        children: [
+          {
+            name: 'button',
+            component: 'FFL.E0003-00C',
+            type: 'element',
+            subType: 'button-E0003',
+            instance: '.button',
+            optional: true,
+          }
+        ]
+      },
+      {
+        name: 'BLK_right',
+        children: [
+          {
+            name: 'button',
+            component: 'FFL.E0003-00C',
+            type: 'element',
+            subType: 'button-E0003',
+            instance: '.button',
+            optional: true,
+          }
+        ]
+      }
+    ],
+  },
+}

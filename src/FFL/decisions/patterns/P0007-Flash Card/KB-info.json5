@@ -2,7 +2,7 @@
   P0007: {
     name: 'Flash Card',
     UID: 'P0007',
-    description: '',
+    description: 'Lorem ipsum dolar set amet.',
     ticketNumber: '13',
     ticketURL: 'https://github.com/yummly/pasta/issues/13',
     ownerName: 'Dillon',

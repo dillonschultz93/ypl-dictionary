@@ -32,6 +32,7 @@
           fringeBottom: 'YPL.FFL.TKUI_C.dimension.space.xxxl.value',
           minHeight: 'YPL.FFL.TKUI_C.dimension.sizes.macro.400.value',
           width: 'YPL.FFL.TKUI_C.dimension.sizes.macro.675.value',
+          bgColor: 'YPL.FFL.TKUI_C.colors.gray.100.value',
           _elevation: {
             UID: 'FFL.F0005-001',
           },
@@ -46,6 +47,7 @@
             _copy: {
               DEPTH: 2,
               UID: 'FFL.F0002-103', // Small Paragraph
+              color: 'YPL.FFL.TKUI_C.colors.gray.400.values'
             },
           },
           _BLK_bottom: {

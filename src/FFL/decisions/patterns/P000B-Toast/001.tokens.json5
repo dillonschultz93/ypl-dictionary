@@ -1,0 +1,27 @@
+{
+  YPL: {
+    FFL: {
+      'P000B-001': {
+        META: {
+          name: 'Toast',
+          version: '',
+          ticket: '',
+          designLink: '',
+          // optional:
+          lastEditor: '',
+          // shortName: '', // uncomment if you want to use a short name
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'P000B-001',
+            GEN_timeStamp: '2022-12-09T01:28:08.001Z',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: [],
+          },
+        },
+        TREE: {},
+        OVERRIDES: {},
+      },
+    },
+  },
+}  

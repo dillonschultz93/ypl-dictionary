@@ -2,7 +2,7 @@
   P0003: {
     name: 'Lockup Col',
     UID: 'P0003',
-    description: '',
+    description: 'Lorem ipsum dolar set amet.',
     ticketNumber: '58',
     ticketURL: '',
     ownerName: 'Dillon',

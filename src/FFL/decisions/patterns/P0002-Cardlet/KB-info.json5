@@ -1,79 +1,53 @@
 {
-  P0001: {
-    name: 'Card Poster', // Element name
-    UID: 'P0001', // Element UID
-    description: 'Card Posters distinctive attribute is their background image that fill the card container (bleed). The Cards can embed various information. At minima a Heading is required. Card Posters are used to promote key features within the user journey.', // Description of the element
-    ticketNumber: '7', // Ticket number on GitHub
-    ticketURL: 'https://github.com/yummly/pasta/issues/7', // URL to the GitHub ticket
-    ownerName: 'Dillon', // Name of the owner on the GitHub ticket.
-    ownerGitHubURL: 'https://github.com/dillonschultz93', // URL to the owner's GitHub profile
-    figmaLink: 'https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=12%3A1694', // URL to the element's Figma file
-    variants: ['001'], // List any variants here. Leave an empty array if there are no variants.
-    options: ['.OPT_small', '.OPT_inSlider'], // List any options here. Leave an empty array if there are no options.
-    hasInteractionStates: true, // Set to true if there are any interaction states, if not, set to false.
+  P0002: {
+    name: 'Cardlet', // Element name
+    UID: 'P0002', // Element UID
+    description: 'FIXME', // Description of the element
+    ticketNumber: '8', // Ticket number on GitHub
+    ticketURL: 'https://github.com/yummly/pasta/issues/8', // URL to the GitHub ticket
+    ownerName: 'Manuel Colom', // Name of the owner on the GitHub ticket.
+    ownerGitHubURL: 'https://github.com/coolmanlume', // URL to the owner's GitHub profile
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1475%3A36781&t=g7DHCgkAHBXrvsng-11', // URL to the element's Figma file
+    variants: ['001','002','010','011'], // List any variants here. Leave an empty array if there are no variants.
+    options: [], // List any options here. Leave an empty array if there are no options.
+    hasInteractionStates: false, // Set to true if there are any interaction states, if not, set to false.
     dependencyTree: [
       {
-        name: 'gradient',
-        component: 'FFL.F0004',
+        name: 'elevation',
+        component: 'FFL.F0005',
         type: 'primitive',
-        subType: 'gradients',
-        instance: '.gradient',
-        optional: false,
-      },
-      {
-        name: 'BLK_header',
-        children: [
-          {
-            name: 'chip',
-            component: 'FFL.E0001',
-            type: 'element',
-            subType: 'elements',
-            instance: '.chip',
-            optional: false,
-          },
-        ],
+        subType: 'elevation',
+        instance: '.elevation',
+        optional: true,
       },
       {
         name: 'BLK_copy',
         children: [
           {
-            name: 'chip',
-            component: 'FFL.E0001',
-            type: 'element',
-            subType: 'chip',
-            instance: '.chip',
-            optional: false,
-          },
-          {
-            name: 'heading',
-            component: 'FFL.F0002-005',
+            name: 'title',
+            component: 'FFL.F0002-008',
             type: 'primitive',
             subType: 'typography',
-            instance: '.heading',
+            instance: '.title',
             optional: false,
           },
-        ],
-      },
-      {
-        name: 'BLK_footer',
-        children: [
           {
             name: 'eyebrow',
             component: 'FFL.F0002-401',
             type: 'primitive',
             subType: 'typography',
             instance: '.eyebrow',
-            optional: false,
-          },
-          {
-            name: 'switchButton',
-            component: 'FFL.E0004-002.OPT_white',
-            type: 'element',
-            subType: 'switch',
-            instance: '.switchButton',
             optional: true,
-          },
+          },          
         ],
+      },
+      {
+        name: 'thumbnail',
+        component: 'FFL.E0002',
+        type: 'element',
+        subType: 'thumbnail',
+        instance: '.thumbnail',
+        optional: false,
       },
     ],
   },
