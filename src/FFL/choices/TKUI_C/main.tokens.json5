@@ -77,7 +77,7 @@
         },
         // === OPACITIES ===
         opacities: {
-          'none': 0, // Idea for alternate access         
+          'none': 0, // alternate access         
           '000': 0,
           '100': 0.1,
           '150': 0.15,
@@ -88,6 +88,8 @@
           '500': 0.5,
           '750': 0.75,
           '900': 0.9,                              
+          '1000': 1,
+          'full': 1, // alternate access                                        
         },
         // === DIMENSIONS ===
         dimension: {
