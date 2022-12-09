@@ -1,17 +1,43 @@
-
 {
-  "P000B": {
-    "name": "Toast",
-    "UID": "P000B",
-    "description": "",
-    "ticketNumber": "",
-    "ticketURL": "",
-    "ownerName": "",
-    "ownerGitHubURL": "",
-    "figmaLink": "",
-    "variants": [],
-    "options": [],
-    "hasInteractionStates": false, // change this to true if the component has interaction states
-    "dependencyTree": [],
+  P000B: {
+    name: 'Toast',
+    UID: 'P000B',
+    description: 'Lorem ipsum dolar set amet', // FIXME: add description
+    ticketNumber: '17',
+    ticketURL: 'https://github.com/yummly/pasta/projects/17',
+    ownerName: 'Dillon',
+    ownerGitHubURL: 'https://github.com/dillonschultz93',
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1812%3A40904&t=P6QJTgcB1VahmWPJ-1',
+    variants: ['001', '002'],
+    options: ['.OPT_withoutButton'],
+    hasInteractionStates: false, // change this to true if the component has interaction states
+    dependencyTree: [
+      {
+        name: 'BLK_top',
+        children: [
+          {
+            name: 'copy',
+            component: 'FFL.F0002-101',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.copy',
+            optional: false,
+          },
+        ],
+      },
+      {
+        name: 'BLK_bottom',
+        children: [
+          {
+            name: 'button',
+            component: 'FFL.E0003-009',
+            type: 'elements',
+            subType: 'button-E0003',
+            instance: '.button',
+            optional: true,
+          },
+        ],
+      },
+    ],
   },
-}  
+}
