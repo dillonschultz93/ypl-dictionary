@@ -1,0 +1,69 @@
+{
+  YPL: {
+    FFL: {
+      'P0009-002': {
+        META: {
+          name: 'Navigation',
+          version: '221208',
+          ticket: 'https://github.com/yummly/pasta/issues/16',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=2046%3A26607&t=P6QJTgcB1VahmWPJ-1',
+          // optional:
+          lastEditor: 'Dillon Schultz',
+          // shortName: '', // uncomment if you want to use a short name
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'P0009-002',
+            GEN_timeStamp: '2022-12-08T21:32:29.677Z',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: [],
+          },
+        },
+        TREE: {
+          height: 'YPL.FFL.TKUI_C.dimension.micro.1800.value',
+          width: 375, // FIXME: this should be a token
+          paddingRight: 'YPL.FFL.TKUI_C.dimension.spaces.xxxl.value',
+          paddingLeft: 'YPL.FFL.TKUI_C.dimension.spaces.xxxl.value',
+          marginTop: 'YPL.FFL.TKUI_C.dimension.spaces.xxxl.value',
+          marginBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
+          fringeTop: 'YPL.FFL.TKUI_C.dimension.spaces.xxxl.value',
+          fringeBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
+          _BLK_left: {
+            DEPTH: 1,
+            width: 'YPL.FFL.TKUI_C.dimension.sizes.micro.1800.value',
+            _button: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.E0003-00C', // Icon only button
+              _icon: {
+                UID: 'YPL.FFL.F0003-005', // Back arrow icon
+              },
+            },
+          },
+          _BLK_right: {
+            DEPTH: 1,
+            marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
+            fringeRight: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
+            _button: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.E0003-00C', // Icon only button
+            },
+          },
+        },
+        OVERRIDES: {
+          OPT_notContainedButtons: {
+            _BLK_left: {
+              _button: {
+                UID: 'YPL.FFL.E0003-00B', // Not contained icon only button.
+              },
+            },
+            _BLK_right: {
+              _button: {
+                UID: 'YPL.FFL.E0003-00B', // Not contained icon only button.
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+}
