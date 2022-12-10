@@ -41,8 +41,6 @@
           },
           _BLK_right: {
             DEPTH: 1,
-            marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
-            fringeRight: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
             _button: {
               DEPTH: 2,
               UID: 'YPL.FFL.E0003-00C', // Icon only button

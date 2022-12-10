@@ -39,19 +39,32 @@
               },
             },
           },
-          _BLK_right: {
+          _cluster: {
             DEPTH: 1,
+            UID: 'YPL.FFL.F0007-002', // Indexed Children
             CHILDREN: {
               marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
               fringeRight: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
-              _button: {
-                DEPTH: 2,
-                UID: 'YPL.FFL.E0003-00C', // Icon only button
-              },
-            },
-            CHILD_LAST: {
-              marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.none.value',
-              fringeRight: 'YPL.FFL.TKUI_C.dimension.spaces.none.value',
+              _buttons: [
+                {
+                  child: {
+                    DEPTH: 2,
+                    UID: 'YPL.FFL.E0003-00C', // Icon only button
+                  },
+                },
+                {
+                  child: {
+                    DEPTH: 2,
+                    UID: 'YPL.FFL.E0003-00C', // Icon only button
+                  },
+                },
+                {
+                  child: {
+                    DEPTH: 2,
+                    UID: 'YPL.FFL.E0003-00C', // Icon only button
+                  },
+                },
+              ],
             },
           },
         },
