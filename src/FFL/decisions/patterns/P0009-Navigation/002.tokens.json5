@@ -30,13 +30,9 @@
           fringeBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
           _BLK_left: {
             DEPTH: 1,
-            width: 'YPL.FFL.TKUI_C.dimension.sizes.micro.1800.value',
-            _button: {
+            _title: {
               DEPTH: 2,
-              UID: 'YPL.FFL.E0003-00C', // Icon only button
-              _icon: {
-                UID: 'YPL.FFL.F0003-005', // Back arrow icon
-              },
+              UID: 'YPL.FFL.F0002-104', // Strong small paragraph
             },
           },
           _BLK_right: {
@@ -44,23 +40,13 @@
             _button: {
               DEPTH: 2,
               UID: 'YPL.FFL.E0003-00C', // Icon only button
-            },
-          },
-        },
-        OVERRIDES: {
-          OPT_notContainedButtons: {
-            _BLK_left: {
-              _button: {
-                UID: 'YPL.FFL.E0003-00B', // Not contained icon only button.
-              },
-            },
-            _BLK_right: {
-              _button: {
-                UID: 'YPL.FFL.E0003-00B', // Not contained icon only button.
+              _icon: {
+                UID: 'YPL.FFL.F0003-00C', // Close icon (X).
               },
             },
           },
         },
+        OVERRIDES: {},
       },
     },
   },

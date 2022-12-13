@@ -39,6 +39,13 @@
               },
             },
           },
+          _BLK_center: {
+            DEPTH: 1,
+            _title: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0002-104', // Strong small paragraph
+            },
+          },
           _cluster: {
             DEPTH: 1,
             UID: 'YPL.FFL.F0007-002', // Indexed Children
@@ -50,18 +57,21 @@
                   child: {
                     DEPTH: 2,
                     UID: 'YPL.FFL.E0003-00C', // Icon only button
+                    active: 'YPL.CONST.boolean.true.value',
                   },
                 },
                 {
                   child: {
                     DEPTH: 2,
                     UID: 'YPL.FFL.E0003-00C', // Icon only button
+                    active: 'YPL.CONST.boolean.true.value',
                   },
                 },
                 {
                   child: {
                     DEPTH: 2,
                     UID: 'YPL.FFL.E0003-00C', // Icon only button
+                    active: 'YPL.CONST.boolean.true.value',
                   },
                 },
               ],
@@ -69,16 +79,89 @@
           },
         },
         OVERRIDES: {
-          OPT_notContainedButtons: {
-            _BLK_left: {
-              _button: {
-                UID: 'YPL.FFL.E0003-00B', // Not contained icon only button.
+          OPT_1B_text_2B: {
+            _cluster: {
+              CHILDREN: {
+                _buttons: [
+                  {
+                    child: {
+                      active: 'YPL.CONST.boolean.true.value',
+                    },
+                    child: {
+                      active: 'YPL.CONST.boolean.true.value',
+                    },
+                    child: {
+                      active: 'YPL.CONST.boolean.false.value',
+                    },
+                  },
+                ],
               },
             },
-            _BLK_right: {
+          },
+          OPT_1B_text_1B: {
+            _cluster: {
               CHILDREN: {
-                _button: {
-                  UID: 'YPL.FFL.E0003-00B', // Not contained icon only button.
+                _buttons: [
+                  {
+                    child: {
+                      active: 'YPL.CONST.boolean.true.value',
+                    },
+                    child: {
+                      active: 'YPL.CONST.boolean.false.value',
+                    },
+                    child: {
+                      active: 'YPL.CONST.boolean.false.value',
+                    },
+                  },
+                ],
+              },
+            },
+          },
+          OPT_1B_3B: {
+            _BLK_center: {
+              visible: 'YPL.CONST.boolean.false.value',
+            },
+          },
+          OPT_1B_2B: {
+            _BLK_center: {
+              visible: 'YPL.CONST.boolean.false.value',
+              _cluster: {
+                CHILDREN: {
+                  _buttons: [
+                    {
+                      child: {
+                        active: 'YPL.CONST.boolean.true.value',
+                      },
+                      child: {
+                        active: 'YPL.CONST.boolean.true.value',
+                      },
+                      child: {
+                        active: 'YPL.CONST.boolean.false.value',
+                      },
+                    },
+                  ],
+                },
+              },
+            },
+          },
+          OPT_1B_1B: {
+            _BLK_center: {
+              visible: 'YPL.CONST.boolean.false.value',
+              _cluster: {
+                CHILDREN: {
+                  _buttons: [
+                    {
+                      child: {
+                        active: 'YPL.CONST.boolean.true.value',
+                      },
+                      child: {
+                        active: 'YPL.CONST.boolean.false.value',
+                      },
+                      child: {
+                        active: 'YPL.CONST.boolean.false.value',
+                      },
+                    },
+                  ],
                 },
               },
             },

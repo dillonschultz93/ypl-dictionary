@@ -8,7 +8,7 @@
     ownerName: 'Dillon',
     ownerGitHubURL: 'https://github.com/dillonschultz93',
     figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=2046%3A26607&t=P6QJTgcB1VahmWPJ-1',
-    variants: ['001', '002', '003'],
+    variants: ['001', '002'],
     options: [],
     hasInteractionStates: false, // change this to true if the component has interaction states
     dependencyTree: [
@@ -22,8 +22,21 @@
             subType: 'button-E0003',
             instance: '.button',
             optional: true,
-          }
-        ]
+          },
+        ],
+      },
+      {
+        name: 'BLK_center',
+        children: [
+          {
+            name: 'title',
+            component: 'FFL.F0002-104',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.title',
+            optional: true,
+          },
+        ],
       },
       {
         name: 'BLK_right',
@@ -35,9 +48,9 @@
             subType: 'button-E0003',
             instance: '.button',
             optional: true,
-          }
-        ]
-      }
+          },
+        ],
+      },
     ],
   },
 }
