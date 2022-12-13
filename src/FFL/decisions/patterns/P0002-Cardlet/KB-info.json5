@@ -10,7 +10,7 @@
     figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1475%3A36781&t=g7DHCgkAHBXrvsng-11', // URL to the element's Figma file
     variants: ['001','002','010','011'], // List any variants here. Leave an empty array if there are no variants.
     options: [], // List any options here. Leave an empty array if there are no options.
-    hasInteractionStates: false, // Set to true if there are any interaction states, if not, set to false.
+    hasInteractionStates: true, // Set to true if there are any interaction states, if not, set to false.
     dependencyTree: [
       {
         name: 'elevation',

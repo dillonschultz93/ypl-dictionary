@@ -25,6 +25,7 @@
             width: 'YPL.FFL.TKUI_C.percents.full.value',
             height: 'YPL.FFL.TKUI_C.percents.full.value',
             radius: 'YPL.FFL.TKUI_C.sizes.micro.400.value', // FIXME
+            bgFillMode: 'YPL.CONST.backgroundSize.cover.value',            
           }
         },
         OVERRIDES: {
