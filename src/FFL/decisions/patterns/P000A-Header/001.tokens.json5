@@ -1,0 +1,56 @@
+{
+  YPL: {
+    FFL: {
+      'P000A-001': {
+        META: {
+          name: 'Page Header',
+          version: '221212',
+          ticket: 'https://github.com/yummly/pasta/issues/15',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=2046%3A26892&t=NB994tTCN8MstBlu-1',
+          // optional:
+          lastEditor: 'Dillon Schultz',
+          // shortName: '', // uncomment if you want to use a short name
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'P000A-001',
+            GEN_timeStamp: '2022-12-13T02:40:49.968Z',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: [],
+          },
+        },
+        TREE: {
+          _navigation: {
+            DEPTH: 1,
+            UID: 'YPL.FFL.P0009-001.OPT_1B_1B', // Navigation pattern
+          },
+          _BLK_heading: {
+            DEPTH: 1,
+            paddingTop: 'YPL.FFL.TKUI_C.dimension.spaces.m.value', // 16pt
+            paddingBottom: 'YPL.FFL.TKUI_C.dimension.spaces.l.value', // 24pt
+            paddingLeft: 'YPL.FFL.TKUI_C.dimension.spaces.l.value', // 24pt
+            paddingRight: 'YPL.FFL.TKUI_C.dimension.spaces.l.value', // 24pt
+            _title: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0002-004', // Heading 4
+              marginBottom: 'YPL.FFL.TKUI_C.dimension.spaces.xs.value', // 4pt
+              fringeBottom: 'YPL.FFL.TKUI_C.dimension.spaces.xs.value', // 4pt
+              s: {
+                UID: 'YPL.FFL.F0002-101', // Regular paragraph when the component is scrolled
+              },
+            },
+            _description: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0002-103', // Regular small paragraph
+              visible: 'YPL.CONST.boolean.true.value',
+              s: {
+                visible: 'YPL.CONST.boolean.false.value', // Hide the description when the component is scrolled
+              },
+            },
+          },
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}
