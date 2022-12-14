@@ -2212,6 +2212,92 @@
         }
       },
       "breakpoints": null
+    },
+    "P000E": {
+      "allTokens": {
+        "YPL.FFL.TKUI_D.P000E-001.width.value": "100%",
+        "YPL.FFL.TKUI_D.P000E-001.height.value": "YPL.FFL.TKUI_C.dimension.sizes.micro.2200.value",
+        "YPL.FFL.TKUI_D.P000E-001.bgColor.value": "YPL.FFL.TKUI_C.colors.white.value",
+        "YPL.FFL.TKUI_D.P000E-001.paddingTop.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P000E-001.paddingRight.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+        "YPL.FFL.TKUI_D.P000E-001.paddingBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P000E-001.paddingLeft.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+        "YPL.FFL.TKUI_D.P000E-001.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+        "YPL.FFL.TKUI_D.P000E-001.borderTop.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+        "YPL.FFL.TKUI_D.P000E-001.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+        "YPL.FFL.TKUI_D.P000E-001.BLK_main.gap.value": "YPL.FFL.TKUI_C.dimension.spaces.xl.value",
+        "YPL.FFL.TKUI_D.P000E-001.BLK_main.button.UID.value": "YPL.FFL.E0003-00A",
+        "YPL.FFL.TKUI_D.P000E-001.BLK_main.action.UID.value": "YPL.FFL.E0003-002.OPT_small",
+        "YPL.FFL.TKUI_D.P000E-001.BLK_main.action.margin.value": "YPL.FFL.TKUI_C.dimension.spaces.none.value",
+        "YPL.FFL.TKUI_D.P000E-001.BLK_main.action.fringeBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.none.value",
+        "YPL.FFL.TKUI_D.P000E-001.BLK_main.action.visible.value": "YPL.CONST.boolean.true.value",
+        "YPL.FFL.TKUI_D.P000E-001.OPT_withPositive.BLK_main.action.UID.value": "YPL.FFL.E0003-002.OPT_smallTint",
+        "YPL.FFL.TKUI_D.P000E-001.OPT_noSecondAction.BLK_main.action.visible.value": "YPL.CONST.boolean.false.value"
+      },
+      "meta": {
+        "name": "Action Bar",
+        "UID": "P000E",
+        "description": "Lorem ipsum",
+        "ticketNumber": "20",
+        "ticketURL": "https://github.com/yummly/pasta/issues/20",
+        "ownerName": "Dillon",
+        "ownerGitHubURL": "https://github.com/dillonschultz93",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=2046%3A25748&t=GYQTWtblevBFJU0h-1",
+        "variants": [
+          "001"
+        ],
+        "options": [
+          ".OPT_withPositive",
+          ".OPT_noSecondAction"
+        ],
+        "hasInteractionStates": false,
+        "dependencyTree": [
+          {
+            "name": "BLK_main",
+            "children": [
+              {
+                "name": "button",
+                "component": "FFL.E0003-00A",
+                "type": "element",
+                "subType": "button-E0003",
+                "instance": ".button",
+                "optional": true
+              }
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "001": {
+          "YPL.FFL.TKUI_D.P000E-001.width.value": "100%",
+          "YPL.FFL.TKUI_D.P000E-001.height.value": "YPL.FFL.TKUI_C.dimension.sizes.micro.2200.value",
+          "YPL.FFL.TKUI_D.P000E-001.bgColor.value": "YPL.FFL.TKUI_C.colors.white.value",
+          "YPL.FFL.TKUI_D.P000E-001.paddingTop.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P000E-001.paddingRight.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+          "YPL.FFL.TKUI_D.P000E-001.paddingBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P000E-001.paddingLeft.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+          "YPL.FFL.TKUI_D.P000E-001.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+          "YPL.FFL.TKUI_D.P000E-001.borderTop.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+          "YPL.FFL.TKUI_D.P000E-001.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+          "YPL.FFL.TKUI_D.P000E-001.BLK_main.gap.value": "YPL.FFL.TKUI_C.dimension.spaces.xl.value",
+          "YPL.FFL.TKUI_D.P000E-001.BLK_main.button.UID.value": "YPL.FFL.E0003-00A",
+          "YPL.FFL.TKUI_D.P000E-001.BLK_main.action.UID.value": "YPL.FFL.E0003-002.OPT_small",
+          "YPL.FFL.TKUI_D.P000E-001.BLK_main.action.margin.value": "YPL.FFL.TKUI_C.dimension.spaces.none.value",
+          "YPL.FFL.TKUI_D.P000E-001.BLK_main.action.fringeBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.none.value",
+          "YPL.FFL.TKUI_D.P000E-001.BLK_main.action.visible.value": "YPL.CONST.boolean.true.value",
+          "YPL.FFL.TKUI_D.P000E-001.OPT_withPositive.BLK_main.action.UID.value": "YPL.FFL.E0003-002.OPT_smallTint",
+          "YPL.FFL.TKUI_D.P000E-001.OPT_noSecondAction.BLK_main.action.visible.value": "YPL.CONST.boolean.false.value"
+        }
+      },
+      "options": {
+        "OPT_withPositive": {
+          "YPL.FFL.TKUI_D.P000E-001.OPT_withPositive.BLK_main.action.UID.value": "YPL.FFL.E0003-002.OPT_smallTint"
+        },
+        "OPT_noSecondAction": {
+          "YPL.FFL.TKUI_D.P000E-001.OPT_noSecondAction.BLK_main.action.visible.value": "YPL.CONST.boolean.false.value"
+        }
+      },
+      "breakpoints": null
     }
   }
 }

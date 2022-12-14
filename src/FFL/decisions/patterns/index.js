@@ -5,6 +5,7 @@ const FlashCard = require('./P0007-Flash Card');
 const Navigation = require('./P0009-Navigation');
 const Header = require('./P000A-Header');
 const Toast = require('./P000B-Toast');
+const ActionBar = require('./P000E-Action Bar');
 
 module.exports = {
   allPatternTokens: {
@@ -15,6 +16,7 @@ module.exports = {
     ...Navigation.tokens,
     ...Header.tokens,
     ...Toast.tokens,
+    ...ActionBar.tokens,
   },
   allPatternKBInfo: {
     ...PosterCard.kbInfo,
@@ -24,5 +26,6 @@ module.exports = {
     ...Navigation.kbInfo,
     ...Header.kbInfo,
     ...Toast.kbInfo,
+    ...ActionBar.kbInfo,
   },
 };

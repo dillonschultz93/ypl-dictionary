@@ -1401,6 +1401,24 @@
     "YPL.FFL.TKUI_D.P000B-002.BLK_top.marginBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.xs.value",
     "YPL.FFL.TKUI_D.P000B-002.BLK_top.fringeBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.xs.value",
     "YPL.FFL.TKUI_D.P000B-002.BLK_bottom.visibile.value": "YPL.CONST.boolean.true.value",
-    "YPL.FFL.TKUI_D.P000B-002.OPT_withoutButton.BLK_bottom.visible.value": "YPL.CONST.boolean.false.value"
+    "YPL.FFL.TKUI_D.P000B-002.OPT_withoutButton.BLK_bottom.visible.value": "YPL.CONST.boolean.false.value",
+    "YPL.FFL.TKUI_D.P000E-001.width.value": "100%",
+    "YPL.FFL.TKUI_D.P000E-001.height.value": "YPL.FFL.TKUI_C.dimension.sizes.micro.2200.value",
+    "YPL.FFL.TKUI_D.P000E-001.bgColor.value": "YPL.FFL.TKUI_C.colors.white.value",
+    "YPL.FFL.TKUI_D.P000E-001.paddingTop.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+    "YPL.FFL.TKUI_D.P000E-001.paddingRight.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+    "YPL.FFL.TKUI_D.P000E-001.paddingBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+    "YPL.FFL.TKUI_D.P000E-001.paddingLeft.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+    "YPL.FFL.TKUI_D.P000E-001.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+    "YPL.FFL.TKUI_D.P000E-001.borderTop.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+    "YPL.FFL.TKUI_D.P000E-001.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+    "YPL.FFL.TKUI_D.P000E-001.BLK_main.gap.value": "YPL.FFL.TKUI_C.dimension.spaces.xl.value",
+    "YPL.FFL.TKUI_D.P000E-001.BLK_main.button.UID.value": "YPL.FFL.E0003-00A",
+    "YPL.FFL.TKUI_D.P000E-001.BLK_main.action.UID.value": "YPL.FFL.E0003-002.OPT_small",
+    "YPL.FFL.TKUI_D.P000E-001.BLK_main.action.margin.value": "YPL.FFL.TKUI_C.dimension.spaces.none.value",
+    "YPL.FFL.TKUI_D.P000E-001.BLK_main.action.fringeBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.none.value",
+    "YPL.FFL.TKUI_D.P000E-001.BLK_main.action.visible.value": "YPL.CONST.boolean.true.value",
+    "YPL.FFL.TKUI_D.P000E-001.OPT_withPositive.BLK_main.action.UID.value": "YPL.FFL.E0003-002.OPT_smallTint",
+    "YPL.FFL.TKUI_D.P000E-001.OPT_noSecondAction.BLK_main.action.visible.value": "YPL.CONST.boolean.false.value"
   }
 }

@@ -1,0 +1,30 @@
+{
+  P000E: {
+    name: 'Action Bar',
+    UID: 'P000E',
+    description: 'Lorem ipsum',
+    ticketNumber: '20',
+    ticketURL: 'https://github.com/yummly/pasta/issues/20',
+    ownerName: 'Dillon',
+    ownerGitHubURL: 'https://github.com/dillonschultz93',
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=2046%3A25748&t=GYQTWtblevBFJU0h-1',
+    variants: ['001'],
+    options: ['.OPT_withPositive', '.OPT_noSecondAction'],
+    hasInteractionStates: false, // change this to true if the component has interaction states
+    dependencyTree: [
+      {
+        name: 'BLK_main',
+        children: [
+          {
+            name: 'button',
+            component: 'FFL.E0003-00A',
+            type: 'element',
+            subType: 'button-E0003',
+            instance: '.button',
+            optional: true,
+          }
+        ]
+      }
+    ],
+  },
+}
