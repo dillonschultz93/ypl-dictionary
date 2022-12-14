@@ -8,7 +8,7 @@
     ownerName: 'Manuel Colom', // Name of the owner on the GitHub ticket.
     ownerGitHubURL: 'https://github.com/coolmanlume', // URL to the owner's GitHub profile
     figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=4010%3A61268&t=aBvPDYunBbJaDrZk-11', // URL to the element's Figma file
-    variants: ['001','002'], // List any variants here. Leave an empty array if there are no variants.
+    variants: ['001', '002'], // List any variants here. Leave an empty array if there are no variants.
     options: [], // List any options here. Leave an empty array if there are no options.
     hasInteractionStates: true, // Set to true if there are any interaction states, if not, set to false.
     dependencyTree: [
@@ -30,7 +30,7 @@
             subType: 'typography',
             instance: '.description',
             optional: true,
-          },      
+          },
         ],
       },
     ],
