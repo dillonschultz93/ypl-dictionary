@@ -30,6 +30,13 @@
       backgroundSize: {
         cover: 'cover',
       },
+      zero: 0, // FIXME?
+      position: {
+        absolute: 'absolute',
+        relative: 'relative',
+        sticky: 'sticky',
+        fixed: 'fixed',
+      }
     },
   },
 }

@@ -432,6 +432,8 @@
   "YPL.FFL.TKUI_A.radii.s": "YPL.FFL.TKUI_M.dimension.scales.arithA.200.value",
   "YPL.FFL.TKUI_A.radii.m": "YPL.FFL.TKUI_M.dimension.scales.arithA.400.value",
   "YPL.FFL.TKUI_A.radii.l": "YPL.FFL.TKUI_M.dimension.scales.arithA.800.value",
+  "YPL.FFL.TKUI_A.borderWidths.zero": "YPL.FFL.TKUI_C.dimension.sizes.nano.000.value",
+  "YPL.FFL.TKUI_A.borderWidths.none": "YPL.FFL.TKUI_C.dimension.sizes.nano.000.value",
   "YPL.FFL.TKUI_A.borderWidths.xs": "YPL.FFL.TKUI_C.dimension.sizes.nano.100.value",
   "YPL.FFL.TKUI_A.borderWidths.s": "YPL.FFL.TKUI_C.dimension.sizes.nano.200.value",
   "YPL.FFL.TKUI_A.borderWidths.m": "YPL.FFL.TKUI_C.dimension.sizes.nano.300.value",
@@ -451,5 +453,10 @@
   "YPL.CONST.textDecoration.none": "NONE",
   "YPL.CONST.textDecoration.underline": "UNDERLINE",
   "YPL.CONST.textDecoration.strikethrough": "STRIKETHROUGH",
-  "YPL.CONST.backgroundSize.cover": "cover"
+  "YPL.CONST.backgroundSize.cover": "cover",
+  "YPL.CONST.zero": 0,
+  "YPL.CONST.position.absolute": "absolute",
+  "YPL.CONST.position.relative": "relative",
+  "YPL.CONST.position.sticky": "sticky",
+  "YPL.CONST.position.fixed": "fixed"
 }

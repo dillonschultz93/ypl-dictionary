@@ -1,0 +1,48 @@
+{
+  YPL: {
+    FFL: {
+      'P0020-002': {
+        META: {
+          name: 'Sticky Element',
+          version: '221213',
+          ticket: 'https://github.com/yummly/pasta/issues/75',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=6595%3A65405&t=0nbdk5PbnIpkWFt6-1',
+          // optional:
+          lastEditor: 'Dillon Schultz',
+          // shortName: '', // uncomment if you want to use a short name
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'P0020-002',
+            GEN_timeStamp: '2022-12-14T03:14:14.193Z',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: [],
+          },
+        },
+        TREE: {
+          padding: 'YPL.FFL.TKUI_C.spaces.ml.value', // 24pt
+          width: '100%', // FIXME: This needs to be a token
+          height: 88, // FIXME: This needs to be a token
+          bgColor: 'YPL.FFL.TKUI_C.colors.white.value', // #FFFFFF
+          position: 'YPL.CONST.position.fixed.value', // fixed
+          _BLK_lockup: {
+            DEPTH: 1,
+            _action: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.E0003-001',
+            },
+          },
+        },
+        OVERRIDES: {
+          OPT_switch: {
+            _BLK_lockup: {
+              _action: {
+                UID: 'YPL.FFL.E0004-004.OPT_label',
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+}
