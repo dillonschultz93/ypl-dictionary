@@ -1,0 +1,79 @@
+{
+  YPL: {
+    FFL: {
+      'P001F-001': {
+        META: {
+          name: 'Widget Card',
+          version: '221214',
+          ticket: 'https://github.com/yummly/pasta/issues/74',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=5909%3A47468&t=YSJaGt0PtT6pk2gc-1',
+          // optional:
+          lastEditor: 'Dillon Schultz',
+          // shortName: '', // uncomment if you want to use a short name
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'P001F-001',
+            GEN_timeStamp: '2022-12-14T21:30:03.956Z',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: [],
+          },
+        },
+        TREE: {
+          width: '100%', // FIXME: This needs to be a token.
+          minHeight: 'YPL.FFL.TKUI_C.dimension.sizes.macro.450.value', // 160pt
+          padding: 'YPL.FFL.TKUI_C.dimension.spaces.m.value', // 16pt
+          radius: 'YPL.FFL.TKUI_A.radii.l.value', // 16pt
+          bgColor: 'YPL.FFL.TKUI_C.colors.gray.100.value',
+          _BLK_title: {
+            DEPTH: 1,
+            marginBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value', // 8pt
+            fringeBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value', // 8pt
+            _title: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0002-102', // Strong paragraph
+              color: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+            },
+          },
+          _BLK_content: {
+            DEPTH: 1,
+            marginBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value', // 8pt
+            fringeBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value', // 8pt
+            _content: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0002-101', // Regular paragraph
+              color: 'YPL.FFL.TKUI_C.colors.gray.500.value',
+            },
+          },
+          _BLK_footer: {
+            DEPTH: 1,
+            _date: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.F0002-103', // Regular small paragraph
+              color: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+            },
+            _BLK_buttons: {
+              DEPTH: 2,
+              gap: 'YPL.FFL.TKUI_C.dimension.spaces.m.value', // 16pt
+              _editButton: {
+                DEPTH: 3,
+                UID: 'YPL.FFL.E0003-00C.OPT_small',
+                _icon: {
+                  UID: 'YPL.FFL.F0003-00B',
+                },
+              },
+              _deleteButton: {
+                DEPTH: 3,
+                UID: 'YPL.FFL.E0003-00C.OPT_small',
+                _icon: {
+                  UID: 'YPL.FFL.F0003-025',
+                },
+              },
+            },
+          },
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}

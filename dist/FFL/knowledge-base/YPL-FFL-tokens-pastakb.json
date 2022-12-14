@@ -2299,6 +2299,65 @@
       },
       "breakpoints": null
     },
+    "P0012": {
+      "allTokens": {
+        "YPL.FFL.TKUI_D.P0012-001.marginTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
+        "YPL.FFL.TKUI_D.P0012-001.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+        "YPL.FFL.TKUI_D.P0012-001.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+        "YPL.FFL.TKUI_D.P0012-001.CHILDREN.UID.value": "YPL.FFL.E0001.OPT_teal",
+        "YPL.FFL.TKUI_D.P0012-001.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.spaces.s.value"
+      },
+      "meta": {
+        "name": "Tabs",
+        "UID": "P0012",
+        "description": "FIXME",
+        "ticketNumber": "53",
+        "ticketURL": "https://github.com/yummly/pasta/issues/53",
+        "ownerName": "Manuel Colom",
+        "ownerGitHubURL": "https://github.com/coolmanlume",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=4010%3A61268&t=aBvPDYunBbJaDrZk-11",
+        "variants": [
+          "001",
+          "002"
+        ],
+        "options": [],
+        "hasInteractionStates": true,
+        "dependencyTree": [
+          {
+            "name": "BLK_main",
+            "children": [
+              {
+                "name": "label",
+                "component": "FFL.F0002-606",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".label",
+                "optional": false
+              },
+              {
+                "name": "description",
+                "component": "FFL.F0002-607",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".description",
+                "optional": true
+              }
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "001": {
+          "YPL.FFL.TKUI_D.P0012-001.marginTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
+          "YPL.FFL.TKUI_D.P0012-001.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+          "YPL.FFL.TKUI_D.P0012-001.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+          "YPL.FFL.TKUI_D.P0012-001.CHILDREN.UID.value": "YPL.FFL.E0001.OPT_teal",
+          "YPL.FFL.TKUI_D.P0012-001.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.spaces.s.value"
+        }
+      },
+      "options": null,
+      "breakpoints": null
+    },
     "P0013": {
       "allTokens": {
         "YPL.FFL.TKUI_D.P0013-001.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
@@ -2399,6 +2458,128 @@
           "YPL.FFL.TKUI_D.P0013-002.BLK_main.label.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
           "YPL.FFL.TKUI_D.P0013-002.BLK_main.label.color.hi.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
           "YPL.FFL.TKUI_D.P0013-002.BLK_main.label.marginBottom.value": "YPL.FFL.TKUI_C.spaces.s.value"
+        }
+      },
+      "options": null,
+      "breakpoints": null
+    },
+    "P001F": {
+      "allTokens": {
+        "YPL.FFL.TKUI_D.P001F-001.width.value": "100%",
+        "YPL.FFL.TKUI_D.P001F-001.minHeight.value": "YPL.FFL.TKUI_C.dimension.sizes.macro.450.value",
+        "YPL.FFL.TKUI_D.P001F-001.padding.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P001F-001.radius.value": "YPL.FFL.TKUI_A.radii.l.value",
+        "YPL.FFL.TKUI_D.P001F-001.bgColor.value": "YPL.FFL.TKUI_C.colors.gray.100.value",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_title.marginBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_title.fringeBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_title.title.UID.value": "YPL.FFL.F0002-102",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_title.title.color.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_content.marginBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_content.fringeBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_content.content.UID.value": "YPL.FFL.F0002-101",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_content.content.color.value": "YPL.FFL.TKUI_C.colors.gray.500.value",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_footer.date.UID.value": "YPL.FFL.F0002-103",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_footer.date.color.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_footer.BLK_buttons.gap.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_footer.BLK_buttons.editButton.UID.value": "YPL.FFL.E0003-00C.OPT_small",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_footer.BLK_buttons.editButton.icon.UID.value": "YPL.FFL.F0003-00B",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_footer.BLK_buttons.deleteButton.UID.value": "YPL.FFL.E0003-00C.OPT_small",
+        "YPL.FFL.TKUI_D.P001F-001.BLK_footer.BLK_buttons.deleteButton.icon.UID.value": "YPL.FFL.F0003-025"
+      },
+      "meta": {
+        "name": "Widget Card",
+        "UID": "P001F",
+        "description": "Lorem ipsum",
+        "ticketNumber": "74",
+        "ticketURL": "https://github.com/yummly/pasta/issues/74",
+        "ownerName": "Dillon",
+        "ownerGitHubURL": "https://github.com/dillonschultz93",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=5909%3A47468&t=YSJaGt0PtT6pk2gc-1",
+        "variants": [
+          "001"
+        ],
+        "options": [],
+        "hasInteractionStates": false,
+        "dependencyTree": [
+          {
+            "name": "BLK_title",
+            "children": [
+              {
+                "name": "title",
+                "component": "FFL.F0002-102",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".title",
+                "optional": false
+              }
+            ]
+          },
+          {
+            "name": "BLK_content",
+            "children": [
+              {
+                "name": "content",
+                "component": "FFL.F0002-101",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".content",
+                "optional": false
+              }
+            ]
+          },
+          {
+            "name": "BLK_footer",
+            "children": [
+              {
+                "name": "date",
+                "component": "FFL.F0002-103",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".date",
+                "optional": false
+              },
+              {
+                "name": "editButton",
+                "component": "FFL.E0003-00C.OPT_small",
+                "type": "elements",
+                "subType": "button-E0003",
+                "instance": ".editButton",
+                "optional": false
+              },
+              {
+                "name": "deleteButton",
+                "component": "FFL.E0003-00C.OPT_small",
+                "type": "elements",
+                "subType": "button-E0003",
+                "instance": ".deleteButton",
+                "optional": false
+              }
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "001": {
+          "YPL.FFL.TKUI_D.P001F-001.width.value": "100%",
+          "YPL.FFL.TKUI_D.P001F-001.minHeight.value": "YPL.FFL.TKUI_C.dimension.sizes.macro.450.value",
+          "YPL.FFL.TKUI_D.P001F-001.padding.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P001F-001.radius.value": "YPL.FFL.TKUI_A.radii.l.value",
+          "YPL.FFL.TKUI_D.P001F-001.bgColor.value": "YPL.FFL.TKUI_C.colors.gray.100.value",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_title.marginBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_title.fringeBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_title.title.UID.value": "YPL.FFL.F0002-102",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_title.title.color.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_content.marginBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_content.fringeBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_content.content.UID.value": "YPL.FFL.F0002-101",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_content.content.color.value": "YPL.FFL.TKUI_C.colors.gray.500.value",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_footer.date.UID.value": "YPL.FFL.F0002-103",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_footer.date.color.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_footer.BLK_buttons.gap.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_footer.BLK_buttons.editButton.UID.value": "YPL.FFL.E0003-00C.OPT_small",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_footer.BLK_buttons.editButton.icon.UID.value": "YPL.FFL.F0003-00B",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_footer.BLK_buttons.deleteButton.UID.value": "YPL.FFL.E0003-00C.OPT_small",
+          "YPL.FFL.TKUI_D.P001F-001.BLK_footer.BLK_buttons.deleteButton.icon.UID.value": "YPL.FFL.F0003-025"
         }
       },
       "options": null,
