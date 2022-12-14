@@ -30,6 +30,7 @@
       backgroundSize: {
         cover: 'cover',
       },
+      zero: 0, // FIXME?
     },
   },
 }

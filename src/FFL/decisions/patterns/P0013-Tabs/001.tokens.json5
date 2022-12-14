@@ -1,0 +1,66 @@
+{
+  YPL: {
+	FFL: {
+		'P0013-001': {
+		 META: {
+			// required:
+			name: 'Cardlet',
+			version: '221207',
+			ticket: 'https://github.com/yummly/pasta/issues/53',
+			designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=4010%3A61268&t=aBvPDYunBbJaDrZk-11',
+			// optional:
+			lastEditor: 'Manuel Colom',
+			shortName: '',
+			GENS: {
+				GEN_UID: 'P0013-001',
+				GEN_timeStamp: '',
+				GEN_project: 'FFL',
+				GEN_dependents: [],
+				GEN_dependentsUpdated: '',
+			},
+		 },
+		 TREE: {
+			paddingTop: 'YPL.FFL.TKUI_C.spaces.l.value',
+			paddingLeft: 'YPL.FFL.TKUI_C.spaces.l.value',
+			paddingRight: 'YPL.FFL.TKUI_C.spaces.s.value',
+			border: {
+				color: 'YPL.FFL.TKUI_C.colors.gray.200.value',
+			},
+			borderBottom {
+				width: 'YPL.FFL.TKUI_A.borderWidths.xs.value',
+			},			
+			_BLK_main: {
+				DEPTH: 1,
+				border: {
+					color: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+				},
+				borderBottom: {
+					width: {
+						i: 'YPL.FFL.CONST.zero.value', // 0
+						hi: 'YPL.FFL.sizes.nano.300.value', // 3
+					},
+				},
+				_label: {
+					DEPTH: 2,
+					UID: 'YPL.FFL.F0002-606',
+					color: {
+						i: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+						hi: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+					},
+					marginBottom: 'YPL.FFL.TKUI_C.spaces.s.value', // 8 · FIXME should be 6 Do we need a space between xs & s?
+				},
+				_description: {
+					DEPTH: 2,
+					UID: 'YPL.FFL.F0002-607',
+					color: 'YPL.FFL.TKUI_C.colors.gray.500.value',
+					marginBottom: 'YPL.FFL.TKUI_C.spaces.m.value', // 16
+				},
+			},
+		 },
+		 OVERRIDES: {},
+		},
+	},
+  },
+}
+
+
