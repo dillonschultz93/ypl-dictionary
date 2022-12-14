@@ -8,6 +8,7 @@ const Toast = require('./P000B-Toast');
 const ActionBar = require('./P000E-Action Bar');
 const Cluster = require('./P0012-Cluster');
 const Tabs = require('./P0013-Tabs');
+const WidgetCard = require('./P001F-Widget Card');
 const StickyAction = require('./P0020-Sticky Action');
 
 module.exports = {
@@ -22,6 +23,7 @@ module.exports = {
     ...ActionBar.tokens,
     ...Cluster.tokens,
     ...Tabs.tokens,
+    ...WidgetCard.tokens,
     ...StickyAction.tokens,
   },
   allPatternKBInfo: {
@@ -35,6 +37,7 @@ module.exports = {
     ...ActionBar.kbInfo,
     ...Cluster.kbInfo,
     ...Tabs.kbInfo,
+    ...WidgetCard.kbInfo,
     ...StickyAction.kbInfo,
   },
 };
