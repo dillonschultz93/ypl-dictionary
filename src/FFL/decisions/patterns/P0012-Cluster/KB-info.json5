@@ -1,7 +1,7 @@
 {
-  P0013: {
+  P0012: {
     name: 'Tabs', // Element name
-    UID: 'P0013', // Element UID
+    UID: 'P0012', // Element UID
     description: 'FIXME', // Description of the element
     ticketNumber: '53', // Ticket number on GitHub
     ticketURL: 'https://github.com/yummly/pasta/issues/53', // URL to the GitHub ticket
