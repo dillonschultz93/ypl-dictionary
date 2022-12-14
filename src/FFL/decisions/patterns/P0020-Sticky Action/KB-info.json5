@@ -1,0 +1,59 @@
+{
+  P0020: {
+    name: 'Sticky Action',
+    UID: 'P0020',
+    description: 'Lorem ipsum',
+    ticketNumber: '75',
+    ticketURL: 'https://github.com/yummly/pasta/issues/75',
+    ownerName: 'Dillon',
+    ownerGitHubURL: 'https://github.com/dillonschultz93',
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=6595%3A65405&t=0nbdk5PbnIpkWFt6-1',
+    variants: ['001', '002'],
+    options: ['.OPT_switch'],
+    hasInteractionStates: false, // change this to true if the component has interaction states
+    dependencyTree: [
+      {
+        name: 'BLK_lockup',
+        children: [
+          {
+            name: 'thumbnail',
+            component: 'FFL.E0002',
+            type: 'element',
+            subType: 'thumbnail-E0002',
+            instance: '.thumbnail',
+            optional: false,
+          },
+          {
+            name: 'button',
+            component: 'FFL.E0003-001',
+            type: 'element',
+            subType: 'button-E0003',
+            instance: '.button',
+            optional: false,
+          },
+        ],
+      },
+      {
+        name: 'BLK_content',
+        children: [
+          {
+            name: 'title',
+            component: 'FFL.F0002-007',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.title',
+            optional: false,
+          },
+          {
+            name: 'subtitle',
+            component: 'FFL.F0002-403',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.subtitle',
+            optional: false,
+          },
+        ],
+      },
+    ],
+  },
+}

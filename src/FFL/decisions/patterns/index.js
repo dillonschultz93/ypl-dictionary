@@ -6,6 +6,8 @@ const Navigation = require('./P0009-Navigation');
 const Header = require('./P000A-Header');
 const Toast = require('./P000B-Toast');
 const ActionBar = require('./P000E-Action Bar');
+const Tabs = require('./P0013-Tabs');
+const StickyAction = require('./P0020-Sticky Action');
 
 module.exports = {
   allPatternTokens: {
@@ -17,6 +19,8 @@ module.exports = {
     ...Header.tokens,
     ...Toast.tokens,
     ...ActionBar.tokens,
+    ...Tabs.tokens,
+    ...StickyAction.tokens,
   },
   allPatternKBInfo: {
     ...PosterCard.kbInfo,
@@ -27,5 +31,7 @@ module.exports = {
     ...Header.kbInfo,
     ...Toast.kbInfo,
     ...ActionBar.kbInfo,
+    ...Tabs.kbInfo,
+    ...StickyAction.kbInfo,
   },
 };
