@@ -4,7 +4,7 @@
       TKUI_A: {
         // === COLORS ===
         colors: {
-          primary: {
+          primary: { // FIXME: we need to use these semantic colors
             '050': 'YPL.FFL.TKUI_C.colors.teal.050',
             '100': 'YPL.FFL.TKUI_C.colors.teal.100',
             '300': 'YPL.FFL.TKUI_C.colors.teal.300',
@@ -26,18 +26,20 @@
             '400': 'YPL.FFL.TKUI_C.colors.tartOrange.400',
           }
         },
-        radii: { // FIXME: use these or direct Choices ??? (currently in both)
+        radii: { // FIXME: use these everywhere
           round: '100%',
           s: 'YPL.FFL.TKUI_M.dimension.scales.arithA.200.value', // 4
           m: 'YPL.FFL.TKUI_M.dimension.scales.arithA.400.value', // 8
           l: 'YPL.FFL.TKUI_M.dimension.scales.arithA.800.value', // 16
         },
-        borderWidths: { // FIXME: use these or direct Choices ??? (currently in both)
+        borderWidths: { // FIXME: use these everywhere
+          zero: 'YPL.FFL.TKUI_C.dimension.sizes.nano.000.value', // 0 FIXME: late addition
+          none: 'YPL.FFL.TKUI_C.dimension.sizes.nano.000.value', // 0 FIXME: late addition
           xs: 'YPL.FFL.TKUI_C.dimension.sizes.nano.100.value', // 1
           s: 'YPL.FFL.TKUI_C.dimension.sizes.nano.200.value', // 2
           m: 'YPL.FFL.TKUI_C.dimension.sizes.nano.300.value', // 3
-        },                 
-      }
-    }
-  }
+        },
+      },
+    },
+  },
 }
