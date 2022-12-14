@@ -2299,6 +2299,65 @@
       },
       "breakpoints": null
     },
+    "P0012": {
+      "allTokens": {
+        "YPL.FFL.TKUI_D.P0012-001.marginTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
+        "YPL.FFL.TKUI_D.P0012-001.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+        "YPL.FFL.TKUI_D.P0012-001.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+        "YPL.FFL.TKUI_D.P0012-001.CHILDREN.UID.value": "YPL.FFL.E0001.OPT_teal",
+        "YPL.FFL.TKUI_D.P0012-001.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.spaces.s.value"
+      },
+      "meta": {
+        "name": "Tabs",
+        "UID": "P0012",
+        "description": "FIXME",
+        "ticketNumber": "53",
+        "ticketURL": "https://github.com/yummly/pasta/issues/53",
+        "ownerName": "Manuel Colom",
+        "ownerGitHubURL": "https://github.com/coolmanlume",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=4010%3A61268&t=aBvPDYunBbJaDrZk-11",
+        "variants": [
+          "001",
+          "002"
+        ],
+        "options": [],
+        "hasInteractionStates": true,
+        "dependencyTree": [
+          {
+            "name": "BLK_main",
+            "children": [
+              {
+                "name": "label",
+                "component": "FFL.F0002-606",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".label",
+                "optional": false
+              },
+              {
+                "name": "description",
+                "component": "FFL.F0002-607",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".description",
+                "optional": true
+              }
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "001": {
+          "YPL.FFL.TKUI_D.P0012-001.marginTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
+          "YPL.FFL.TKUI_D.P0012-001.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+          "YPL.FFL.TKUI_D.P0012-001.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+          "YPL.FFL.TKUI_D.P0012-001.CHILDREN.UID.value": "YPL.FFL.E0001.OPT_teal",
+          "YPL.FFL.TKUI_D.P0012-001.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.spaces.s.value"
+        }
+      },
+      "options": null,
+      "breakpoints": null
+    },
     "P0013": {
       "allTokens": {
         "YPL.FFL.TKUI_D.P0013-001.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
