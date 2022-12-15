@@ -1770,7 +1770,7 @@
         "YPL.FFL.TKUI_D.P0009-001.BLK_left.button.UID.value": "YPL.FFL.E0003-00C",
         "YPL.FFL.TKUI_D.P0009-001.BLK_left.button.icon.UID.value": "YPL.FFL.F0003-005",
         "YPL.FFL.TKUI_D.P0009-001.BLK_center.title.UID.value": "YPL.FFL.F0002-104",
-        "YPL.FFL.TKUI_D.P0009-001.cluster.UID.value": "YPL.FFL.F0007-002",
+        "YPL.FFL.TKUI_D.P0009-001.cluster.UID.value": "YPL.FFL.P0012-002",
         "YPL.FFL.TKUI_D.P0009-001.cluster.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
         "YPL.FFL.TKUI_D.P0009-001.cluster.CHILDREN.fringeRight.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
         "YPL.FFL.TKUI_D.P0009-001.cluster.CHILDREN.buttons.0.child.UID.value": "YPL.FFL.E0003-00C",
@@ -1869,7 +1869,7 @@
           "YPL.FFL.TKUI_D.P0009-001.BLK_left.button.UID.value": "YPL.FFL.E0003-00C",
           "YPL.FFL.TKUI_D.P0009-001.BLK_left.button.icon.UID.value": "YPL.FFL.F0003-005",
           "YPL.FFL.TKUI_D.P0009-001.BLK_center.title.UID.value": "YPL.FFL.F0002-104",
-          "YPL.FFL.TKUI_D.P0009-001.cluster.UID.value": "YPL.FFL.F0007-002",
+          "YPL.FFL.TKUI_D.P0009-001.cluster.UID.value": "YPL.FFL.P0012-002",
           "YPL.FFL.TKUI_D.P0009-001.cluster.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
           "YPL.FFL.TKUI_D.P0009-001.cluster.CHILDREN.fringeRight.value": "YPL.FFL.TKUI_C.dimension.spaces.s.value",
           "YPL.FFL.TKUI_D.P0009-001.cluster.CHILDREN.buttons.0.child.UID.value": "YPL.FFL.E0003-00C",
@@ -2297,6 +2297,106 @@
           "YPL.FFL.TKUI_D.P000E-001.OPT_noSecondAction.BLK_main.action.visible.value": "YPL.CONST.boolean.false.value"
         }
       },
+      "breakpoints": null
+    },
+    "P000F": {
+      "allTokens": {
+        "YPL.FFL.TKUI_D.P000F-001.width.value": "100%",
+        "YPL.FFL.TKUI_D.P000F-001.height.value": 88,
+        "YPL.FFL.TKUI_D.P000F-001.bgColor.value": "YPL.FFL.TKUI_C.colors.white.value",
+        "YPL.FFL.TKUI_D.P000F-001.paddingLeft.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+        "YPL.FFL.TKUI_D.P000F-001.paddingRight.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+        "YPL.FFL.TKUI_D.P000F-001.paddingBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.xl.value",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.UID.value": "YPL.FFL.P0012-002",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.fringeRight.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.padding.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.0.child.UID.value": "YPL.FFL.F0003-419",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.0.child.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.0.child.color.p.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.1.child.UID.value": "YPL.FFL.F0003-418",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.1.child.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.1.child.color.p.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.2.child.UID.value": "YPL.FFL.F0003-417",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.2.child.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.2.child.color.p.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.3.child.UID.value": "YPL.FFL.F0003-416",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.3.child.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.3.child.color.p.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.4.child.UID.value": "YPL.FFL.F0003-415",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.4.child.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.4.child.color.p.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+        "YPL.FFL.TKUI_D.P000F-001.cluster.CHILD_LAST.marginRight.value": "YPL.FFL.TKUI_C.dimension.spaces.none.value"
+      },
+      "meta": {
+        "name": "Tab Bar",
+        "UID": "P000F",
+        "description": "Lorem ipsum dolar sit amet",
+        "ticketNumber": "21",
+        "ticketURL": "https://github.com/yummly/pasta/issues/21",
+        "ownerName": "Dillon",
+        "ownerGitHubURL": "https://github.com/dillonschultz93",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=1730%3A38030&t=YSJaGt0PtT6pk2gc-1",
+        "variants": [
+          "001"
+        ],
+        "options": [],
+        "hasInteractionStates": false,
+        "dependencyTree": [
+          {
+            "name": "elevation",
+            "component": "FFL.F0005",
+            "type": "primitives",
+            "subType": "elevation-F0005",
+            "instance": ".elevation",
+            "optional": false
+          },
+          {
+            "name": "BLK_main",
+            "children": [
+              {
+                "name": "icon",
+                "component": "FFL.F0003",
+                "type": "primitives",
+                "subType": "icons-F0003",
+                "instance": ".icon",
+                "optional": false
+              }
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "001": {
+          "YPL.FFL.TKUI_D.P000F-001.width.value": "100%",
+          "YPL.FFL.TKUI_D.P000F-001.height.value": 88,
+          "YPL.FFL.TKUI_D.P000F-001.bgColor.value": "YPL.FFL.TKUI_C.colors.white.value",
+          "YPL.FFL.TKUI_D.P000F-001.paddingLeft.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+          "YPL.FFL.TKUI_D.P000F-001.paddingRight.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+          "YPL.FFL.TKUI_D.P000F-001.paddingBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.xl.value",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.UID.value": "YPL.FFL.P0012-002",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.fringeRight.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.padding.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.0.child.UID.value": "YPL.FFL.F0003-419",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.0.child.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.0.child.color.p.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.1.child.UID.value": "YPL.FFL.F0003-418",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.1.child.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.1.child.color.p.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.2.child.UID.value": "YPL.FFL.F0003-417",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.2.child.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.2.child.color.p.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.3.child.UID.value": "YPL.FFL.F0003-416",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.3.child.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.3.child.color.p.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.4.child.UID.value": "YPL.FFL.F0003-415",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.4.child.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILDREN.tabs.4.child.color.p.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+          "YPL.FFL.TKUI_D.P000F-001.cluster.CHILD_LAST.marginRight.value": "YPL.FFL.TKUI_C.dimension.spaces.none.value"
+        }
+      },
+      "options": null,
       "breakpoints": null
     },
     "P0012": {
