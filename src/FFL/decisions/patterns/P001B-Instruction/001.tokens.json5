@@ -1,0 +1,47 @@
+{
+  YPL: {
+    FFL: {
+      'P001B-001': {
+        META: {
+          name: 'Instruction',
+          version: '221214',
+          ticket: 'https://github.com/yummly/pasta/issues/69',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=5508%3A44739&t=YSJaGt0PtT6pk2gc-1',
+          // optional:
+          lastEditor: '',
+          // shortName: '', // uncomment if you want to use a short name
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'P001B-001',
+            GEN_timeStamp: '2022-12-15T03:35:19.743Z',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: [],
+          },
+        },
+        TREE: {
+          width: '100%',
+          minHeight: 287, // FIXME: This should be a token.
+          paddingTop: 64, // FIXME: This should be a token.
+          paddingRight: 'YPL.FFL.TKUI_C.dimension.spaces.xxxl.value', // 40pt
+          paddingBottom: 80, // FIXME: This should be a token.
+          paddingLeft: 'YPL.FFL.TKUI_C.dimension.spaces.xxxl.value', // 40pt
+          _BLK_main: {
+            DEPTH: 1,
+            _thumbnail: {
+              width: 'YPL.FFL.TKUI_C.dimension.sizes.2100.value', // 64pt
+              height: 'YPL.FFL.TKUI_C.dimension.sizes.2100.value', // 64pt
+              marginBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value', // 8pt
+              fringeBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value', // 8pt
+            },
+            _title: {
+              marginBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value', // 8pt
+              fringeBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value', // 8pt
+            },
+          },
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}
