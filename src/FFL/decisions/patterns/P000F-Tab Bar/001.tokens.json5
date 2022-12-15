@@ -1,0 +1,98 @@
+{
+  YPL: {
+    FFL: {
+      'P000F-001': {
+        META: {
+          name: 'Tab Bar',
+          version: '221214',
+          ticket: 'https://github.com/yummly/pasta/issues/21',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=1730%3A38030&t=YSJaGt0PtT6pk2gc-1',
+          // optional:
+          lastEditor: 'Dillon Schultz',
+          // shortName: '', // uncomment if you want to use a short name
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'P000F-001',
+            GEN_timeStamp: '2022-12-14T23:28:02.442Z',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: [],
+          },
+        },
+        TREE: {
+          width: '100%', // FIXME: This needs to be a token.
+          height: 88, // FIXME: This needs to be a token.
+          bgColor: 'YPL.FFL.TKUI_C.colors.white.value', // #FFFFFF
+          paddingLeft: 'YPL.FFL.TKUI_C.dimension.spaces.l.value', // 24pt
+          paddingRight: 'YPL.FFL.TKUI_C.dimension.spaces.l.value', // 24pt
+          paddingBottom: 'YPL.FFL.TKUI_C.dimension.spaces.xl.value', // 32pt
+          _cluster: {
+            DEPTH: 1,
+            UID: 'YPL.FFL.P0012-002',
+            CHILDREN: {
+              marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.m.value', // 16pt
+              fringeRight: 'YPL.FFL.TKUI_C.dimension.spaces.m.value', // 16pt
+              padding: 'YPL.FFL.TKUI_C.dimension.spaces.m.value', // 16pt
+              _tabs: [
+                {
+                  child: {
+                    DEPTH: 2,
+                    UID: 'YPL.FFL.F0003-419', // Home
+                    color: {
+                      i: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+                      p: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+                    },
+                  },
+                },
+                {
+                  child: {
+                    DEPTH: 2,
+                    UID: 'YPL.FFL.F0003-418', // Search
+                    color: {
+                      i: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+                      p: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+                    },
+                  },
+                },
+                {
+                  child: {
+                    DEPTH: 2,
+                    UID: 'YPL.FFL.F0003-417', // Profile
+                    color: {
+                      i: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+                      p: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+                    },
+                  },
+                },
+                {
+                  child: {
+                    DEPTH: 2,
+                    UID: 'YPL.FFL.F0003-416', // List
+                    color: {
+                      i: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+                      p: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+                    },
+                  },
+                },
+                {
+                  child: {
+                    DEPTH: 2,
+                    UID: 'YPL.FFL.F0003-415', // MCK
+                    color: {
+                      i: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+                      p: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+                    },
+                  },
+                },
+              ],
+            },
+            CHILD_LAST: {
+              marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.none.value', // 0pt
+            }
+          },
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}
