@@ -54,10 +54,19 @@
               UID: 'YPL.FFL.F0002-607',
               color: 'YPL.FFL.TKUI_C.colors.gray.500.value',
               marginBottom: 'YPL.FFL.TKUI_C.spaces.m.value', // 16
+              opacity: 'YPL.FFL.TKUI_C.opacities.full.value',              
             },
           },
         },
-        OVERRIDES: {},
+        OVERRIDES: {
+          OPT_descriptionOff: {
+            _BLK_main: {
+              _description: {
+                opacity: 'YPL.FFL.TKUI_C.opacities.none.value',
+              },
+            }            
+          }
+        },
       },
 	  },
   },

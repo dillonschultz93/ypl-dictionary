@@ -1,0 +1,29 @@
+{
+  P0010: {
+    name: 'Content Slider', // Element name
+    UID: 'P0010', // Element UID
+    description: 'FIXME', // Description of the element
+    ticketNumber: '44', // Ticket number on GitHub
+    ticketURL: 'https://github.com/yummly/pasta/issues/44', // URL to the GitHub ticket
+    ownerName: 'Manuel Colom', // Name of the owner on the GitHub ticket.
+    ownerGitHubURL: 'https://github.com/coolmanlume', // URL to the owner's GitHub profile
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=3935%3A52818&t=oVw3k1CHiwZmoDrT-11', // URL to the element's Figma file
+    variants: ['001'], // List any variants here. Leave an empty array if there are no variants.
+    options: ['OPT_01','OPT_02','OPT_03','OPT_04','OPT_05','OPT_06','OPT_07','OPT_08'], // List any options here. Leave an empty array if there are no options.
+    hasInteractionStates: false, // Set to true if there are any interaction states, if not, set to false.
+    dependencyTree: [ // FIXME: dependent of Options · Currently manual entry
+      {
+        children: [
+          {
+            name: 'FIXME',
+            component: 'FIXME',
+            type: 'FIXME',
+            subType: 'FIXME',
+            instance: 'FIXME',
+            optional: false,
+          },
+        ],
+      },
+    ],
+  },
+}
