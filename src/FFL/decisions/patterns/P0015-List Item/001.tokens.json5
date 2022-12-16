@@ -53,21 +53,14 @@
                 DEPTH: 3,
                 UID: 'FFL.F0002-103',
                 active: 'YPL.CONST.boolean.false.value',
-                color: 'YPL.FFL.TKUI_C.colors.gray.500.value'
+                color: 'YPL.FFL.TKUI_C.colors.gray.500.value',
               },
               _BLK_indicator: {
                 DEPTH: 3,
                 _status: {
                   DEPTH: 4,
                   UID: 'YPL.FFL.E0005-002',
-                  marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.xs.value', // 4pt
                   active: 'YPL.CONST.boolean.false.value',
-                },
-                _eyebrow: {
-                  DEPTH: 4,
-                  UID: 'YPL.FFL.F0002-402',
-                  active: 'YPL.CONST.boolean.false.value',
-                  color: 'YPL.FFL.TKUI_C.colors.gray.500.value',
                 },
               },
             },
@@ -107,9 +100,6 @@
                 },
                 _BLK_indicator: {
                   _status: {
-                    active: 'YPL.CONST.boolean.true.value',
-                  },
-                  _eyebrow: {
                     active: 'YPL.CONST.boolean.true.value',
                   },
                 },

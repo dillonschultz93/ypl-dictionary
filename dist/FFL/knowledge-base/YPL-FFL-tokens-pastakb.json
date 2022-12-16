@@ -759,6 +759,12 @@
         "YPL.FFL.TKUI_D.E0004-002.OPT_big.icon.UID.hi.value": "YPL.FFL.F0003-424",
         "YPL.FFL.TKUI_D.E0004-002.OPT_big.icon.width.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
         "YPL.FFL.TKUI_D.E0004-002.OPT_big.icon.height.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
+        "YPL.FFL.TKUI_D.E0004-003.BLK_main.icon.UID.value": "YPL.FFL.F0003-423",
+        "YPL.FFL.TKUI_D.E0004-003.BLK_main.icon.width.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
+        "YPL.FFL.TKUI_D.E0004-003.BLK_main.icon.height.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
+        "YPL.FFL.TKUI_D.E0004-003.BLK_main.icon.color.i.value": "YPL.FFL.TKUI_C.colors.gray.300.value",
+        "YPL.FFL.TKUI_D.E0004-003.BLK_main.icon.color.p.value": "YPL.FFL.TKUI_C.colors.orange.400.value",
+        "YPL.FFL.TKUI_D.E0004-003.BLK_main.icon.color.hi.value": "YPL.FFL.TKUI_C.colors.orange.400.value",
         "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.width.value": "YPL.FFL.TKUI_C.sizes.micro.1000.value",
         "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.height.value": "YPL.FFL.TKUI_C.sizes.micro.1000.value",
         "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.radius.value": "YPL.FFL.TKUI_A.radii.round.value",
@@ -770,8 +776,8 @@
         "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.icon.width.value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
         "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.icon.height.value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
         "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.icon.color.value": "YPL.FFL.TKUI_C.colors.white.value",
-        "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.icon.visibile.i.value": "YPL.CONST.boolean.false.value",
-        "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.icon.visibile.hi.value": "YPL.CONST.boolean.true.value",
+        "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.icon.visible.i.value": "YPL.CONST.boolean.false.value",
+        "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.icon.visible.hi.value": "YPL.CONST.boolean.true.value",
         "YPL.FFL.TKUI_D.E0004-004.BLK_main.label.UID.value": "YPL.FFL.F0002-601",
         "YPL.FFL.TKUI_D.E0004-004.BLK_main.label.visible.value": "YPL.CONST.boolean.false.value",
         "YPL.FFL.TKUI_D.E0004-004.BLK_main.label.color.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
@@ -848,6 +854,14 @@
           "YPL.FFL.TKUI_D.E0004-002.OPT_big.icon.width.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
           "YPL.FFL.TKUI_D.E0004-002.OPT_big.icon.height.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value"
         },
+        "003": {
+          "YPL.FFL.TKUI_D.E0004-003.BLK_main.icon.UID.value": "YPL.FFL.F0003-423",
+          "YPL.FFL.TKUI_D.E0004-003.BLK_main.icon.width.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
+          "YPL.FFL.TKUI_D.E0004-003.BLK_main.icon.height.value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
+          "YPL.FFL.TKUI_D.E0004-003.BLK_main.icon.color.i.value": "YPL.FFL.TKUI_C.colors.gray.300.value",
+          "YPL.FFL.TKUI_D.E0004-003.BLK_main.icon.color.p.value": "YPL.FFL.TKUI_C.colors.orange.400.value",
+          "YPL.FFL.TKUI_D.E0004-003.BLK_main.icon.color.hi.value": "YPL.FFL.TKUI_C.colors.orange.400.value"
+        },
         "004": {
           "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.width.value": "YPL.FFL.TKUI_C.sizes.micro.1000.value",
           "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.height.value": "YPL.FFL.TKUI_C.sizes.micro.1000.value",
@@ -860,8 +874,8 @@
           "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.icon.width.value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
           "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.icon.height.value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
           "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.icon.color.value": "YPL.FFL.TKUI_C.colors.white.value",
-          "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.icon.visibile.i.value": "YPL.CONST.boolean.false.value",
-          "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.icon.visibile.hi.value": "YPL.CONST.boolean.true.value",
+          "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.icon.visible.i.value": "YPL.CONST.boolean.false.value",
+          "YPL.FFL.TKUI_D.E0004-004.BLK_main.control.icon.visible.hi.value": "YPL.CONST.boolean.true.value",
           "YPL.FFL.TKUI_D.E0004-004.BLK_main.label.UID.value": "YPL.FFL.F0002-601",
           "YPL.FFL.TKUI_D.E0004-004.BLK_main.label.visible.value": "YPL.CONST.boolean.false.value",
           "YPL.FFL.TKUI_D.E0004-004.BLK_main.label.color.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
@@ -2769,17 +2783,12 @@
         "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.false.value",
         "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.description.color.value": "YPL.FFL.TKUI_C.colors.gray.500.value",
         "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.status.UID.value": "YPL.FFL.E0005-002",
-        "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.status.marginRight.value": "YPL.FFL.TKUI_C.dimension.spaces.xs.value",
         "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.false.value",
-        "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.eyebrow.UID.value": "YPL.FFL.F0002-402",
-        "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.false.value",
-        "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.eyebrow.color.value": "YPL.FFL.TKUI_C.colors.gray.500.value",
         "YPL.FFL.TKUI_D.P0015-001.OPT_01.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value",
         "YPL.FFL.TKUI_D.P0015-001.OPT_02.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
         "YPL.FFL.TKUI_D.P0015-001.OPT_02.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value",
         "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
         "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.true.value",
-        "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value",
         "YPL.FFL.TKUI_D.P0015-002.BLK_main.paddingTop.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
         "YPL.FFL.TKUI_D.P0015-002.BLK_main.paddingBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
         "YPL.FFL.TKUI_D.P0015-002.BLK_main.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
@@ -2857,14 +2866,6 @@
                 "subType": "status",
                 "instance": ".status",
                 "optional": true
-              },
-              {
-                "name": "eyebrow",
-                "component": "FFL.F0002-402",
-                "type": "primitive",
-                "subType": "typography",
-                "instance": ".eyebrow",
-                "optional": true
               }
             ]
           }
@@ -2889,17 +2890,12 @@
           "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.false.value",
           "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.description.color.value": "YPL.FFL.TKUI_C.colors.gray.500.value",
           "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.status.UID.value": "YPL.FFL.E0005-002",
-          "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.status.marginRight.value": "YPL.FFL.TKUI_C.dimension.spaces.xs.value",
           "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.false.value",
-          "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.eyebrow.UID.value": "YPL.FFL.F0002-402",
-          "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.false.value",
-          "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.eyebrow.color.value": "YPL.FFL.TKUI_C.colors.gray.500.value",
           "YPL.FFL.TKUI_D.P0015-001.OPT_01.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value",
           "YPL.FFL.TKUI_D.P0015-001.OPT_02.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
           "YPL.FFL.TKUI_D.P0015-001.OPT_02.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value",
           "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
-          "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.true.value",
-          "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value"
+          "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.true.value"
         },
         "002": {
           "YPL.FFL.TKUI_D.P0015-002.BLK_main.paddingTop.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
@@ -2923,8 +2919,7 @@
         },
         "OPT_03": {
           "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
-          "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.true.value",
-          "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value"
+          "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.true.value"
         }
       },
       "breakpoints": null
