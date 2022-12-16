@@ -1,0 +1,44 @@
+{
+	YPL: {
+		FFL: {
+			'E0004-003': {
+				META: {
+					// required
+					name: 'Switch Icon',
+					version: '221215',
+					ticket: 'https://github.com/yummly/pasta/issues/29',
+					designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=2129%3A38788&viewport=-693%2C-283%2C0.86',
+					// optional:
+					lastEditor: 'Manuel Colom',
+					// shortName: '', // uncomment when needed
+					GENS: {
+						// ¡ DO NOT EDIT ! Script generated:
+						GEN_UID: 'E0004-003',
+						GEN_timeStamp: '',
+						GEN_project: 'FFL',
+						GEN_dependents: [],
+						GEN_dependentsUpdated: '',
+					},
+				},
+				TREE: {
+				 _BLK_main: {
+						DEPTH: 1,
+							_icon: {
+								DEPTH: 2,
+								UID: 'YPL.FFL.F0003-423',  // Star 24pt
+								width: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+								height: 'YPL.FFL.TKUI_C.sizes.micro.1200.value',
+								color: {
+									i: 'YPL.FFL.TKUI_C.colors.gray.300.value',
+									p: 'YPL.FFL.TKUI_C.colors.orange.400.value',
+									hi: 'YPL.FFL.TKUI_C.colors.orange.400.value',
+								},
+							},            
+						},
+					},
+				},
+				OVERRIDES: {},
+			},
+		},
+	},
+}

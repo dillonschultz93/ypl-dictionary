@@ -42,7 +42,7 @@
                 width: 'YPL.FFL.TKUI_C.sizes.micro.800.value',
                 height: 'YPL.FFL.TKUI_C.sizes.micro.800.value',
                 color: 'YPL.FFL.TKUI_C.colors.white.value',
-                visibile: {
+                visible: { // FIXME · visible? Opacity? … … 
                   i: 'YPL.CONST.boolean.false.value',
                   hi: 'YPL.CONST.boolean.true.value',
                 },
@@ -54,7 +54,9 @@
               visible: 'YPL.CONST.boolean.false.value',
               color: 'YPL.FFL.TKUI_C.colors.gray.900.value',
             },
-            gap: 'YPL.FFL.TKUI_C.spaces.s.value', // 8pt
+            // FIXME ↓ WHY "GAP" and not a margin?
+            gap: 'YPL.FFL.TKUI_C.spaces.s.value', // 8pt FIXME — NOT ON THE BLUEPRINT?
+
           },
         },
         OVERRIDES: {
