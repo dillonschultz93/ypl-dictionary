@@ -1,0 +1,51 @@
+{
+  YPL: {
+    FFL: {
+      'P0015-002': {
+        META: {
+          name: 'List Item',
+          version: '221215',
+          ticket: 'https://github.com/yummly/pasta/issues/60',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=5013%3A47879&t=fAIChGgQyTxpzGLv-1',
+          // optional:
+          lastEditor: 'Dillon Schultz',
+          // shortName: '', // uncomment if you want to use a short name
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'P0015-002',
+            GEN_timeStamp: '2022-12-16T02:39:42.917Z',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: [],
+          },
+        },
+        TREE: {
+          _BLK_main: {
+            paddingTop: 'YPL.FFL.TKUI_C.dimension.spaces.m.value', // 16pt
+            paddingBottom: 'YPL.FFL.TKUI_C.dimension.spaces.m.value', // 16pt
+            borderBottom: {
+              width: 'YPL.FFL.TKUI_A.borderWidths.xs.value', // 1px
+              color: 'YPL.FFL.TKUI_C.colors.gray.200.value',
+            },
+            DEPTH: 1,
+            _BLK_step: {
+              DEPTH: 2,
+              marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.s.value', // 8pt
+              _step: {
+                DEPTH: 3,
+                UID: 'YPL.FFL.F0002-005',
+                color: 'YPL.FFL.TKUI_C.colors.teal.400.value',
+              },
+            },
+            _BLK_description: {
+              DEPTH: 2,
+              UID: 'FFL.F0002-101',
+              color: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+            },
+          },
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}

@@ -10,6 +10,7 @@ const TabBar = require('./P000F-Tab Bar');
 const ContentSlider = require('./P0010-Content Slider');
 const Cluster = require('./P0012-Cluster');
 const Tabs = require('./P0013-Tabs');
+const ListItem = require('./P0015-List Item');
 const Instruction = require('./P001B-Instruction');
 const WidgetCard = require('./P001F-Widget Card');
 const StickyAction = require('./P0020-Sticky Action');
@@ -28,6 +29,7 @@ module.exports = {
     ...ContentSlider.tokens,
     ...Cluster.tokens,
     ...Tabs.tokens,
+    ...ListItem.tokens,
     ...Instruction.tokens,
     ...WidgetCard.tokens,
     ...StickyAction.tokens,
@@ -45,6 +47,7 @@ module.exports = {
     ...ContentSlider.kbInfo,
     ...Cluster.kbInfo,
     ...Tabs.kbInfo,
+    ...ListItem.kbInfo,
     ...Instruction.kbInfo,
     ...WidgetCard.kbInfo,
     ...StickyAction.kbInfo,
