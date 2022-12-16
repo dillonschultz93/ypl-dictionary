@@ -1,0 +1,123 @@
+{
+  YPL: {
+    FFL: {
+      'P0015-001': {
+        META: {
+          name: 'List Item',
+          version: '221215',
+          ticket: 'https://github.com/yummly/pasta/issues/60',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=5013%3A47879&t=fAIChGgQyTxpzGLv-1',
+          // optional:
+          lastEditor: 'Dillon Schultz',
+          // shortName: '', // uncomment if you want to use a short name
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'P0015-001',
+            GEN_timeStamp: '2022-12-16T02:39:42.916Z',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: [],
+          },
+        },
+        TREE: {
+          width: '100%', // FIXME: This needs to be a token.
+          minHeight: 'YPL.FFL.TKUI_C.dimension.sizes.micro.2000.value', // 56pt
+          paddingTop: 'YPL.FFL.TKUI_C.dimension.spaces.m.value', // 16pt
+          paddingBottom: 'YPL.FFL.TKUI_C.dimension.spaces.m.value', // 16pt
+          paddingLeft: 'YPL.FFL.TKUI_C.dimension.spaces.l.value', // 24pt
+          paddingRight: 'YPL.FFL.TKUI_C.dimension.spaces.l.value', // 24pt
+          _BLK_main: {
+            DEPTH: 1,
+            _BLK_switch: {
+              DEPTH: 2,
+              marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.s.value', // 8pt
+              _switch: {
+                DEPTH: 3,
+                UID: 'YPL.FFL.E0004-002',
+              },
+            },
+            _BLK_text: {
+              DEPTH: 2,
+              _amount: {
+                DEPTH: 3,
+                UID: 'FFL.F0002-101',
+                marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.xs.value', // 4pt
+                color: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+              },
+              _ingredient: {
+                DEPTH: 3,
+                UID: 'FFL.F0002-102',
+                color: 'YPL.FFL.TKUI_C.colors.gray.900.value',
+              },
+              _description: {
+                DEPTH: 3,
+                UID: 'FFL.F0002-103',
+                active: 'YPL.CONST.boolean.false.value',
+                color: 'YPL.FFL.TKUI_C.colors.gray.500.value'
+              },
+              _BLK_indicator: {
+                DEPTH: 3,
+                _status: {
+                  DEPTH: 4,
+                  UID: 'YPL.FFL.E0005-002',
+                  marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.xs.value', // 4pt
+                  active: 'YPL.CONST.boolean.false.value',
+                },
+                _eyebrow: {
+                  DEPTH: 4,
+                  UID: 'YPL.FFL.F0002-402',
+                  active: 'YPL.CONST.boolean.false.value',
+                  color: 'YPL.FFL.TKUI_C.colors.gray.500.value',
+                },
+              },
+            },
+          },
+        },
+        OVERRIDES: {
+          OPT_01: {
+            _BLK_main: {
+              _BLK_text: {
+                _BLK_indicator: {
+                  _eyebrow: {
+                    active: 'YPL.CONST.boolean.true.value',
+                  },
+                },
+              },
+            },
+          },
+          OPT_02: {
+            _BLK_main: {
+              _BLK_text: {
+                _description: {
+                  active: 'YPL.CONST.boolean.true.value',
+                },
+                _BLK_indicator: {
+                  _eyebrow: {
+                    active: 'YPL.CONST.boolean.true.value',
+                  },
+                },
+              },
+            },
+          },
+          OPT_03: {
+            _BLK_main: {
+              _BLK_text: {
+                _description: {
+                  active: 'YPL.CONST.boolean.true.value',
+                },
+                _BLK_indicator: {
+                  _status: {
+                    active: 'YPL.CONST.boolean.true.value',
+                  },
+                  _eyebrow: {
+                    active: 'YPL.CONST.boolean.true.value',
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+}

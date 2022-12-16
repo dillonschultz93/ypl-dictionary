@@ -1,0 +1,75 @@
+{
+  P0015: {
+    name: 'List Item',
+    UID: 'P0015',
+    description: 'Lorem ipsum dolar sit amet',
+    ticketNumber: '60',
+    ticketURL: 'https://github.com/yummly/pasta/issues/60',
+    ownerName: 'Dillon',
+    ownerGitHubURL: 'https://github.com/dillonschultz93',
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=5013%3A47879&t=fAIChGgQyTxpzGLv-1',
+    variants: ['001', '002'],
+    options: ['.OPT_01', '.OPT_02', '.OPT_03'],
+    hasInteractionStates: false, // change this to true if the component has interaction states
+    dependencyTree: [
+      {
+        name: 'BLK_switch',
+        children: [
+          {
+            name: 'switch',
+            component: 'FFL.E0004-002',
+            type: 'element',
+            subType: 'switch',
+            instance: '.switch',
+            optional: false,
+          },
+        ],
+      },
+      {
+        name: 'BLK_text',
+        children: [
+          {
+            name: 'amount',
+            component: 'FFL.F0002-101',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.amount',
+            optional: false,
+          },
+          {
+            name: 'ingredient',
+            component: 'FFL.F0002-102',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.ingredient',
+            optional: false,
+          },
+          {
+            name: 'description',
+            component: 'FFL.F0002-103',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.description',
+            optional: true,
+          },
+          {
+            name: 'status',
+            component: 'FFL.E0005-002',
+            type: 'element',
+            subType: 'status',
+            instance: '.status',
+            optional: true,
+          },
+          {
+            name: 'eyebrow',
+            component: 'FFL.F0002-402',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.eyebrow',
+            optional: true,
+          },
+        ],
+      },
+    ],
+  },
+}
