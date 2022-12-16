@@ -53,7 +53,7 @@
                 DEPTH: 3,
                 UID: 'FFL.F0002-103',
                 active: 'YPL.CONST.boolean.false.value',
-                color: 'YPL.FFL.TKUI_C.colors.gray.500.value'
+                color: 'YPL.FFL.TKUI_C.colors.gray.500.value',
               },
               _BLK_indicator: {
                 DEPTH: 3,
