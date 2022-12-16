@@ -2784,11 +2784,15 @@
         "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.description.color.value": "YPL.FFL.TKUI_C.colors.gray.500.value",
         "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.status.UID.value": "YPL.FFL.E0005-002",
         "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.false.value",
-        "YPL.FFL.TKUI_D.P0015-001.OPT_01.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value",
-        "YPL.FFL.TKUI_D.P0015-001.OPT_02.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
-        "YPL.FFL.TKUI_D.P0015-001.OPT_02.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value",
-        "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
-        "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.true.value",
+        "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.eyebrow.UID.value": "YPL.FFL.F0002-604",
+        "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.false.value",
+        "YPL.FFL.TKUI_D.P0015-001.OPT_01.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
+        "YPL.FFL.TKUI_D.P0015-001.OPT_P.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value",
+        "YPL.FFL.TKUI_D.P0015-001.OPT_S.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.true.value",
+        "YPL.FFL.TKUI_D.P0015-001.OPT_01_P.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
+        "YPL.FFL.TKUI_D.P0015-001.OPT_01_P.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value",
+        "YPL.FFL.TKUI_D.P0015-001.OPT_01_S.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
+        "YPL.FFL.TKUI_D.P0015-001.OPT_01_S.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.true.value",
         "YPL.FFL.TKUI_D.P0015-002.BLK_main.paddingTop.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
         "YPL.FFL.TKUI_D.P0015-002.BLK_main.paddingBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
         "YPL.FFL.TKUI_D.P0015-002.BLK_main.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
@@ -2866,6 +2870,14 @@
                 "subType": "status",
                 "instance": ".status",
                 "optional": true
+              },
+              {
+                "name": "eyebrow",
+                "component": "FFL.F0002-604",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".eyebrow",
+                "optional": true
               }
             ]
           }
@@ -2891,11 +2903,15 @@
           "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.description.color.value": "YPL.FFL.TKUI_C.colors.gray.500.value",
           "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.status.UID.value": "YPL.FFL.E0005-002",
           "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.false.value",
-          "YPL.FFL.TKUI_D.P0015-001.OPT_01.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value",
-          "YPL.FFL.TKUI_D.P0015-001.OPT_02.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
-          "YPL.FFL.TKUI_D.P0015-001.OPT_02.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value",
-          "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
-          "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.true.value"
+          "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.eyebrow.UID.value": "YPL.FFL.F0002-604",
+          "YPL.FFL.TKUI_D.P0015-001.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.false.value",
+          "YPL.FFL.TKUI_D.P0015-001.OPT_01.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
+          "YPL.FFL.TKUI_D.P0015-001.OPT_P.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value",
+          "YPL.FFL.TKUI_D.P0015-001.OPT_S.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.true.value",
+          "YPL.FFL.TKUI_D.P0015-001.OPT_01_P.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
+          "YPL.FFL.TKUI_D.P0015-001.OPT_01_P.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value",
+          "YPL.FFL.TKUI_D.P0015-001.OPT_01_S.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
+          "YPL.FFL.TKUI_D.P0015-001.OPT_01_S.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.true.value"
         },
         "002": {
           "YPL.FFL.TKUI_D.P0015-002.BLK_main.paddingTop.value": "YPL.FFL.TKUI_C.dimension.spaces.m.value",
@@ -2911,15 +2927,21 @@
       },
       "options": {
         "OPT_01": {
-          "YPL.FFL.TKUI_D.P0015-001.OPT_01.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value"
+          "YPL.FFL.TKUI_D.P0015-001.OPT_01.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value"
         },
-        "OPT_02": {
-          "YPL.FFL.TKUI_D.P0015-001.OPT_02.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
-          "YPL.FFL.TKUI_D.P0015-001.OPT_02.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value"
+        "OPT_P": {
+          "YPL.FFL.TKUI_D.P0015-001.OPT_P.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value"
         },
-        "OPT_03": {
-          "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
-          "YPL.FFL.TKUI_D.P0015-001.OPT_03.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.true.value"
+        "OPT_S": {
+          "YPL.FFL.TKUI_D.P0015-001.OPT_S.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.true.value"
+        },
+        "OPT_01_P": {
+          "YPL.FFL.TKUI_D.P0015-001.OPT_01_P.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
+          "YPL.FFL.TKUI_D.P0015-001.OPT_01_P.BLK_main.BLK_text.BLK_indicator.eyebrow.active.value": "YPL.CONST.boolean.true.value"
+        },
+        "OPT_01_S": {
+          "YPL.FFL.TKUI_D.P0015-001.OPT_01_S.BLK_main.BLK_text.description.active.value": "YPL.CONST.boolean.true.value",
+          "YPL.FFL.TKUI_D.P0015-001.OPT_01_S.BLK_main.BLK_text.BLK_indicator.status.active.value": "YPL.CONST.boolean.true.value"
         }
       },
       "breakpoints": null

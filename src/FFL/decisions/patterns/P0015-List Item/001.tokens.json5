@@ -62,12 +62,26 @@
                   UID: 'YPL.FFL.E0005-002',
                   active: 'YPL.CONST.boolean.false.value',
                 },
+                _eyebrow: {
+                  DEPTH: 4,
+                  UID: 'YPL.FFL.F0002-604',
+                  active: 'YPL.CONST.boolean.false.value',
+                },
               },
             },
           },
         },
         OVERRIDES: {
           OPT_01: {
+            _BLK_main: {
+              _BLK_text: {
+                _description: {
+                  active: 'YPL.CONST.boolean.true.value',
+                },
+              },
+            },
+          },
+          OPT_P: {
             _BLK_main: {
               _BLK_text: {
                 _BLK_indicator: {
@@ -78,7 +92,18 @@
               },
             },
           },
-          OPT_02: {
+          OPT_S: {
+            _BLK_main: {
+              _BLK_text: {
+                _BLK_indicator: {
+                  _status: {
+                    active: 'YPL.CONST.boolean.true.value',
+                  },
+                },
+              },
+            },
+          },
+          OPT_01_P: {
             _BLK_main: {
               _BLK_text: {
                 _description: {
@@ -92,7 +117,7 @@
               },
             },
           },
-          OPT_03: {
+          OPT_01_S: {
             _BLK_main: {
               _BLK_text: {
                 _description: {
