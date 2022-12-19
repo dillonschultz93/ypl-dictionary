@@ -4,10 +4,10 @@
       'P001D-001': {
         META: {
           // required:
-          name: 'Cluster',
+          name: 'Rating Widget',
           version: '221218',
           ticket: 'https://github.com/yummly/pasta/issues/72',
-          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5770%3A46787&t=rDNgxA0DO6uolZJu-11',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5770%3A46787&t=ZH74Tb4zn8jlla0t-1',
           // optional:
           lastEditor: 'Manuel Colom',
           shortName: '',
