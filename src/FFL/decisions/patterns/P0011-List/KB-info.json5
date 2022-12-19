@@ -16,7 +16,7 @@
         children: [
           {
             name: 'List Item',
-            component: 'YPL.FFL.E00P0015', // FIXME this is a case of a component that has different dependencies depending on the variant
+            component: 'FFL.E00P0015', // FIXME this is a case of a component that has different dependencies depending on the variant
             type: 'pattern',
             subType: 'pattern',
             instance: '.CHILDREN.BLK_item.item', // FIXME ???
