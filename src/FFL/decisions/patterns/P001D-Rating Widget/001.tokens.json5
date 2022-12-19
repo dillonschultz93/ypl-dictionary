@@ -1,0 +1,38 @@
+{
+  YPL: {
+    FFL: {
+      'P001D-001': {
+        META: {
+          // required:
+          name: 'Cluster',
+          version: '221218',
+          ticket: 'https://github.com/yummly/pasta/issues/72',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5770%3A46787&t=rDNgxA0DO6uolZJu-11',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          shortName: '',
+          GENS: {
+            GEN_UID: 'P001D-001',
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {	
+          CHILDREN: {
+            DEPTH: 1,
+            UID: 'YPL.FFL.E0004-003',
+            marginRight: 'YPL.FFL.TKUI_C.spaces.s.value',
+          },
+          CHILD_LAST: {
+            marginRight: 'YPL.FFL.TKUI_C.spaces.none.value',
+          }
+        },
+        OVERRIDES: {},
+      },
+	  },
+  },
+}
+
+
