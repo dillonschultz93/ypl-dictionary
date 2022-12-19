@@ -1,0 +1,67 @@
+{
+  YPL: {
+    FFL: {
+      'P0011-002': {
+        META: {
+          // required:
+          name: 'List',
+          version: '221218',
+          ticket: 'https://github.com/yummly/pasta/issues/45',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=4001%3A70088&t=ZH74Tb4zn8jlla0t-1',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          shortName: '',
+          GENS: {
+            GEN_UID: 'P0011-002',
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {		
+          CHILDREN: {
+            DEPTH: 1,
+            paddingLeft: 'YPL.FFL.TKUI_C.spaces.none.value', // 0
+            paddingRight: 'YPL.FFL.TKUI_C.spaces.none.value',
+            marginTop: 'YPL.FFL.TKUI_C.spaces.none.value',
+            marginBottom: 'YPL.FFL.TKUI_C.spaces.none.value',
+            paddingTop: 'YPL.FFL.TKUI_C.spaces.none.value',
+            padddingBottom: 'YPL.FFL.TKUI_C.spaces.none.value',
+            border: {
+              color: 'YPL.FFL.TKUI_C.colors.gray.200.value',
+            },
+            borderTop: {
+              width: 'YPL.FFL.TKUI_A.borderWidths.zero.value', // 0
+            },
+            borderBottom: {
+              width: 'YPL.FFL.TKUI_A.borderWidths.zero.value',
+            },                        
+            _BLK_item: {
+              DEPTH: 2,              
+              width: '100%', // FIXME
+              paddingTop: 'YPL.FFL.TKUI_C.spaces.none.value',
+              padddingBottom: 'YPL.FFL.TKUI_C.spaces.none.value',
+              border: {
+                color: 'YPL.FFL.TKUI_C.colors.gray.200.value',
+              },
+              borderTop: {
+                width: 'YPL.FFL.TKUI_A.borderWidths.zero.value',
+              },
+              borderBottom: {
+                width: 'YPL.FFL.TKUI_A.borderWidths.zero.value',
+              },               
+              _item: {
+                DEPTH: 3,                
+                UID: 'YPL.FFL.P0015-001',
+              },
+            },
+          },
+        },
+        OVERRIDES: {},
+      },
+	  },
+  },
+}
+
+

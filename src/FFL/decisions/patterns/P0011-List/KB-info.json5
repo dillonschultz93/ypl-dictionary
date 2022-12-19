@@ -1,0 +1,29 @@
+{
+  P0011: {
+    name: 'List', // Element name
+    UID: 'P0011', // Element UID
+    description: 'FIXME', // Description of the element
+    ticketNumber: '45', // Ticket number on GitHub
+    ticketURL: 'https://github.com/yummly/pasta/issues/45', // URL to the GitHub ticket
+    ownerName: 'Manuel Colom', // Name of the owner on the GitHub ticket.
+    ownerGitHubURL: 'https://github.com/coolmanlume', // URL to the owner's GitHub profile
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=4001%3A70088&t=ZH74Tb4zn8jlla0t-1', // URL to the element's Figma file
+    variants: ['001', '002','003','004'], // List any variants here. Leave an empty array if there are no variants.
+    options: [], // List any options here. Leave an empty array if there are no options.
+    hasInteractionStates: false, // Set to true if there are any interaction states, if not, set to false.
+    dependencyTree: [
+      {
+        children: [
+          {
+            name: 'List Item',
+            component: 'FFL.E00P0015', // FIXME this is a case of a component that has different dependencies depending on the variant
+            type: 'pattern',
+            subType: 'pattern',
+            instance: '.CHILDREN.BLK_item.item', // FIXME ???
+            optional: false,
+          },
+        ],
+      },
+    ],
+  },
+}

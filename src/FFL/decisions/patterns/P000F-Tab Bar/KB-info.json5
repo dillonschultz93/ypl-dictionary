@@ -7,7 +7,7 @@
     ticketURL: 'https://github.com/yummly/pasta/issues/21',
     ownerName: 'Dillon',
     ownerGitHubURL: 'https://github.com/dillonschultz93',
-    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=1730%3A38030&t=YSJaGt0PtT6pk2gc-1',
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1730%3A38030&t=ZH74Tb4zn8jlla0t-1',
     variants: ['001'],
     options: [],
     hasInteractionStates: false, // change this to true if the component has interaction states
@@ -15,8 +15,8 @@
       {
         name: 'elevation',
         component: 'FFL.F0005',
-        type: 'primitives',
-        subType: 'elevation-F0005',
+        type: 'primitive',
+        subType: 'elevation',
         instance: '.elevation',
         optional: false,
       },
@@ -26,8 +26,8 @@
           {
             name: 'icon',
             component: 'FFL.F0003',
-            type: 'primitives',
-            subType: 'icons-F0003',
+            type: 'primitive',
+            subType: 'icons',
             instance: '.icon',
             optional: false,
           },

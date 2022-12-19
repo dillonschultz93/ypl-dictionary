@@ -7,7 +7,7 @@
     ticketURL: 'https://github.com/yummly/pasta/issues/69',
     ownerName: 'Dillon',
     ownerGitHubURL: 'https://github.com/dillonschultz93',
-    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=5508%3A44739&t=YSJaGt0PtT6pk2gc-1',
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5508%3A44739&t=ZH74Tb4zn8jlla0t-1',
     variants: ['001'],
     options: [],
     hasInteractionStates: false, // change this to true if the component has interaction states
@@ -17,7 +17,7 @@
         children: [
           {
             name: 'thumbnail',
-            component: 'E0002',
+            component: 'FFL.E0002-001',
             type: 'element',
             subType: 'thumbnail',
             instance: '.thumbnail',
@@ -25,7 +25,7 @@
           },
           {
             name: 'title',
-            component: 'F0002-005',
+            component: 'FFL.F0002-005',
             type: 'primitive',
             subType: 'typography',
             instance: '.title',
@@ -33,7 +33,7 @@
           },
           {
             name: 'copy',
-            component: 'F0002-103',
+            component: 'FFL.F0002-103',
             type: 'primitive',
             subType: 'typography',
             instance: '.copy',

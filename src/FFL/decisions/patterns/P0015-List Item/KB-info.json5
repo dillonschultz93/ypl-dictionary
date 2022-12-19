@@ -7,7 +7,7 @@
     ticketURL: 'https://github.com/yummly/pasta/issues/60',
     ownerName: 'Dillon',
     ownerGitHubURL: 'https://github.com/dillonschultz93',
-    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=5013%3A47879&t=fAIChGgQyTxpzGLv-1',
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5013%3A47879&t=ZH74Tb4zn8jlla0t-1',
     variants: ['001', '002'],
     options: ['.OPT_01', '.OPT_02', '.OPT_03'],
     hasInteractionStates: false, // change this to true if the component has interaction states

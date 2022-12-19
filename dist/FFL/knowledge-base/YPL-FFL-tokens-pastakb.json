@@ -144,7 +144,7 @@
         "ticketURL": "https://github.com/yummly/pasta/issues/22",
         "ownerName": "Robert",
         "ownerGitHubURL": "https://github.com/robert-ANML",
-        "figmaLink": "https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1948%3A36688",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1948%3A36688&t=ZH74Tb4zn8jlla0t-1",
         "variants": [
           "001"
         ],
@@ -373,7 +373,7 @@
         "ticketURL": "https://github.com/yummly/pasta/issues/23",
         "ownerName": "Robert",
         "ownerGitHubURL": "https://github.com/robert-ANML",
-        "figmaLink": "https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=1737%3A68833",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1737%3A68833&t=ZH74Tb4zn8jlla0t-1",
         "variants": [
           "001",
           "002",
@@ -792,9 +792,10 @@
         "ticketURL": "https://github.com/yummly/pasta/issues/29",
         "ownerName": "Robert",
         "ownerGitHubURL": "https://github.com/robert-ANML",
-        "figmaLink": "https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=2116%3A38531",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=2116%3A38531&t=ZH74Tb4zn8jlla0t-1",
         "variants": [
           "002",
+          "003",
           "004"
         ],
         "options": [
@@ -1093,7 +1094,7 @@
         "ticketURL": "https://github.com/yummly/pasta/issues/7",
         "ownerName": "Dillon",
         "ownerGitHubURL": "https://github.com/dillonschultz93",
-        "figmaLink": "https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=12%3A1694",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=12%3A1694&t=ZH74Tb4zn8jlla0t-1",
         "variants": [
           "001"
         ],
@@ -1107,7 +1108,7 @@
             "name": "gradient",
             "component": "FFL.F0004",
             "type": "primitive",
-            "subType": "gradients",
+            "subType": "gradient",
             "instance": ".gradient",
             "optional": false
           },
@@ -1118,7 +1119,7 @@
                 "name": "chip",
                 "component": "FFL.E0001",
                 "type": "element",
-                "subType": "elements",
+                "subType": "chip",
                 "instance": ".chip",
                 "optional": false
               }
@@ -1157,8 +1158,8 @@
                 "optional": false
               },
               {
-                "name": "switchButton",
-                "component": "FFL.E0004-002.OPT_white",
+                "name": "switch button",
+                "component": "FFL.E0004-002",
                 "type": "element",
                 "subType": "switch",
                 "instance": ".switchButton",
@@ -1589,7 +1590,7 @@
                     "optional": false
                   },
                   {
-                    "name": "switchButton",
+                    "name": "switch button",
                     "component": "FFL.E0004-002.OPT_white",
                     "type": "element",
                     "subType": "switch",
@@ -1723,7 +1724,7 @@
                 "name": "button",
                 "component": "FFL.E0003-009",
                 "type": "element",
-                "subType": "button-E0003",
+                "subType": "button",
                 "instance": ".button",
                 "optional": true
               }
@@ -1835,7 +1836,7 @@
                 "name": "button",
                 "component": "FFL.E0003-00C",
                 "type": "element",
-                "subType": "button-E0003",
+                "subType": "button",
                 "instance": ".button",
                 "optional": true
               }
@@ -1861,7 +1862,7 @@
                 "name": "button",
                 "component": "FFL.E0003-00C",
                 "type": "element",
-                "subType": "button-E0003",
+                "subType": "button",
                 "instance": ".button",
                 "optional": true
               }
@@ -1986,7 +1987,7 @@
         "ticketURL": "https://github.com/yummly/pasta/issues/15",
         "ownerName": "Dillon",
         "ownerGitHubURL": "https://github.com/dillonschultz93",
-        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=2046%3A26892&t=NB994tTCN8MstBlu-1",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=2046%3A26892&t=ZH74Tb4zn8jlla0t-1",
         "variants": [
           "001",
           "002",
@@ -2003,7 +2004,7 @@
             "name": "navigation",
             "component": "FFL.P0009-001.OPT_1B_1B",
             "type": "pattern",
-            "subType": "navigation-P0009",
+            "subType": "navigation",
             "instance": ".navigation",
             "optional": false
           },
@@ -2169,7 +2170,7 @@
                 "name": "button",
                 "component": "FFL.E0003-009",
                 "type": "elements",
-                "subType": "button-E0003",
+                "subType": "button",
                 "instance": ".button",
                 "optional": true
               }
@@ -2273,7 +2274,7 @@
                 "name": "button",
                 "component": "FFL.E0003-00A",
                 "type": "element",
-                "subType": "button-E0003",
+                "subType": "button",
                 "instance": ".button",
                 "optional": true
               }
@@ -2350,7 +2351,7 @@
         "ticketURL": "https://github.com/yummly/pasta/issues/21",
         "ownerName": "Dillon",
         "ownerGitHubURL": "https://github.com/dillonschultz93",
-        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=1730%3A38030&t=YSJaGt0PtT6pk2gc-1",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1730%3A38030&t=ZH74Tb4zn8jlla0t-1",
         "variants": [
           "001"
         ],
@@ -2360,8 +2361,8 @@
           {
             "name": "elevation",
             "component": "FFL.F0005",
-            "type": "primitives",
-            "subType": "elevation-F0005",
+            "type": "primitive",
+            "subType": "elevation",
             "instance": ".elevation",
             "optional": false
           },
@@ -2371,8 +2372,8 @@
               {
                 "name": "icon",
                 "component": "FFL.F0003",
-                "type": "primitives",
-                "subType": "icons-F0003",
+                "type": "primitive",
+                "subType": "icons",
                 "instance": ".icon",
                 "optional": false
               }
@@ -2629,7 +2630,7 @@
             "children": [
               {
                 "name": "chip",
-                "component": "YPL.FFL.E0001.OPT_teal",
+                "component": "FFL.E0001.OPT_teal",
                 "type": "element",
                 "subType": "chip",
                 "instance": ".CHILDREN",
@@ -2811,7 +2812,7 @@
         "ticketURL": "https://github.com/yummly/pasta/issues/60",
         "ownerName": "Dillon",
         "ownerGitHubURL": "https://github.com/dillonschultz93",
-        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=5013%3A47879&t=fAIChGgQyTxpzGLv-1",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5013%3A47879&t=ZH74Tb4zn8jlla0t-1",
         "variants": [
           "001",
           "002"
@@ -2969,7 +2970,7 @@
         "ticketURL": "https://github.com/yummly/pasta/issues/69",
         "ownerName": "Dillon",
         "ownerGitHubURL": "https://github.com/dillonschultz93",
-        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=5508%3A44739&t=YSJaGt0PtT6pk2gc-1",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5508%3A44739&t=ZH74Tb4zn8jlla0t-1",
         "variants": [
           "001"
         ],
@@ -2981,7 +2982,7 @@
             "children": [
               {
                 "name": "thumbnail",
-                "component": "E0002",
+                "component": "FFL.E0002-001",
                 "type": "element",
                 "subType": "thumbnail",
                 "instance": ".thumbnail",
@@ -2989,7 +2990,7 @@
               },
               {
                 "name": "title",
-                "component": "F0002-005",
+                "component": "FFL.F0002-005",
                 "type": "primitive",
                 "subType": "typography",
                 "instance": ".title",
@@ -2997,7 +2998,7 @@
               },
               {
                 "name": "copy",
-                "component": "F0002-103",
+                "component": "FFL.F0002-103",
                 "type": "primitive",
                 "subType": "typography",
                 "instance": ".copy",
@@ -3057,7 +3058,7 @@
         "ticketURL": "https://github.com/yummly/pasta/issues/74",
         "ownerName": "Dillon",
         "ownerGitHubURL": "https://github.com/dillonschultz93",
-        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=5909%3A47468&t=YSJaGt0PtT6pk2gc-1",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5909%3A47468&t=ZH74Tb4zn8jlla0t-1",
         "variants": [
           "001"
         ],
@@ -3102,18 +3103,18 @@
                 "optional": false
               },
               {
-                "name": "editButton",
+                "name": "edit button",
                 "component": "FFL.E0003-00C.OPT_small",
-                "type": "elements",
-                "subType": "button-E0003",
+                "type": "element",
+                "subType": "button",
                 "instance": ".editButton",
                 "optional": false
               },
               {
-                "name": "deleteButton",
+                "name": "delete button",
                 "component": "FFL.E0003-00C.OPT_small",
-                "type": "elements",
-                "subType": "button-E0003",
+                "type": "element",
+                "subType": "button",
                 "instance": ".deleteButton",
                 "optional": false
               }
@@ -3175,7 +3176,7 @@
         "ticketURL": "https://github.com/yummly/pasta/issues/75",
         "ownerName": "Dillon",
         "ownerGitHubURL": "https://github.com/dillonschultz93",
-        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=6595%3A65405&t=0nbdk5PbnIpkWFt6-1",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=19%3A72&t=ZH74Tb4zn8jlla0t-1",
         "variants": [
           "001",
           "002"
@@ -3192,7 +3193,7 @@
                 "name": "thumbnail",
                 "component": "FFL.E0002",
                 "type": "element",
-                "subType": "thumbnail-E0002",
+                "subType": "thumbnail",
                 "instance": ".thumbnail",
                 "optional": false
               },
@@ -3200,7 +3201,7 @@
                 "name": "button",
                 "component": "FFL.E0003-001",
                 "type": "element",
-                "subType": "button-E0003",
+                "subType": "button",
                 "instance": ".button",
                 "optional": false
               }

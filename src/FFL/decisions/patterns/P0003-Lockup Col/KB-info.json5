@@ -40,7 +40,7 @@
                 optional: false,
               },
               {
-                name: 'switchButton',
+                name: 'switch button',
                 component: 'FFL.E0004-002.OPT_white',
                 type: 'element',
                 subType: 'switch',

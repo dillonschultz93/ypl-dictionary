@@ -16,7 +16,7 @@
         children: [
           {
             name: 'chip',
-            component: 'YPL.FFL.E0001.OPT_teal',
+            component: 'FFL.E0001.OPT_teal',
             type: 'element',
             subType: 'chip',
             instance: '.CHILDREN',

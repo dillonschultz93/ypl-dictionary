@@ -1,0 +1,29 @@
+{
+  P001D: {
+    name: 'Tabs', // Element name
+    UID: 'P001D', // Element UID
+    description: 'FIXME', // Description of the element
+    ticketNumber: '72', // Ticket number on GitHub
+    ticketURL: 'https://github.com/yummly/pasta/issues/72', // URL to the GitHub ticket
+    ownerName: 'Manuel Colom', // Name of the owner on the GitHub ticket.
+    ownerGitHubURL: 'https://github.com/coolmanlume', // URL to the owner's GitHub profile
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5770%3A46787&t=ZH74Tb4zn8jlla0t-1', // URL to the element's Figma file
+    variants: ['001'], // List any variants here. Leave an empty array if there are no variants.
+    options: [], // List any options here. Leave an empty array if there are no options.
+    hasInteractionStates: false, // Set to true if there are any interaction states, if not, set to false.
+    dependencyTree: [
+      {
+        children: [
+          {
+            name: 'switch',
+            component: 'FFL.E0004-003',
+            type: 'element',
+            subType: 'switch',
+            instance: '.CHILDREN',
+            optional: false,
+          },
+        ],
+      },
+    ],
+  },
+}

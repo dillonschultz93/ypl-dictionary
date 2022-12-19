@@ -48,7 +48,7 @@
             name: 'button',
             component: 'FFL.E0003-009',
             type: 'element',
-            subType: 'button-E0003',
+            subType: 'button',
             instance: '.button',
             optional: true,
           },
