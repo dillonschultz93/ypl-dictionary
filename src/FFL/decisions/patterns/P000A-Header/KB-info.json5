@@ -16,7 +16,7 @@
         name: 'navigation',
         component: 'FFL.P0009-001.OPT_1B_1B',
         type: 'pattern',
-        subType: 'navigation-P0009',
+        subType: 'navigation',
         instance: '.navigation',
         optional: false,
       },

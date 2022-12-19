@@ -15,8 +15,8 @@
       {
         name: 'elevation',
         component: 'FFL.F0005',
-        type: 'primitives',
-        subType: 'elevation-F0005',
+        type: 'primitive',
+        subType: 'elevation',
         instance: '.elevation',
         optional: false,
       },
@@ -26,8 +26,8 @@
           {
             name: 'icon',
             component: 'FFL.F0003',
-            type: 'primitives',
-            subType: 'icons-F0003',
+            type: 'primitive',
+            subType: 'icons',
             instance: '.icon',
             optional: false,
           },

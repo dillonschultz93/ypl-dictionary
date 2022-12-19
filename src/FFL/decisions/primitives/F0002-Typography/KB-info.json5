@@ -8,7 +8,7 @@
     ownerName: 'Robert', // Name of the owner on the GitHub ticket.
     ownerGitHubURL: 'https://github.com/robert-ANML', // URL to the owner's GitHub profile
     figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/branch/wHmdtIbZI3iRbVwyeQ4cKC/Pasta-0.1.0?node-id=534%3A31765&viewport=1578%2C2155%2C0.4&t=E90VmtnEEKKpPVSl-11', // URL to the element's Figma file
-    variants: ['001', '002', '003', '004','005','006','007','008','101','102','103','104','201','202','401','402','403','501','502','503','601','602','603','604','605'], // List any variants here. Leave an empty array if there are no variants.
+    variants: ['001', '002', '003', '004','005','006','007','008','101','102','103','104','201','202','401','402','403','501','502','503','601','602','603','604','605', '606', '607'], // List any variants here. Leave an empty array if there are no variants.
     options: [], // List any options here. Leave an empty array if there are no options.
     hasInteractionStates: false, // Set to true if there are any interaction states, if not, set to false.
     dependencyTree: [],

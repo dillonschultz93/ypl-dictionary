@@ -1,0 +1,41 @@
+{
+  YPL: {
+    FFL: {
+      'F0002-607': {
+        META: {
+          // required
+          name: 'Control Big Strong',
+          version: '221206',
+          ticket: 'https://github.com/yummly/pasta/issues/25',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=534%3A31765&viewport=632%2C1600%2C0.12',          
+          // optional:
+          lastEditor: 'Manuel Colom',
+          // shortName: '', // uncomment when needed
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'F0002-605',
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {
+          // Choice
+          familyName: 'YPL.FFL.TKUI_C.typo.europa.familyName.regular.value',
+          // From apparatus
+          size: 'YPL.FFL.TKUI_M.typo.europa.ctrl.small.size.value',
+          leading: 'YPL.FFL.TKUI_M.typo.europa.ctrl.small.leading.value',
+          paragraphSpacing: 'YPL.FFL.TKUI_M.typo.europa.ctrl.small.paragraphSpacing.value',
+          tracking: 'YPL.FFL.TKUI_M.typo.europa.ctrl.small.tracking.value',
+          // Other attributes
+          textAlignHorizontal: 'YPL.CONST.textAlignHorizontal.left.value',
+          textCase: 'YPL.CONST.textCase.original.value',
+          textDecoration: 'YPL.CONST.textDecoration.none.value',
+          color: 'YPL.FFL.TKUI_C.colors.black.value',
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}

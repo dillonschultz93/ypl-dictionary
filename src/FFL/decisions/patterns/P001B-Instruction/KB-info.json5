@@ -17,7 +17,7 @@
         children: [
           {
             name: 'thumbnail',
-            component: 'E0002',
+            component: 'FFL.E0002-001',
             type: 'element',
             subType: 'thumbnail',
             instance: '.thumbnail',
@@ -25,7 +25,7 @@
           },
           {
             name: 'title',
-            component: 'F0002-005',
+            component: 'FFL.F0002-005',
             type: 'primitive',
             subType: 'typography',
             instance: '.title',
@@ -33,7 +33,7 @@
           },
           {
             name: 'copy',
-            component: 'F0002-103',
+            component: 'FFL.F0002-103',
             type: 'primitive',
             subType: 'typography',
             instance: '.copy',

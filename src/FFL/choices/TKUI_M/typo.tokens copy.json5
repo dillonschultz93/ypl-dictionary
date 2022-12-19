@@ -281,6 +281,20 @@
               }
             },
             "ctrl": {
+              "big": {
+                "size": {
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.900.value * YPL.TEST.textSizeFactor.value"
+                },
+                "leading": {
+                  "value": 18
+                },
+                "paragraphSpacing": {
+                  "value": 0
+                },
+                "tracking": {
+                  "value": "0.7%"
+                }
+              },
               "regular": {
                 "size": {
                   "value": "YPL.FFL.TKUI_C.sizes.micro.800.value * YPL.TEST.textSizeFactor.value"

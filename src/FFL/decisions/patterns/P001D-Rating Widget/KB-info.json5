@@ -16,7 +16,7 @@
         children: [
           {
             name: 'switch',
-            component: 'YPL.FFL.E0004-003',
+            component: 'FFL.E0004-003',
             type: 'element',
             subType: 'switch',
             instance: '.CHILDREN',
