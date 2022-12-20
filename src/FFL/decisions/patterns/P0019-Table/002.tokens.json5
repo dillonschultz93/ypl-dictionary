@@ -43,7 +43,7 @@
             },                        
             CELLS: { // Row Cells
               DEPTH: 2,              
-              width: '100%', // FIXME (use tokens)
+              // width: '100%', // FIXME (use tokens)
               paddingLeft: 'YPL.FFL.TKUI_C.spaces.none.value',
               padddingRight: 'YPL.FFL.TKUI_C.spaces.none.value',                           
               paddingTop: 'YPL.FFL.TKUI_C.spaces.sm.value',
@@ -63,6 +63,7 @@
             },
             CELL_LAST: {
               width: '33%', // FIXME ?
+              hAlignItem: 'right', // FIXME
               _item: {              
                 textAlignHorizontal: 'YPL.CONST.textAlignHorizontal.right.value',
               },

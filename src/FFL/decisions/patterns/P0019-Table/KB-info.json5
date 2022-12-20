@@ -7,8 +7,8 @@
     ticketURL: 'https://github.com/yummly/pasta/issues/71', // URL to the GitHub ticket
     ownerName: 'Manuel Colom', // Name of the owner on the GitHub ticket.
     ownerGitHubURL: 'https://github.com/coolmanlume', // URL to the owner's GitHub profile
-    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=19%3A72&t=ZB6QLqhBcxgpTcGm-11', // URL to the element's Figma file
-    variants: ['001', '002','003','004'], // List any variants here. Leave an empty array if there are no variants.
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5949%3A49564&t=mgJbD2o3F9oV2p8T-11', // URL to the element's Figma file
+    variants: ['001', '002','003'], // List any variants here. Leave an empty array if there are no variants.
     options: [], // List any options here. Leave an empty array if there are no options.
     hasInteractionStates: false, // Set to true if there are any interaction states, if not, set to false.
     dependencyTree: [
