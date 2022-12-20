@@ -1,6 +1,7 @@
 const PosterCard = require('./P0001-Poster Card');
 const Cardlet = require('./P0002-Cardlet');
 const LockupCol = require('./P0003-Lockup Col');
+const LockupRow = require('./P0004-Lockup Row');
 const FlashCard = require('./P0007-Flash Card');
 const Navigation = require('./P0009-Navigation');
 const Header = require('./P000A-Header');
@@ -15,6 +16,7 @@ const Tabs = require('./P0013-Tabs');
 const ListItem = require('./P0015-List Item');
 const Instruction = require('./P001B-Instruction');
 const RatingWidget = require('./P001D-Rating Widget');
+const InputField = require('./P001E-Input Field');
 const WidgetCard = require('./P001F-Widget Card');
 const Table = require('./P0019-Table');
 const StickyAction = require('./P0020-Sticky Action');
@@ -24,6 +26,7 @@ module.exports = {
     ...PosterCard.tokens,
     ...Cardlet.tokens,
     ...LockupCol.tokens,
+    ...LockupRow.tokens,
     ...FlashCard.tokens,
     ...Navigation.tokens,
     ...Header.tokens,
@@ -38,6 +41,7 @@ module.exports = {
     ...ListItem.tokens,
     ...Instruction.tokens,
     ...RatingWidget.tokens,
+    ...InputField.tokens,
     ...WidgetCard.tokens,
     ...Table.tokens,
     ...StickyAction.tokens,
@@ -46,6 +50,7 @@ module.exports = {
     ...PosterCard.kbInfo,
     ...Cardlet.kbInfo,
     ...LockupCol.kbInfo,
+    ...LockupRow.kbInfo,
     ...FlashCard.kbInfo,
     ...Navigation.kbInfo,
     ...Header.kbInfo,
@@ -60,6 +65,7 @@ module.exports = {
     ...ListItem.kbInfo,
     ...Instruction.kbInfo,
     ...RatingWidget.kbInfo,
+    ...InputField.kbInfo,
     ...WidgetCard.kbInfo,
     ...Table.kbInfo,
     ...StickyAction.kbInfo,
