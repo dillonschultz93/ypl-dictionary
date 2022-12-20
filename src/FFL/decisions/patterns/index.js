@@ -16,6 +16,7 @@ const ListItem = require('./P0015-List Item');
 const Instruction = require('./P001B-Instruction');
 const RatingWidget = require('./P001D-Rating Widget');
 const WidgetCard = require('./P001F-Widget Card');
+const Table = require('./P0019-Table');
 const StickyAction = require('./P0020-Sticky Action');
 
 module.exports = {
@@ -38,6 +39,7 @@ module.exports = {
     ...Instruction.tokens,
     ...RatingWidget.tokens,
     ...WidgetCard.tokens,
+    ...Table.tokens,
     ...StickyAction.tokens,
   },
   allPatternKBInfo: {
@@ -59,6 +61,7 @@ module.exports = {
     ...Instruction.kbInfo,
     ...RatingWidget.kbInfo,
     ...WidgetCard.kbInfo,
+    ...Table.kbInfo,
     ...StickyAction.kbInfo,
   },
 };
