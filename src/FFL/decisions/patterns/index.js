@@ -5,6 +5,7 @@ const FlashCard = require('./P0007-Flash Card');
 const Navigation = require('./P0009-Navigation');
 const Header = require('./P000A-Header');
 const Toast = require('./P000B-Toast');
+const Modal = require('./P000C-Modal');
 const ActionBar = require('./P000E-Action Bar');
 const TabBar = require('./P000F-Tab Bar');
 const ContentSlider = require('./P0010-Content Slider');
@@ -15,6 +16,7 @@ const ListItem = require('./P0015-List Item');
 const Instruction = require('./P001B-Instruction');
 const RatingWidget = require('./P001D-Rating Widget');
 const WidgetCard = require('./P001F-Widget Card');
+const Table = require('./P0019-Table');
 const StickyAction = require('./P0020-Sticky Action');
 
 module.exports = {
@@ -26,6 +28,7 @@ module.exports = {
     ...Navigation.tokens,
     ...Header.tokens,
     ...Toast.tokens,
+    ...Modal.tokens,
     ...ActionBar.tokens,
     ...TabBar.tokens,
     ...ContentSlider.tokens,
@@ -36,6 +39,7 @@ module.exports = {
     ...Instruction.tokens,
     ...RatingWidget.tokens,
     ...WidgetCard.tokens,
+    ...Table.tokens,
     ...StickyAction.tokens,
   },
   allPatternKBInfo: {
@@ -46,6 +50,7 @@ module.exports = {
     ...Navigation.kbInfo,
     ...Header.kbInfo,
     ...Toast.kbInfo,
+    ...Modal.kbInfo,
     ...ActionBar.kbInfo,
     ...TabBar.kbInfo,
     ...ContentSlider.kbInfo,
@@ -56,6 +61,7 @@ module.exports = {
     ...Instruction.kbInfo,
     ...RatingWidget.kbInfo,
     ...WidgetCard.kbInfo,
+    ...Table.kbInfo,
     ...StickyAction.kbInfo,
   },
 };

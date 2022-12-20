@@ -2169,7 +2169,7 @@
               {
                 "name": "button",
                 "component": "FFL.E0003-009",
-                "type": "elements",
+                "type": "element",
                 "subType": "button",
                 "instance": ".button",
                 "optional": true
@@ -2226,6 +2226,74 @@
           "YPL.FFL.TKUI_D.P000B-002.OPT_withoutButton.BLK_bottom.visible.value": "YPL.CONST.boolean.false.value"
         }
       },
+      "breakpoints": null
+    },
+    "P000C": {
+      "allTokens": {
+        "YPL.FFL.TKUI_D.P000C-001.width.value": "100%",
+        "YPL.FFL.TKUI_D.P000C-001.BLK_header.UID.value": "YPL.FFL.P000A-001",
+        "YPL.FFL.TKUI_D.P000C-001.BLK_header.navigation.UID.value": "YPL.FFL.P0009-002",
+        "YPL.FFL.TKUI_D.P000C-001.BLK_header.description.active.value": "YPL.CONST.boolean.false.value",
+        "YPL.FFL.TKUI_D.P000C-001.BLK_content.height.value": "100%",
+        "YPL.FFL.TKUI_D.P000C-001.BLK_content.padding.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+        "YPL.FFL.TKUI_D.P000C-001.button.UID.value": "YPL.FFL.E0003-001",
+        "YPL.FFL.TKUI_D.P000C-001.button.marginTop.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+        "YPL.FFL.TKUI_D.P000C-001.button.marginBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.xxxxl.value",
+        "YPL.FFL.TKUI_D.P000C-001.button.position.value": "YPL.CONST.position.fixed.value"
+      },
+      "meta": {
+        "name": "Modal",
+        "UID": "P000C",
+        "description": "Lorem Ipsum dolar set amet.",
+        "ticketNumber": "18",
+        "ticketURL": "https://github.com/yummly/pasta/issues/18",
+        "ownerName": "Dillon ",
+        "ownerGitHubURL": "https://github.com/dillonschultz93",
+        "figmaLink": "https://www.figma.com/file/wHmdtIbZI3iRbVwyeQ4cKC/pasta-staging?node-id=19%3A72",
+        "variants": [
+          "001"
+        ],
+        "options": [],
+        "hasInteractionStates": false,
+        "dependencyTree": [
+          {
+            "name": "BLK_header",
+            "children": [
+              {
+                "name": "header",
+                "component": "FFL.P000A",
+                "type": "pattern",
+                "subType": "header",
+                "instance": ".header",
+                "optional": false
+              }
+            ]
+          },
+          {
+            "name": "button",
+            "component": "FFL.E0003",
+            "type": "element",
+            "subType": "button",
+            "instance": ".button",
+            "optional": false
+          }
+        ]
+      },
+      "variants": {
+        "001": {
+          "YPL.FFL.TKUI_D.P000C-001.width.value": "100%",
+          "YPL.FFL.TKUI_D.P000C-001.BLK_header.UID.value": "YPL.FFL.P000A-001",
+          "YPL.FFL.TKUI_D.P000C-001.BLK_header.navigation.UID.value": "YPL.FFL.P0009-002",
+          "YPL.FFL.TKUI_D.P000C-001.BLK_header.description.active.value": "YPL.CONST.boolean.false.value",
+          "YPL.FFL.TKUI_D.P000C-001.BLK_content.height.value": "100%",
+          "YPL.FFL.TKUI_D.P000C-001.BLK_content.padding.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+          "YPL.FFL.TKUI_D.P000C-001.button.UID.value": "YPL.FFL.E0003-001",
+          "YPL.FFL.TKUI_D.P000C-001.button.marginTop.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+          "YPL.FFL.TKUI_D.P000C-001.button.marginBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.xxxxl.value",
+          "YPL.FFL.TKUI_D.P000C-001.button.position.value": "YPL.CONST.position.fixed.value"
+        }
+      },
+      "options": null,
       "breakpoints": null
     },
     "P000E": {
@@ -2692,9 +2760,9 @@
             "children": [
               {
                 "name": "List Item",
-                "component": "FFL.E00P0015",
+                "component": "FFL.P0015",
                 "type": "pattern",
-                "subType": "pattern",
+                "subType": "list-item",
                 "instance": ".CHILDREN.BLK_item.item",
                 "optional": false
               }
@@ -3367,6 +3435,208 @@
           "YPL.FFL.TKUI_D.P001F-001.BLK_footer.BLK_buttons.editButton.icon.UID.value": "YPL.FFL.F0003-00B",
           "YPL.FFL.TKUI_D.P001F-001.BLK_footer.BLK_buttons.deleteButton.UID.value": "YPL.FFL.E0003-00C.OPT_small",
           "YPL.FFL.TKUI_D.P001F-001.BLK_footer.BLK_buttons.deleteButton.icon.UID.value": "YPL.FFL.F0003-025"
+        }
+      },
+      "options": null,
+      "breakpoints": null
+    },
+    "P0019": {
+      "allTokens": {
+        "YPL.FFL.TKUI_D.P0019-001.margin.value": "YPL.FFL.TKUI_C.spaces.l.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.paddingRight.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.marginTop.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.marginBottom.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.paddingTop.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.padddingBottom.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.borderTop.width.value": "YPL.FFL.TKUI_A.borderWidths.zero.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELLS.width.value": "100%",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELLS.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELLS.padddingRight.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELLS.paddingTop.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELLS.padddingBottom.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELLS.item.UID.value": "YPL.FFL.F0002-103",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELLS.item.color.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELL_FIRST.width.value": "57%",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELL_LAST.width.value": "12%",
+        "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELL_LAST.item.textAlignHorizontal.value": "YPL.CONST.textAlignHorizontal.right.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILD_FIRST.border.color.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+        "YPL.FFL.TKUI_D.P0019-001.CHILD_FIRST.CELLS.item.UID.value": "YPL.FFL.F0002-403",
+        "YPL.FFL.TKUI_D.P0019-001.CHILD_LAST.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.none.value",
+        "YPL.FFL.TKUI_D.P0019-001.caption.UID.value": "YPL.FFL.F0002-201",
+        "YPL.FFL.TKUI_D.P0019-001.caption.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
+        "YPL.FFL.TKUI_D.P0019-001.caption.padddingBottom.value": "YPL.FFL.TKUI_C.spaces.l.value",
+        "YPL.FFL.TKUI_D.P0019-001.caption.color.value": "YPL.FFL.TKUI_C.colors.gray.500.value",
+        "YPL.FFL.TKUI_D.P0019-002.marginLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
+        "YPL.FFL.TKUI_D.P0019-002.marginRight.value": "YPL.FFL.TKUI_C.spaces.l.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.paddingRight.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.marginTop.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.marginBottom.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.paddingTop.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.padddingBottom.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.borderTop.width.value": "YPL.FFL.TKUI_A.borderWidths.zero.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELLS.width.value": "100%",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELLS.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELLS.padddingRight.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELLS.paddingTop.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELLS.padddingBottom.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELLS.item.UID.value": "YPL.FFL.F0002-103",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELLS.item.color.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELL_FIRST.width.value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELL_FIRST.item.UID.value": "YPL.FFL.F0003-01A",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELL_FIRST.item.color.value": "YPL.FFL.TKUI_C.colors.orange.400.value",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELL_LAST.width.value": "33%",
+        "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELL_LAST.item.textAlignHorizontal.value": "YPL.CONST.textAlignHorizontal.right.value",
+        "YPL.FFL.TKUI_D.P0019-003.marginLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
+        "YPL.FFL.TKUI_D.P0019-003.marginRight.value": "YPL.FFL.TKUI_C.spaces.l.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.paddingRight.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.marginTop.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.marginBottom.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.paddingTop.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.padddingBottom.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.borderTop.width.value": "YPL.FFL.TKUI_A.borderWidths.zero.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELLS.width.value": "100%",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELLS.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELLS.padddingRight.value": "YPL.FFL.TKUI_C.spaces.none.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELLS.paddingTop.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELLS.padddingBottom.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELLS.item.UID.value": "YPL.FFL.F0002-103",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELLS.item.color.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELL_FIRST.width.value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELL_FIRST.item.UID.value": "YPL.FFL.F0003-426",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELL_FIRST.item.color.value": "YPL.FFL.TKUI_C.colors.orange.400.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELL_LAST.width.value": "25%",
+        "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELL_LAST.item.textAlignHorizontal.value": "YPL.CONST.textAlignHorizontal.right.value",
+        "YPL.FFL.TKUI_D.P0019-003.CHILD_LAST.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.none.value"
+      },
+      "meta": {
+        "name": "Table",
+        "UID": "P0019",
+        "description": "FIXME",
+        "ticketNumber": "45",
+        "ticketURL": "https://github.com/yummly/pasta/issues/71",
+        "ownerName": "Manuel Colom",
+        "ownerGitHubURL": "https://github.com/coolmanlume",
+        "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=19%3A72&t=ZB6QLqhBcxgpTcGm-11",
+        "variants": [
+          "001",
+          "002",
+          "003",
+          "004"
+        ],
+        "options": [],
+        "hasInteractionStates": false,
+        "dependencyTree": [
+          {
+            "children": [
+              {
+                "name": "item",
+                "component": "YPL.FFL.F0002-103",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".CHILDREN.CELLS.item",
+                "optional": false
+              },
+              {
+                "name": "caption",
+                "component": "YPL.FFL.F0002-201",
+                "type": "primitive",
+                "subType": "typography",
+                "instance": ".caption",
+                "optional": true
+              }
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "001": {
+          "YPL.FFL.TKUI_D.P0019-001.margin.value": "YPL.FFL.TKUI_C.spaces.l.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.paddingRight.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.marginTop.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.marginBottom.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.paddingTop.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.padddingBottom.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.borderTop.width.value": "YPL.FFL.TKUI_A.borderWidths.zero.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELLS.width.value": "100%",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELLS.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELLS.padddingRight.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELLS.paddingTop.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELLS.padddingBottom.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELLS.item.UID.value": "YPL.FFL.F0002-103",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELLS.item.color.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELL_FIRST.width.value": "57%",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELL_LAST.width.value": "12%",
+          "YPL.FFL.TKUI_D.P0019-001.CHILDREN.CELL_LAST.item.textAlignHorizontal.value": "YPL.CONST.textAlignHorizontal.right.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILD_FIRST.border.color.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+          "YPL.FFL.TKUI_D.P0019-001.CHILD_FIRST.CELLS.item.UID.value": "YPL.FFL.F0002-403",
+          "YPL.FFL.TKUI_D.P0019-001.CHILD_LAST.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.none.value",
+          "YPL.FFL.TKUI_D.P0019-001.caption.UID.value": "YPL.FFL.F0002-201",
+          "YPL.FFL.TKUI_D.P0019-001.caption.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
+          "YPL.FFL.TKUI_D.P0019-001.caption.padddingBottom.value": "YPL.FFL.TKUI_C.spaces.l.value",
+          "YPL.FFL.TKUI_D.P0019-001.caption.color.value": "YPL.FFL.TKUI_C.colors.gray.500.value"
+        },
+        "002": {
+          "YPL.FFL.TKUI_D.P0019-002.marginLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
+          "YPL.FFL.TKUI_D.P0019-002.marginRight.value": "YPL.FFL.TKUI_C.spaces.l.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.paddingRight.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.marginTop.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.marginBottom.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.paddingTop.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.padddingBottom.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.borderTop.width.value": "YPL.FFL.TKUI_A.borderWidths.zero.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELLS.width.value": "100%",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELLS.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELLS.padddingRight.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELLS.paddingTop.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELLS.padddingBottom.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELLS.item.UID.value": "YPL.FFL.F0002-103",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELLS.item.color.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELL_FIRST.width.value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELL_FIRST.item.UID.value": "YPL.FFL.F0003-01A",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELL_FIRST.item.color.value": "YPL.FFL.TKUI_C.colors.orange.400.value",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELL_LAST.width.value": "33%",
+          "YPL.FFL.TKUI_D.P0019-002.CHILDREN.CELL_LAST.item.textAlignHorizontal.value": "YPL.CONST.textAlignHorizontal.right.value"
+        },
+        "003": {
+          "YPL.FFL.TKUI_D.P0019-003.marginLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
+          "YPL.FFL.TKUI_D.P0019-003.marginRight.value": "YPL.FFL.TKUI_C.spaces.l.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.paddingRight.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.marginTop.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.marginBottom.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.paddingTop.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.padddingBottom.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.borderTop.width.value": "YPL.FFL.TKUI_A.borderWidths.zero.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELLS.width.value": "100%",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELLS.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELLS.padddingRight.value": "YPL.FFL.TKUI_C.spaces.none.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELLS.paddingTop.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELLS.padddingBottom.value": "YPL.FFL.TKUI_C.spaces.sm.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELLS.item.UID.value": "YPL.FFL.F0002-103",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELLS.item.color.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELL_FIRST.width.value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELL_FIRST.item.UID.value": "YPL.FFL.F0003-426",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELL_FIRST.item.color.value": "YPL.FFL.TKUI_C.colors.orange.400.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELL_LAST.width.value": "25%",
+          "YPL.FFL.TKUI_D.P0019-003.CHILDREN.CELL_LAST.item.textAlignHorizontal.value": "YPL.CONST.textAlignHorizontal.right.value",
+          "YPL.FFL.TKUI_D.P0019-003.CHILD_LAST.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.none.value"
         }
       },
       "options": null,
