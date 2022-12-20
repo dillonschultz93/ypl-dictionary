@@ -1,0 +1,81 @@
+
+{
+  YPL: {
+    FFL: {
+      'P0019-003': {
+        META: {
+          // required:
+          name: 'Chart Legend Table',
+          version: '221218',
+          ticket: 'https://github.com/yummly/pasta/issues/71',
+          // FIXME ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ Page not yet created inside Figma Pasta Lib
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=19%3A72&t=GvhQY9DZLJwAfx0s-11',
+          // optional:
+          lastEditor: 'Manuel Colom',
+          shortName: '',
+          GENS: {
+            GEN_UID: 'P0019-003',
+            GEN_timeStamp: '',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: '',
+          },
+        },
+        TREE: {
+          marginLeft: 'YPL.FFL.TKUI_C.spaces.l.value',
+          marginRight: 'YPL.FFL.TKUI_C.spaces.l.value',
+          CHILDREN: {  // Table Rows
+            DEPTH: 1,
+            paddingLeft: 'YPL.FFL.TKUI_C.spaces.none.value', // 0
+            paddingRight: 'YPL.FFL.TKUI_C.spaces.none.value',
+            marginTop: 'YPL.FFL.TKUI_C.spaces.none.value',
+            marginBottom: 'YPL.FFL.TKUI_C.spaces.none.value',
+            paddingTop: 'YPL.FFL.TKUI_C.spaces.sm.value',
+            padddingBottom: 'YPL.FFL.TKUI_C.spaces.sm.value',
+            border: {
+              color: 'YPL.FFL.TKUI_C.colors.gray.200.value',
+            },
+            borderTop: {
+              width: 'YPL.FFL.TKUI_A.borderWidths.zero.value', // 0
+            },
+            borderBottom: {
+              width: 'YPL.FFL.TKUI_A.borderWidths.xs.value', 
+            },                        
+            CELLS: { // Row Cells
+              DEPTH: 2,              
+              width: '100%', // FIXME (use tokens)
+              paddingLeft: 'YPL.FFL.TKUI_C.spaces.none.value',
+              padddingRight: 'YPL.FFL.TKUI_C.spaces.none.value',                           
+              paddingTop: 'YPL.FFL.TKUI_C.spaces.sm.value',
+              padddingBottom: 'YPL.FFL.TKUI_C.spaces.sm.value',   
+              _item: {
+                DEPTH: 3,                
+                UID: 'YPL.FFL.F0002-103', // Small Paragraph Regular
+                color: 'YPL.FFL.TKUI_C.colors.gray.900.value',                
+              },
+            },
+            CELL_FIRST: {
+              width: 'YPL.FFL.TKUI_C.sizes.micro.800.value',
+              _item: {
+                UID: 'YPL.FFL.F0003-426', // 16pt Rounded Square Icon
+                color: 'YPL.FFL.TKUI_C.colors.orange.400.value', // Color Placeholder
+              }
+            },
+            CELL_LAST: {
+              width: '25%', // FIXME ?
+              _item: {              
+                textAlignHorizontal: 'YPL.CONST.textAlignHorizontal.right.value',
+              },
+            },
+          },
+          CHILD_LAST: { // Last Row
+            borderBottom: {
+              width: 'YPL.FFL.TKUI_A.borderWidths.none.value', 
+            },           
+          },          
+        },
+        OVERRIDES: {},
+      },
+	  },
+  },
+}
