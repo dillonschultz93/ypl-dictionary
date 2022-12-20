@@ -20,8 +20,8 @@
           },
         },
         TREE: {
-          height: 327, //FIXME: This needs to be a token value.
-          width: 76, // FIXME: This needs to be a token value.
+          height: 76, //FIXME: This needs to be a token value.
+          width: 327, // FIXME: This needs to be a token value.
           marginLeft: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
           marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
           marginTop: 48, // FIXME: This needs to be a token value.

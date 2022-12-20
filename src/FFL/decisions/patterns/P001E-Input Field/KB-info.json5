@@ -1,0 +1,43 @@
+{
+  P001E: {
+    name: 'Input Field',
+    UID: 'P001E',
+    description: 'Lorem ipsum dolar set amet', // FIXME: add description
+    ticketNumber: '73',
+    ticketURL: 'https://github.com/yummly/pasta/projects/73',
+    ownerName: 'Dillon',
+    ownerGitHubURL: 'https://github.com/coolmanlume',
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5771%3A47069&t=lhUy5Tn2IlNcIDVG-11',
+    variants: ['001','002'],
+    options: [],
+    hasInteractionStates: false, // change this to true if the component has interaction states
+    dependencyTree: [
+      {
+        name: 'BLK_left',
+        children: [
+          {
+            name: 'copy',
+            component: 'FFL.F0002-101',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.copy',
+            optional: false,
+          },
+        ],
+      },
+      {
+        name: 'BLK_right',
+        children: [
+          {
+            name: 'button',
+            component: 'YPL.FFL.E0003-00B.OPT_smallGray',
+            type: 'element',
+            subType: 'button',
+            instance: '.button',
+            optional: true,         
+          },
+        ],
+      },
+    ],
+  },
+}

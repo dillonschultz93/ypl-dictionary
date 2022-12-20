@@ -1,0 +1,46 @@
+{
+  P0004: {
+    name: 'Lockup Row', // Element name
+    UID: 'P0004', // Element UID
+    description: 'FIXME', // Description of the element
+    ticketNumber: '58', // Ticket number on GitHub
+    ticketURL: 'https://github.com/yummly/pasta/issues/58', // URL to the GitHub ticket
+    ownerName: 'Manuel Colom', // Name of the owner on the GitHub ticket.
+    ownerGitHubURL: 'https://github.com/coolmanlume', // URL to the owner's GitHub profile
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5948%3A47841&t=mgJbD2o3F9oV2p8T-11', // URL to the element's Figma file
+    variants: ['001'], // List any variants here. Leave an empty array if there are no variants.
+    options: [], // List any options here. Leave an empty array if there are no options.
+    hasInteractionStates: false, // Set to true if there are any interaction states, if not, set to false.
+    dependencyTree: [
+      {
+        name: 'BLK_copy',
+        children: [
+          {
+            name: 'title',
+            component: 'FFL.F0002-008',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.title',
+            optional: false,
+          },
+          {
+            name: 'eyebrow',
+            component: 'FFL.F0002-101',
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.subhead',
+            optional: true,
+          },          
+        ],
+      },
+      {
+        name: 'thumbnail',
+        component: 'FFL.E0002',
+        type: 'element',
+        subType: 'thumbnail',
+        instance: '.thumbnail',
+        optional: false,
+      },
+    ],
+  },
+}
