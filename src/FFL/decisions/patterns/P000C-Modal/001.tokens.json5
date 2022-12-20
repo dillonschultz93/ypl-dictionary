@@ -1,0 +1,53 @@
+{
+  YPL: {
+    FFL: {
+      'P000C-001': {
+        META: {
+          name: 'Modal',
+          version: '221219',
+          ticket: 'https://github.com/yummly/pasta/issues/18',
+          designLink: 'https://www.figma.com/file/wHmdtIbZI3iRbVwyeQ4cKC/pasta-staging?node-id=19%3A72',
+          // optional:
+          lastEditor: 'Dillon Schultz',
+          // shortName: '', // uncomment if you want to use a short name
+          GENS: {
+            // ¡ DO NOT EDIT ! Script generated:
+            GEN_UID: 'P000C-001',
+            GEN_timeStamp: '2022-12-20T00:59:58.589Z',
+            GEN_project: 'FFL',
+            GEN_dependents: [],
+            GEN_dependentsUpdated: [],
+          },
+        },
+        TREE: {
+          width: '100%', // FIXME: This needs to be a token
+          _BLK_header: {
+            DEPTH: 1,
+            UID: 'YPL.FFL.P000A-001',
+            _navigation: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.P0009-002',
+            },
+            _description: {
+              DEPTH: 2,
+              active: 'YPL.CONST.boolean.false.value',
+            },
+          },
+          BLK_content: {
+            DEPTH: 1,
+            height: '100%', // FIXME: This needs to be a token
+            padding: 'YPL.FFL.TKUI_C.dimension.spaces.l.value', // 24pt
+          },
+          button: {
+            DEPTH: 1,
+            UID: 'YPL.FFL.E0003-001',
+            marginTop: 'YPL.FFL.TKUI_C.dimension.spaces.l.value', // 24pt
+            marginBottom: 'YPL.FFL.TKUI_C.dimension.spaces.xxxxl.value', // 56pt
+            position: 'YPL.CONST.position.fixed.value',
+          },
+        },
+        OVERRIDES: {},
+      },
+    },
+  },
+}

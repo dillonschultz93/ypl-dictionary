@@ -2169,7 +2169,7 @@
               {
                 "name": "button",
                 "component": "FFL.E0003-009",
-                "type": "elements",
+                "type": "element",
                 "subType": "button",
                 "instance": ".button",
                 "optional": true
@@ -2226,6 +2226,74 @@
           "YPL.FFL.TKUI_D.P000B-002.OPT_withoutButton.BLK_bottom.visible.value": "YPL.CONST.boolean.false.value"
         }
       },
+      "breakpoints": null
+    },
+    "P000C": {
+      "allTokens": {
+        "YPL.FFL.TKUI_D.P000C-001.width.value": "100%",
+        "YPL.FFL.TKUI_D.P000C-001.BLK_header.UID.value": "YPL.FFL.P000A-001",
+        "YPL.FFL.TKUI_D.P000C-001.BLK_header.navigation.UID.value": "YPL.FFL.P0009-002",
+        "YPL.FFL.TKUI_D.P000C-001.BLK_header.description.active.value": "YPL.CONST.boolean.false.value",
+        "YPL.FFL.TKUI_D.P000C-001.BLK_content.height.value": "100%",
+        "YPL.FFL.TKUI_D.P000C-001.BLK_content.padding.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+        "YPL.FFL.TKUI_D.P000C-001.button.UID.value": "YPL.FFL.E0003-001",
+        "YPL.FFL.TKUI_D.P000C-001.button.marginTop.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+        "YPL.FFL.TKUI_D.P000C-001.button.marginBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.xxxxl.value",
+        "YPL.FFL.TKUI_D.P000C-001.button.position.value": "YPL.CONST.position.fixed.value"
+      },
+      "meta": {
+        "name": "Modal",
+        "UID": "P000C",
+        "description": "Lorem Ipsum dolar set amet.",
+        "ticketNumber": "18",
+        "ticketURL": "https://github.com/yummly/pasta/issues/18",
+        "ownerName": "Dillon ",
+        "ownerGitHubURL": "https://github.com/dillonschultz93",
+        "figmaLink": "https://www.figma.com/file/wHmdtIbZI3iRbVwyeQ4cKC/pasta-staging?node-id=19%3A72",
+        "variants": [
+          "001"
+        ],
+        "options": [],
+        "hasInteractionStates": false,
+        "dependencyTree": [
+          {
+            "name": "BLK_header",
+            "children": [
+              {
+                "name": "header",
+                "component": "FFL.P000A",
+                "type": "pattern",
+                "subType": "header",
+                "instance": ".header",
+                "optional": false
+              }
+            ]
+          },
+          {
+            "name": "button",
+            "component": "FFL.E0003",
+            "type": "element",
+            "subType": "button",
+            "instance": ".button",
+            "optional": false
+          }
+        ]
+      },
+      "variants": {
+        "001": {
+          "YPL.FFL.TKUI_D.P000C-001.width.value": "100%",
+          "YPL.FFL.TKUI_D.P000C-001.BLK_header.UID.value": "YPL.FFL.P000A-001",
+          "YPL.FFL.TKUI_D.P000C-001.BLK_header.navigation.UID.value": "YPL.FFL.P0009-002",
+          "YPL.FFL.TKUI_D.P000C-001.BLK_header.description.active.value": "YPL.CONST.boolean.false.value",
+          "YPL.FFL.TKUI_D.P000C-001.BLK_content.height.value": "100%",
+          "YPL.FFL.TKUI_D.P000C-001.BLK_content.padding.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+          "YPL.FFL.TKUI_D.P000C-001.button.UID.value": "YPL.FFL.E0003-001",
+          "YPL.FFL.TKUI_D.P000C-001.button.marginTop.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
+          "YPL.FFL.TKUI_D.P000C-001.button.marginBottom.value": "YPL.FFL.TKUI_C.dimension.spaces.xxxxl.value",
+          "YPL.FFL.TKUI_D.P000C-001.button.position.value": "YPL.CONST.position.fixed.value"
+        }
+      },
+      "options": null,
       "breakpoints": null
     },
     "P000E": {
@@ -2692,9 +2760,9 @@
             "children": [
               {
                 "name": "List Item",
-                "component": "FFL.E00P0015",
+                "component": "FFL.P0015",
                 "type": "pattern",
-                "subType": "pattern",
+                "subType": "list-item",
                 "instance": ".CHILDREN.BLK_item.item",
                 "optional": false
               }

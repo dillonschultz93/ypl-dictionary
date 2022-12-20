@@ -5,6 +5,7 @@ const FlashCard = require('./P0007-Flash Card');
 const Navigation = require('./P0009-Navigation');
 const Header = require('./P000A-Header');
 const Toast = require('./P000B-Toast');
+const Modal = require('./P000C-Modal');
 const ActionBar = require('./P000E-Action Bar');
 const TabBar = require('./P000F-Tab Bar');
 const ContentSlider = require('./P0010-Content Slider');
@@ -26,6 +27,7 @@ module.exports = {
     ...Navigation.tokens,
     ...Header.tokens,
     ...Toast.tokens,
+    ...Modal.tokens,
     ...ActionBar.tokens,
     ...TabBar.tokens,
     ...ContentSlider.tokens,
@@ -46,6 +48,7 @@ module.exports = {
     ...Navigation.kbInfo,
     ...Header.kbInfo,
     ...Toast.kbInfo,
+    ...Modal.kbInfo,
     ...ActionBar.kbInfo,
     ...TabBar.kbInfo,
     ...ContentSlider.kbInfo,
