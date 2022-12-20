@@ -7,7 +7,7 @@
     ticketURL: 'https://github.com/yummly/pasta/issues/18',
     ownerName: 'Dillon ',
     ownerGitHubURL: 'https://github.com/dillonschultz93',
-    figmaLink: 'https://www.figma.com/file/wHmdtIbZI3iRbVwyeQ4cKC/pasta-staging?node-id=19%3A72',
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=6845%3A92254&t=lDw8iiAvQM8UK3OY-1',
     variants: ['001'],
     options: [],
     hasInteractionStates: false, // change this to true if the component has interaction states
