@@ -1,0 +1,37 @@
+{
+  P0019: {
+    name: 'Table', // Element name
+    UID: 'P0019', // Element UID
+    description: 'FIXME', // Description of the element
+    ticketNumber: '45', // Ticket number on GitHub
+    ticketURL: 'https://github.com/yummly/pasta/issues/71', // URL to the GitHub ticket
+    ownerName: 'Manuel Colom', // Name of the owner on the GitHub ticket.
+    ownerGitHubURL: 'https://github.com/coolmanlume', // URL to the owner's GitHub profile
+    figmaLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=19%3A72&t=ZB6QLqhBcxgpTcGm-11', // URL to the element's Figma file
+    variants: ['001', '002','003','004'], // List any variants here. Leave an empty array if there are no variants.
+    options: [], // List any options here. Leave an empty array if there are no options.
+    hasInteractionStates: false, // Set to true if there are any interaction states, if not, set to false.
+    dependencyTree: [
+      {
+        children: [
+          {
+            name: 'item',
+            component: 'YPL.FFL.F0002-103', // FIXME this is a case of a component that has different dependencies depending on the variant
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.CHILDREN.CELLS.item', // FIXME ???
+            optional: false,
+          },
+          {
+            name: 'caption',
+            component: 'YPL.FFL.F0002-201', // FIXME this is a case of a component that has different dependencies depending on the variant
+            type: 'primitive',
+            subType: 'typography',
+            instance: '.caption', // FIXME ???
+            optional: true,
+          },          
+        ],
+      },
+    ],
+  },
+}
