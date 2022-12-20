@@ -36,7 +36,7 @@
             _text: {
               UID: 'YPL.FFL.F0002-101',
               color: 'YPL.FFL.TKUI_C.colors.gray.100.value',
-            }
+            },
           },
           _BLK_right: {
             DEPTH: 1,
@@ -44,7 +44,7 @@
             _button: {
               DEPTH: 2,
               UID: 'YPL.FFL.E0003-00B.OPT_smallGray',
-            }
+            },
           },
         },
         OVERRIDES: {

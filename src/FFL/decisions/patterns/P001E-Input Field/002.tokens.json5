@@ -36,11 +36,10 @@
             _text: {
               UID: 'YPL.FFL.F0002-101',
               color: 'YPL.FFL.TKUI_C.colors.gray.100.value',
-            }
+            },
           },
         },
-        OVERRIDES: {}
-        },
+        OVERRIDES: {},
       },
     },
   },
