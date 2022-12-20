@@ -1,18 +1,18 @@
 {
   YPL: {
     FFL: {
-      'P000B-001': {
+      'P001E-001': {
         META: {
-          name: 'Toast',
-          version: '221208',
-          ticket: 'https://github.com/yummly/pasta/projects/17',
-          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1812%3A40904&t=P6QJTgcB1VahmWPJ-1',
+          name: 'Input Field',
+          version: '221219',
+          ticket: 'https://github.com/yummly/pasta/projects/73',
+          designLink: 'https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5771%3A47069&t=lhUy5Tn2IlNcIDVG-11',
           // optional:
-          lastEditor: 'Dillon Schultz',
+          lastEditor: 'Manuel Colom',
           // shortName: '', // uncomment if you want to use a short name
           GENS: {
             // ¡ DO NOT EDIT ! Script generated:
-            GEN_UID: 'P000B-001',
+            GEN_UID: 'P001E-001',
             GEN_timeStamp: '2022-12-09T01:28:08.002Z',
             GEN_project: 'FFL',
             GEN_dependents: [],
@@ -22,26 +22,29 @@
         TREE: {
           height: 56, //FIXME: This needs to be a token value.
           width: 327, // FIXME: This needs to be a token value.
-          marginLeft: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
-          marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
-          marginTop: 48, // FIXME: This needs to be a token value.
-          marginBottom: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
-          fringeLeft: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
-          fringeRight: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
-          fringeTop: 48, // FIXME: This needs to be a token value.
-          fringeBottom: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
+          marginLeft: 'YPL.FFL.TKUI_C.dimension.spaces.none.value',
+          marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.none.value',
+          marginTop: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
+          marginBottom: 'YPL.FFL.TKUI_C.dimension.spaces.s.value',
           paddingTop: 'YPL.FFL.TKUI_C.dimension.spaces.m.value',
           paddingBottom: 'YPL.FFL.TKUI_C.dimension.spaces.m.value',
-          paddingLeft: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
-          paddingRight: 'YPL.FFL.TKUI_C.dimension.spaces.l.value',
+          paddingLeft: 'YPL.FFL.TKUI_C.dimension.spaces.m.value',
+          paddingRight: 'YPL.FFL.TKUI_C.dimension.spaces.m.value',
           _BLK_left: {
             DEPTH: 1,
             marginRight: 'YPL.FFL.TKUI_C.dimension.spaces.xs.value',
-            fringeRight: 'YPL.FFL.TKUI_C.dimension.spaces.xs.value',
+            _text: {
+              UID: 'YPL.FFL.F0002-101',
+              color: 'YPL.FFL.TKUI_C.colors.gray.100.value',
+            }
           },
           _BLK_right: {
             DEPTH: 1,
             visibile: 'YPL.CONST.boolean.true.value',
+            _button: {
+              DEPTH: 2,
+              UID: 'YPL.FFL.E0003-00B.OPT_smallGray',
+            }
           },
         },
         OVERRIDES: {
