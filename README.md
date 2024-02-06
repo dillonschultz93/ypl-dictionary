@@ -1,4 +1,4 @@
-# pasta-dictionary
+# ypl-dictionary
 
 ### How to contribute
 
