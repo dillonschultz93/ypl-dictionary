@@ -1,14 +1,14 @@
 {
-  "name": "@yummly/pasta-dictionary",
+  "name": "@yosi_/ypl-dictionary",
   "version": "1.0.0",
-  "description": "A test of the pasta cli",
+  "description": "A tool to generate design tokens from a set of designer choices",
   "main": "src/index.js",
   "files": [
     "dist",
     "src"
   ],
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "scripts": {
     "generate-element": "node src/_util/generate-files.js -E",
